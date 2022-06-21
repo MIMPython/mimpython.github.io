@@ -3,7 +3,6 @@ permalink: /about/
 title: "Về MIM Python"
 excerpt: "Về MIM Python"
 last_modified_at: 2022-06-21
-toc: true
 ---
 
 # Lịch sử

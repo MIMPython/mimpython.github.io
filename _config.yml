@@ -248,7 +248,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       share: false
       related: true
   # _projects

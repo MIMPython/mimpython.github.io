@@ -8,7 +8,24 @@
 
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
+      <div class="archive__item">  
+        <a href="{{ f.url | relative_url }}" class ="card"> 
+          <div class="card">
+            {% if f.image_path %}
+              <img src="{{ f.image_path | relative_url }}" 
+                  alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="width:100%">
+            {% endif %}
+            <div class="container">
+              {% if f.title %} 
+                <h4 class="card-title">{{ f.title }}</h4>
+              {% endif %}
+              {% if f.excerpt %}
+                <p class="card-text">{{ f.excerpt | markdownify }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+<!--         
         {% if f.image_path %}
           <div class="archive__item-teaser">
             <a href="{{ f.url | relative_url }}">
@@ -34,7 +51,7 @@
           {% if f.url %}
             <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
-        </div>
+        </div> -->
       </div>
     </div>
   {% endfor %}

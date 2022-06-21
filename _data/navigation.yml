@@ -1,0 +1,21 @@
+# main links
+main:
+  - title: "Khóa học"
+    url: /courses/
+  - title: "Dự án"
+    url: /projects/ 
+  - title: "Blog"
+    url: /blog/
+  - title: "Về MIM Python"
+    url: /about/
+
+course1:
+  - title: Tuần 1
+    children:
+      - title: "Bài 1"
+        url: /course1/lesson-01/
+      - title: "Bài 2"
+        url: /course1/lesson-02/
+      - title: "Bài 3"
+        url: /course1/lesson-03/
+        

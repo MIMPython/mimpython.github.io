@@ -2,7 +2,7 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+cons: &DEFAULT
   skip_links                 : "Skip links"
   skip_primary_nav           : "Skip to primary navigation"
   skip_content               : "Skip to content"
@@ -32,7 +32,7 @@ en: &DEFAULT_EN
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
-  recent_posts               : "Recent posts"
+  recent_posts               : "Bài viết gần đây"
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_comment_label : "Comment"
@@ -50,63 +50,6 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
 # Vietnamese
-# ----------
-vi: &DEFAULT_VI
-  skip_links                 : "Đường dẫn tắt"
-  skip_primary_nav           : "Nhảy tới thanh điều hướng"
-  skip_content               : "Nhảy tới nội dung"
-  skip_footer                : "Nhảy tới chân trang"
-  page                       : "Trang"
-  pagination_previous        : "Trước"
-  pagination_next            : "Kế tiếp"
-  breadcrumb_home_label      : "Trang chủ"
-  breadcrumb_separator       : "/"
-  menu_label                 : "Menu"
-  search_label               : "Tìm kiếm"
-  toc_label                  : "Mục lục"
-  ext_link_label             : "Đường dẫn trực tiếp"
-  less_than                  : "chỉ cần"
-  minute_read                : "phút để đọc"
-  share_on_label             : "Chia sẻ tại"
-  meta_label                 :
-  tags_label                 : "Thẻ:"
-  categories_label           : "Danh mục:"
-  date_label                 : "Ngày cập nhật:"
-  comments_label             : "Để lại bình luận"
-  comments_title             : "Bình luận"
-  more_label                 : "Mở rộng"
-  related_label              : "Có thể bạn cũng thích"
-  follow_label               : "Theo dõi:"
-  feed_label                 : "Feed"
-  powered_by                 : "Xây dựng trên nền tảng"
-  website_label              : "Website"
-  email_label                : "Email"
-  recent_posts               : "Bài viết mới"
-  undefined_wpm              : "Chưa định nghĩa thông số words_per_minute tại _config.yml"
-  comment_form_info          : "Email của bạn sẽ được giữ bí mật. Các phần bắt buộc được đánh dấu"
-  comment_form_comment_label : "Bình luận"
-  comment_form_md_info       : "Hỗ trợ Markdown."
-  comment_form_name_label    : "Tên"
-  comment_form_email_label   : "Địa chỉ email"
-  comment_form_website_label : "Website (không bắt buộc)"
-  comment_btn_submit         : "Gửi bình luận"
-  comment_btn_submitted      : "Đã được gửi"
-  comment_success_msg        : "Cảm ơn bạn đã bình luận! Bình luận sẽ xuất hiện sau khi được duyệt."
-  comment_error_msg          : "Rất tiếc, có lỗi trong việc gửi bình luận. Hãy đảm bảo toàn bộ các phần bắt buộc đã được điền đầy đủ và thử lại."
-  loading_label              : "Đang tải..."
-  search_label_text          : "Nhập từ khóa cần tìm..."
-  search_placeholder_text    : "Nhập từ khóa cần tìm..."
-  search_algolia_no_results  : "Không tìm thấy kết quả nào"
-  results_found              : "Kết quả tìm được"
-  back_to_top                : "Lên đầu trang"
 vi-VN:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT

@@ -4,7 +4,7 @@ main:
     url: /courses/
   - title: "Dự án"
     url: /projects/ 
-  - title: "Blog"
+  - title: "Bài viết"
     url: /blog/
   - title: "Về MIM Python"
     url: /about/

@@ -17,6 +17,14 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
     Nội dung khóa học
     ```
     Trong đó `toc` là `table of content`
+- Trong trường `feature_row` trong `_page/courses.md` thêm đoạn code sau:
+    ```
+    - image_path: /assets/images/foobar.png
+        title: "Khóa học foobar"
+        excerpt: "Description for foobar"
+        url: "/foobar/lesson-01/" 
+    ```
+    Lưu ý: ảnh mô tả cho khóa học được dặt trong thư mục `assets/images`, `url` là link đến 1 bài học của khóa học.
 -  Tạo `navigation menu` cho khóa học bằng cách thêm `navigation` mới trong `_data/navigation.yml`,  VD như sau:
     ```
     foobar:

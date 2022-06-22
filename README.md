@@ -75,11 +75,19 @@ Lưu ý: Thứ tự `next`, `previous` các trang chứa nội dung bài học l
 
 Cài ruby tại [đây](https://www.ruby-lang.org/vi/documentation/installation/)
 
-Chạy các lệnh sau:
+Cài đặt `jekyll bundler` bằng câu lệnh
+```
+gem install jekyll bundler
+```
+
+Cài đặt bundle cho trang web:
 
     ```
     bundle clean
     bundle install
+    ```
+Chạy web trên local"
+    ```
     bundle exec jekyll serve
     ```
 

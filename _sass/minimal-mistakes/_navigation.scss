@@ -237,13 +237,14 @@
     a {
       position: relative;
       font-size: 0.85em;
+      font-weight: bold;
 
       &:before {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
+        height: 2px;
         background: $primary-color;
         width: 100%;
         -webkit-transition: $global-transition;

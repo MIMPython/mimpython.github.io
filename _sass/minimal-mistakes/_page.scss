@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -113,8 +113,8 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
-    text-align: justify;
+    font-size: 0.7em;
+    // text-align: justify;
   }
 
   /* paragraph indents */

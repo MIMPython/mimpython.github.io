@@ -17,7 +17,7 @@
             {% endif %}
             <div class="container">
               {% if f.title %} 
-                <h4 class="card-title">{{ f.title }}</h4>
+                <h5 class="card-title">{{ f.title }}</h5>
               {% endif %}
               {% if f.excerpt %}
                 <p class="card-text">{{ f.excerpt | markdownify }}</p>

@@ -224,7 +224,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  course1:
+  foobar:
     output: true
     permalink: /:collection/:path/
 
@@ -260,10 +260,10 @@ defaults:
       comments: # true
       share: false
       # related: true
-  # course
+  # foobar
   - scope:
       path: ""
-      type: course1
+      type: foobar
     values:
       layout: single
       read_time: false
@@ -271,4 +271,4 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "course1"
+        nav: "foobar-navigation"

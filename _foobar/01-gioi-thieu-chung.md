@@ -1,6 +1,6 @@
 ---
-title: "Bài 1"
-permalink: /course1/lesson-01/
+title: "Giới thiệu chung"
+permalink: /foobar/
 excerpt: "Mô tả cho bài 1."
 last_modified_at: 2022-06-21
 redirect_from:
@@ -8,8 +8,4 @@ redirect_from:
 toc: true
 ---
 
-# Mục 1
-
-## Mục 1.1
-
-# Mục 2
+Giới thiệu chung

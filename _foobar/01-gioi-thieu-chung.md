@@ -8,4 +8,4 @@ redirect_from:
 toc: true
 ---
 
-Mô tả giới thiệu chung
+Giới thiệu chung

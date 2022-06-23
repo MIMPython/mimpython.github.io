@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -114,7 +114,7 @@ body {
   li,
   dl {
     font-size: 1em;
-    text-align: justify;
+    // text-align: justify;
   }
 
   /* paragraph indents */
@@ -346,7 +346,7 @@ body {
   padding: 5px 10px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
-  border-radius: $border-radius;
+  border-radius: $large-border-radius;
 
   &:hover {
     text-decoration: none;

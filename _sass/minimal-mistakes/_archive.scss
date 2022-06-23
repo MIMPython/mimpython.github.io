@@ -22,7 +22,40 @@
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 20px;
+
+  img{
+    border-radius: 20px;
+  }
+}
+
+.card-text {
+  p {
+    font-size: 0.7em;
+    text-decoration: none;
+    word-wrap: break-word;
+    word-break: break-all;
+    // text-align: justify;
+  }
+}
+
+.card-title {
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.card-post {
+  /* Add shadows to create the "card" effect */
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 2px solid #e8e8e8;
+  transition: 0.3s;
+  border-radius: 16px;
+  padding: 1em;
+  margin-top: 16px;
+
+  img{
+    border-radius: 20px;
+  }
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -31,16 +64,26 @@
 }
 
 img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 }
 
 a.card, a.card:hover {
   color: #212529;
   text-decoration: none;
 }
+
+.post-text {
+  word-wrap: break-word;
+}
+
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+  p {
+    font-size: 0.7em;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
 }
 .archive__item {
   position: relative;
@@ -48,6 +91,8 @@ a.card, a.card:hover {
   a {
     position: relative;
     z-index: 10;
+    text-decoration: none;
+    color: #212529;
   }
 
   a[rel="permalink"] {
@@ -102,6 +147,7 @@ a.card, a.card:hover {
 
   & + p {
     text-indent: 0;
+    word-wrap: break-word;
   }
 
   a {
@@ -264,8 +310,7 @@ a.card, a.card:hover {
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  margin-top: 3em;
 
   .archive__item-title {
     margin-bottom: 0;
@@ -274,12 +319,11 @@ a.card, a.card:hover {
 
 .feature__item {
   position: relative;
-  margin-bottom: 2em;
   font-size: 1.125em;
+  margin-bottom: 1em;
 
   @include breakpoint($small) {
     float: left;
-    margin-bottom: 0;
     width: span(4 of 12);
 
     &:nth-child(3n + 1) {
@@ -290,11 +334,13 @@ a.card, a.card:hover {
     &:nth-child(3n + 2) {
       clear: none;
       margin-left: gutter(of 12);
+      margin-bottom: gutter(of 12);
     }
 
     &:nth-child(3n + 3) {
       clear: none;
       margin-left: gutter(of 12);
+      margin-bottom: gutter(of 12);
     }
 
     .feature__item-teaser {

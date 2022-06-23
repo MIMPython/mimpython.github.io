@@ -1,5 +1,6 @@
 ---
 layout: splash
+title: Dự án
 permalink: /projects/
 hidden: true
 feature_row:

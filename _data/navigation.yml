@@ -12,7 +12,7 @@ main:
 foobar-navigation:
   - title: "Giới thiệu chung"
     url: /foobar/
-  - title: Tuần 1
+  - title: Tuần 1. Giới  thiệu
     url: /foobar/week-01/
     children:
       - title: "Bài 1"

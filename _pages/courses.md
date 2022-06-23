@@ -4,8 +4,8 @@ permalink: /courses/
 hidden: true
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    title: "Khóa học foobar"
-    excerpt: "Description for foobar."
+    title: "Khóa học mẫu"
+    excerpt: "Giới thiệu khóa học mẫu."
     url: "/foobar/"    
 ---
 

@@ -30,9 +30,13 @@
 }
 
 .card-text {
-  text-decoration: none;
-  word-wrap: break-word;
-  word-break: break-all;
+  p {
+    font-size: 0.7em;
+    text-decoration: none;
+    word-wrap: break-word;
+    word-break: break-all;
+    // text-align: justify;
+  }
 }
 
 .card-title {
@@ -76,6 +80,7 @@ a.card, a.card:hover {
 .container {
   padding: 2px 16px;
   p {
+    font-size: 0.7em;
     word-wrap: break-word;
     word-break: break-all;
   }

@@ -9,4 +9,4 @@ Checker là một game được lập trình bởi Đinh Hoàng Nhật Minh.
 
 {% include video id="BFUteVm_2wY" provider="youtube" %}
 
-Source code: https://github.com/thanhtung1005/Punch-PygameProject
+[Source code](https://github.com/mayha1/PythonCheckerGame)

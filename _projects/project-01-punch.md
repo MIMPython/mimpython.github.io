@@ -9,4 +9,4 @@ Punch là một game được lập trình vào cuối năm 2020 do một nhóm 
 
 Game thuộc thể loại `Plartfrom 2D` được lập trình bằng python. 
 
-Source code: https://github.com/thanhtung1005/Punch-PygameProject
+[Source code](https://github.com/thanhtung1005/Punch-PygameProject)

@@ -71,6 +71,42 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
         permalink: /:collection/:path/
     ```
 Lưu ý: Thứ tự `next`, `previous` các trang chứa nội dung bài học là thứ tự các file chứ nội dung trong folder.
+
+## Thêm dự án
+
+Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước sau:
+
+- Trong thư mục `_projects` thêm file `.md` chứa nội dung dự án
+
+- Các file chứ nội dung dự án sẽ có format như sau:
+    ```
+    ---
+    title: "Dự án mẫu"
+    permalink: /projects/sample-project/
+    excerpt: "Mô tả về dự án mẫu."
+    last_modified_at: 2022-06-22
+    toc: false
+    ---
+    
+    Nội dung dự án
+    ```
+
+- Trong trường `feature_row trong _page/projects.md` thêm đoạn code sau:
+    ```
+    - image_path: /assets/images/sample-project.png
+        title: "Dự án mẫu"
+        excerpt: "Mô tả cho dự án mẫu"
+        url: "/projects/sample-project/" 
+    ```
+
+- Thêm video vào dự án
+
+    Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=BFUteVm_2wY&t=2s
+    để mô tả dự án, thêm dòng lệnh sau vào file chứ nội dung dự án, tại vị trí muốn hiển thị video
+
+    ```
+    {% include video id="BFUteVm_2wY" provider="youtube" %}
+    ```
 ## Chạy trên local
 
 Cài ruby tại [đây](https://www.ruby-lang.org/vi/documentation/installation/)
@@ -79,6 +115,12 @@ Cài đặt `jekyll bundler` bằng câu lệnh
 ```
 gem install jekyll bundler
 ```
+
+Clone repository:
+
+    ```
+    git clone https://github.com/MIMPython/mimpython.github.io
+    ```
 
 Cài đặt bundle cho trang web:
 

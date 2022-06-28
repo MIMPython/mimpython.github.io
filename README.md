@@ -107,31 +107,31 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
     ```
     {% include video id="BFUteVm_2wY" provider="youtube" %}
     ```
-## Chạy trên local
+## Cài đặt trang web chạy trên local
 
 Cài ruby tại [đây](https://www.ruby-lang.org/vi/documentation/installation/)
 
 Cài đặt `jekyll bundler` bằng câu lệnh
-```
-gem install jekyll bundler
-```
+
+    gem install jekyll bundler
 
 Clone repository:
 
-    ```
     git clone https://github.com/MIMPython/mimpython.github.io
-    ```
+    
+
+Điều hướng đến thư mục chứa trang web:
+
+    cd path/to/mimpython.github.io
 
 Cài đặt bundle cho trang web:
 
-    ```
     bundle clean
     bundle install
-    ```
-Chạy web trên local"
-    ```
+
+Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên local chỉ cần chạy câu lệnh sau:
+
     bundle exec jekyll serve
-    ```
 
 ## Tham khảo
 

@@ -99,14 +99,13 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
         url: "/projects/sample-project/" 
     ```
 
-- Thêm video vào dự án
+## Thêm video vào page
 
-    Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=BFUteVm_2wY&t=2s
-    để mô tả dự án, thêm dòng lệnh sau vào file chứ nội dung dự án, tại vị trí muốn hiển thị video
+Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=BFUteVm_2wY&t=2s
+để mô tả nội dung trong page, thêm dòng lệnh sau vào file chứ nội dung page, tại vị trí muốn hiển thị video
 
-    ```
     {% include video id="BFUteVm_2wY" provider="youtube" %}
-    ```
+    
 ## Cài đặt trang web chạy trên local
 
 Cài ruby tại [đây](https://www.ruby-lang.org/vi/documentation/installation/)

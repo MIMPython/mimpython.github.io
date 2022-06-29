@@ -19,11 +19,11 @@ Các chức năng còn thiếu sót:
 
 - Vì đồ họa và âm thanh chỉnh sửa từ nguồn có sẵn nên không hợp nhau.
 - Hiệu ứng của game chưa được chăm chút.
-- Menu game chưa hoàn thiện
+- Menu game chưa hoàn thiện.
 - Chưa xậy dựng hệ thống vật phẩm cũng như điểm số cho game.
-- Lập trình hành cho các loại quái vật chưa hoàn chỉnh
+- Lập trình hành cho các loại quái vật chưa hoàn chỉnh.
 
-Mong rằng trong tương lai nhóm sẽ có những game tốt hơn
+Mong rằng trong tương lai nhóm sẽ có những game tốt hơn.
 
 Video demo game.
 {% include video id="Zl0RZ0yRewY" provider="youtube" %}

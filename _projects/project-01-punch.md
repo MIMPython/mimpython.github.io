@@ -12,8 +12,8 @@ Game thuộc thể loại `Plartfrom 2D` được lập trình bằng python. Đ
 - Hiển thị hình ảnh cho game.
 - Chuyển đôngj cơ bản của các vật thể trong game.
 - Hệ thống điều khiển nhân vật cơ bản.
-- Ghép hoạt ảnh vào game
-- Tạo các tương tác vật ký cơ bản như va chạm và trọng lực
+- Ghép hoạt ảnh vào game.
+- Tạo các tương tác vật ký cơ bản như va chạm và trọng lực.
 
 Các chức năng còn thiếu sót:
 

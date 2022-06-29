@@ -8,7 +8,7 @@ feature_row:
     title: "Punch"
     excerpt: "Game lập trình bằng python"
     url: "/projects/punch-pygame/"
-  - image_path: /assets/images/projects/mm-free-feature.png
+  - image_path: /assets/images/projects/checker.png
     title: "Checker"
     excerpt: "Game lập trình bằng python"
     url: "/projects/checker/"

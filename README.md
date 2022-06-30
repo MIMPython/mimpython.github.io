@@ -111,9 +111,13 @@ Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=B
 Để chạy trang web trên local, yêu cầu phải có những thứ sau:
 - Ruby phiên bản 2.5.0 hoặc cao hơn
 - RubyGems
-- GCC vaf Make
+- GCC và Make
 
 Hướng dẫn cài đặt chi tiết cho từng hệ điều hành có tại [đây](https://jekyllrb.com/docs/installation/)
+
+Cập nhật Ruby:
+
+    sudo apt-get install ruby-full build-essential
 
 Clone repository:
 
@@ -122,7 +126,7 @@ Clone repository:
 
 Điều hướng đến thư mục chứa trang web:
 
-    cd path/to/mimpython.github.io
+    cd mimpython.github.io
 
 Cài đặt bundle cho trang web:
 

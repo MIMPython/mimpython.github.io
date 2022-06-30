@@ -108,11 +108,12 @@ Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=B
     
 ## Cài đặt trang web chạy trên local
 
-Cài ruby tại [đây](https://www.ruby-lang.org/vi/documentation/installation/)
+Để chạy trang web trên local, yêu cầu phải có những thứ sau:
+- Ruby phiên bản 2.5.0 hoặc cao hơn
+- RubyGems
+- GCC vaf Make
 
-Cài đặt `jekyll bundler` bằng câu lệnh
-
-    gem install jekyll bundler
+Hướng dẫn cài đặt chi tiết cho từng hệ điều hành có tại [đây](https://jekyllrb.com/docs/installation/)
 
 Clone repository:
 

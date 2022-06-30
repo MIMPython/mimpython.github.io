@@ -1,11 +1,12 @@
 ---
-title: "Bài 1. Python"
+title: "Bài 2. Visual Studio Code"
 permalink: /pythonSummerCourse/week-01-visual-studio-code/
 last_modified_at: 2022-06-30
 redirect_from:
   - /theme-setup/
-toc: true
+toc: false
 ---
 
-- https://code.visualstudio.com/docs/editor/integrated-terminal
-- https://realpython.com/python-development-visual-studio-code/
+- Tải Visual Studio Code (gọi tắt là VS Code) tại [đây](https://code.visualstudio.com/).
+- Hướng dẫn sử dụng [terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) trong VS Code
+- [Một bài viết chi tiết](https://realpython.com/python-development-visual-studio-code/) về VS Code trên trang web Real Python.

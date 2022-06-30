@@ -1,6 +1,6 @@
 ---
-title: "Bài tập tuần 1"
-permalink: /pythonSummerCourse/week-01-assignment/
+title: "Bài tập tuần 8"
+permalink: /pythonSummerCourse/week-08-assignment/
 last_modified_at: 2022-06-30
 redirect_from:
   - /theme-setup/

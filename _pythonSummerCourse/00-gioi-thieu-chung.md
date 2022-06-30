@@ -26,8 +26,12 @@ Khóa học gồm có 6 phần với tổng thời lượng 80 tiếng, danh sá
 Khóa học diễn ra trong 8 tuần. Hàng tuần, sinh viên tự sắp xếp thời gian đọc tài liệu và xem video về những nội dung của tuần học, sau đó làm bài tập vận dụng những kiến thức này. Mỗi tuần, giảng viên và trợ giảng sẽ tổ chức một buổi trao đổi và chữa bài tập qua nền tảng Google Meet.
 
 ## 4. Tài liệu tham khảo
-Khóa học MIMPython được xây dựng chủ yếu dựa trên nội dung của ba cuốn sách dưới đây
+Ba cuốn sách được liệt kê dưới đây là nguồn tham khảo chính xuyên suốt nội dung khóa học MIMPython.
 
 - Eric Matthes, _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_, 2nd edition, no starch press (2019).
 - Julien Danjou, _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_, no starch press (2018).
 - Allen B. Downey, _Think Python: How to Think Like a Computer Scientist_, 2nd edition, O'Reilly Media (2015).
+
+Từ giờ trở đi, ta gọi tên những cuốn sách này lần lượt là _PythonCrashCourse_, _SeriousPython_ và _ThinkPython_.
+
+Ngoài ra khóa học còn tham khảo các tài liệu hướng dẫn sử dụng (documentation) của các thư viện phổ biến (ví dụ như [numpy](https://numpy.org/doc/), [pandas](https://pandas.pydata.org/docs/), [matplotlib](https://matplotlib.org/stable/index.html), [seaborn](https://seaborn.pydata.org/), ...) và các bài viết được đăng tải trên trang web [Real Python Tutorials](https://realpython.com/).

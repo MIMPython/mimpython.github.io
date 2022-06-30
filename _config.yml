@@ -227,6 +227,9 @@ collections:
   foobar:
     output: true
     permalink: /:collection/:path/
+  pythonSummerCourse:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -272,3 +275,16 @@ defaults:
       comments: false
       sidebar:
         nav: "foobar-navigation"
+
+
+  - scope:
+      path: ""
+      type: pythonSummerCourse
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+          nav: "pythonSummerCourse-navigation"

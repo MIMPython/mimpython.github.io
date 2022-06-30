@@ -30,3 +30,18 @@ foobar-navigation:
         url: /foobar/lesson-04/
       - title: "Bài tập tuần 2"
         url: /foobar/assignment-week-02/
+
+pythonSummerCourse-navigation:
+  - title: "Giới thiệu chung"
+    url: /pythonSummerCourse/
+  - title: Tuần 1. Giới thiệu về Python
+    url: /pythonSummerCourse/week-01/
+    children:
+      - title: "Bài 1. Python"
+        url: /pythonSummerCourse/week-01-python/
+      - title: "Bài 2. Visual studio code"
+        url: /pythonSummerCourse/week-01-visual-studio-code/
+      - title: "Bài 3. pip"
+        url: /pythonSummerCourse/week-01-pip/
+      - title: "Bài tập tuần 1"
+        url: /pythonSummerCourse/week-01-assignment/

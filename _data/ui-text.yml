@@ -32,7 +32,7 @@ cons: &DEFAULT
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
-  recent_posts               : "Bài viết gần đây"
+  recent_posts               : ""
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_comment_label : "Comment"

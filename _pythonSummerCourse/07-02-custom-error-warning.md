@@ -13,4 +13,5 @@ Nội dung kiến thức
 
 Tài liệu tham khảo
 - [Ngoại lệ trong Python](https://realpython.com/python-exceptions/)
+- [Gỡ lỗi trong Python](https://realpython.com/python-debugging-pdb/)
 - [Một trao đổi](https://stackoverflow.com/questions/12265451/ask-forgiveness-not-permission-explain) trên stackoverflow

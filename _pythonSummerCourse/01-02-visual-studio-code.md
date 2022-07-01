@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
-- Tải Visual Studio Code (gọi tắt là VS Code) tại [đây](https://code.visualstudio.com/).
+Học viên tải Visual Studio Code (gọi tắt là VS Code) tại [đây](https://code.visualstudio.com/).
+
+Tài liệu tham khảo
 - Hướng dẫn sử dụng [terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) trong VS Code
-- [Một bài viết chi tiết](https://realpython.com/python-development-visual-studio-code/) về VS Code trên trang web Real Python.
+- [Một bài viết chi tiết](https://realpython.com/python-development-visual-studio-code/) trên trang web Real Python về VS Code.

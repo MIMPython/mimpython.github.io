@@ -6,5 +6,3 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
-
-Tuần này học về cái gì? Có bài tập gì thú vị.

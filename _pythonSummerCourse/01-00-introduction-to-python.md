@@ -6,5 +6,3 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
-
-Lời khuyên dành cho người mới bắt đầu (https://realpython.com/python-beginner-tips/)

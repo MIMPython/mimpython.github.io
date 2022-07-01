@@ -13,7 +13,7 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
     last_modified_at: 2022-06-22
     toc: false
     ---
-    
+
     Nội dung bài 1
     ```
     Trong đó `toc` là `table of content`
@@ -22,7 +22,7 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
     - image_path: /assets/images/foobar.png
         title: "Khóa học foobar"
         excerpt: "Description for foobar"
-        url: "/foobar/" 
+        url: "/foobar/"
     ```
     Lưu ý: ảnh mô tả cho khóa học được dặt trong thư mục `assets/images`.
 -  Tạo `navigation menu` cho khóa học bằng cách thêm `navigation` mới trong `_data/navigation.yml`,  VD như sau:
@@ -87,7 +87,7 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
     last_modified_at: 2022-06-22
     toc: false
     ---
-    
+
     Nội dung dự án
     ```
 
@@ -96,7 +96,7 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
     - image_path: /assets/images/sample-project.png
         title: "Dự án mẫu"
         excerpt: "Mô tả cho dự án mẫu"
-        url: "/projects/sample-project/" 
+        url: "/projects/sample-project/"
     ```
 
 ## Thêm video vào page
@@ -105,7 +105,7 @@ Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=B
 để mô tả nội dung trong page, thêm dòng lệnh sau vào file chứ nội dung page, tại vị trí muốn hiển thị video
 
     {% include video id="BFUteVm_2wY" provider="youtube" %}
-    
+
 ## Cài đặt trang web chạy trên local
 
 Để chạy trang web trên local, yêu cầu phải có những thứ sau:
@@ -122,7 +122,7 @@ Cập nhật Ruby:
 Clone repository:
 
     git clone https://github.com/MIMPython/mimpython.github.io
-    
+
 
 Điều hướng đến thư mục chứa trang web:
 

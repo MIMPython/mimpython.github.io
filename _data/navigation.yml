@@ -3,7 +3,7 @@ main:
   - title: "Khóa học"
     url: /courses/
   - title: "Dự án"
-    url: /projects/ 
+    url: /projects/
   - title: "Bài viết"
     url: /blog/
   - title: "Về MIM Python"

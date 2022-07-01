@@ -8,15 +8,15 @@
 
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">  
-        <a href="{{ f.url | relative_url }}" class ="card"> 
+      <div class="archive__item">
+        <a href="{{ f.url | relative_url }}" class ="card">
           <div class="card">
             {% if f.image_path %}
-              <img src="{{ f.image_path | relative_url }}" 
+              <img src="{{ f.image_path | relative_url }}"
                   alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="width:100%">
             {% endif %}
             <div class="container">
-              {% if f.title %} 
+              {% if f.title %}
                 <h5 class="card-title">{{ f.title }}</h5>
               {% endif %}
               {% if f.excerpt %}

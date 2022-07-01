@@ -9,7 +9,7 @@ tags:
 
 "Vì sao là Python?" - mình gặp câu hỏi này vào những năm đầu tiên của đại học, khi mới bắt đầu với lập trình và khá bỡ ngỡ trước thế giới rộng lớn đó. Rồi mình trả lời câu hỏi và chọn Python. Thời gian trôi đi, mình dần quen hơn với ngôn ngữ và đã có thể sử dụng nó một cách hiệu quả trong công việc hằng ngày.
 
-Dưới đây là danh sách câu trả lời của những thành viên trong nhóm MIMPython cho câu hỏi này. Mỗi câu trả lời đều có những nét riêng thể hiện góc nhìn của mỗi người. Hi vọng từ những chia sẻ này các bạn sẽ có thêm lý do để lựa chọn và yêu thích Python.
+Dưới đây là danh sách câu trả lời của những thành viên trong nhóm MIM Python cho câu hỏi này. Mỗi câu trả lời đều có những nét riêng thể hiện góc nhìn của mỗi người. Hi vọng từ những chia sẻ này các bạn sẽ có thêm lý do để lựa chọn và yêu thích Python.
 
 **Câu trả lời thứ nhất**
 
@@ -30,3 +30,7 @@ Mình chọn Python đơn giản chỉ là mình thấy đây là một ngôn ng
 **Câu trả lời thứ tư**
 
 Khi mới vào đại học, mình có được nghe nhiều người nói về Python và ưu điểm của nó. Thêm vào đó những người mình cho là giỏi khi đó đều học Python và khuyên mình nên học Python (các pro đó bảo học Python mai kia kiếm nhiều tiền lắm). Cùng lúc đó là khi thầy Dũng mở một lớp học Python nên mình đã mạnh dạn đăng ký học, sau một thời gian mình đã bị mê hoặc bởi ngôn ngữ này. Mặc dù Python vẫn có một số nhược điểm so với các ngôn ngữ khác, tuy nhiên không thể phủ nhận được ưu điểm của ngôn ngữ này nằm ở sự đơn giản, dễ hiểu, dễ áp dụng, đặc biệt là với những người mới tiếp cận lập trình, nếu bạn chưa biết gì về lập trình, nhưng lại muốn nhanh chóng tạo ra một sản phẩm cho riêng mình thì còn chần chờ gì mà không đăng ký học tại MIM Python 😃.
+
+<br>
+
+Ngoài những chia sẻ của các thành viên nhóm MIM Python ở trên, bạn cũng có thể đọc thêm bài viết [“5 lý do tại sao Python phù hợp cho người mới bắt đầu”](https://www.geeksforgeeks.org/5-reasons-why-python-is-good-for-beginners/) trước khi bắt đầu với ngôn ngữ lập trình này.

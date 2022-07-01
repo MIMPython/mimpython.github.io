@@ -7,10 +7,12 @@ redirect_from:
 toc: false
 ---
 
-- Unit Testing and Exceptions. Kiểm thử và `exception` trong Python.
-- Testing in Python. Unit test edge cases, test driven development.
-- https://docs.python.org/3/library/profile.html
+Nội dung kiến thức
+- Kiểm thử trong Python
+- Tối ưu hóa code
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 194-202)
 - SeriousPython (trang 92-121, 183-214)
+- Thư viện [cProfile](https://docs.python.org/3/library/profile.html) trong Python
+- [Bài viết về thư viện pytest](https://realpython.com/courses/test-driven-development-pytest/) trên trang web RealPython

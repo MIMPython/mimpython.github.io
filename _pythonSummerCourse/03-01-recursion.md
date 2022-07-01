@@ -7,11 +7,12 @@ redirect_from:
 toc: false
 ---
 
-- More Iteration and Advanced Functions, loops. for/while (break), recursion
-- Dữ liệu lồng nhau (`list` của các `list`) và vòng lặp lồng nhau.
-- Additional. itertools. cho bài tập điền 9 số
+Nội dung kiến thức
+- Các loại vòng lặp trong Python
+- Dữ liệu lồng nhau (`list` của các `list`) và vòng lặp lồng nhau
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 49-51, 53-56)
-- SeriousPython (trang 162-163): Useful itertools Functions
+- SeriousPython (trang 162-163)
 - ThinkPython (trang 75-85)
+- Thư viện [itertools](https://docs.python.org/3/library/itertools.html)

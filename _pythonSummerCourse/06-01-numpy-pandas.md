@@ -7,7 +7,12 @@ redirect_from:
 toc: false
 ---
 
-- https://numpy.org/doc/stable/reference/index.html
-- https://pandas.pydata.org/docs/reference/index.html#api
-- https://realpython.com/numpy-tutorial/
-- https://realpython.com/pandas-python-explore-dataset/
+Nội dung kiến thức
+- Giới thiệu về numpy, thư viện tính toán trong Python
+- Giới thiệu về pandas, thư viện xử lý dữ liệu dạng bảng trong Python
+
+Tài liệu tham khảo
+- Trang chủ [numpy](https://numpy.org/doc/stable/reference/index.html)
+- Trang chủ [pandas](https://pandas.pydata.org/docs/reference/index.html#api)
+- [Hướng dẫn sử dụng numpy](https://realpython.com/numpy-tutorial/) trên RealPython
+- [Hướng dẫn sử dụng pandas](https://realpython.com/pandas-python-explore-dataset/) trên RealPython

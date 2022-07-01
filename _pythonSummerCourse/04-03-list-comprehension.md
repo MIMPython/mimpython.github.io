@@ -7,10 +7,11 @@ redirect_from:
 toc: false
 ---
 
-- list comprehensions
-- Map, Filter,
+Nội dung kiến thức
+- list comprehension
+- Hai phương thức map, filter trong Python
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 59)
 - SeriousPython (trang 153-162)
 - ThinkPython (trang 224)

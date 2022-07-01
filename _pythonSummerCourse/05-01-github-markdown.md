@@ -7,5 +7,10 @@ redirect_from:
 toc: false
 ---
 
-- Working with Remotes. Giới thiệu Github, cách làm việc nhóm trên Github.
-- https://www.markdownguide.org/basic-syntax/
+Nội dung kiến thức
+- Giới thiệu Github, cách làm việc nhóm trên Github
+- Sử dụng markdown soạn thảo văn bản
+
+Tài liệu tham khảo
+- [Bài viết về git/github](https://realpython.com/python-git-github-intro/) trên trang web RealPython
+- [Cú pháp cơ bản](https://www.markdownguide.org/basic-syntax/) của markdown

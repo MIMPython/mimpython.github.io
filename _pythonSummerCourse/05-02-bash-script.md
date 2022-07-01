@@ -7,8 +7,11 @@ redirect_from:
 toc: false
 ---
 
-- Bash Scripting. Những lệnh cơ bản (ls, mv, cp, mkdir)
-- cài đặt môi trường, thực thi file code (đối số, argparse)
-- https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
-- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
-- https://docs.python.org/3/using/cmdline.html
+Nội dung kiến thức
+- Những lệnh cơ bản được sử dụng trên terminal
+- Cài đặt môi trường, truyền đối số vào file code Python
+
+Tài liệu tham khảo
+- [Viết script trên Linux](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
+- [Những lệnh cơ bản trên Linux](https://www.geeksforgeeks.org/basic-shell-commands-in-linux/)
+- [Thư viện argparse](https://docs.python.org/3/library/argparse.html) trong Python

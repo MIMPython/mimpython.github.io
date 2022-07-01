@@ -7,9 +7,10 @@ redirect_from:
 toc: false
 ---
 
-- Files and CSV Output. Thao tác với file và dữ liệu `.csv`.
-- Managing Files with Python. Đọc/viết file `csv.`
+Nội dung kiến thức
+- Đọc/viết file dữ liệu
+- Làm việc với file dữ liệu `csv`
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 183-208)
 - ThinkPython (trang 165-176)

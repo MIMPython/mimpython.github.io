@@ -7,8 +7,10 @@ redirect_from:
 toc: false
 ---
 
-- class (`__init__`)
-- attributes
-Tài liệu:
+Nội dung kiến thức
+- Khởi tạo class trong Python
+- Các thuộc tính, phương thức của một class
+
+Tài liệu tham khảo
 - PythonCrashCourse (trang 157-182)
 - ThinkPython (trang 177-187)

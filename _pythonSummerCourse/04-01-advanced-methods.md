@@ -7,9 +7,10 @@ redirect_from:
 toc: false
 ---
 
+Nội dung kiến thức
 - arguments, keyword, default arguments
-- Sorting, Optional reverse parameter, optional key parameter.
+- Sorting, optional reverse parameter, optional key parameter
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 130-136)
 - ThinkPython (trang 232)

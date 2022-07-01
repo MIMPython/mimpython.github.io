@@ -7,11 +7,11 @@ redirect_from:
 toc: false
 ---
 
-
-- functions
+Nội dung kiến thức
+- Phương thức (function)
 - booleans and conditionals
 
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 72-90, 130-155)
 - SeriousPython (trang 122-145)
 - ThinkPython (trang 47-74)

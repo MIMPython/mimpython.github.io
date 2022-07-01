@@ -6,10 +6,13 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
-- Kế thừa (inheritance) trong Python.
-- property
-- dunder methods (`__repr__`, `__add__`, ...)
+
+Nội dung kiến thức
+- Kế thừa (inheritance)
+- Tính năng property trong Python
+- Dunder methods (`__repr__`, `__add__`, `__lt__`, ...)
 - abstract base class
 
-Tài liệu
+Tài liệu tham khảo
 - ThinkPython (trang 187-222)
+- [Abstract base class](https://docs.python.org/3/library/abc.html) trong Python

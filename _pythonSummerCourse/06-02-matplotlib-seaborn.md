@@ -7,7 +7,11 @@ redirect_from:
 toc: false
 ---
 
-- https://matplotlib.org/stable/tutorials/index
-- https://seaborn.pydata.org/api.html
-- https://realpython.com/python-matplotlib-guide/
+Nội dung kiến thức
+- Giới thiệu về matplotlib và seaborn, thư viện vẽ hình trong Python
+
+Tài liệu tham khảo
+- Trang chủ [matplotlib](https://matplotlib.org/stable/tutorials/index)
+- Trang chủ [seaborn](https://seaborn.pydata.org/api.html)
+- [Hướng dẫn sử dụng matplotlib](https://realpython.com/python-matplotlib-guide/) trên RealPython
 - SeriousPython (trang 27-32)

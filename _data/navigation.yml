@@ -99,8 +99,10 @@ pythonSummerCourse-navigation:
     children:
       - title: "Bài 16. Class nâng cao"
         url: /pythonSummerCourse/week-07-advanced-class/
-      - title: "Bài 17. Cá nhân hóa thông tin lỗi/cảnh báo"
+      - title: "Bài 17. Ngoại lệ/cảnh báo"
         url: /pythonSummerCourse/week-07-custom-error-warning/
+      - title: "Bài 18. Module trong Python"
+        url: /pythonSummerCourse/week-07-module-in-python/
       - title: "Bài tập tuần 7"
         url: /pythonSummerCourse/week-07-assignment/
   - title: "Tuần 8. Python nâng cao (phần 2)"

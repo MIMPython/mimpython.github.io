@@ -7,5 +7,8 @@ redirect_from:
 toc: false
 ---
 
+Nội dung kiến thức
+- Các quy chuẩn viết documentation/docstring trong Python.
 
-- https://realpython.com/documenting-python-code/
+Tài liệu tham khảo
+- [Bài viết về documentation](https://realpython.com/documenting-python-code/) trên trang web RealPython

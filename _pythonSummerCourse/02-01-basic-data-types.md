@@ -7,10 +7,10 @@ redirect_from:
 toc: false
 ---
 
+Nội dung kiến thức
+- Các kiểu dữ liệu cơ bản: string, list, tuple, dictionary, ...
+- Vòng lặp for
 
-- String, list, tuple, dictionary
-- vòng lặp for
-
-Tài liệu:
+Tài liệu tham khảo
 - PythonCrashCourse (trang 34-48, 65-68, 91-112)
 - ThinkPython (trang 85-150)

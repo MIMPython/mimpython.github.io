@@ -9,28 +9,6 @@ main:
   - title: "Về MIM Python"
     url: /about/
 
-foobar-navigation:
-  - title: "Giới thiệu chung"
-    url: /foobar/
-  - title: Tuần 1
-    url: /foobar/week-01/
-    children:
-      - title: "Bài 1"
-        url: /foobar/lesson-01/
-      - title: "Bài 2"
-        url: /foobar/lesson-02/
-      - title: "Bài tập tuần 1"
-        url: /foobar/assignment-week-01/
-  - title: Tuần 2
-    url: /foobar/week-02/
-    children:
-      - title: "Bài 3"
-        url: /foobar/lesson-03/
-      - title: "Bài 4"
-        url: /foobar/lesson-04/
-      - title: "Bài tập tuần 2"
-        url: /foobar/assignment-week-02/
-
 pythonSummerCourse-navigation:
   - title: "Giới thiệu chung"
     url: /pythonSummerCourse/

@@ -1,7 +1,6 @@
 ---
-layout: single
+tittle: Test latex
 permalink: /test-latex/
-hidden: true
 ---
 
 ### LaTeX snippets (mostly math equations)

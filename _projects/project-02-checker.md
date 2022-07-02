@@ -2,7 +2,7 @@
 title: "Cờ đam (Checkers)"
 permalink: /projects/checker/
 excerpt: "Game lập trình bằng python"
-last_modified_at: 2022-06-21
+last_modified_at: 2022-07-02
 ---
 
 Checkers là sản phẩm game đầu tiên của bạn [Đinh Hoàng Nhật Minh](https://github.com/mayha1) sau khi học lập trình Python cơ bản được thực hiện vào cuối năm 2021.

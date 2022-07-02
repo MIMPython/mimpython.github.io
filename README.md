@@ -129,6 +129,7 @@ Clone repository:
 
 Cài đặt bundle cho trang web:
 
+    bundle clean
     bundle install
 
 Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên local chỉ cần chạy câu lệnh sau:

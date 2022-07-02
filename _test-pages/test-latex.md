@@ -1,6 +1,8 @@
 ---
 tittle: Test latex
 permalink: /test-latex/
+author: MIM-Python
+author_profile: true
 ---
 
 ### LaTeX snippets (mostly math equations)

@@ -57,7 +57,6 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
         values:
             layout: single
             read_time: false
-            author_profile: false
             share: false
             comments: false
             sidebar:
@@ -136,6 +135,43 @@ Cài đặt bundle cho trang web:
 Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên local chỉ cần chạy câu lệnh sau:
 
     bundle exec jekyll serve
+
+## Thêm tác giả cho bài viết
+
+Thêm dữ liệu về tác giả trong `_data/author.yml`, cấu trúc như sau:
+
+    author-1:
+        name             : "author-1-name"
+        avatar           : "/assets/images/avatar/author-1-avatar"
+        bio              :
+        location         :
+        email            :
+        links:
+            - label: "Email"
+            icon: "fas fa-fw fa-envelope-square"
+            url: "mailto:your.name@email.com"
+            - label: "Website"
+            icon: "fas fa-fw fa-link"
+            url: "https://your-website.com"
+            - label: "Twitter"
+            icon: "fab fa-fw fa-twitter-square"
+            url: "https://twitter.com/"
+            - label: "Facebook"
+            icon: "fab fa-fw fa-facebook-square"
+            url: "https://facebook.com/"
+            - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/"
+            - label: "Instagram"
+            icon: "fab fa-fw fa-instagram"
+            url: "https://instagram.com/"
+
+Trong bài viết muốn thêm tác giả, thêm 2 dòng sau vào phần YAML Front Matter
+
+    author: author-1
+    author_profile: true
+
+Lưu ý: trong các trường `scope` trong file `_config.yml` phải bỏ các trường `author_profile`.
 
 ## Tham khảo
 

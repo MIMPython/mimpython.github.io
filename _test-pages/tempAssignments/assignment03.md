@@ -2,6 +2,23 @@
 
 **1.** Bạn hãy viết chương trình in ra các hình sau:
 
+    *                  ******                    ******
+    **                 *****                     *   *
+    ***                ****                      *  *
+    ****               ***                       * *
+    *****              **                        **
+    ******             *                         *
+    Half Pyramid       Inverted                  Hollow Inverted
+                       Half Pyramid              Half Pyramid
+
+         *             * * * * * *                    *
+        * *             * * * * *                    * *
+       * * *             * * * *                    *   *
+      * * * *             * * *                    *     *
+     * * * * *             * *                    *       *
+    * * * * * *             *                    * * * * * *
+    Full Pyramid       Inverted                  Hollow Full
+                       Full Pyramid              Pyramid
 **2.** Cho list sau:
 
 $\qquad$ [70, 43, 7, 46, 34, 77, 80, 35, 49, 3, 1, 5, 53, 3, 53]

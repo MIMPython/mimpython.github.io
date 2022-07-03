@@ -105,6 +105,27 @@ Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=B
 
     {% include video id="BFUteVm_2wY" provider="youtube" %}
 
+## Thêm bài viết
+
+Trong thư mục `_post` tạo file có tên theo format `YYYY-MM-DD-post-name.md`.
+
+Nội dung file bài viết sẽ có formamt như sau:
+
+    ---
+    title: "Post name"
+    last_modified_at: YYYY-MM-DD
+    categories:
+    - writing
+    tags:
+    - python
+    author: author-1
+    author_profile: true
+    ---
+
+    Nội dung post
+
+Lưu ý: `author-1` là 1 trường dữ liệu về 1 tác giả đã có trong `_data/authors.yml`
+
 ## Cài đặt trang web chạy trên local
 
 Để chạy trang web trên local, yêu cầu phải có những thứ sau:

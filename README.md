@@ -118,9 +118,13 @@ Nội dung file bài viết sẽ có formamt như sau:
     - writing
     tags:
     - python
+    author: author-1
+    author_profile: true
     ---
 
     Nội dung post
+
+Lưu ý: `author-1` là 1 trường dữ liệu về 1 tác giả đã có trong `_data/authors.yml`
 
 ## Cài đặt trang web chạy trên local
 

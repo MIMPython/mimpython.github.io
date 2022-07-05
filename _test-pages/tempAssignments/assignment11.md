@@ -77,3 +77,6 @@ Hãy đặt ra một câu hỏi và tìm câu trả lời cho câu hỏi đó th
 # Related Topics
 - Modin.pandas package.
 - Interactive mode in Jupyter notebook.
+
+![](/assets/images/statics/flowOfData.jpg)
+<center>Hình 1: How to make data powerful?</center>

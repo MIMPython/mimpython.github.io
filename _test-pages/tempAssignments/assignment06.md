@@ -55,7 +55,7 @@ Viết một chương trình cho phép người dùng tạo một tài khoản v
 
 **5.** *(largest prime factor)*
 
-Giải quyết bài toán trong Project Euler problem 3. Trình bày câu trả lời trong một file Jupyter notebook với tên được đặt theo mẫu Assignment06_FullName_LargestPrimeFactor.ipynb
+Giải quyết bài toán trong Project <a href="https://projecteuler.net/problem=3">Euler problem 3</a>. Trình bày câu trả lời trong một file Jupyter notebook với tên được đặt theo mẫu Assignment06_FullName_LargestPrimeFactor.ipynb
 
 **6.** *(do-while conversion)*
 
@@ -137,9 +137,9 @@ Trình bày câu trả lời trong một file Jupyter notebook với tên đư�
 
 **7.** *(unstoppable program)*
 
-Trong bài tập 1, ta đã tìm hiểu những cách để dừng một chương trình đang được thực thi trên terminal/command prompt.
+Trong bài tập 1, ta đã tìm hiểu những cách để dừng một chương trình đang được thực thi trên *terminal/command prompt*.
 
-Một cách khả thi là dừng chương trình hiện tại bằng tổ hợp phím Ctrl + C. Một cách khác là đóng cửa sổ terminal/command prompt. Tuy nhiên việc đóng cửa sổ không được khuyến khích vì làm mất những thông tin hiện có của cửa sổ đó.
+Một cách khả thi là dừng chương trình hiện tại bằng tổ hợp phím Ctrl + C. Một cách khác là đóng cửa sổ *terminal/command prompt*. Tuy nhiên việc đóng cửa sổ không được khuyến khích vì làm mất những thông tin hiện có của cửa sổ đó.
 
 Hãy viết một chương trình sao cho một khi chương trình đó bắt đầu được thực thi, cách duy nhất để dừng nó là đóng cửa sổ hiện tại. Lưu chương trình trong một file Python với tên được đặt theo mẫu
 <p style="text-align: center"> Assignment06_FullName_UnstoppableProgram.py</p>
@@ -172,6 +172,7 @@ Trình bày câu trả lời một cách thích hợp và đặt tên theo mẫu
 **Chú ý:** trong thực tế việc mở tài khoản tại ngân hàng yêu cầu người dùng cung cấp các thông tin định danh khác (ví dụ như CMND). Tuy nhiên những yếu tố đó không được tính đến ở đây
 
 **9.** *(4-to-9 points password)*
+
 Hãy viết một chương trình mô phỏng việc tạo mật khẩu đường gấp khúc trên điện thoại thông minh
 
 <div>
@@ -181,5 +182,17 @@ Hãy viết một chương trình mô phỏng việc tạo mật khẩu đườn
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top:20px">
+	padding-top:20px;
+	padding-bottom:20px;">
 </div>
+
+# Related Topics
+
+- parsing in argparse module in Python.
+-  extracting arguments via sys.argv in Python.
+
+# Inspiration
+
+The structure of some problems in this assignment (and ones given in the future) is inspired by the concept of *Minimum Viable Product (MVP)*. By keeping the concept in mind, programs are first created to handle the most simple case, then they are gradually upgraded to deal with more sophisticated cases. Therefore, users always have a viable product to experience with and perhaps they can give developers some useful feedback on the current product.
+
+Have a look at the articles from <a href="https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fm.dotdev.co%2Fthe-agile-bicycle-829a83b18e7">Medium</a> and <a href="https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp">Crisp Blog</a> for further understanding of *MVP*.

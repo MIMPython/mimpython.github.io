@@ -118,3 +118,13 @@ Lưu chương trình trong một file Python với tên được đặt theo m�
 ```
 Assignment07_FullName_DirectoryVisualization.py
 ```
+
+
+# Related topics
+- Lambda functions.
+- pass keyword in Python.
+- Positional arguments, keyword arguments.
+- Function annotations in [PEP 3107](https://www.python.org/dev/peps/pep-3107/).
+- Asterisk (∗) operator and double asterisk (∗∗) operator in method arguments.
+- It’s Easier to Ask for Forgiveness than Permission [(EAFP principle)](https://blogs.msdn.microsoft.com/pythonengineering/2016/06/29/idiomatic-python-eafp-versus-lbyl/).
+- Single Responsibility Principle (SRP) for functions and classes.

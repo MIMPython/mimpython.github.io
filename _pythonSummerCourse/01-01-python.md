@@ -9,11 +9,11 @@ toc: false
 
 ## Giới thiệu python
 - Tải xuống python tại [đây](https://www.python.org/downloads/) và cài đặt.
-- Viết chương trình python đầu tiên. Taoj file có nội dung dưới đây và đặt tên là `helloWorld.py`.
+- Chạy chương trình python đầu tiên. Tạo file có nội dung dưới đây và đặt tên là `helloWorld.py`.
     ```py
     print('Hello World!')
     ```
-- Chạy chương trình python đầu tiên. Mở terminal và chạy dòng lệnh sau:
+   Chạy chương trình đã tạo.
     ```sh
     python helloWorld.py
     ```
@@ -24,10 +24,10 @@ toc: false
     ```
 - Làm quen với số và các phép tính cơ bản trong python.
     ```py
-    print(2 + 3) #5
-    print(3 - 2) #1
-    print(2 * 3) #6
-    print(3 / 2) #1.5
+    print(2 + 3) # 5
+    print(3 - 2) # 1
+    print(2 * 3) # 6
+    print(3 / 2) # 1.5
     print(3 ** 2) # 9
     ```
 ## Các lưu ý
@@ -53,7 +53,7 @@ toc: false
   soQuaTao = 3
   tongSoCamVaTao = soQuaCam + soQuaTao
   ```
-- Thống nhất 1 kiểu cho tên biến.
+- Thống nhất một kiểu cho tên biến.
   ```py
   # camel style
   numberOfOranges = 2

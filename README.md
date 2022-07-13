@@ -194,6 +194,44 @@ Trong bài viết muốn thêm tác giả, thêm 2 dòng sau vào phần YAML Fr
 
 Lưu ý: trong các trường `scope` trong file `_config.yml` phải bỏ các trường `author_profile`.
 
+
+## Thêm ảnh
+
+Thông thường, có thể thêm ảnh trong một file markdown bằng cú pháp
+```md
+![](assets/images/statics/logo.png)
+```
+Ta sẽ thu được ảnh dưới đây
+![](assets/images/statics/logo.png)
+
+Mặt khác, ta có thể sử dụng HTML để điều chỉnh các thuộc tính của ảnh như trong đoạn code dưới đây (đề xuất bởi [Quân Persie](https://github.com/quanpersie2001))
+
+```md
+<div>
+    <img src="assets/images/statics/logo.png"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+```
+Ảnh thu được là
+
+<div>
+    <img src="assets/images/statics/logo.png"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+
+
 ## Tham khảo
 
 [Minimal mistake theme](https://github.com/mmistakes/minimal-mistakes)

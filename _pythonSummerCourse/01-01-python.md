@@ -7,7 +7,7 @@ redirect_from:
 toc: false
 ---
 
-## Giới thiệu python
+## 1. Giới thiệu python
 
 - Tải xuống python tại [đây](https://www.python.org/downloads/) và cài đặt.
 - Chạy chương trình python đầu tiên. Tạo file có nội dung dưới đây và đặt tên là `helloWorld.py`.
@@ -31,7 +31,8 @@ toc: false
     print(3 / 2) # 1.5
     print(3 ** 2) # 9
     ```
-## Các lưu ý
+
+## 2. Các lưu ý
 
 - Tên biến nên thể hiện ý nghĩa của biến.
   ```py

@@ -6,7 +6,6 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
-# Giới thiệu về Visual Studie Code
 ## 1. Visual Studie Code là gì?
 
 **Visual Studio Code** *(VS Code hay VSC)* Là một trình biên tập lập trình code miễn phí dành cho Windows, Linux và macOS, Visual Studio Code được phát triển bởi Microsoft. Nó được xem là một sự kết hợp hoàn hảo giữa IDE và Code Editor.
@@ -17,24 +16,24 @@ Học viên tải Visual Studio Code tại [đây](https://code.visualstudio.com
 
 ## 2. VS Code với Python
 
-### 2.1 Install Python extension
+### 2.1 Cài đặt tiện ích Python
 Cài đặt [Python extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python) hoặc xem mục Extension trong VS Code appliation.
 
 ### 2.2 VS Code in a project (workspace) folder
 Sử dung `cmd` hoặc `Power shell`, tạo mới 1 thư mục trống có tên là "Hello"
 ```console
-mkdir hello
-cd hello
+mkdir Hello
+cd Hello
 code .
 ```
 
 Khởi động VS Code trong một thư mục, thư mục đó sẽ trở thành "Workspace" của bạn
 ### 2.3 Tạo file code python
-Chọn **New File** button trong `hello` folder
+Chọn **New File** button trong `Hello` folder
 <div>
-	<img src=".\images\toolbar-new-file.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-toolbar-export.png"
 	style="width:80%;
-	max-width:600px;
+	max-width:700px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +43,7 @@ Chọn **New File** button trong `hello` folder
 
 Tạo file tên `hello.py`, và nó sẽ tự động mở ở khu vực editor
 <div>
-	<img src=".\images\hello-py-file-created.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/hello-py-file-created.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -62,7 +61,7 @@ print(msg)
 ```
 
 <div>
-	<img src=".\images\intellisense01.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/intellisense01.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -73,10 +72,10 @@ print(msg)
 </div>
 
 ### 2.4 Chạy Hello World
-Cách đơn giản nhất đẻ chạy `hello.py` với Python. Chỉ cần nhấp vào nút `Run Python File in Terminal` play ở phía trên cùng bên phải.
+Cách đơn giản nhất để chạy `hello.py` với Python là nhấp vào nút `Run Python File in Terminal` play ở phía trên cùng bên phải.
 
 <div>
-	<img src=".\images\run-python-file-in-terminal-button.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/run-python-file-in-terminal-button.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -88,7 +87,7 @@ Cách đơn giản nhất đẻ chạy `hello.py` với Python. Chỉ cần nh�
 
 Ngoài ra, bạn có thể chạy với `Terminal` bằng cách mở terminal trong **VS Code**  
 <div>
-	<img src=".\images\vs-code-terminal.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/vs-code-terminal.png"
 	style="width:80%;
 	max-width:400px;
 	display: block;
@@ -106,11 +105,11 @@ python3 hello.py # Linux / MacOs
 
 
 ## 3. VS Code với Jupyter Notebook
-### 3.1 Tạo/ Mở file **Jupyter Notebook**
-Chạy **Jupyter: Create New Jupyter Notebook** trong Command Palette (`Ctrl+Shift+P`) hoặc tạo file `.ipynb` file trong workspace.
+### 3.1 Tạo/Mở file **Jupyter Notebook**
+Chạy **Jupyter: Create New Jupyter Notebook** trong Command Palette (`Ctrl + Shift + P`) hoặc tạo file `.ipynb` file trong workspace.
 
 <div>
-	<img src=".\images\native-code-cells-01.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-code-cells-01.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -123,7 +122,7 @@ Chạy **Jupyter: Create New Jupyter Notebook** trong Command Palette (`Ctrl+Shi
 Tiếp theo, chọn một **kernel** bằng cách sử dụng bộ chọn **kernel** ở trên cùng bên phải.
 
 <div>
-	<img src=".\images\native-kernel-picker.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-kernel-picker.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -136,7 +135,7 @@ Tiếp theo, chọn một **kernel** bằng cách sử dụng bộ chọn **kern
 Sau khi chọn **kernel**, chọn ngôn ngữ nằm ở dưới cùng bên phải của mỗi cell sẽ tự động cập nhật.
 
 <div>
-	<img src=".\images\native-language-picker-01.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-language-picker-01.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -152,7 +151,7 @@ Bạn có thể chạy một ô mã bằng cách sử dụng biểu tượng Run
 Ngoài ra có thể sử dụng phím tắt `Ctrl + Enter` để chạy ô hiện tại, `Shift + Enter` chạy ô hiện tại và chuyển đến ô tiếp theo.
 
 <div>
-	<img src=".\images\native-code-cells-03.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-code-cells-03.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -165,7 +164,7 @@ Ngoài ra có thể sử dụng phím tắt `Ctrl + Enter` để chạy ô hiệ
 Bạn cũng có thể chạy nhiều cell một lúc bằng **Run All**, **Run All Above**, or **Run All Below**
 
 <div>
-	<img src=".\images\native-code-runs.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-code-runs.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;
@@ -186,7 +185,7 @@ Bạn có thể xuất **Jupyter Notebook** dưới dạng tệp **Python** (`.p
 Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một danh sách các tùy chọn định dạng tệp.
 
 <div>
-	<img src=".\images\native-toolbar-export.png"
+	<img src="/assets/images/courses/01-02-visual-studio-code/native-toolbar-export.png"
 	style="width:80%;
 	max-width:700px;
 	display: block;

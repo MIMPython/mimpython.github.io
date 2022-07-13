@@ -20,14 +20,14 @@ Học viên tải Visual Studio Code tại [đây](https://code.visualstudio.com
 Cài đặt [Python extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python) hoặc xem mục Extension trong VS Code appliation.
 
 ### 2.2 VS Code in a project (workspace) folder
-Sử dung `cmd` hoặc `Power shell`, tạo mới 1 thư mục trống có tên là "Hello"
+Sử dung `cmd` hoặc `Power shell`, tạo mới 1 thư mục trống có tên là "Hello".
 ```console
 mkdir Hello
 cd Hello
 code .
 ```
 
-Khởi động VS Code trong một thư mục, thư mục đó sẽ trở thành "Workspace" của bạn
+Khởi động VS Code trong một thư mục, thư mục đó sẽ trở thành "Workspace" của bạn.
 ### 2.3 Tạo file code python
 Chọn **New File** button trong `Hello` folder
 <div>
@@ -85,7 +85,7 @@ Cách đơn giản nhất để chạy `hello.py` với Python là nhấp vào n
 	padding-bottom:20px;">
 </div>
 
-Ngoài ra, bạn có thể chạy với `Terminal` bằng cách mở terminal trong **VS Code**  
+Ngoài ra, bạn có thể chạy với `Terminal` bằng cách mở terminal trong **VS Code** .
 <div>
 	<img src="/assets/images/courses/01-02-visual-studio-code/vs-code-terminal.png"
 	style="width:80%;
@@ -161,7 +161,7 @@ Ngoài ra có thể sử dụng phím tắt `Ctrl + Enter` để chạy ô hiệ
 	padding-bottom:20px;">
 </div>
 
-Bạn cũng có thể chạy nhiều cell một lúc bằng **Run All**, **Run All Above**, or **Run All Below**
+Bạn cũng có thể chạy nhiều cell một lúc bằng **Run All**, **Run All Above**, hoặc **Run All Below**.
 
 <div>
 	<img src="/assets/images/courses/01-02-visual-studio-code/native-code-runs.png"
@@ -176,7 +176,7 @@ Bạn cũng có thể chạy nhiều cell một lúc bằng **Run All**, **Run A
 
 ### 3.3 Lưu Jupyter Notebook
 
-Bạn có thể lưu file Jupyter Notebook bằng cách `Ctrl + S` hoặc `File > Save`
+Bạn có thể lưu file Jupyter Notebook bằng cách `Ctrl + S` hoặc `File > Save`.
 
 ### 3.4 Export Jupyter Notebook
 
@@ -198,15 +198,15 @@ Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một
 ## 4. Một số Extension hay
 **GitLen**
 
-Giúp việc thao tác với Git trực quan, dễ thực hiện
+Giúp việc thao tác với Git trực quan, dễ thực hiện.
 
 **TabNine** 
 
-Gợi ý code, sử dụng AI tăng hiệu suất viết code
+Gợi ý code, sử dụng AI tăng hiệu suất viết code.
 
 **GitHub Compilot** 
 
-Tương tự như **TabNine**
+Tương tự như **TabNine**.
 
 
 

@@ -57,7 +57,6 @@ Ví dụ muốn thêm khóa học `foobar`, thực hiện theo các bước sau:
         values:
             layout: single
             read_time: false
-            author_profile: false
             share: false
             comments: false
             sidebar:
@@ -106,6 +105,27 @@ Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=B
 
     {% include video id="BFUteVm_2wY" provider="youtube" %}
 
+## Thêm bài viết
+
+Trong thư mục `_post` tạo file có tên theo format `YYYY-MM-DD-post-name.md`.
+
+Nội dung file bài viết sẽ có formamt như sau:
+
+    ---
+    title: "Post name"
+    last_modified_at: YYYY-MM-DD
+    categories:
+    - writing
+    tags:
+    - python
+    author: author-1
+    author_profile: true
+    ---
+
+    Nội dung post
+
+Lưu ý: `author-1` là 1 trường dữ liệu về 1 tác giả đã có trong `_data/authors.yml`
+
 ## Cài đặt trang web chạy trên local
 
 Để chạy trang web trên local, yêu cầu phải có những thứ sau:
@@ -136,6 +156,81 @@ Cài đặt bundle cho trang web:
 Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên local chỉ cần chạy câu lệnh sau:
 
     bundle exec jekyll serve
+
+## Thêm tác giả cho bài viết
+
+Thêm dữ liệu về tác giả trong `_data/author.yml`, cấu trúc như sau:
+
+    author-1:
+        name             : "author-1-name"
+        avatar           : "/assets/images/avatar/author-1-avatar"
+        bio              :
+        location         :
+        email            :
+        links:
+            - label: "Email"
+            icon: "fas fa-fw fa-envelope-square"
+            url: "mailto:your.name@email.com"
+            - label: "Website"
+            icon: "fas fa-fw fa-link"
+            url: "https://your-website.com"
+            - label: "Twitter"
+            icon: "fab fa-fw fa-twitter-square"
+            url: "https://twitter.com/"
+            - label: "Facebook"
+            icon: "fab fa-fw fa-facebook-square"
+            url: "https://facebook.com/"
+            - label: "GitHub"
+            icon: "fab fa-fw fa-github"
+            url: "https://github.com/"
+            - label: "Instagram"
+            icon: "fab fa-fw fa-instagram"
+            url: "https://instagram.com/"
+
+Trong bài viết muốn thêm tác giả, thêm 2 dòng sau vào phần YAML Front Matter
+
+    author: author-1
+    author_profile: true
+
+Lưu ý: trong các trường `scope` trong file `_config.yml` phải bỏ các trường `author_profile`.
+
+
+## Thêm ảnh
+
+Thông thường, có thể thêm ảnh trong một file markdown bằng cú pháp
+```md
+![](assets/images/statics/logo.png)
+```
+Ta sẽ thu được ảnh dưới đây
+![](assets/images/statics/logo.png)
+
+Mặt khác, ta có thể sử dụng HTML để điều chỉnh các thuộc tính của ảnh như trong đoạn code dưới đây (đề xuất bởi [Quân Persie](https://github.com/quanpersie2001))
+
+```md
+<div>
+    <img src="assets/images/statics/logo.png"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+```
+Ảnh thu được là
+
+<div>
+    <img src="assets/images/statics/logo.png"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+
 
 ## Tham khảo
 

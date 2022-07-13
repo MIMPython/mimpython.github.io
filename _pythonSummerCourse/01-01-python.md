@@ -68,7 +68,7 @@ toc: false
   import this
   ```
 
-Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
+> Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
 

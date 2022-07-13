@@ -180,7 +180,7 @@ Bạn có thể lưu file Jupyter Notebook bằng cách `Ctrl + S` hoặc `File 
 
 ### 3.4 Export Jupyter Notebook
 
-Bạn có thể xuất **Jupyter Notebook** dưới dạng tệp **Python** (`.py`), **PDF** hoặc **HTML**. 
+Bạn có thể xuất **Jupyter Notebook** dưới dạng tệp **Python** (`.py`), **PDF** hoặc **HTML**.
 
 Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một danh sách các tùy chọn định dạng tệp.
 
@@ -200,17 +200,17 @@ Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một
 
 Giúp việc thao tác với Git trực quan, dễ thực hiện.
 
-**TabNine** 
+**TabNine**
 
 Gợi ý code, sử dụng AI tăng hiệu suất viết code.
 
-**GitHub Compilot** 
+**GitHub Compilot**
 
 Tương tự như **TabNine**.
 
 
 
-> Dưới đây chỉ tóm tắt cơ bản nhất về **VS Code**, bạn có thể đọc và tham khảo thêm ở các tài liệu tham khảo ở dưới.
+> Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
 - Hướng dẫn sử dụng [terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) trong VS Code

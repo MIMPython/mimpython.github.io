@@ -211,7 +211,7 @@ Tương tự như **TabNine**
 
 
 
-> ### Dưới đây chỉ tóm tắt cơ bản nhất về **VS Code**, bạn có thể đọc và tham khảo thêm ở các tài liệu tham khảo ở dưới.
+> Dưới đây chỉ tóm tắt cơ bản nhất về **VS Code**, bạn có thể đọc và tham khảo thêm ở các tài liệu tham khảo ở dưới.
 
 ## Tài liệu tham khảo
 - Hướng dẫn sử dụng [terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) trong VS Code

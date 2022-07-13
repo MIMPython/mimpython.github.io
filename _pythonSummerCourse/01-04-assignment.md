@@ -19,7 +19,18 @@ a) VS Code là một phần mềm mã nguồn mở, đúng hay sai? Vì sao? \
 b) Chỉ ra ít nhất hai text editor khác có chức năng tương tự VS Code. \
 c) Giải thích ý nghĩa của meme sau
 
-![](/assets/images/courses/homework/vscode_meme.png)
+
+<div>
+    <img src="/assets/images/courses/homework/vscode_meme.png"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+
 
 **Bài tập 3.** pip \
 a) Công cụ `pip` được sử dụng vào mục đích gì? \

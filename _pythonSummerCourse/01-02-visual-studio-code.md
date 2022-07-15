@@ -216,4 +216,4 @@ Tương tự như **TabNine**.
 - Hướng dẫn sử dụng [terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) trong VS Code
 - [Python](https://code.visualstudio.com/docs/python/python-tutorial) trong VS Code
 - [Jupyter notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) trong VS Code
-- [Một bài viết chi tiết](https://realpython.com/python-development-visual-studio-code/) trên trang web Real Python về VS Code.
+- [Bài viết về VS Code](https://realpython.com/python-development-visual-studio-code/) trên trang web Real Python.

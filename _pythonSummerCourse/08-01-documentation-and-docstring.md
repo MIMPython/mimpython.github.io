@@ -11,4 +11,4 @@ Nội dung kiến thức
 - Các quy chuẩn viết documentation/docstring trong Python.
 
 Tài liệu tham khảo
-- [Bài viết về documentation/docstring](https://realpython.com/documenting-python-code/) trên trang web RealPython
+- [Bài viết về documentation/docstring](https://realpython.com/documenting-python-code/) trên trang web Real Python

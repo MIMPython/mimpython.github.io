@@ -14,5 +14,5 @@ Nội dung kiến thức
 Tài liệu tham khảo
 - Trang chủ [numpy](https://numpy.org/doc/stable/reference/index.html)
 - Trang chủ [pandas](https://pandas.pydata.org/docs/reference/index.html#api)
-- [Hướng dẫn sử dụng numpy](https://realpython.com/numpy-tutorial/) trên RealPython
-- [Hướng dẫn sử dụng pandas](https://realpython.com/pandas-python-explore-dataset/) trên RealPython
+- [Hướng dẫn sử dụng numpy](https://realpython.com/numpy-tutorial/) trên trang web Real Python
+- [Hướng dẫn sử dụng pandas](https://realpython.com/pandas-python-explore-dataset/) trên trang web Real Python

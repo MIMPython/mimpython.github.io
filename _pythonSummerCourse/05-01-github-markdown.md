@@ -12,5 +12,5 @@ Nội dung kiến thức
 - Sử dụng markdown soạn thảo văn bản
 
 Tài liệu tham khảo
-- [Bài viết về git/github](https://realpython.com/python-git-github-intro/) trên trang web RealPython
+- [Bài viết về git/github](https://realpython.com/python-git-github-intro/) trên trang web Real Python
 - [Cú pháp cơ bản](https://www.markdownguide.org/basic-syntax/) của markdown

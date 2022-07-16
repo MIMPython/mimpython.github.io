@@ -14,13 +14,13 @@ toc: false
 ### 1. Vòng lặp `for`
 Vòng lặp `for` ở trong Python có tác dụng lặp các biến dữ liệu có trong 
 `list` , `tuple`, `string`,... Sử dụng cú pháp như sau
-```buildoutcfg
+```python
 for element in data:
     # Your code
 ```
 trong đó, `element` là các thành phần trong dữ liệu `data`.  
 Cụ thể, với kiểu dữ liệu `list`
-```buildoutcfg
+```python
 gradeList = ['K63', 'K64', 'K65', 'K66']
 for gradeName in gradeList:
     print(gradeName)
@@ -33,7 +33,7 @@ K66
 ```
 Ngoài ra, ta cũng có thể truy vào các thành phần của dữ liệu cần lặp thông qua 
 chỉ số của các thành phần đấy với hàm `range`
-```buildoutcfg
+```python
 gradeList = ['K63', 'K64', 'K65', 'K66']
 n = 4   # length of gradeList 
 for index in range(n):
@@ -55,12 +55,12 @@ K66
 
 ### 2. Vòng lặp `while`
 Cấu trúc của vòng lặp `while` trong `Python` sẽ như sau
-```buildoutcfg
+```python
 while   # condition is satistfied:
     # your code 
 ```
 Ví dụ
-```buildoutcfg
+```python
 gradeList = ['K63', 'K64', 'K65', 'K66']
 n = 4   # length of gradeList
 index = 0   # started index
@@ -85,7 +85,7 @@ hiện tượng rơi vào `vòng lặp vô hạn`.
 và chuyển tới vòng lặp tiếp theo, để tiếp tục thực hiện lặp
   
 Dưới đây là ví dụ minh họa
-```buildoutcfg
+```python
 gradeList = ['K63', 'K64', 'K65', 'K66']
 n = 4   # length of gradeList 
 for index in range(n):
@@ -108,13 +108,13 @@ Khi gặp `index = 3`, chương trình hiểu sẽ phải dừng ngay quá trìn
 Kiểu dữ liệu `list` trong `Python` ngoài chứa được các thành phần có kiểu dữ liệu 
 nguyên thủy như `string, int, float, boolean` thì còn có thể chứa được chính các kiểu dữ liệu 
 nâng cao hơn như `list, dict, tuple, ...` Ví dụ
-```buildoutcfg
+```python
 mixedList = [['K63', 'K64'], True, 2, (3, 3), ['MAT', 'PHY']]
 ```
 Ở ví dụ trên, ta có một danh sách hỗn hợp `mixedList` chứa các thành phần có 
 các kiểu dữ liệu bao gồm: `list, boolean, int, tuple`. Chẳng hạn, ta muốn in ra 
 các thành phần có kiểu dữ liệu `list`
-```buildoutcfg
+```python
 for element in mixedList:
     if type(element) is list:
         print(element)
@@ -129,11 +129,11 @@ for element in mixedList:
 ### 5. Vòng lặp lồng nhau
 Bên cạnh sử dụng các vòng lặp một cách đơn lẻ, ta có thể kết hợp sử dụng các vòng lặp 
 lồng nhau. Chẳng hạn, ta có `list` sau
-```buildoutcfg
+```python
 numberList = [1, 2, 3] 
 ```
 Để in ra các cặp chỉnh hợp gồm 2 phần tử của `numberList`, ta sẽ dùng các vòng lặp lồng nhau
-```buildoutcfg
+```python
 for firstE in numberList:
     for secondE in numberList:
         if firstE != secondE: 
@@ -153,7 +153,7 @@ for firstE in numberList:
 Thư viện `itertools` là một công cụ cung cấp các chức năng khác nhau hoạt 
 động trên các trình vòng lặp để tạo ra các trình vòng lặp phức tạp. Vì thế,
 ta có thể sử dụng `itertools` để sinh ra các chỉnh hợp 2 phần tử như ở **5.** bằng cách 
-```buildoutcfg
+```python
 import itertools
 
 numberList = [1, 2, 3] 

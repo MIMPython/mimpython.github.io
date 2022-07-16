@@ -1,7 +1,7 @@
 ---
 title: "Bài 10. Lớp (class)"
 permalink: /pythonSummerCourse/week-04-class/
-last_modified_at: 2022-06-30
+last_modified_at: 2022-07-16
 redirect_from:
   - /theme-setup/
 toc: false

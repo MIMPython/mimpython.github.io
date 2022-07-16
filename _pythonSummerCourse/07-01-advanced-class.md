@@ -1,7 +1,7 @@
 ---
 title: "Bài 16. Class nâng cao"
 permalink: /pythonSummerCourse/week-07-advanced-class/
-last_modified_at: 2022-06-30
+last_modified_at: 2022-07-16
 redirect_from:
   - /theme-setup/
 toc: false

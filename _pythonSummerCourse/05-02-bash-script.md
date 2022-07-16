@@ -1,7 +1,7 @@
 ---
 title: "Bài 13. Bash script"
 permalink: /pythonSummerCourse/week-05-bash-scripts/
-last_modified_at: 2022-06-30
+last_modified_at: 2022-07-16
 redirect_from:
   - /theme-setup/
 toc: false

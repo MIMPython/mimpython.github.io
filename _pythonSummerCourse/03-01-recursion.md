@@ -7,11 +7,11 @@ redirect_from:
 toc: false
 ---
 
-Nội dung kiến thức
+## Nội dung kiến thức
 - Các loại vòng lặp trong Python
 - Dữ liệu lồng nhau (`list` của các `list`) và vòng lặp lồng nhau
 
-Tài liệu tham khảo
+## Tài liệu tham khảo
 - PythonCrashCourse (trang 49-51, 53-56)
 - SeriousPython (trang 162-163)
 - ThinkPython (trang 75-85)

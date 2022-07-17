@@ -11,7 +11,7 @@ toc: false
 - Các loại vòng lặp trong Python
 - Dữ liệu lồng nhau (`list` của các `list`) và vòng lặp lồng nhau
 
-### 1. Vòng lặp `for`
+## 1. Vòng lặp `for`
 Vòng lặp `for` ở trong Python có tác dụng lặp các biến dữ liệu có trong 
 `list` , `tuple`, `string`,... Sử dụng cú pháp như sau
 ```python
@@ -53,7 +53,7 @@ K66
 - Chỉ số `index` trong `Python` bắt đầu từ `0`. 
 
 
-### 2. Vòng lặp `while`
+## 2. Vòng lặp `while`
 Cấu trúc của vòng lặp `while` trong `Python` sẽ như sau
 ```python
 while condition:
@@ -78,7 +78,7 @@ Một lưu ý khi dùng vòng `while` là ta cần kiểm soát được điều
 hiện tượng rơi vào `vòng lặp vô hạn`.
 
 
-### 3. Vòng lặp với `break` và `continue`
+## 3. Vòng lặp với `break` và `continue`
 `break` và `continue` là hai câu lệnh hỗ trợ trong các vòng lặp để 
 - `break`: nếu gặp câu lệnh này, quá trình lặp lập tức bị dừng 
 - `continue`: nếu gặp câu lệnh này, quá trình lặp sẽ bỏ qua vòng lặp hiện tại,
@@ -104,7 +104,7 @@ chương trình sẽ bỏ qua vòng lặp này, chuyển tới vòng lặp tiế
 Khi gặp `index = 3`, chương trình hiểu sẽ phải dừng ngay quá trình lặp, nên phần tử `K66` cũng không được in ra. 
 
 
-### 4. Dữ liệu lồng nhau (`list` của các `list`)
+## 4. Dữ liệu lồng nhau (`list` của các `list`)
 Kiểu dữ liệu `list` trong `Python` ngoài chứa được các thành phần có kiểu dữ liệu 
 nguyên thủy như `string, int, float, boolean` thì còn có thể chứa được chính các kiểu dữ liệu 
 nâng cao hơn như `list, dict, tuple, ...` Ví dụ
@@ -126,7 +126,7 @@ for element in mixedList:
 **Lưu ý:** `type(variable)` là một hàm trả về kiểu dữ liệu của biến `variable`.
 
 
-### 5. Vòng lặp lồng nhau
+## 5. Vòng lặp lồng nhau
 Bên cạnh sử dụng các vòng lặp một cách đơn lẻ, ta có thể kết hợp sử dụng các vòng lặp 
 lồng nhau. Chẳng hạn, ta có `list` sau
 ```python
@@ -149,7 +149,7 @@ for firstE in numberList:
 ```
 
 
-### 6. Thư viện `itertools`
+## 6. Thư viện `itertools`
 Thư viện `itertools` là một công cụ cung cấp các chức năng khác nhau hoạt 
 động trên các trình vòng lặp để tạo ra các trình vòng lặp phức tạp. Vì thế,
 ta có thể sử dụng `itertools` để sinh ra các chỉnh hợp 2 phần tử như ở **5.** bằng cách 

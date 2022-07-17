@@ -47,7 +47,6 @@ K66
 **Lưu ý:** 
 - `range(start, end, step)` là một hàm trong `Python`, đầu vào nhận các **số nguyên** và trả về một chuỗi các giá trị **số nguyên** từ `start` tới `end-1`, và cách nhau `step` đơn vị. 
 Ở phần code trên, ta sử dụng `range(n)` là đang mặc định `start=0, step=1`.
-  
 - Chỉ số `index` trong `Python` bắt đầu từ `0`. 
 
 
@@ -162,9 +161,7 @@ for element in permutationList:
 ```
 Ngoài hàm tạo ra chỉnh hợp của một tập hơp, `itertools` còn cung cấp các hàm 
 - `combinations(iterable, r)`: tạo ra tất cả các tổ hợp gồm `r` phần tử từ đối tượng `iterable`
-  
 - `product(iterable1, iterable2, ...)`: tạo ra tất cả các phần tử của tích `Cartesian` từ các đối tượng `iterable1, iterable2, ...`
-  
 - ...
 
 

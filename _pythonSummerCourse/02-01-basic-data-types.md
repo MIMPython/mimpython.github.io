@@ -12,24 +12,25 @@ String, thao tác cơ bản với string
 
 ```python
 fruit = 'banana'
-letter = fruit[0] # 'b'
+letter = fruit[0]
+print(letter) # 'b'
 
 # Length of string
-len(fruit) # 6
+print(len(fruit)) # 6
 
 # Slice
-fruit[0:3] # ban
+print(fruit[0:3]) # ban
 
 # Search
-fruit.find('a') # 1
-'a' in fruit # True
-'c' in fruit # False
+print(fruit.find('a')) # 1
+print('a' in fruit) # True
+print('c' in fruit) # False
 ```
 
 List, thao tác cơ bản với list
 ```python
 colors = ['red', 'blue', 'green']
-print(colors[1]) # 'yasuo'
+print(colors[1]) # 'blue'
 
 colors[2] = 'yellow'
 print(colors) # ['red', 'yellow', 'green']
@@ -88,10 +89,10 @@ banana = {'name': 'banana', 'color': 'yellow', 'cost': 5000}
 print(banana['cost']) # 5000
 
 # Get key dictionary
-banana.keys()
+print(banana.keys()) # dict_keys(['name', 'color', 'cost'])
 
 # Get value of dictionary
-banana.value()
+print(banana.values()) # dict_values(['banana', 'yellow', 5000])
 ```
 
 ## 2. Vòng lặp for
@@ -119,13 +120,16 @@ for color in colors:
   """
 
 # Loop throught tuple
-dimensions = (200, 50)
-for dimension in dimensions:
-  print(dimension)
+path = (2, 5, 4, 1, 3)
+for node in path:
+  print(node)
   """
     Output:
-      200
-      59
+      2
+      5
+      4
+      1
+      3
   """
 
 # Loop thought dictionary

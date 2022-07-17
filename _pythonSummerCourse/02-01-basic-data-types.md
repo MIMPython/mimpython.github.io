@@ -30,10 +30,10 @@ print('c' in fruit) # False
 List, thao tác cơ bản với list
 ```python
 colors = ['red', 'blue', 'green']
-print(colors[1]) # 'blue'
+print(colors[1]) # blue
 
 colors[2] = 'yellow'
-print(colors) # ['red', 'yellow', 'green']
+print(colors) # ['red', 'blue', 'yellow']
 
 # Length of list
 print(len(colors)) # 3
@@ -41,7 +41,7 @@ print(len(colors)) # 3
 # Add element
 colors = ['red', 'blue', 'green']
 colors.append('blue')
-print(colors) # ['red', 'yellow', 'green', 'blue']
+print(colors) # ['red', 'blue', 'green', 'blue']
 
 # Remove element
 colors = ['red', 'yellow', 'green', 'blue']

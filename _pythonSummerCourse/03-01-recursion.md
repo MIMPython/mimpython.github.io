@@ -56,8 +56,8 @@ K66
 ### 2. Vòng lặp `while`
 Cấu trúc của vòng lặp `while` trong `Python` sẽ như sau
 ```python
-while   # condition is satistfied:
-    # your code 
+while condition:
+    statement
 ```
 Ví dụ
 ```python

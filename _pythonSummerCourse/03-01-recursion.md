@@ -13,8 +13,7 @@ toc: false
 - Hàm `enumerate` và `zip` trong Python
 
 ## 1. Vòng lặp `for`
-Vòng lặp `for` ở trong Python có tác dụng lặp các biến dữ liệu có trong 
-`list` , `tuple`, `string`,... Sử dụng cú pháp như sau
+Vòng lặp `for` ở trong Python có tác dụng lặp các biến dữ liệu có trong `list` , `tuple`, `string`,... Sử dụng cú pháp như sau
 ```python
 for element in data:
     # Your code
@@ -162,11 +161,9 @@ for element in permutationList:
 (3, 2)
 ```
 Ngoài hàm tạo ra chỉnh hợp của một tập hơp, `itertools` còn cung cấp các hàm 
-- `combinations(iterable, r)`: tạo ra tất cả các tổ hợp gồm `r` phần tử 
-từ đối tượng `iterable`
+- `combinations(iterable, r)`: tạo ra tất cả các tổ hợp gồm `r` phần tử từ đối tượng `iterable`
   
-- `product(iterable1, iterable2, ...)`: tạo ra tất cả các phần tử của tích `Cartesian` 
-từ các đối tượng `iterable1, iterable2, ...`
+- `product(iterable1, iterable2, ...)`: tạo ra tất cả các phần tử của tích `Cartesian` từ các đối tượng `iterable1, iterable2, ...`
   
 - ...
 

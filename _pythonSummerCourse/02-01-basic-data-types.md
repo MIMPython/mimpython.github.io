@@ -48,9 +48,9 @@ colors = ['red', 'yellow', 'green', 'blue']
 colors.pop(0)
 print(colors) # ['yellow', 'green', 'blue']
 
-colors = ['red', 'yellow', 'green', 'blue']
+colors = ['red', 'blue', 'yellow', 'green', 'blue']
 colors.remove('blue')
-print(colors) # ['red', 'yellow', 'green']
+print(colors) # ['red', 'yellow', 'green', 'blue']
 
 # Sort element
 colors = ['red', 'yellow', 'green', 'blue']

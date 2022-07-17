@@ -214,3 +214,4 @@ for index, gradeName in zip(indexList, gradeList):
 - SeriousPython (trang 162-163)
 - ThinkPython (trang 75-85)
 - Thư viện [itertools](https://docs.python.org/3/library/itertools.html)
+- Bài viết về [`enumerate`](https://realpython.com/python-enumerate/) và [`zip`](https://realpython.com/python-zip-function/) trên trang web Real Python

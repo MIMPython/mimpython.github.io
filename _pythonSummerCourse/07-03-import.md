@@ -12,4 +12,4 @@ Nội dung kiến thức
 - Cách import một module (absolute import hoặc relative import)
 
 Tài liệu tham khảo
-- [Hướng dẫn về Python packages](https://realpython.com/python-modules-packages/) trên trang web RealPython
+- [Hướng dẫn về Python packages](https://realpython.com/python-modules-packages/) trên trang web Real Python

@@ -1,7 +1,7 @@
 ---
 title: "Bài 5. Phương thức"
 permalink: /pythonSummerCourse/week-02-method/
-last_modified_at: 2022-06-30
+last_modified_at: 2022-07-17
 redirect_from:
   - /theme-setup/
 toc: false
@@ -24,12 +24,12 @@ greetUser()
 ### 1.2. Các thành phần trong hàm
 ```py
 def total(a, b):
-  sum = a + b
-  return sum
+  result = a + b
+  return result
 
 print(total(2, 4))
 ```
-- Ở ví dụ trên, từ khóa `def` đánh dấu bắt đầu định nghĩa hàm, tên hàm `total`, đối số `a`, `b`. Hàm `total` trả về tổng của hai đối số nhập vào bằng phép gán ```sum = a + b```.
+- Ở ví dụ trên, từ khóa `def` đánh dấu bắt đầu định nghĩa hàm, tên hàm `total`, đối số `a`, `b`. Hàm `total` trả về tổng của hai đối số nhập vào bằng phép gán `result = a + b`.
 - Từ khóa `return` được dùng để trả giá trị của hàm.
 - Một hàm có thể không có đối số và không cần trả về giá trị gì.
 
@@ -37,12 +37,12 @@ print(total(2, 4))
 - Tham số của hàm có thể có giá trị mặc định, giá trị này có thể bỏ qua trong lời gọi hàm.
 - Ví dụ
 ```py
-def sum(y, x = 5):
+def total(y, x = 5):
   return x + y
 
 s = 12
-print(sum(s))   # 17
-print(sum(s, 24)) # 36
+print(total(s))   # 17
+print(total(s, 24)) # 36
 ```
 ### 1.4. Tham số có tiền tố `*` và `**`
 - Trong Python, sử dụng tiền tố `*` để đánh dấu một tham số không cố định về số lượng tham số.
@@ -50,24 +50,24 @@ print(sum(s, 24)) # 36
 
 Ví dụ với tiền tố `*`
 ```py
-def sum(*n):
-  s = 0
-  for i in n:
-    s +=i
+def total(*numbers):
+  result = 0
+  for i in numbers:
+    result += i
 
-  return s
+  return result
 
-print(sum(17, 7, 5, 22, 20)) # 71
-print(sum(1, 7)) # 8
-print(sum(1, 2.4, 12, 20)) # 35.4
+print(total(17, 7, 5, 22, 20)) # 71
+print(total(1, 7)) # 8
+print(total(1, 2.4, 12, 20)) # 35.4
 ```
 Ví dụ với tiền tố `**`
 ```py
 def greetUser(**data):
   for name, age in data.items():
-    print('Chào',name,age,'tuổi')
+  	print(f"Chào {name}! Bạn {age} tuổi, phải không?")
 
-greetUser(Anh = 10, Thảo = 20, Hoàng = 19, Trung = 33)
+greetUser(**{"Peter":5, "John":3, "Emma":4})
 ```
 ## 2. Từ khóa `pass`
 - Câu lệnh `pass` được sử dụng có thể nói là "giữ chỗ cho code trong tương lai".
@@ -81,7 +81,7 @@ for i in [0, 1, 2, 3, 4]:
 ```
 Ví dụ khi định nghĩa hàm
 ```py
-def sum():
+def total():
   pass
 ```
 Ví dụ khi định nghĩa lớp

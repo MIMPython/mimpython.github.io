@@ -181,6 +181,51 @@ từ các đối tượng `iterable1, iterable2, ...`
 - ...
 
 
+## 7. Hàm `enumerate` và `zip` trong `Python`
+- Hàm `enumerate` trong `Python` thêm vào một bộ đếm trước đối tượng lặp với cú pháp 
+```
+enumerate(iterable, start)
+```
+trong đó, `iterable` là một đối tượng có thể lặp như `list`, `start` là một số 
+nguyên để bắt đầu bộ đếm, và mặc định là `start = 0`. Ví dụ 
+```python 
+for index, gradeName in enumerate(gradeList):
+    print(index, gradeName)
+    
+> Output:
+0 K63
+1 K64
+2 K65
+3 K66
+```
+
+- Hàm `zip` trong `Python`, cung cấp một phương thức để nhóm các phần tử có cùng vị trí 
+của các đối tượng lặp, và trả về là một `iterator` dạng danh sách, mỗi phần tử trong 
+danh sách là một `tuple`. Cú pháp
+```python 
+zip(iterable1, iterable2, ...)
+```
+trong đó `iterableX (X=1, 2, ...)` là các đối tượng có thể lặp như `string, list, tuple`. Và 
+
+    - Nếu không có tham số nào được truyền, zip() trả về một iterator rỗng.
+    - Nếu tham số được truyền chỉ có duy nhất một iterable, zip() trả về tuple có 1 phần tử.
+    - Nếu tham số được truyền có nhiều iterable và độ dài của các iterable không bằng nhau, zip sẽ tạo các tuple có độ dài bằng với số iterable nhỏ nhất.
+Ví dụ về hàm `zip`:
+```python
+indexList = [0, 1, 2, 3]
+gradeList = ['K63', 'K64', 'K65', 'K66']
+
+for index, gradeName in zip(indexList, gradeList):
+    print(index, gradeName)
+
+> Output:
+0 K63
+1 K64
+2 K65
+3 K66
+```
+
+
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 ## Tài liệu tham khảo
 - PythonCrashCourse (trang 49-51, 53-56)

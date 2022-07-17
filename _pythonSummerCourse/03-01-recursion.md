@@ -99,7 +99,7 @@ for index in range(n):
 K63
 K65
 ```
-Ở trên, khi gặp `index=1` (tức tại phần tử `K64`), ta dùng lệnh `continue` nên 
+Ở trên, khi gặp `index = 1` (tức tại phần tử `K64`), ta dùng lệnh `continue` nên 
 chương trình sẽ bỏ qua vòng lặp này, chuyển tới vòng lặp tiếp theo (nên không in ra phần tử `K64`). 
 Khi gặp `index = 3`, chương trình hiểu sẽ phải dừng ngay quá trình lặp, nên phần tử `K66` cũng không được in ra. 
 

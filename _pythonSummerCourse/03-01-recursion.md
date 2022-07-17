@@ -10,6 +10,7 @@ toc: false
 ## Nội dung kiến thức
 - Các loại vòng lặp trong Python
 - Dữ liệu lồng nhau (`list` của các `list`) và vòng lặp lồng nhau
+- Hàm `enumerate` và `zip` trong Python
 
 ## 1. Vòng lặp `for`
 Vòng lặp `for` ở trong Python có tác dụng lặp các biến dữ liệu có trong 

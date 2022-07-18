@@ -42,7 +42,7 @@ def total(y, x = 5):
 
 s = 12
 print(total(s))   # 17
-print(total(s, 24)) # 36
+print(total(s, 24))  # 36
 ```
 ### 1.4. Tham số có tiền tố `*` và `**`
 - Trong Python, sử dụng tiền tố `*` để đánh dấu một tham số không cố định về số lượng tham số.
@@ -57,17 +57,17 @@ def total(*numbers):
 
     return result
 
-print(total(17, 7, 5, 22, 20)) # 71
-print(total(1, 7)) # 8
-print(total(1, 2.4, 12, 20)) # 35.4
+print(total(17, 7, 5, 22, 20))  # 71
+print(total(1, 7))  # 8
+print(total(1, 2.4, 12, 20))  # 35.4
 ```
 Ví dụ với tiền tố `**`
 ```py
 def greetUser(**data):
     for name, age in data.items():
-  	    print(f"Chào {name}! Bạn {age} tuổi, phải không?")
+        print(f"Chào {name}! Bạn {age} tuổi, phải không?")
 
-greetUser(**{"Peter":5, "John":3, "Emma":4})
+greetUser(**{"Peter": 5, "John": 3, "Emma": 4})
 ```
 ## 2. Từ khóa `pass`
 - Câu lệnh `pass` được sử dụng có thể nói là "giữ chỗ cho code trong tương lai".
@@ -87,28 +87,28 @@ def total():
 Ví dụ khi định nghĩa lớp
 ```py
 class Person:
-      pass
+    pass
 ```
 Ví dụ trong câu lệnh `if`
 ```py
 a = 100
 b = 20
 if a > b:
-   pass
+    pass
 ```
 ## 3. Booleans and conditionals
 
 ### 3.1. Booleans
 - Booleans thể hiện cho một trong hai giá trị Đúng hoặc Sai (`True` hoặc `False`).
 ```py
-print(6 > 5) # True
-print(6 == 5) # False
-print(6 < 5) # False
+print(6 > 5)  # True
+print(6 == 5)  # False
+print(6 < 5)  # False
 ```
 - `True` và `False` là các giá trị đặc biệt kiểu `bool`, chúng không phải `strings`.
 ```py
-print(type(True)) # <class 'bool'>
-print(type(False)) # <class 'bool'>
+print(type(True))  # <class 'bool'>
+print(type(False))  # <class 'bool'>
 ```
 ### 3.2. Conditionals
 - Python có hỗ trợ các điều kiện logic thông thường như: `==`, `!=`, `<`, `<=`, `>`, `>=`.
@@ -135,13 +135,13 @@ True
 - Các điều kiện này có thể được sử dụng theo một số cách, phổ biến là trong câu lệnh `if` và vòng lặp.
 ```py
 if x > 0:
-   print('x là số dương')
+    print('x là số dương')
 ```
 ```py
 i = 1
 while i < 4:
-      print(i)
-      i += 1
+    print(i)
+    i += 1
 ```
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 

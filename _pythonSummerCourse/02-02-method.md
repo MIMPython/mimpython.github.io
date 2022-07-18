@@ -13,7 +13,6 @@ toc: false
 ```py
 def greetUser():
     print("Hello!")
-
 greetUser()
 ```
 - Mỗi hàm trong Python có hai khía cạnh

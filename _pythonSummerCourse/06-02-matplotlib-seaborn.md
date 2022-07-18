@@ -13,5 +13,5 @@ Nội dung kiến thức
 Tài liệu tham khảo
 - Trang chủ [matplotlib](https://matplotlib.org/stable/tutorials/index)
 - Trang chủ [seaborn](https://seaborn.pydata.org/api.html)
-- [Hướng dẫn sử dụng matplotlib](https://realpython.com/python-matplotlib-guide/) trên RealPython
+- [Hướng dẫn sử dụng matplotlib](https://realpython.com/python-matplotlib-guide/) trên trang web Real Python
 - SeriousPython (trang 27-32)

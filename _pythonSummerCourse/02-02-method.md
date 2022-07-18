@@ -12,7 +12,7 @@ toc: false
 - Ví dụ đơn giản về một hàm
 ```py
 def greetUser():
-  print("Hello!")
+    print("Hello!")
 
 greetUser()
 ```
@@ -24,8 +24,8 @@ greetUser()
 ### 1.2. Các thành phần trong hàm
 ```py
 def total(a, b):
-  result = a + b
-  return result
+    result = a + b
+    return result
 
 print(total(2, 4))
 ```
@@ -38,7 +38,7 @@ print(total(2, 4))
 - Ví dụ
 ```py
 def total(y, x = 5):
-  return x + y
+    return x + y
 
 s = 12
 print(total(s))   # 17
@@ -51,11 +51,11 @@ print(total(s, 24)) # 36
 Ví dụ với tiền tố `*`
 ```py
 def total(*numbers):
-  result = 0
-  for i in numbers:
-    result += i
+    result = 0
+    for i in numbers:
+        result += i
 
-  return result
+    return result
 
 print(total(17, 7, 5, 22, 20)) # 71
 print(total(1, 7)) # 8
@@ -64,8 +64,8 @@ print(total(1, 2.4, 12, 20)) # 35.4
 Ví dụ với tiền tố `**`
 ```py
 def greetUser(**data):
-  for name, age in data.items():
-  	print(f"Chào {name}! Bạn {age} tuổi, phải không?")
+    for name, age in data.items():
+  	    print(f"Chào {name}! Bạn {age} tuổi, phải không?")
 
 greetUser(**{"Peter":5, "John":3, "Emma":4})
 ```
@@ -77,24 +77,24 @@ greetUser(**{"Peter":5, "John":3, "Emma":4})
 Ví dụ trong vòng lặp
 ```py
 for i in [0, 1, 2, 3, 4]:
-  pass
+    pass
 ```
 Ví dụ khi định nghĩa hàm
 ```py
 def total():
-  pass
+    pass
 ```
 Ví dụ khi định nghĩa lớp
 ```py
 class Person:
-  pass
+      pass
 ```
 Ví dụ trong câu lệnh `if`
 ```py
 a = 100
 b = 20
 if a > b:
-  pass
+   pass
 ```
 ## 3. Booleans and conditionals
 
@@ -135,13 +135,13 @@ True
 - Các điều kiện này có thể được sử dụng theo một số cách, phổ biến là trong câu lệnh `if` và vòng lặp.
 ```py
 if x > 0:
-  print('x là số dương')
+   print('x là số dương')
 ```
 ```py
 i = 1
 while i < 4:
-  print(i)
-  i += 1
+      print(i)
+      i += 1
 ```
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 

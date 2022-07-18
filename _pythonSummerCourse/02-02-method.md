@@ -35,6 +35,7 @@ print(total(2, 4))
 ### 1.3. Tham số mặc định
 - Tham số của hàm có thể có giá trị mặc định, giá trị này có thể bỏ qua trong lời gọi hàm.
 - Ví dụ
+
 ```py
 def total(y, x = 5):
     return x + y
@@ -43,11 +44,13 @@ s = 12
 print(total(s))   # 17
 print(total(s, 24))  # 36
 ```
+
 ### 1.4. Tham số có tiền tố `*` và `**`
 - Trong Python, sử dụng tiền tố `*` để đánh dấu một tham số không cố định về số lượng tham số.
 - Tiền tố `**` đánh dấu tham số mà mỗi đối số là 1 cặp khóa - giá trị (key - value).
 
 Ví dụ với tiền tố `*`
+
 ```py
 def total(*numbers):
     result = 0
@@ -110,7 +113,7 @@ print(type(True))  # <class 'bool'>
 print(type(False))  # <class 'bool'>
 ```
 ### 3.2. Conditionals
-- Python có hỗ trợ các điều kiện logic thông thường như: `==`, `!=`, `<`, `<=`, `>`, `>=`.
+- Python hỗ trợ các điều kiện logic thông thường như: `==`, `!=`, `<`, `<=`, `>`, `>=`.
 ```py
 >>> age = 22
 >>> age < 25

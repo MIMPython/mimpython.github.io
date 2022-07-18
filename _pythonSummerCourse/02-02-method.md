@@ -1,7 +1,7 @@
 ---
 title: "Bài 5. Phương thức"
 permalink: /pythonSummerCourse/week-02-method/
-last_modified_at: 2022-07-17
+last_modified_at: 2022-07-18
 redirect_from:
   - /theme-setup/
 toc: false
@@ -145,9 +145,13 @@ while i < 4:
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
+
+Tài liệu chính
 - PythonCrashCourse (trang 72-90, 130-155)
+- [Bài viết về `pass`](https://realpython.com/python-pass/) trên trang web Real Python
+
+Tài liệu bổ sung
 - SeriousPython (trang 122-145)
 - ThinkPython (trang 47-74)
 - Danh sách [các hàm có sẵn](https://docs.python.org/3/library/functions.html) (built-in) trong Python
 - [Hướng dẫn viết bình luận](https://realpython.com/python-comments-guide/) (comment) trong Python
-- [Bài viết về `pass`](https://realpython.com/python-pass/) trên trang web Real Python

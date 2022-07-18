@@ -1,7 +1,7 @@
 ---
 title: "Bài 4. Các kiểu dữ liệu cơ bản"
 permalink: /pythonSummerCourse/week-02-basic-data-types/
-last_modified_at: 2022-07-15
+last_modified_at: 2022-07-18
 redirect_from:
   - /theme-setup/
 toc: false
@@ -146,6 +146,11 @@ for key in banana.keys():
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
-Tài liệu tham khảo
+## Tài liệu tham khảo
+
+Tài liệu chính
 - PythonCrashCourse (trang 34-48, 65-68, 91-112)
-- ThinkPython (trang 85-150)
+- ThinkPython (trang 85-95)
+
+Tài liệu bổ sung
+- ThinkPython (trang 107-150)

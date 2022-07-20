@@ -171,6 +171,7 @@ Ngoài hàm tạo ra chỉnh hợp của một tập hơp, `itertools` còn cung
 enumerate(iterable, start)
 ```
 trong đó, `iterable` là một đối tượng có thể lặp như `list`, `start` là một số nguyên để bắt đầu bộ đếm, và mặc định là `start = 0`. Ví dụ 
+
 ```python 
 for index, gradeName in enumerate(gradeList):
     print(index, gradeName)
@@ -187,11 +188,11 @@ mỗi phần tử trong danh sách là một `tuple`. Cú pháp
 ```python 
 zip(iterable1, iterable2, ...)
 ```
-trong đó `iterableX (X=1, 2, ...)` là các đối tượng có thể lặp như `string, list, tuple`. Và 
-
+trong đó `iterableX (X=1, 2, ...)` là các đối tượng có thể lặp như `string, list, tuple`. Và
     - Nếu không có tham số nào được truyền, zip() trả về một iterator rỗng.
     - Nếu tham số được truyền chỉ có duy nhất một iterable, zip() trả về tuple có 1 phần tử.
     - Nếu tham số được truyền có nhiều iterable và độ dài của các iterable không bằng nhau, zip sẽ tạo các tuple có độ dài bằng với số iterable nhỏ nhất.
+
 Ví dụ về hàm `zip`:
 ```python
 indexList = [0, 1, 2, 3]

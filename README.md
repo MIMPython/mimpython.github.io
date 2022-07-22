@@ -157,6 +157,8 @@ Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên loc
 
     bundle exec jekyll serve
 
+Link web local: http://127.0.0.1:4000
+
 ## Thêm tác giả cho bài viết
 
 Thêm dữ liệu về tác giả trong `_data/author.yml`, cấu trúc như sau:

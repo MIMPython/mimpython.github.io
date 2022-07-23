@@ -26,15 +26,15 @@ Chào các bạn, hôm nay mình sẽ hướng dẫn mọi người tạo một 
 
 ### 1. Cài đặt Windows Terminal
 
-Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Windows Terminal, được Microsoft ra mắt năm 2019, WT (Windows Terminal) sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
+Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Windows Terminal, được Microsoft ra mắt năm 2019, Windows Terminal sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
 
-Chi tiết cài đặt WT các bạn có thể tham khảo tại [đây.](https://docs.microsoft.com/en-us/windows/terminal/install)
+Chi tiết cài đặt Windows Terminal các bạn có thể tham khảo tại [đây.](https://docs.microsoft.com/en-us/windows/terminal/install)
 
 ### 2. Tùy biến Windows Terminal
 
 #### 2.1 Thay đổi background terminal
 
-Việc thay đổi background trên WT thực sự rất đơn giản. Sau khi đã tải xuống và cài đặt WT, bạn chỉ cần làm theo các bước sau để tùy chỉnh background WT.
+Việc thay đổi background trên Windows Terminal thực sự rất đơn giản. Sau khi đã tải xuống và cài đặt Windows Terminal, bạn chỉ cần làm theo các bước sau để tùy chỉnh background Windows Terminal.
 
 - Khởi động Windows Terminal, vào phần Setting.
 
@@ -75,11 +75,11 @@ Việc thay đổi background trên WT thực sự rất đơn giản. Sau khi �
     padding-bottom:20px;">
 </div>
 
-#### 2.2 Thay đổi chủ đề WT sử dụng oh-my-posh
+#### 2.2 Thay đổi chủ đề Windows Terminal sử dụng oh-my-posh
 
-Để thay đổi chủ đề của WT, ta sử dụng oh-my-posh, một gói tùy biến cho terminal.
+Để thay đổi chủ đề của Windows Terminal, ta sử dụng oh-my-posh, một gói tùy biến cho terminal.
 
-Cài đặt oh-my-posh bằng câu lệnh sau (sử dụng PowerShell trên WT)
+Cài đặt oh-my-posh bằng câu lệnh sau (sử dụng PowerShell trên Windows Terminal)
   ```ps
   winget install oh-my-posh
   ```
@@ -110,7 +110,7 @@ Dưới đây là terminal mình đang sử dụng.
     padding-bottom:20px;">
 </div>
 
-Như vậy là bạn đã có thể thay đổi theme của terminal. Tuy nhiên sẽ thật là bất tiện nếu mỗi lần bạn bật terminal lại phải chạy lại 2 lệnh trên để thay đổi theme. Thay vì thế bạn hãy làm theo các bước sau để thay đổi theme bất cứ khi nào bật PowerShell trên WT.
+Như vậy là bạn đã có thể thay đổi theme của terminal. Tuy nhiên sẽ thật là bất tiện nếu mỗi lần bạn bật terminal lại phải chạy lại 2 lệnh trên để thay đổi theme. Thay vì thế bạn hãy làm theo các bước sau để thay đổi theme bất cứ khi nào bật PowerShell trên Windows Terminal.
 
 Chạy dòng lệnh sau
   ```ps

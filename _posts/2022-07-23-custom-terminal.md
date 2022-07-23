@@ -1,5 +1,5 @@
 ---
-title: "Tạo một terminal đẹp trên window"
+title: "Tạo một terminal đẹp trên Windows"
 last_modified_at: 2022-07-23
 author: Tran-Thanh-Tung
 author_profile: true
@@ -22,21 +22,21 @@ tags:
     padding-bottom:20px;">
 </div>
 
-Chào các bạn, hôm nay mình sẽ hướng dẫn mọi người tạo một terminal đẹp trên Window để việc viết code trở nên thú vị hơn.
+Chào các bạn, hôm nay mình sẽ hướng dẫn mọi người tạo một terminal đẹp trên Windows để việc viết code trở nên thú vị hơn.
 
-### 1. Cài đặt Window terminal
+### 1. Cài đặt Windows Terminal
 
-Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Window terminal, được Microsoft ra mắt năm 2019, WT sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
+Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Windows Terminal, được Microsoft ra mắt năm 2019, WT sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
 
 Chi tiết cài đặt WT các bạn có thể tham khảo tại [đây.](https://docs.microsoft.com/en-us/windows/terminal/install)
 
-### 2. Tùy biến Window terminal
+### 2. Tùy biến Windows Terminal
 
 #### 2.1 Thay đổi background terminal
 
 Việc thay đổi background trên WT thực sự rất đơn giản. Sau khi đã tải xuống và cài đặt WT, bạn chỉ cần làm theo các bước sau để tùy chỉnh background WT.
 
-- Khởi động Window terminal, vào phần Setting.
+- Khởi động Windows Terminal, vào phần Setting.
 
 <div>
     <img src="/assets/images/post/2022-07-15-custom-terminal/setting.png"
@@ -126,7 +126,7 @@ Nếu sau khi thay đổi theme của terminal, bạn lại gặp lỗi hiển t
 
 Mình đề xuất font chữ `MesloLGS Nerd`. Bạn có thể tải tại [đây](https://www.nerdfonts.com/).
 
-- Thên font chữ trên Window trong phần `Setting -> Personalization -> Font`
+- Thên font chữ trên Windows trong phần `Setting -> Personalization -> Font`
 - Thêm font chữ trên PowerShell.
 <div>
     <img src="/assets/images/post/2022-07-15-custom-terminal/settingFontWT.png"

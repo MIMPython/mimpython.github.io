@@ -26,7 +26,7 @@ Chào các bạn, hôm nay mình sẽ hướng dẫn mọi người tạo một 
 
 ### 1. Cài đặt Windows Terminal
 
-Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Windows Terminal, được Microsoft ra mắt năm 2019, WT sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
+Để có một terminal đẹp, trước hết ta phải có một terminal xịn. Và theo mình đó là Windows Terminal, được Microsoft ra mắt năm 2019, WT (Windows Terminal) sở hữu nhiều tính năng ưu việt và đặc biệt đây là một dự án mã nguồn mở.
 
 Chi tiết cài đặt WT các bạn có thể tham khảo tại [đây.](https://docs.microsoft.com/en-us/windows/terminal/install)
 

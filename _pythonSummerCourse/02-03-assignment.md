@@ -1,32 +1,12 @@
 ---
 title: "Bài tập tuần 2"
 permalink: /pythonSummerCourse/week-02-assignment/
-last_modified_at: 2022-07-18
+last_modified_at: 2022-07-25
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-## Lưu ý khi nộp bài
-Học viên cần thực hiện đúng theo những bước được mô tả trong thông báo của lớp học, trong đó có việc đặt tên các file/thư mục theo đúng hướng dẫn.
-
-Bài nộp mỗi tuần của mỗi học viên chỉ gồm một file nén với định dạng `.zip`. Dưới đây là danh sách một số file nộp của học viên sai định dạng và/hoặc sai quy tắc đặt tên.
-
-```txt
-DƯ KHÁNH - Tuần 1.docx
-week01_student45_NguyenDucSon.txt
-Cau1.py
-Python.py
-tuần 1.py
-Week1.py
-01_36_PhamTuanNghia.zip
-ưeek01_student49_DuongNgocThai.zip
- week01_student06_NguyenNgocAnh.zip  (thừa một dấu cách)
-week01_assignment01_student29_KieuThiNgocLinh.zip
-week1_student12_TranKhanhDu.zip
-Week01_student60_VUTHITHANHVAN.zip
-Week1_student44_LeQuangSang.zip
-```
 
 ## Bài tập bắt buộc
 

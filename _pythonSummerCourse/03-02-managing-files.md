@@ -1,7 +1,7 @@
 ---
 title: "Bài 7. Thao tác với file dữ liệu"
 permalink: /pythonSummerCourse/week-03-managing-files/
-last_modified_at: 2022-07-24
+last_modified_at: 2022-07-25
 redirect_from:
   - /theme-setup/
 toc: false
@@ -211,6 +211,8 @@ filePath = Path('subFolder/newData.txt')
 parentFolder = filePath.parent
 parentFolder.mkdir(exist_ok = True)
 ```
+
+> Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
 Tài liệu chính

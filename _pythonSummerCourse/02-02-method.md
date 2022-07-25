@@ -1,7 +1,7 @@
 ---
 title: "Bài 5. Phương thức"
 permalink: /pythonSummerCourse/week-02-method/
-last_modified_at: 2022-07-17
+last_modified_at: 2022-07-18
 redirect_from:
   - /theme-setup/
 toc: false
@@ -35,6 +35,7 @@ print(total(2, 4))
 ### 1.3. Tham số mặc định
 - Tham số của hàm có thể có giá trị mặc định, giá trị này có thể bỏ qua trong lời gọi hàm.
 - Ví dụ
+
 ```py
 def total(y, x = 5):
     return x + y
@@ -43,11 +44,13 @@ s = 12
 print(total(s))   # 17
 print(total(s, 24))  # 36
 ```
+
 ### 1.4. Tham số có tiền tố `*` và `**`
 - Trong Python, sử dụng tiền tố `*` để đánh dấu một tham số không cố định về số lượng tham số.
 - Tiền tố `**` đánh dấu tham số mà mỗi đối số là 1 cặp khóa - giá trị (key - value).
 
 Ví dụ với tiền tố `*`
+
 ```py
 def total(*numbers):
     result = 0
@@ -110,7 +113,7 @@ print(type(True))  # <class 'bool'>
 print(type(False))  # <class 'bool'>
 ```
 ### 3.2. Conditionals
-- Python có hỗ trợ các điều kiện logic thông thường như: `==`, `!=`, `<`, `<=`, `>`, `>=`.
+- Python hỗ trợ các điều kiện logic thông thường như: `==`, `!=`, `<`, `<=`, `>`, `>=`.
 ```py
 >>> age = 22
 >>> age < 25
@@ -145,9 +148,13 @@ while i < 4:
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
+
+Tài liệu chính
 - PythonCrashCourse (trang 72-90, 130-155)
+- [Bài viết về `pass`](https://realpython.com/python-pass/) trên trang web Real Python
+
+Tài liệu bổ sung
 - SeriousPython (trang 122-145)
 - ThinkPython (trang 47-74)
 - Danh sách [các hàm có sẵn](https://docs.python.org/3/library/functions.html) (built-in) trong Python
 - [Hướng dẫn viết bình luận](https://realpython.com/python-comments-guide/) (comment) trong Python
-- [Bài viết về `pass`](https://realpython.com/python-pass/) trên trang web Real Python

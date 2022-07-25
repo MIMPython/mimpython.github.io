@@ -1,7 +1,7 @@
 ---
 title: "Bài 11. List comprehension"
 permalink: /pythonSummerCourse/week-04-list-comprehension/
-last_modified_at: 2022-07-22
+last_modified_at: 2022-07-25
 redirect_from:
   - /theme-setup/
 toc: false
@@ -12,8 +12,7 @@ toc: false
 ```py
 squares = [value ** 2 for value in range(10)]
 print(squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-```
-```py
+
 result = ["even" if i % 2 == 0 else "odd" for i in range(5)]
 print(result)  # ['even', 'odd', 'even', 'odd', 'even']
 ```

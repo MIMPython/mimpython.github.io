@@ -1,11 +1,15 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-07-17
+last_modified_at: 2022-07-25
 redirect_from:
   - /theme-setup/
 toc: false
 ---
+
+Bài tập tuần 3 gồm 11 bài tập, bao gồm
+- 7 bài tập bắt buộc: 1, 2, 3, 4, 5, 6, 11
+- 4 bài tập bổ sung: 7, 8, 9, 10
 
 ## Bài tập bắt buộc
 
@@ -49,6 +53,17 @@ Hãy trả lời những câu hỏi trên bằng cách thực hiện các yêu c
 
 (c) Tìm mối liên hệ giữa giá trị của $P$ và $\pi$. *Gợi ý:* $P \approx\frac{a}{\pi^b}$ với $a, b$ là hai số dương.
 
+**Bài tập 11.** (git) \
+Thực hiện những yêu cầu dưới đây \
+a) Tạo một repository (sử dụng lệnh `git init`). \
+b) Thực hiện ít nhất 3 commit trong repository này. \
+c) Đăng repository này lên trang Github cá nhân, đặt chế độ công khai. \
+d) Đặt link của repository trong phần trình bày của bài tập này. Ví dụ
+  ```py
+  """
+  https://github.com/MIMPython/mimpython.github.io
+  """
+  ```
 
 ## Bài tập bổ sung
 

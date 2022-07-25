@@ -14,6 +14,8 @@ Nội dung kiến thức
 - Positional arguments, keyword arguments
 - Asterisk (∗) operator and double asterisk (∗∗) operator in method arguments
 
+Giải thích ý nghĩa của `**kwargs`: nó được dùng khi ta cần chuyền tiếp **toàn bộ** tham số đó đến hàm con. Cách làm này thường được sử dụng ở các thư viện như matplotlib và numpy.
+
 Tài liệu tham khảo
 - PythonCrashCourse (trang 130-136)
 - ThinkPython (trang 232)

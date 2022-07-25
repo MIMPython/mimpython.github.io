@@ -8,12 +8,12 @@ toc: false
 ---
 
 
-Bài tập tuần 2 gồm 11 bài tập, bao gồm
+Bài tập tuần 2 gồm 12 bài tập, bao gồm
 - 7 bài tập bắt buộc: 1, 2, 3, 4, 5, 6, 7.
-- 4 bài tập bổ sung: 8, 9, 10, 11.
+- 5 bài tập bổ sung: 8, 9, 10, 11, 12.
 
 Cập nhật
-- 25/07/2022. Bổ sung bài tập 11.
+- 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 
 
 ## Danh sách bài tập
@@ -160,3 +160,6 @@ foo = ('a'),
 bar = 'a',
 ham = ('a', )
 ```
+
+**Bài tập 12.** (university scoring) \
+Viết một hàm nhận vào ba điểm thành phần (điểm thường xuyên, điểm giữa kỳ, điểm cuối kỳ) của sinh viên và trả về điểm chữ tương ứng.

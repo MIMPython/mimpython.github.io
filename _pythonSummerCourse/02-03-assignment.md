@@ -8,7 +8,15 @@ toc: false
 ---
 
 
-## Bài tập bắt buộc
+Bài tập tuần 2 gồm 11 bài tập, bao gồm
+- 7 bài tập bắt buộc: 1, 2, 3, 4, 5, 6, 7.
+- 4 bài tập bổ sung: 8, 9, 10, 11.
+
+Cập nhật
+- 25/07/2022. Bổ sung bài tập 11.
+
+
+## Danh sách bài tập
 
 **Bài tập 1.** Hãy trả lời những câu hỏi, thực hiện những yêu cầu sau đây
 
@@ -107,8 +115,6 @@ Hình dưới đây thể hiện mã Caesar **ROT-19**, khi vòng chữ cái tro
 
 **ROT-13** là một trong những mã Caesar phổ biến nhất. Hãy viết chương trình mã hóa (chuyển từ thông điệp gốc sang thông điệp mã hóa) và chương trình giải mã (chuyển từ thông điệp mã hóa sang thông điệp gốc) cho **ROT-13**.
 
-## Bài tập bổ sung
-
 **Bài tập 8.** Viết chương trình in ra các hình sau
 
 ```txt
@@ -141,7 +147,16 @@ print('*****')
 print('******')
 ```
 
-**Bài tập 9.** (Tic-tac-toe) Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\times 3$. Hãy trình bày đầy đủ luật chơi và viết một chương trình đưa ra kết quả của một ván chơi dựa trên các nước đi được thực hiện. Học viên tự thiết kế input/output của chương trình.
+**Bài tập 9.** (Tic-tac-toe) \
+Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\times 3$. Hãy trình bày đầy đủ luật chơi và viết một chương trình đưa ra kết quả của một ván chơi dựa trên các nước đi được thực hiện. Học viên tự thiết kế input/output của chương trình.
 
-**Bài tập 10.** (Equilateral polygon)
+**Bài tập 10.** (Equilateral polygon) \
 Trên mặt phẳng $Oxy$, cho trước hai điểm phân biệt $A, B$. Viết một chương trình xác định vị trí (những) điểm $C$ (nếu có) sao cho tam giác $ABC$ là một tam giác đều. Tạo một bức ảnh với tam giác $ABC$ vừa tìm được.
+
+**Bài tập 11.** (variables) \
+Ba biến sau đây có bằng nhau hay không?
+```py
+foo = ('a'),
+bar = 'a',
+ham = ('a', )
+```

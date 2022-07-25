@@ -8,7 +8,7 @@ toc: false
 ---
 
 ## 1. List comprehension
-- List comprehension cung cấp cú pháp ngắn hơn khi bạn muốn tạo một danh sách mới dựa trên các giá trị của danh sách hiện có.
+List comprehension cung cấp cú pháp ngắn hơn khi bạn muốn tạo một danh sách mới dựa trên các giá trị của danh sách hiện có.
 ```py
 squares = [value ** 2 for value in range(10)]
 print(squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -40,7 +40,7 @@ print(result)  # ['even', 'odd', 'even', 'odd', 'even']
   ```
 
 ### 2.2. filter
-- filter trong python có dạng filter(function or None, iterable) và filter cho mỗi iterm trong iterable dựa trên các kết quả trả về của function.
+- filter trong python có dạng filter(function or None, iterable) và filter cho mỗi item trong iterable dựa trên các kết quả trả về của function.
   ```py
   def checkEven(number):
       return number % 2 == 0
@@ -63,28 +63,30 @@ print(result)  # ['even', 'odd', 'even', 'odd', 'even']
 - dict comprehension là cách viết ngắn gọn để tạo một từ điển (dictionary) trong Python.
   ```py
   squareDict = dict()
-  for i in range(10):
+  for i in range(5):
       squareDict[i] = i * i
 
-  print(squareDict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+  print(squareDict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
   ```
 - Khi sử dụng dict comprehension cho đoạn code trên thì
   ```py
-  squareDict = {i: i * i for i in range(10)}
-  print(squareDict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+  squareDict = {i: i * i for i in range(5)}
+  print(squareDict)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
   ```
 - Sử dụng dict comprehension với điều kiện `if`
   ```py
   personInformation = {'Jack': 28, 'Allex': 41, 'Geomo': 50, 'John': 37}
 
-  evenAgeDict = {name: age for (name, age) in personInformation.items() if age % 2 == 0}
+  evenAgeDict = {name: age for (name, age) in personInformation.items()
+                 if age % 2 == 0}
   print(evenAgeDict)  # {'Jack': 28, 'Geomo': 50}
   ```
 - Sử dụng dict comprehension với nhiều điều kiện `if`
   ```py
   personInformation = {'Jack': 28, 'Allex': 41, 'Geomo': 50, 'John': 37}
 
-  evenDict = {name: age for (name, age) in personInformation.items() if age % 2 != 0 if age < 40}
+  evenDict = {name: age for (name, age) in personInformation.items()
+              if age % 2 != 0 if age < 40}
   print(evenDict)  # {'John': 37}
   ```
 - Sử dụng dict comprehension với điều kiện `if-else`
@@ -93,7 +95,8 @@ print(result)  # ['even', 'odd', 'even', 'odd', 'even']
 
   newDict = {name: ('old' if age > 40 else 'young')
             for (name, age) in personInformationDict.items()}
-  print(newDict)  # {'Jack': 'young', 'Allex': 'old', 'Geomo': 'old', 'John': 'young'}
+  print(newDict)
+  # {'Jack': 'young', 'Allex': 'old', 'Geomo': 'old', 'John': 'young'}
   ```
 
 ### 3.2. set comprehension

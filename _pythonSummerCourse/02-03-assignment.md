@@ -9,8 +9,8 @@ toc: false
 
 
 Bài tập tuần 2 gồm 12 bài tập, bao gồm
-- 7 bài tập bắt buộc: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
-- 5 bài tập bổ sung: 8, 9, 10, 11, 12.
+- 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
+- 5 bài tập nâng cao: 8, 9, 10, 11, 12.
 
 Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.

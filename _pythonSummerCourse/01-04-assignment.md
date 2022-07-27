@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 1"
 permalink: /pythonSummerCourse/week-01-assignment/
-last_modified_at: 2022-07-25
+last_modified_at: 2022-07-27
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,7 +10,7 @@ toc: false
 Học viên trình bày câu trả lời của **mỗi bài tập** dưới đây trong **một file `.py`** có tên được theo đúng hướng dẫn.
 
 Bài tập tuần 1 gồm 3 bài tập, bao gồm
-- 3 bài tập bắt buộc: 1, 2, 3.
+- 3 bài tập cơ bản: 1, 2, 3 (làm tối thiểu 3 bài).
 
 
 ## Danh sách bài tập

@@ -102,7 +102,7 @@ Output:
 ```
 
 ### 1.5. Argument Dictionary Unpacking
-Truyền tất cả tham số vào hàm dưới dạng 1 dictionay. Cách làm này thường được sử dụng ở các thư viện như matplotlib và numpy.
+Truyền tất cả tham số vào hàm dưới dạng 1 dictionary. Cách làm này thường được sử dụng ở các thư viện như matplotlib và numpy.
 ```py
 describeYasuo = {'name': 'Yasuo',
                  'health': 100,

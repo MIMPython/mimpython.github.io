@@ -1,13 +1,19 @@
 ---
 title: "Bài tập tuần 1"
 permalink: /pythonSummerCourse/week-01-assignment/
-last_modified_at: 2022-07-16
+last_modified_at: 2022-07-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 Học viên trình bày câu trả lời của **mỗi bài tập** dưới đây trong **một file `.py`** có tên được theo đúng hướng dẫn.
+
+Bài tập tuần 1 gồm 3 bài tập, bao gồm
+- 3 bài tập cơ bản: 1, 2, 3 (làm tối thiểu 3 bài).
+
+
+## Danh sách bài tập
 
 **Bài tập 1.** Python \
 a) Ngôn ngữ lập trình Python được tạo ra bởi ai và vào thời gian nào? \

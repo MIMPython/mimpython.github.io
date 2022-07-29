@@ -1,34 +1,23 @@
 ---
 title: "Bài tập tuần 2"
 permalink: /pythonSummerCourse/week-02-assignment/
-last_modified_at: 2022-07-18
+last_modified_at: 2022-07-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-## Lưu ý khi nộp bài
-Học viên cần thực hiện đúng theo những bước được mô tả trong thông báo của lớp học, trong đó có việc đặt tên các file/thư mục theo đúng hướng dẫn.
 
-Bài nộp mỗi tuần của mỗi học viên chỉ gồm một file nén với định dạng `.zip`. Dưới đây là danh sách một số file nộp của học viên sai định dạng và/hoặc sai quy tắc đặt tên.
+Bài tập tuần 2 gồm 12 bài tập, bao gồm
+- 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
+- 5 bài tập nâng cao: 8, 9, 10, 11, 12.
 
-```txt
-DƯ KHÁNH - Tuần 1.docx
-week01_student45_NguyenDucSon.txt
-Cau1.py
-Python.py
-tuần 1.py
-Week1.py
-01_36_PhamTuanNghia.zip
-ưeek01_student49_DuongNgocThai.zip
- week01_student06_NguyenNgocAnh.zip  (thừa một dấu cách)
-week01_assignment01_student29_KieuThiNgocLinh.zip
-week1_student12_TranKhanhDu.zip
-Week01_student60_VUTHITHANHVAN.zip
-Week1_student44_LeQuangSang.zip
-```
+Cập nhật
+- 25/07/2022. Bổ sung bài tập 11, bài tập 12.
+- 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
 
-## Bài tập bắt buộc
+
+## Danh sách bài tập
 
 **Bài tập 1.** Hãy trả lời những câu hỏi, thực hiện những yêu cầu sau đây
 
@@ -127,8 +116,6 @@ Hình dưới đây thể hiện mã Caesar **ROT-19**, khi vòng chữ cái tro
 
 **ROT-13** là một trong những mã Caesar phổ biến nhất. Hãy viết chương trình mã hóa (chuyển từ thông điệp gốc sang thông điệp mã hóa) và chương trình giải mã (chuyển từ thông điệp mã hóa sang thông điệp gốc) cho **ROT-13**.
 
-## Bài tập bổ sung
-
 **Bài tập 8.** Viết chương trình in ra các hình sau
 
 ```txt
@@ -161,7 +148,19 @@ print('*****')
 print('******')
 ```
 
-**Bài tập 9.** (Tic-tac-toe) Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\times 3$. Hãy trình bày đầy đủ luật chơi và viết một chương trình đưa ra kết quả của một ván chơi dựa trên các nước đi được thực hiện. Học viên tự thiết kế input/output của chương trình.
+**Bài tập 9.** (Tic-tac-toe) \
+Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\times 3$. Hãy trình bày đầy đủ luật chơi và viết một chương trình đưa ra kết quả của một ván chơi dựa trên các nước đi được thực hiện. Học viên tự thiết kế input/output của chương trình.
 
-**Bài tập 10.** (Equilateral polygon)
+**Bài tập 10.** (Equilateral polygon) \
 Trên mặt phẳng $Oxy$, cho trước hai điểm phân biệt $A, B$. Viết một chương trình xác định vị trí (những) điểm $C$ (nếu có) sao cho tam giác $ABC$ là một tam giác đều. Tạo một bức ảnh với tam giác $ABC$ vừa tìm được.
+
+**Bài tập 11.** (variables) \
+Ba biến sau đây có bằng nhau hay không?
+```py
+foo = ('a'),
+bar = 'a',
+ham = ('a', )
+```
+
+**Bài tập 12.** (university scoring) \
+Viết một hàm nhận vào ba điểm thành phần (điểm thường xuyên, điểm giữa kỳ, điểm cuối kỳ) của sinh viên và trả về điểm chữ tương ứng.

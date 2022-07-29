@@ -1,13 +1,23 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-07-17
+last_modified_at: 2022-07-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-## Bài tập bắt buộc
+
+Bài tập tuần 3 gồm 12 bài tập, bao gồm
+- 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 11 (làm tối thiểu 5 bài).
+- 5 bài tập nâng cao: 7, 8, 9, 10, 12.
+
+Cập nhật
+- 25/07/2022. Bổ sung bài tập 11, bài tập 12.
+- 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
+
+
+## Danh sách bài tập
 
 **Bài tập 1.** (infinite loop)
 
@@ -49,9 +59,6 @@ Hãy trả lời những câu hỏi trên bằng cách thực hiện các yêu c
 
 (c) Tìm mối liên hệ giữa giá trị của $P$ và $\pi$. *Gợi ý:* $P \approx\frac{a}{\pi^b}$ với $a, b$ là hai số dương.
 
-
-## Bài tập bổ sung
-
 **Bài tập 7.** (largest prime factor) \
 Giải quyết [bài toán 3](https://projecteuler.net/problem=3) trên trang web Project Euler.
 
@@ -83,7 +90,6 @@ Ngoài việc tạo tài khoản với tên đăng nhập và mật khẩu, mô 
     padding-bottom:20px;">
 </div>
 
-
 **Bài tập 10.** (do-while conversion)
 
 Trong [một bài viết](https://www.programiz.com/cpp-programming/do-while-loop) trên trang web Programiz, ta biết rằng cấu trúc vòng lặp `do-while` trong ngôn ngữ lập trình C++ có dạng
@@ -110,3 +116,24 @@ Chương trình thực thi khối lệnh trong phần `do`, sau đó kiểm tra 
 
 (a) So sánh vòng lặp `do-while` trong C++ với vòng lặp `while` trong Python. \
 (b) Có thể biến đổi tương đương đoạn code sử dụng `do-while` trong C++ sang đoạn code sử dụng `while` trong Python hay không?
+
+**Bài tập 11.** (git) \
+Thực hiện những yêu cầu dưới đây \
+a) Tạo một repository (sử dụng lệnh `git init`). \
+b) Thực hiện ít nhất 3 commit trong repository này. \
+c) Đăng repository này lên trang Github cá nhân, đặt chế độ công khai. \
+d) Đặt link của repository trong phần trình bày của bài tập này. Ví dụ
+  ```py
+  """
+  https://github.com/MIMPython/mimpython.github.io
+  """
+  ```
+
+**Bài tập 12.** \
+Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 đến $n$ theo chiều dương. Ví dụ với $n=14$
+```
+ 7  6  5
+ 8  1  4
+ 9  2  3 14
+10 11 12 13
+```

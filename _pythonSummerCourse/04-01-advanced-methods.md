@@ -7,14 +7,191 @@ redirect_from:
 toc: false
 ---
 
-Nội dung kiến thức
-- arguments, keyword, default arguments
-- Sorting, optional reverse parameter, optional key parameter
-- Hàm `lambda`
-- Positional arguments, keyword arguments
-- Asterisk (∗) operator and double asterisk (∗∗) operator in method arguments
+## 1. Arguments
+```py
+# Positional arguments: must agree in order
+# and number with the parameters declared in the function definition.
+def describeChampion(name, health, mana, ultSkill):
+  print(f'{name} is a champion in League of Legends with {health} HP and {mana} MP')
+  print(f'Ultimate skill of {name} is {ultSkill}')
 
-Tài liệu tham khảo
+describeChampion('Yasuo', 650, 0, 'Last breath')
+"""
+Output:
+  Yasuo is a champion in League of Legends with 650 HP and 0 MP
+  Ultimate skill of Yasuo is Last breath
+"""
+describeChampion(650, 0, 'Yasuo', 'Last breath')
+"""
+Output:
+  650 is a champion in League of Legends with Yasuo HP and 0 MP
+  Ultimate skill of 650 is Last breath
+"""
+
+
+# Keyword arguments: must agree with declared parameters in number,
+# but they may be specified in arbitrary order.
+describeChampion(name='Yasuo', health=650, mana=0, ultSkill='Last breath')
+"""
+Output:
+  Yasuo is a champion in League of Legends with 650 HP and 0 MP
+  Ultimate skill of Yasuo is Last breath
+"""
+
+describeChampion(health=650, mana=0, ultSkill='Last breath', name='Yasuo')
+"""
+Output:
+  Yasuo is a champion in League of Legends with 650 HP and 0 MP
+  Ultimate skill of Yasuo is Last breath
+"""
+
+
+# Default value: allow some arguments to be omitted when the function is called.
+def describeChampion(name='Yasuo',
+                       health=650,
+                       mana=0,
+                       ultSkill='Last breath'):
+  print(f'{name} is a champion in League of Legends with {health} HP and {mana} MP')
+  print(f'Ultimate skill of {name} is {ultSkill}')
+
+describeChampion()
+"""
+Output:
+  Yasuo is a champion in League of Legends with 650 HP and 0 MP
+  Ultimate skill of Yasuo is Last breath
+"""
+
+
+# Argument Tuple Packing: any corresponding arguments in the function call are packed
+# into a tuple that the function can refer to by the given parameter name
+def sumOfManyNumbers(*args):
+  print(type(args))
+  return sum(args)
+
+print(sumOfManyNumbers(1, 2, 3))
+"""
+Output:
+  <class 'tuple'>
+  6
+"""
+numbersList = [1, 2, 3, 4, 5]
+print(sumOfManyNumbers(*numbersList))
+"""
+Output:
+  <class 'tuple'>
+ 15
+"""
+
+
+# Argument Dictionary Unpacking: the argument is a dictionary that should be unpacked
+# with the resulting items passed to the function as keyword arguments.
+def describeChampion(name, health, mana, ultSkill):
+  print(f'{name} is a champion in League of Legends with {health} HP and {mana} MP')
+  print(f'Ultimate skill of {name} is {ultSkill}')
+
+describeYasuo = {'name': 'Yasuo',
+                 'health': 100,
+                 'mana': 0,
+                 'ultSkill': 'Last breath'}
+describeChampion(**describeYasuo)
+"""
+Output:
+  Yasuo is a champion in League of Legends with 650 HP and 0 MP
+  Ultimate skill of Yasuo is Last breath
+"""
+
+def printDictionary(**kwargs):
+  for key, val in kwargs.items():
+    print(f'{key}: {val}')
+
+printDictionary(a=1, b=2, c=3)
+"""
+Output:
+  a: 1
+  b: 2
+  c: 3
+"""
+numberDictionary = {'a': 1, 'b': 2, 'c': 3}
+printDictionary(**numberDictionary)
+"""
+Output:
+  a: 1
+  b: 2
+  c: 3
+"""
+```
+
+## 2. Lambda calculus
+```py
+# Example lambda
+square = lambda x: x**2
+print(square(2)) # 4
+
+describeChampion = lambda name, ultSkill: f'Ultimate skill of {name} is {ultSkill}'
+print(describeChampion('Yasuo', 'Last breath'))
+"""
+Output:
+  Ultimate skill of Yasuo is Last breath
+"""
+
+
+# Arguments
+describeChampion = lambda name, ultSkill='Last breath': f'Ultimate skill of {name} is {ultSkill}'
+print(describeChampion('Yasuo'))
+"""
+Output:
+  Ultimate skill of Yasuo is Last breath
+"""
+print(describeChampion(name='Yasuo'))
+"""
+Output:
+  Ultimate skill of Yasuo is Last breath
+"""
+sumOfManyNumbers = lambda *args: sum(args)
+print(sumOfManyNumbers(1, 2, 3)) # 6
+
+sumOfManyNumbers = lambda **kwargs: sum(kwargs.values())
+print(sumOfManyNumbers(a=1, b=2, c=3)) # 6
+```
+
+## 3. Sorting
+```py
+# sort()
+# Ascending
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+numbersList.sort()
+print(numbersList) # [-6, -2, 1, 3, 6, 7, 9]
+# Descending
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+numbersList.sort(reverse= True)
+print(numbersList) # [9, 7, 6, 3, 1, -2, -6]
+# Sort by function
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+numbersList.sort(key=lambda x: x**2)
+print(numbersList) # [1, -2, 3, 6, -6, 7, 9]
+
+
+# sorted()
+# Ascending
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+sortedNumbersList = sorted(numbersList)
+print(numbersList) # [3, 6, 1, -2, 7, 9, -6]
+print(sortedNumbersList) # [-6, -2, 1, 3, 6, 7, 9]
+# Descending
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+sortedNumbersList = sorted(numbersList, reverse=True)
+print(numbersList) # [3, 6, 1, -2, 7, 9, -6]
+print(sortedNumbersList) # [9, 7, 6, 3, 1, -2, -6]
+# Sort by function
+numbersList = [3, 6, 1, -2, 7, 9, -6]
+sortedNumbersList = sorted(numbersList, key=lambda x: x**2)
+print(numbersList) # [3, 6, 1, -2, 7, 9, -6]
+print(sortedNumbersList) # [1, -2, 3, 6, -6, 7, 9]
+```
+
+> Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
+
+## Tài liệu tham khảo
 - PythonCrashCourse (trang 130-136)
 - ThinkPython (trang 232)
 - Bài viết về nguyên lý [EAFP](https://blogs.msdn.microsoft.com/pythonengineering/2016/06/29/idiomatic-python-eafp-versus-lbyl/) (It’s Easier to Ask for Forgiveness than Permission)

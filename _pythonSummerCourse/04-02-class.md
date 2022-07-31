@@ -6,12 +6,15 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
+
 ## 1. Class trong Python
+
+Đoạn code dưới đây chứa một class đơn giản minh họa cho các thuộc tính, phương thức trong một class.
+
 ```py
 class Person:
-    """
-        Initialize a simple class.
-    """
+    """Initialize a simple class."""
+
     def __init__(self, name, age):
         """Initialize name and age attributes."""
         self.name = name
@@ -21,73 +24,63 @@ class Person:
         """Indicate a person sitting."""
         print(f"{self.name} is now sitting.")
 ```
-- Ở ví dụ trên, mỗi người được tạo ra từ lớp Person sẽ được lưu trữ tên (name), tuổi (age) và có hành động ngồi (sit()).
+
+Ở ví dụ trên, mỗi người được tạo ra từ lớp Person sẽ được lưu trữ tên (`name`), tuổi (`age`) và có hành động ngồi (`sit()`).
 
 ## 2. Các thuộc tính, phương thức của một class
+
 ### 2.1 Thuộc tính trong class
-- Dựa vào ví dụ trên, các biến `name` và `age` được gọi là thuộc tính.
-- Để truy cập các thuộc tính
-  ```py
-  myFriend = Person('John', 22)
-  print(myFriend.name)  # John
-  ```
-- Một số thuộc tính mặc định (built-in) như `__doc__`, `__class__`, `__name__`, `__dict__`, `__module__`, ...
-  - Ví dụ `__doc__` trong class và trong function cũng có.
-    ```py
-      print(sit.__doc__)  # Indicate a person sitting.
-    print(Person.__doc__)  # Initialize a simple class.
-    ```
-  - Ví dụ `__class__`
-    ```py
-    print(myFriend.__class__)  # <class '__main__.Person'>
-    ```
-  - Ví dụ `__name__`
-    ```py
-    print(Person.__name__)  # Person
-    ```
+Trong class `Person`, các biến `name` và `age` được gọi là thuộc tính. Một số thuộc tính mặc định (built-in) có thể kể đến như `__doc__`, `__class__`, `__name__`, `__dict__`, `__module__`, ...
+
+```py
+myFriend = Person('John', 22)
+# access an attribute
+print(myFriend.name)  # John
+
+print(Person.__doc__)  # Initialize a simple class.
+print(Person.sit.__doc__)  # Indicate a person sitting.
+
+print(myFriend.__class__)  # <class '__main__.Person'>
+
+print(Person.__name__)  # Person
+print(myFriend.__class__.__name__)  # Person
+```
 
 ### 2.2. Phương thức trong class
-- `sit()` là một phương thức trong class `Person`.
-- Để gọi phương thức trong class
+Phương thức `sit()` là một phương thức trong class `Person`.
 ```py
 myFriend.sit()  # John is now sitting.
 ```
 
 ## 3. `@classmethod`, `@staticmethod`, `@property` decorators
-### 3.1. `@classmethod`
-- Dùng `@classmethod` để đánh dấu cho một class method.
-- Thay vì sử dụng tham số `self` thì class method dùng tham số `cls`.
-  ```py
-  from datetime import date
 
+Trong mục này ta sử dụng class `Person` được mô tả dưới đây.
 
-      # a class method to create a Person object by birth year.
-      @classmethod
-      def initializeBirthYear(cls, name, year):
-          return cls(name, date.today().year - year)
+```py
+from datetime import date
 
-  personA = Person('John', 22)
-  personB = Person.initializeBirthYear('John', 2000)
+class Person:
+    """Initialize a simple class."""
 
-  print(personA.age)  # 22
-  print(personB.age)  # 22
-  ```
+    def __init__(self, name, age):
+        """Initialize name and age attributes."""
+        self.name = name
+        self.age = age
 
-### 3.2. `@staticmethod`
-- Dùng `@staticmethod` để đánh đấu cho một static method.
-- Không dùng tham số `self` và `cls`.
-  ```py
-      # a static method to check if a Person is retirement or not.
-      @staticmethod
-      def isRetired(age):
-          return age > 65
+    def sit(self):
+        """Indicate a person sitting."""
+        print(f"{self.name} is now sitting.")
 
-  print(Person.isRetired(68))  # True
-  ```
+    @classmethod
+    def initializeBirthYear(cls, name, year):
+        """Create a Person object by given birth year."""
+        return cls(name, date.today().year - year)
 
-### 3.3 `@property`
-- Trong Python property() được sử dụng như một decorators, có thể sử dụng `@property` để đánh dấu.
-  ```py
+    @staticmethod
+    def isRetired(age):
+        """Check if a person with given age is retired or not."""
+        return age > 65
+
     @property
     def height(self):
       """The height property."""
@@ -103,7 +96,29 @@ myFriend.sit()  # John is now sitting.
     def height(self):
       print("Delete height")
       del self._height
+```
+
+
+### 3.1. `@classmethod`
+- Dùng `@classmethod` để đánh dấu cho một class method.
+- Thay vì sử dụng tham số `self` thì class method dùng tham số `cls`.
+  ```py
+  personA = Person('John', 22)
+  personB = Person.initializeBirthYear('Wick', 1964)
+
+  print(personA.age)  # 22
+  print(personB.age)  # 58
   ```
+
+### 3.2. `@staticmethod`
+- Dùng `@staticmethod` để đánh đấu cho một static method.
+- Không dùng tham số `self` và `cls`.
+  ```py
+  print(Person.isRetired(68))  # True
+  ```
+
+### 3.3 `@property`
+- Trong Python property() được sử dụng như một decorators, có thể sử dụng `@property` để đánh dấu.
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 

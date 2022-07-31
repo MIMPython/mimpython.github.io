@@ -1,25 +1,26 @@
 ---
 title: "Bài 10. Lớp (class)"
 permalink: /pythonSummerCourse/week-04-class/
-last_modified_at: 2022-07-30
+last_modified_at: 2022-07-31
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 ## 1. Class trong Python
-  ```py
-  class Person:
-      """
-      Initialize a simple class.
-      """
-      def __init__(self, name, age):
-          """Initialize name and age attributes."""
-          self.name = name
-          self._age = age
+```py
+class Person:
+    """
+        Initialize a simple class.
+    """
+    def __init__(self, name, age):
+        """Initialize name and age attributes."""
+        self.name = name
+        self.age = age
 
-      def sit(self):
-          print(f"{self.name} is now sitting.")
-  ```
+    def sit(self):
+        """Indicate a person sitting."""
+        print(f"{self.name} is now sitting.")
+```
 - Ở ví dụ trên, mỗi người được tạo ra từ lớp Person sẽ được lưu trữ tên (name), tuổi (age) và có hành động ngồi (sit()).
 
 ## 2. Các thuộc tính, phương thức của một class
@@ -33,6 +34,7 @@ toc: false
 - Một số thuộc tính mặc định (built-in) như `__doc__`, `__class__`, `__name__`, `__dict__`, `__module__`, ...
   - Ví dụ `__doc__` trong class và trong function cũng có.
     ```py
+      print(sit.__doc__)  # Indicate a person sitting.
     print(Person.__doc__)  # Initialize a simple class.
     ```
   - Ví dụ `__class__`
@@ -45,7 +47,7 @@ toc: false
     ```
 
 ### 2.2. Phương thức trong class
-- Tại ví dụ ở phần 1 (Class trong Python), `sit()` được gọi là 1 phương thức trong class.
+- `sit()` là một phương thức trong class `Person`.
 - Để gọi phương thức trong class
 ```py
 myFriend.sit()  # John is now sitting.
@@ -59,22 +61,13 @@ myFriend.sit()  # John is now sitting.
   from datetime import date
 
 
-  class Person:
-      """
-      Initialize a simple class.
-      """
-      def __init__(self, name, age):
-          """Initialize name and age attributes."""
-          self.name = name
-          self._age = age
-
       # a class method to create a Person object by birth year.
       @classmethod
-      def birthYear(cls, name, year):
+      def initializeBirthYear(cls, name, year):
           return cls(name, date.today().year - year)
 
   personA = Person('John', 22)
-  personB = Person.birthYear('John', 2000)
+  personB = Person.initializeBirthYear('John', 2000)
 
   print(personA.age)  # 22
   print(personB.age)  # 22
@@ -84,47 +77,33 @@ myFriend.sit()  # John is now sitting.
 - Dùng `@staticmethod` để đánh đấu cho một static method.
 - Không dùng tham số `self` và `cls`.
   ```py
-  class Person:
-      """
-        Initialize a simple class.
-      """
-      def __init__(self, name, age):
-          """Initialize name and age attributes."""
-          self.name = name
-          self._age = age
-
       # a static method to check if a Person is retirement or not.
       @staticmethod
-      def isRetirement(age):
+      def isRetired(age):
           return age > 65
 
-  print(Person.isRetirement(68))  # True
+  print(Person.isRetired(68))  # True
   ```
 
 ### 3.3 `@property`
 - Trong Python property() được sử dụng như một decorators, có thể sử dụng `@property` để đánh dấu.
-```py
-class Person:
-    """
-        Initialize a simple class.
-    """
-    def __init__(self, name, age):
-        """Initialize name and age attributes."""
-        self.name = name
-        self._age = age
-
+  ```py
     @property
-    def age(self):
-        return self._age
+    def height(self):
+      """The height property."""
+      print("Get height")
+      return self._height
 
-    @age.setter
-    def age(self, age):
-        self._age = age
+    @height.setter
+    def height(self, height):
+      print("Set height")
+      self._height = height
 
-    @age.deleter
-    def age(self):
-        del self._age
-```
+    @height.deleter
+    def height(self):
+      print("Delete height")
+      del self._height
+  ```
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 

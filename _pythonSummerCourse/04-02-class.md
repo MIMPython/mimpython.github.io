@@ -29,7 +29,7 @@ class Person:
 
 ## 2. Các thuộc tính, phương thức của một class
 
-### 2.1 Thuộc tính trong class
+### 2.1. Thuộc tính trong class
 Trong class `Person`, các biến `name` và `age` được gọi là thuộc tính. Một số thuộc tính mặc định (built-in) có thể kể đến như `__doc__`, `__class__`, `__name__`, `__dict__`, `__module__`, ...
 
 ```py
@@ -117,7 +117,7 @@ class Person:
   print(Person.isRetired(68))  # True
   ```
 
-### 3.3 `@property`
+### 3.3. `@property`
 - Trong Python property() được sử dụng như một decorators, có thể sử dụng `@property` để đánh dấu.
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.

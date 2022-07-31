@@ -16,7 +16,7 @@ Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
 - 31/07/2022. Đổi thứ tự bài tập 11 và bài tập 12, bổ sung bài tập 13 và bài tập 14.
-- 31/07/2022. Mô tả chi tiết bài tâp 3.
+- 31/07/2022. Làm rõ nội dung của bài tập 3 và bài tập 6.
 
 
 ## Danh sách bài tập
@@ -97,7 +97,7 @@ Hãy thực hiện những yêu cầu sau
 
 $$a x^2 + b x + c = 0.$$
 
-Input: ba số a, b, c **bất kỳ** \
+Input: ba số $a, b, c$ **không đồng thời bằng 0** \
 Output: một tuple chứa tất cả các nghiệm thực (phân biệt), xếp theo thứ tự tăng dần, của phương trình $a x^2 + b x + c = 0.$ \
 Ví dụ
 ```py
@@ -108,6 +108,9 @@ foo(1, 0, 1) # ()
 Chú ý.
 - Có thể tạo nhiều hàm con để thực hiện các công việc khác nhau bổ trợ cho hàm chính.
 - Hàm chính chỉ trả về tuple được yêu cầu, không in thêm bất cứ thông tin gì trong quá trình tính toán.
+
+**Câu hỏi nâng cao.** Với yêu cầu trả về một tuple chứa tất cả các nghiệm thực, tại sao cần điều kiện ba số $a, b, c$ không đồng thời bằng 0? Nếu bỏ điều kiện này đi thì cần thiết kế hàm này như thế nào?
+
 
 **Bài tập 7.**  *(Mật mã Caesar)* \
 Trong mã hóa, mật mã *Caesar* thay thế mỗi kí tự trong bảng chữ cái bởi một kí tự khác cũng trong bảng chữ cái đó ở vị trí cách nó một đoạn cố định.

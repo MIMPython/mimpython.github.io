@@ -79,7 +79,7 @@ Việc thay đổi background trên Windows Terminal thực sự rất đơn gi�
 
 Để thay đổi chủ đề của Windows Terminal, ta sử dụng oh-my-posh, một gói tùy biến cho terminal.
 
-Cài đặt oh-my-posh bằng câu lệnh sau (sử dụng PowerShell trên Windows Terminal)
+Cài đặt oh-my-posh bằng câu lệnh sau (sử dụng PowerShell trên Windows Terminal, lưu ý chạy với quyền administrator)
   ```ps
   winget install oh-my-posh
   ```

@@ -16,6 +16,7 @@ Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
 - 31/07/2022. Đổi thứ tự bài tập 11 và bài tập 12, bổ sung bài tập 13 và bài tập 14.
+- 31/07/2022. Mô tả chi tiết bài tâp 3.
 
 
 ## Danh sách bài tập
@@ -55,7 +56,16 @@ if __name__ == '__main__':
     print(foo(0)) # 0
 ```
 
-**Bài tập 3.** Viết một hàm nhận vào tên học viên (kiểu string), số thứ tự tuần học (kiểu nguyên), số thứ tự bài tập (kiểu nguyên) và trả về tên file `.py` tương ứng.
+**Bài tập 3.** Viết một hàm nhận vào tên học viên (kiểu string), id học viên (kiểu nguyên), số thứ tự tuần học (kiểu nguyên), số thứ tự bài tập (kiểu nguyên) và trả về tên file `.py` tương ứng. Ví dụ
+
+```py
+studentName = 'NguyenVanA'
+studentIndex = 7
+weekIndex = 2
+assignmentIndex = 1
+
+someMethod(studentName, studentIndex, weekIndex, assignmentIndex) # week02_assignment01_student07_NguyenVanA.py
+```
 
 **Bài tập 4.** Cho đoạn văn sau \
 *Python was designed to be easy to understand and fun to use (its name came from Monty Python so a lot of its beginner tutorials reference it). Fun is a great motivator, and since you’ll be able to build prototypes and tools quickly with Python, many find coding in Python a satisfying experience. Thus, Python has gained popularity for being a beginner-friendly language, and it has replaced Java as the most popular introductory language at Top U.S. Universities.*

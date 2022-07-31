@@ -1,20 +1,21 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-07-27
+last_modified_at: 2022-07-31
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập tuần 3 gồm 12 bài tập, bao gồm
+Bài tập tuần 3 gồm 13 bài tập, bao gồm
 - 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 11 (làm tối thiểu 5 bài).
-- 5 bài tập nâng cao: 7, 8, 9, 10, 12.
+- 6 bài tập nâng cao: 7, 8, 9, 10, 12, 13.
 
 Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
+- 31/07/2022. Bổ sung bài tập 13.
 
 
 ## Danh sách bài tập
@@ -137,3 +138,6 @@ Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 
  9  2  3 14
 10 11 12 13
 ```
+
+**Bài tập 13.** \
+Khi viết hai số nguyên $2^n$ và $5^n$ liền nhau ta được một số có bao nhiêu chữ số? Ví dụ với $n=3$, ta được một số có 4 chữ số (số đó là 8125).

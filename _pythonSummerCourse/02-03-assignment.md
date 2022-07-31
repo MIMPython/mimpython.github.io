@@ -1,20 +1,21 @@
 ---
 title: "Bài tập tuần 2"
 permalink: /pythonSummerCourse/week-02-assignment/
-last_modified_at: 2022-07-27
+last_modified_at: 2022-07-31
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập tuần 2 gồm 12 bài tập, bao gồm
+Bài tập tuần 2 gồm 14 bài tập, bao gồm
 - 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
-- 5 bài tập nâng cao: 8, 9, 10, 11, 12.
+- 7 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14.
 
 Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
+- 31/07/2022. Đổi thứ tự bài tập 11 và bài tập 12, bổ sung bài tập 13 và bài tập 14.
 
 
 ## Danh sách bài tập
@@ -154,7 +155,10 @@ Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\time
 **Bài tập 10.** (Equilateral polygon) \
 Trên mặt phẳng $Oxy$, cho trước hai điểm phân biệt $A, B$. Viết một chương trình xác định vị trí (những) điểm $C$ (nếu có) sao cho tam giác $ABC$ là một tam giác đều. Tạo một bức ảnh với tam giác $ABC$ vừa tìm được.
 
-**Bài tập 11.** (variables) \
+**Bài tập 11.** (university scoring) \
+Viết một hàm nhận vào ba điểm thành phần (điểm thường xuyên, điểm giữa kỳ, điểm cuối kỳ) của sinh viên và trả về điểm chữ tương ứng.
+
+**Bài tập 12.** (variables) \
 Ba biến sau đây có bằng nhau hay không?
 ```py
 foo = ('a'),
@@ -162,5 +166,23 @@ bar = 'a',
 ham = ('a', )
 ```
 
-**Bài tập 12.** (university scoring) \
-Viết một hàm nhận vào ba điểm thành phần (điểm thường xuyên, điểm giữa kỳ, điểm cuối kỳ) của sinh viên và trả về điểm chữ tương ứng.
+Hai biến sau đây có bằng nhau hay không?
+```py
+foo = 'Đà Nẵng'
+bar = 'Đà Nẵng'
+```
+
+Bài học rút ra ở đây là gì?
+
+**Bài tập 13.** (province name converter) \
+Viết một hàm chuyển tên một tỉnh/thành phố của Việt Nam thành một tên viết liền không dấu. Ví dụ
+```py
+foo('Hà Nội') # HaNoi
+```
+
+**Bài tập 14.** (book numbering) \
+Viết một hàm tính số chữ số đã sử dụng để đánh số trang của một cuốn sách với số trang cho trước. Ví dụ
+```py
+ham(10) # 11 # it takes 11 digits (1, 2, 3, ..., 8, 9, 1, 0) to number the first 10 pages
+```
+Viết một hàm thực hiện công việc ngược lại: tính số trang của một cuốn sách khi biết số chữ số đã được sử dụng để đánh số.

@@ -35,20 +35,26 @@ Từ giờ trở đi, ta gọi tên những cuốn sách này lần lượt là 
 
 Ngoài ra khóa học còn tham khảo các tài liệu hướng dẫn sử dụng (documentation) của các thư viện phổ biến (ví dụ như [numpy](https://numpy.org/doc/), [pandas](https://pandas.pydata.org/docs/), [matplotlib](https://matplotlib.org/stable/index.html), [seaborn](https://seaborn.pydata.org/), ...) và các bài viết được đăng tải trên trang web [Real Python Tutorials](https://realpython.com/).
 
-## 3. Lưu ý khi thực hiện bài tập
 
-Trừ khi có những yêu cầu bắt buộc về việc đặt tên, **tất cả** tên biến được sử dụng trong mô tả bài tập đều chỉ mang tính chất minh họa.
+## 3. Quy định về nộp bài tập/bình luận code
 
-Mỗi bài tập lập trình thường bao gồm một danh sách các câu hỏi, yêu cầu liên quan đến chủ đề bài tập. Việc trả lời từng câu hỏi, thực hiện từng yêu cầu một cách riêng biệt không phải cách duy nhất để hoàn thành bài tập. Tùy thuộc vào mỗi bài tập, học viên lựa chọn cách trình bày chương trình phù hợp, trong đó bao gồm (nhưng không giới hạn bởi) những phần sau đây:
-- Phần 1: câu trả lời, bình luận (đặt trong phần docstring).
-- Phần 2: định nghĩa phương thức (method), lớp (class) cần thiết cho chương trình.
-- Phần 3: phần chương trình chính, kèm theo những comment giải thích phù hợp.
+### 3.1. Quy định chung
+- Từ thứ 2 đến Chủ nhật: tự học nội dung của tuần tương ứng và làm bài tập.
+- Mỗi tuần học có một danh sách các bài tập, được chia thành bài tập cơ bản và bài tập nâng cao. Học viên được coi là hoàn thành đầy đủ bài tập khi làm đủ số bài tập cơ bản được yêu cầu. Ví dụ cho danh sách bài tập của một tuần:
+  + Bài tập cơ bản: 1, 2, 3, 5, 7 (làm tối thiểu 3 bài)
+  + Bài tập nâng cao: 4, 6
+- Bài nộp của học viên trong từng tuần không được phép chứa (những) file có nội dung rỗng/vô nghĩa. Học viên vi phạm quy định này sẽ bị hủy toàn bộ bài nộp của tuần tương ứng.
 
-Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con `additionalFolder` của thư mục bài nộp**. Sau đó, thư mục bài nộp được nén lại thành một file zip.
+### 3.2. Cách chuẩn bị bài nộp
+Tất cả bài làm của học viên phải được đặt trong một thư mục rồi nén thành một file zip theo hướng dẫn cụ thể dưới đây.
 
-Xét ví dụ với một tuần học có hai bài tập như sau: \
-**Bài tập 1.** In ra dòng chữ `Hello World!` trên terminal. \
-**Bài tập 2.** Viết chương trình tạo file `output.txt` với nội dung `Hello World!`.
+**Tên file bài tập.** Mỗi bài tập phải được trình bày trong một file riêng biệt với tên được đặt theo mẫu `weekXX_assignmentYY_studentZZ_HoVaTen.py` trong đó, `XX` là số thứ tự tuần, `YY` là số thứ tự của bài tập, `ZZ` là số thứ tự (id) của học viên ở trong danh sách (id từ 1 đến 9 thì viết thêm số 0, chẳng hạn như 01, 02, ...) và Họ và tên của học viên viết liền không dấu, ví dụ `week03_assignment02_student01_PhungThiThuAn.py`. **Lưu ý:** File bài tập chỉ cho phép file py.
+
+**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con `additionalFolder`**.
+
+Để minh họa nội dung của thư mục bài nộp, xét ví dụ với một tuần học có hai bài tập như sau:
+- **Bài tập 1.** In ra dòng chữ `Hello World!` trên terminal.
+- **Bài tập 2.** Viết chương trình tạo file `output.txt` với nội dung `Hello World!`.
 
 Nếu học viên chỉ thực hiện bài tập 1 thì thư mục bài nộp sẽ chỉ chứa một file
 ```
@@ -62,8 +68,19 @@ week01_assignment02_student15_NguyenVanM.py
 additionalFolder/
   output.txt
 ```
-Trong đó, lời giải cho bài tập 2 nên là
-```py
-with open('additionalFolder/output.txt', 'w') as f:
-    f.write('Hello World!')
-```
+
+**Thư mục chính.** Tất cả bài làm đặt trong thư mục bài nộp, với tên được đặt theo mẫu `weekXX_studentZZ_HoVaTen`. Sau đó, thư mục này được nén lại thành một file zip với tên được đặt theo mẫu `weekXX_studentZZ_HoVaTen.zip`, ví dụ `week03_student01_PhungThiThuAn.zip`.
+
+
+### 3.3. Quy định nộp bài tập, bình luận
+- Mỗi học viên **chỉ nộp duy nhất một file zip** cho mỗi tuần học. Deadline nộp bài tập 23h59, Chủ nhật hàng tuần.
+- Mỗi học viên thực hiện bình luận bài tập theo phân công. Deadline bình luận bài tập 14h, Thứ 4 hàng tuần.
+Ví dụ: một tuần học diễn ra từ 13/06 (T2) đến 19/06 (CN) thì deadline nộp bài tập là 23h59 19/06 (CN) và deadline bình luận bài tập là 14h 22/06 (T4).
+
+## 4. Một số chú ý khác
+Trừ khi có những yêu cầu bắt buộc về việc đặt tên, **tất cả** tên biến được sử dụng trong mô tả bài tập đều chỉ mang tính chất minh họa.
+
+Mỗi bài tập lập trình thường bao gồm một danh sách các câu hỏi, yêu cầu liên quan đến chủ đề bài tập. Việc trả lời từng câu hỏi, thực hiện từng yêu cầu một cách riêng biệt không phải cách duy nhất để hoàn thành bài tập. Tùy thuộc vào mỗi bài tập, học viên lựa chọn cách trình bày chương trình phù hợp, trong đó bao gồm (nhưng không giới hạn bởi) những phần sau đây:
+- Phần 1: câu trả lời, bình luận (đặt trong phần docstring).
+- Phần 2: định nghĩa phương thức (method), lớp (class) cần thiết cho chương trình.
+- Phần 3: phần chương trình chính, kèm theo những comment giải thích phù hợp.

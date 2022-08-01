@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 2"
 permalink: /pythonSummerCourse/week-02-assignment/
-last_modified_at: 2022-07-31
+last_modified_at: 2022-08-01
 redirect_from:
   - /theme-setup/
 toc: false
@@ -199,3 +199,25 @@ Viết một hàm tính số chữ số đã sử dụng để đánh số trang
 ham(10) # 11 # it takes 11 digits (1, 2, 3, ..., 8, 9, 1, 0) to number the first 10 pages
 ```
 Viết một hàm thực hiện công việc ngược lại: tính số trang của một cuốn sách khi biết số chữ số đã được sử dụng để đánh số.
+
+
+## Gợi ý, hướng dẫn gỉai
+
+1. Nên học cách viết code theo quy ước trong PEP8.
+```py
+# cách viết không tốt
+if(isinstance(x,int)==True):
+    print('x is int')
+
+# cách viết tốt
+if isinstance(x, int):
+    print('x is int')
+```
+
+2. Sử dụng index -1 để lấy phần tử cuối cùng của một list/tuple.
+
+3. Một cấu trúc điều kiện rẽ nhánh nên kết thúc bằng `else`, mặc dù cú pháp Python cho phép điều ngược lại
+
+4. Sử dụng hàm dựng sẵn (built-in) `ord` và `char` để làm việc với chữ cái.
+
+5. Nên sử dụng `f-string` để in trong Python.

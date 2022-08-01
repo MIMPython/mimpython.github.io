@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-07-31
+last_modified_at: 2022-08-01
 redirect_from:
   - /theme-setup/
 toc: false
@@ -16,6 +16,7 @@ Cập nhật
 - 25/07/2022. Bổ sung bài tập 11, bài tập 12.
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
 - 31/07/2022. Bổ sung bài tập 13.
+- 01/08/2022. Bổ sung yêu cầu loại bỏ thư mục `.git` khi thực hiện bài tập 11.
 
 
 ## Danh sách bài tập
@@ -129,6 +130,8 @@ d) Đặt link của repository trong phần trình bày của bài tập này. 
   https://github.com/MIMPython/mimpython.github.io
   """
   ```
+
+Chú ý. Một thư mục có tên `.git` sẽ được tạo ra khi thực hiện câu lệnh `git init`. Học viên **không** đặt thư mục này vào phần bài nộp.
 
 **Bài tập 12.** \
 Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 đến $n$ theo chiều dương. Ví dụ với $n=14$

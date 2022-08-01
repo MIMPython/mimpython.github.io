@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 4"
 permalink: /pythonSummerCourse/week-04-assignment/
-last_modified_at: 2022-07-31
+last_modified_at: 2022-08-01
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,16 +10,6 @@ toc: false
 Bài tập tuần 4 gồm 9 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
 - 4 bài tập nâng cao: 6, 7, 8, 9.
-
-
-## Lưu ý thực hiện bài tập
-
-Trừ khi có những yêu cầu bắt buộc về việc đặt tên, **tất cả** tên biến được sử dụng trong mô tả bài tập đều chỉ mang tính chất minh họa.
-
-Mỗi bài tập từ tuần học này trở đi thường bao gồm một danh sách các câu hỏi, yêu cầu liên quan đến chủ đề bài tập. Không nên thực hiện chúng một cách máy móc, tức là trả lời từng câu hỏi, thực hiện từng yêu cầu một cách riêng biệt. Tùy thuộc vào mỗi bài tập, học viên lựa chọn cách trình bày chương trình phù hợp, trong đó bao gồm (nhưng không giới hạn bởi) những phần sau đây:
-- Phần 1: câu trả lời, bình luận (đặt trong phần docstring).
-- Phần 2: định nghĩa phương thức (method), lớp (class) cần thiết cho chương trình.
-- Phần 3: phần chương trình chính, kèm theo những comment giải thích phù hợp.
 
 
 ## Danh sách bài tập

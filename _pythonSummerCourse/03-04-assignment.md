@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-08-01
+last_modified_at: 2022-08-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -17,6 +17,7 @@ Cập nhật
 - 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
 - 31/07/2022. Bổ sung bài tập 13.
 - 01/08/2022. Bổ sung yêu cầu loại bỏ thư mục `.git` khi thực hiện bài tập 11.
+- 04/08/2022. Bổ sung Gợi ý, hướng dẫn giải. Thêm ý hỏi cho bài tập 5.
 
 
 ## Danh sách bài tập
@@ -47,9 +48,10 @@ $$F_{n+2} = F_{n+1} + F_{n} \quad \forall n \ge 0$$
 Viết một chương trình tính số Fibonacci $F_n$ với một số tự nhiên $n$ cho trước. Hãy giải quyết bài tập này bằng nhiều cách khác nhau, trong đó có cách sử dụng thư viện `numpy, sympy`.
 
 **Bài tập 5.** (rock-paper-scissors game) \
-(a) Viết một chương trình để hai người có thể chơi trò chơi kéo - búa - bao với nhau. \
-(b) Cách tiếp cận đơn giản là cho phép hai người chơi A, B lần lượt đưa ra lựa chọn và nhập nó vào chương trình thông qua bàn phím (giả sử A nhập trước). Cách chơi như vậy không công bằng vì ở mỗi lượt chơi B luôn biết được lựa chọn của A trước khi B đưa ra lựa chọn. Thiết kế chương trình để đảm bảo tính công bằng cho trò chơi. \
-(c) Có thể hiểu tính công bằng theo nghĩa nào khác?
+(a) Viết một chương trình sao cho khi chạy chương trình này, nó sẽ chỉ dừng lại khi người dùng nhập vào đúng một chữ số trong khoảng từ 0 đến 9. \
+(b) Viết một chương trình để hai người có thể chơi trò chơi kéo - búa - bao với nhau. \
+(c) Cách tiếp cận đơn giản là cho phép hai người chơi A, B lần lượt đưa ra lựa chọn và nhập nó vào chương trình thông qua bàn phím (giả sử A nhập trước). Cách chơi như vậy không công bằng vì ở mỗi lượt chơi B luôn biết được lựa chọn của A trước khi B đưa ra lựa chọn. Thiết kế chương trình để đảm bảo tính công bằng cho trò chơi. \
+(d) Có thể hiểu tính công bằng theo nghĩa nào khác?
 
 **Bài tập 6.** (probability of coprime integers) \
 Cho $N$ là một số nguyên dương đủ lớn ($N \approx 10^6$). Lấy ngẫu nhiên hai số nguyên dương từ tập hợp các số nguyên dương không vượt quá $N$. Xác suất để hai số này nguyên tố cùng nhau là bao nhiêu? Giá trị này có mối liên quan gì tới số $\pi$? \
@@ -144,3 +146,14 @@ Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 
 
 **Bài tập 13.** \
 Khi viết hai số nguyên $2^n$ và $5^n$ liền nhau ta được một số có bao nhiêu chữ số? Ví dụ với $n=3$, ta được một số có 4 chữ số (số đó là 8125).
+
+
+## Gợi ý, hướng dẫn giải
+
+1. Cách viết `sum = sum(values)` không tốt vì đã ghi đè hàm dựng sẵn (built-in) `sum()` bởi một giá trị số.
+2. Trong Python, một mảng bất kỳ đều được đánh số mặc định từ 0. Nó có thể giống hoặc khác với (những) quy ước đánh chỉ số ở bên ngoài Python.
+3. Sử dụng hàm `ord()` và `chr()` để chuyển đổi trong bảng mã `ASCII`.
+4. Người dùng có thể nhấn tổ hợp phím `Ctrl+K` rồi `Z` để bật/tắt chế độ Zen mode trong Visual Studio Code.
+5. Sử dụng thư viện `getpass` trong Python để ẩn đi input người dùng nhập vào.
+6. Bài tập về dãy Fibonacci có thể thực hiện bởi ít nhất 3 cách khác nhau. Cần tránh lặp lại việc tính những giá trị giống nhau trong dãy Fibonacci.
+7. Sử dụng `np.random.randint` để sinh ngẫu nhiên các số nguyên trong một khoảng nhất định.

@@ -22,21 +22,21 @@ toc: false
 </style>
 
 ## GitHub
-### 1 GitHub là gì?
+### 1. GitHub là gì?
 GitHub là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. **Github có đầy đủ những tính năng của Git**, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.
 
 Vài thông tin về GIT:
 * Là công cụ giúp quản lý source code tổ chức theo dạng dữ liệu phân tán.
-* Giúp đồng bộ source code của team lên 1 server.
+* Giúp đồng bộ source code của team lên một server.
 * Hỗ trợ các thao tác kiểm tra source code trong quá trình làm việc (diff, check modifications, show history, merge source, …)
 
-### 2 GitHub cơ bản
+### 2. GitHub cơ bản
 #### Tạo GitHub Repository
-Repository là một không gian để lưu trữ dự án của bạn. Do tính chất phân tán của Git, nên có thể hiểu repository là nơi lưu trữ mã nguồn ở cả local và server.
+Repository (gọi tắt là repo) là một không gian để lưu trữ dự án của bạn. Do tính chất phân tán của Git, nên có thể hiểu repo là nơi lưu trữ mã nguồn ở cả local và server.
 
-Bạn có thể lưu trữ file code, text, hình ảnh hoặc bất kỳ loại tệp nào trong repository.
+Bạn có thể lưu trữ file code, text, hình ảnh hoặc bất kỳ loại tệp nào trong repo.
 
-Để tạo một repository trên GitHub bạn làm như sau:
+Để tạo một repo trên GitHub bạn làm như sau:
 
 * Vào Github, đăng ký một tài khoản bằng cách click vào “Sign up for Github”.
 * Sau khi đăng ký và kích hoạt thành công. Ấn dấu + trên thanh status bar chọn `New repository`.
@@ -55,7 +55,7 @@ Trong đó, bạn lưu ý 2 options sau:
 
 * Theo mặc định thì repository để là public. Tức là ai cũng có thể xem được repo này của bạn. Nếu dự án của bạn chưa muốn công khai mà chỉ muốn quản lý nội bộ thì chọn Private.
 
-* Bạn có thêm một README file để giới thiệu repo kèm với một file .gitignore. Github đã có sẵn template .gitignore cho bạn, cứ chọn một template phù hợp với mã nguồn dự án là được.
+* Bạn có thêm một README file để giới thiệu repo kèm với một file .gitignore. Github đã có sẵn template [.gitignore](https://github.com/github/gitignore) cho bạn, cứ chọn một template phù hợp với mã nguồn dự án là được.
 
 Khi tạo xong, repo sẽ như sau:
 
@@ -70,7 +70,7 @@ Khi đã có repository, bạn có thể clone, pull, push… source code của 
 
 ## Markdown
 ### 1. Tiêu đề
-Để tạo tiêu đề - heading h1, h2, h3 cho đến h6, thêm số lượng ký tự `#` tương ứng vào đầu dòng. Số lượng `#` bạn sử dụng tương ứng với cấp độ tiêu đề, một ký tự `#`tương đương với h1, 2 ký tự `#` tương đương với h2...
+Để tạo tiêu đề - heading h1, h2, h3 cho đến h6, thêm số lượng ký tự `#` tương ứng vào đầu dòng. Số lượng `#` bạn sử dụng tương ứng với cấp độ tiêu đề, một ký tự `#`tương đương với h1, 2 ký tự `#` tương đương với h2, ...
 
 Ví dụ: để tạo tiêu đề cấp ba, sử dụng ba ký hiệu #
 

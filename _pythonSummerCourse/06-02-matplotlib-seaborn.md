@@ -9,7 +9,7 @@ toc: false
 
 
 ## 1. Thư viện matplotlib 
-`matplotlib` là một thư viện được Python cung cấp cho việc trực quan hóa dữ liệu phục vụ cho việc suy luận thống kê.
+`matplotlib` là một thư viện trong Python phục vụ cho việc trực quan hóa dữ liệu phục vụ cho việc suy luận thống kê.
 Và module được phổ biến trong matplotlib là pyplot - chứa các hàm cơ bản để vẽ, thiết lập khung hình.
 
 Dưới đây là một đoạn code minh họa khi sử dụng thư viện matplotlib:
@@ -120,7 +120,7 @@ Ngoài ra, pyplot còn cung cấp các hàm vẽ sau:
 
 
 ## 2. Thư viện seaborn 
-seaborn là mở rộng, kế thừa từ matplotlib, được Python cung cấp để thực hiện trực quan hóa dữ liệu, nhưng thường được dùng với kiểu dữ liệu từ `dataframe`.
+seaborn là mở rộng, kế thừa từ matplotlib, để thực hiện trực quan hóa dữ liệu, nhưng thường được dùng với kiểu dữ liệu từ `DataFrame`.
 seaborn cũng đa dạng các hàm để vẽ hơn và có thể được chia thành một số nhóm chính như sau 
 - Nhóm các hàm vẽ quan hệ 
   - `scatterplot`: vẽ biểu đồ phân tán 
@@ -139,7 +139,7 @@ seaborn cũng đa dạng các hàm để vẽ hơn và có thể được chia t
   
 - Ngoài ra, còn có các nhóm: nhóm các hàm vẽ biến hồi quy, nhóm vẽ ma trận, nhóm để vẽ cho nhiều hình, ...
 
-Sau đây là một ví dụ khi dùng `seaborn` kết hợp `matplotlib` trên kiểu dữ liệu `dataframe`.
+Sau đây là một ví dụ khi dùng `seaborn` kết hợp `matplotlib` trên kiểu dữ liệu `DataFrame`.
 Dữ liệu dùng trong bài học được lấy từ thư viện `seaborn` (xem chi tiết [tại đây](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)).
 
 ```python 

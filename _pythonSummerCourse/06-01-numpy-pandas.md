@@ -24,77 +24,85 @@ pip install numpy
 
 ### 1.3. Numpy cơ bản
 
-```python
+Khởi tạo 1 numpy array
+```py
 import numpy as np
 
 
 # Numpy array
-x = np.array([
+arr = np.array([
             [1, 2, 3],
             [4, 5, 6],
             [6, 7, 9],
             ])
-print(x)
+print(arr)
 """
 Output:
   [[1 2 3]
    [4 5 6]
    [6 7 9]]
 """
+```
+Thao tác với numpy array
+```py
 # Get row
-print(x[0]) # [1 2 3]
+print(arr[0]) # [1 2 3]
 
 # Get column
-print(x[:,0]) # [1 4 6]
+print(arr[:,0]) # [1 4 6]
 
 # Get element
-print(x[0, 0]) # 1
+print(arr[0, 0]) # 1
 
 # Get shape
-print(x.shape) # (3, 3)
+print(arr.shape) # (3, 3)
 
 # Get size
-print(x.size) # 9
-
+print(arr.size) # 9
+```
+Tính toán trên numpy array
+```py
 # Calculation
 # By table
-print(x.sum()) # 43
+print(arr.sum()) # 43
 # By dimension
-print(x.sum(axis=0)) # [11 14 18]
-print(x.sum(axis=1)) # [ 6 15 22]
+print(arr.sum(axis=0)) # [11 14 18]
+print(arr.sum(axis=1)) # [ 6 15 22]
 
 # Some calculation: sum, max, min, argmin, argmax, mean, var, ...
-
+```
+Một số numpy array đặc biệt
+```py
 # Numpy array with all element equal 0
-y = np.zeros((3, 3), dtype=int)
-print(y)
+zerosArr = np.zeros((2, 3), dtype=int)
+print(zerosArr)
 """
 Output:
 [[0 0 0]
- [0 0 0]
  [0 0 0]]
 """
 
 # Numpy array with all element equal 1
-z = np.ones((3,3), dtype=int)
-print(z)
+onesArr = np.ones((2,3), dtype=int)
+print(onesArr)
 """
 Output:
 [[1 1 1]
- [1 1 1]
  [1 1 1]]
 """
-
+```
+Vòng lặp trong numpy array
+```py
 # Loop through numpy array
-x = np.array([
+arr = np.array([
             [1, 2, 3],
             [4, 5, 6],
             [6, 7, 9],
             ])
 
-for i in range(x.shape[0]):
-  for j in range(x.shape[1]):
-    print(x[i, j])
+for i in range(arr.shape[0]):
+    for j in range(arr.shape[1]):
+      print(arr[i, j])
 """
 Output:
   1
@@ -117,6 +125,8 @@ Output:
 pip install pandas
 ```
 ### 2.2. Pandas cơ bản
+
+Khởi tạo DataFrame
 ```python
 import pandas as pd
 
@@ -135,7 +145,9 @@ Output:
 2    so  love  broken
 3  much    me    huhu
 """
-
+```
+Lấy dữ liệu cột
+```py
 # Get column
 print(loveDf['I'])
 """
@@ -146,7 +158,21 @@ Output:
 3    much
 Name: I, dtype: object
 """
-
+```
+Nên đặt tên cột là một từ tiếng Anh không cách để lấy dữ liệu cột nhanh chóng bằng cách sau:
+```py
+print(loveDf.But)
+"""
+Output:
+0     you
+1    dont
+2    love
+3      me
+Name: But, dtype: object
+"""
+```
+Lấy dữ liệu hàng
+```py
 # Get row
 print(loveDf.iloc[1])
 """
@@ -156,7 +182,9 @@ But    dont
 So       am
 Name: 1, dtype: object
 """
-
+```
+Thao tác cơ bản với DataFrame
+```py
 # Get shape
 print(loveDf.shape) # (4, 3)
 
@@ -206,7 +234,6 @@ Output:
 boysDf.to_csv('newBoysData.csv', index=False)
 
 # Some kind of file pandas can read and save: .csv, .xlsx, .json, .xml, ...
-
 ```
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.

@@ -91,6 +91,22 @@ Output:
  [1 1 1]]
 """
 ```
+Gán giá trị cho numpy array
+```py
+arr = np.array([
+            [1, 2, 3],
+            [4, 5, 6],
+            [6, 7, 9],
+            ])
+arr[0,0] = 10
+print(arr)
+"""
+Output:
+[[10  2  3]
+ [ 4  5  6]
+ [ 6  7  9]]
+"""
+```
 Vòng lặp trong numpy array
 ```py
 # Loop through numpy array

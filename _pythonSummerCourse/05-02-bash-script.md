@@ -1,108 +1,142 @@
 ---
 title: "Bài 13. Bash script"
 permalink: /pythonSummerCourse/week-05-bash-scripts/
-last_modified_at: 2022-08-06
+last_modified_at: 2022-08-09
 redirect_from:
   - /theme-setup/
 toc: false
 ---
-## 1. Lệnh cơ bản sử dụng trong Terminal/CMD
+## 1. Lệnh cơ bản sử dụng trong Terminal/Command Prompt
 ### 1.1 Linux
 ### Một số lệnh cơ bản
 
-* **sudo** (viết tắt của `superuser do`) - Cho phép bạn chạy các lệnh khác với quyền của admin. Nó hữu dụng khi mà bạn cần sửa các files ở trong các thư mục mà một user bình thường không có quyền truy cập.
+* **sudo** (viết tắt của `superuser do`): Cho phép bạn chạy các lệnh khác với quyền của admin. Nó hữu dụng khi mà bạn cần sửa các files ở trong các thư mục mà một user bình thường không có quyền truy cập.
 
-* **pwd** (viết tắt của `print working directory`) - Lệnh này cho phép bạn biết được đường dẫn đến thư mục hiện tại mà bạn đang truy cập.
+* **pwd** (viết tắt của `print working directory`): Cho phép bạn biết được đường dẫn đến thư mục hiện tại mà bạn đang truy cập.
 
-* **cd** chuyển hướng tập tin
+* **cd**: Chuyển hướng tập tin
   ```bash
   cd path/to/folder
   ```
   - `cd ..` (với 2 chấm) để chuyển lên 1 cấp thư mục trên
   - `cd` để tới thẳng thư mục home
-  - `cd-` (với dấu gạch ngang) để chuyển tới thư mục bạn đã ở trước đó
+  - `cd -` (với dấu gạch ngang) để chuyển tới thư mục bạn đã ở trước đó
 
-* **ls** - Lệnh này sẽ hiển thị cho bạn thấy danh sách các files hay thư mục con trong thư mục hiện tại bạn đang truy cập.
+* **ls**: Lệnh này sẽ hiển thị cho bạn thấy danh sách các files hay thư mục con trong thư mục hiện tại bạn đang truy cập.
 
   - `ls -l` sẽ hiển thị danh sách các files, thư mục kèm theo thông tin về dung lượng, thời gian được tạo, và quyền truy cập của các files, thư mục đó.
    - `ls -a` sẽ hiển thị danh sách bao gồm cả các files, thư mục bị ẩn trong thư mục hiện tại
 
-* **cp** (`copy`) - Cho phép bạn copy một file.
+* **cp** (`copy`): Cho phép bạn copy một file.
 
   ```bash
-  cp file foo
+  cp file.sh foo.sh
   ```
-  - Ví dụ `cp file foo` sẽ tạo ra một bản copy của "file" với tên là "foo", nhưng "file" sẽ vẫn còn ở đó.
+  - Ví dụ `cp file.sh foo.sh` sẽ tạo ra một bản copy của "file.sh" với tên là "foo.sh", nhưng "file.sh" sẽ vẫn còn ở đó.
   - Nếu bạn muốn copy cả một thư mục, bạn phải sử dụng lệnh `cp -r directory foo`
 
-* **mv** (`move`) - Lệnh này cho phép bạn di chuyển một file sang một thư mục khác hoặc đổi tên của một file nào đó.
+* **mv** (`move`): Lệnh này cho phép bạn di chuyển một file sang một thư mục khác hoặc đổi tên của một file nào đó.
   ```bash
-  mv foo bar
+  mv foo.sh bar.sh
   ```
-  - Ví dụ, `mv foo bar` sẽ đổi tên của file "foo" thành "bar"
-  - `mv foo ~/Pictures` sẽ di chuyển file "foo" đến thư mục Pictures, nhưng không đổi tên của nó. `mv foo ~/Pictures/bar` sẽ di chuyển file "foo" đến thư mục Pictures với tên "bar"
+  - Ví dụ, `mv foo.sh bar.sh` sẽ đổi tên của file "foo.sh" thành "bar.sh"
+  - `mv foo.sh ~/Pictures` sẽ di chuyển file "foo.sh" đến thư mục Pictures, nhưng không đổi tên của nó. `mv foo.sh ~/Pictures/bar.sh` sẽ di chuyển file "foo.sh" đến thư mục Pictures với tên "bar.sh"
 
-* **rm** (remove) - Cho phép bạn xóa một file. Sử dụng `rm -r` directory nếu bạn muốn xóa cả một thư mục
+* **rm** (remove): Cho phép bạn xóa một file. Sử dụng `rm -r` directory nếu bạn muốn xóa cả một thư mục
 
-* **mkdir** (make directory) - Cho phép bạn tạo một thư mục mới.
+* **mkdir** (make directory): Cho phép bạn tạo một thư mục mới.
 
-* **history** - Hiển thị tất cả những lệnh bạn đã gõ trước đó.
+* **history**: Hiển thị tất cả những lệnh bạn đã gõ trước đó.
 
-* **man** - lệnh này hiển thị hướng dẫn sử dụng của những lệnh khác. Ví dụ, bạn muốn biết cách sử dụng lệnh `mkdir` như đã nói ở trên, bạn viết lệnh đó như sau: `man mkdir`.
+* **man**: lệnh này hiển thị hướng dẫn sử dụng của những lệnh khác. Ví dụ, bạn muốn biết cách sử dụng lệnh `mkdir` như đã nói ở trên, bạn viết lệnh đó như sau: `man mkdir`.
 
 ### Một số phím tắt hữu dụng sử dụng trên terminal
-* **Ctrl + A** or Home - Di chuyển con trỏ chuột về vị trí đầu dòng
-* **Ctrl + E** or End - Di chuyển con trỏ chuột đến vị trí cuối dòng
-* **Esc + B** - Di chuyển đến vị trí bắt đầu của từ hiện tại hoặc từ trước đó
-* **Ctrl + K** - Xóa từ vị trí hiện tại của con trỏ đến cuối của dòng
-* **Ctrl + U** - Xóa từ vị trí bắt đầu của dòng đến vị trí hiện tại của con trỏ
-* **Ctrl + W** - Xóa từ đứng trước con trỏ
-* **Alt + B** - Di chuyển lùi lại một từ
-* **Alt + F** - Di chuyển tiến lên một từ
-* **Alt + C** - Viết hoa kí tự ở vị trí con trỏ và chuyển con trỏ xuống cuối dòng
+* **Ctrl + Alt + T**: Mở Terminal
+* **Ctrl + Shift + W**: Đóng Terminal hiện tại.
+* **Ctrl + Shift + Q**: Đóng toàn bộ Terminal.
+* **Ctrl + A** or Home: Di chuyển con trỏ chuột về vị trí đầu dòng
+* **Ctrl + E** or End: Di chuyển con trỏ chuột đến vị trí cuối dòng
+* **Esc + B**: Di chuyển đến vị trí bắt đầu của từ hiện tại hoặc từ trước đó
+* **Ctrl + K**: Xóa từ vị trí hiện tại của con trỏ đến cuối của dòng
+* **Ctrl + U**: Xóa từ vị trí bắt đầu của dòng đến vị trí hiện tại của con trỏ
+* **Ctrl + W**: Xóa từ đứng trước con trỏ
+* **Alt + B**: Di chuyển lùi lại một từ
+* **Alt + F**: Di chuyển tiến lên một từ
+* **Alt + C**: Viết hoa kí tự ở vị trí con trỏ và chuyển con trỏ xuống cuối dòng
 
-### 1.2 Window
-### Một số lệnh cơ bản
-* **cd** chuyển hướng tập tin (Tương tự như đối cới linux)
-* **dir** duyệt ra các file và thư mục (không bao gồm file ẩn) tại vị trí thư mục hiện tại hoặc thư mục tiếp theo theo đường dẫn cho trước.
-  > Để hiện thị tất cả file và thư mục bao gồm cả file, thư mục ẩn bạn có thể thêm /a vào sau dir.
+### 1.2 Windows
+### Một số lệnh cơ bản trong `Command Prompt` (`CMD`)
+* **cd**: Chuyển hướng tập tin (Tương tự như đối với `linux`)
+* **dir**: Duyệt ra các file và thư mục (không bao gồm file ẩn) tại vị trí thư mục hiện tại hoặc thư mục tiếp theo theo đường dẫn cho trước.
+  > Để hiện thị tất cả file và thư mục bao gồm cả file, thư mục ẩn có thể sử dụng  `dir /a`.
 
-* **mkdir** hoặc **md** tạo mới nhiều hoặc một thưc mục
+* **mkdir** hoặc **md**: Tạo mới nhiều hoặc một thưc mục
   ```bash
   mkdir foo bar
   md foo bar
   ```
 
-* **rmdir** hoặc **rd** Xóa một hoặc nhiều thư mục
+* **rmdir** hoặc **rd**: Xóa một hoặc nhiều thư mục
 
   ```cmd
   rmdir foo bar
   rd foo bar
   ```
 
-* **copy** sao chép một hoặc nhiều file
+* **copy**: Sao chép một hoặc nhiều file
   ```cmd
   copy <file_1> <file_2> "path/to/save/folder"
   ```
 
-* **move** di chuyển một hoặc nhiều file
+* **move**: Di chuyển một hoặc nhiều file
 
   ```cmd
   move <file_1> <file_2> "path/to/save/folder"
   ```
 
-* **del** xóa một hay nhiều file
+* **del**: Xóa một hay nhiều file
   ```cmd
   del <file_1> <file_2>
   ```
+### Một số phím tắt hữu dụng trong command prompt
+* **Windows + X sau đó nhấn phím C**: Mở Command Prompt ở chế độ bình thường (phím tắt mới trên Windows 10).
 
+* **Nhấn Windows + X, sau đó nhấn phím A**: Mở Command Prompt dưới quyền Admin (phím tắt mới trên Windows 10).
+
+*  **Alt + F4**: Đóng Command Prompt.
+
+* **Alt + Enter**: Chuyển đổi từ chế độ full màn hình sang chế độ cửa sổ.
+
+* **Home/End**: Di chuyển dấu nhắc đến đầu/cuối trong dòng hiện tại.
+
+* **Ctrl + ←/→**: Di chuyển dấu nhắc đến đầu hoặc kết tiếp của từ trước đó trong dòng hiện tại.
+
+* **Ctrl + ↑/↓**: Cuộn trang lên hoặc xuống mà không di chuyển dấu nhắc.
+
+* **Ctrl + A**: Chọn tất cả text trên dòng hiện tại. Nhấn **Ctrl + A** lần nữa để chọn tất cả text trên bộ đệm CMD (CMD Buffer).
+
+* **Ctrl+ C** (hoặc **Ctrl + Insert**): Sao chép văn bản mà bạn đang chọn.
+
+* **Ctrl + V** (hoặc **Shift + Insert**): Dán văn bản từ clipboard.
+
+* **F3**: Lặp lại lệnh trước đó.
+
+* **↑/↓**: Di chuyển ngược trở lại và chuyển tiếp thông qua các lệnh trước đó bạn đã nhập vào phiên hiện tại.
+
+  > Ngoài ra bạn có thể nhấn phím F5 thay vì sử dụng phím mũi tên lên xuống để di chuyển ngược trở lại trên lịch sử lệnh.
+
+* **F7**: Hiển thị lịch sử các lệnh trước đó. Ngoài ra bạn có thể sử dụng phím mũi tên lên/xuống để lựa chọn bất kỳ một lệnh nào đó, sau đó nhấn Enter để thực hiện lệnh.
+
+* **Alt + F7**: Xóa lịch sử lệnh.
+
+* **F8**: Di chuyển quay trở lại lịch sử lệnh để ghép với các lệnh hiện tại.
 ## 2.  Đối số trong python
 ### 2.1 Đối số là gì?
-Trong Python, bạn có thể định nghĩa một hàm có số lượng đối số thay đổi.Chúng ta đã hiểu về cách xác định một hàm và gọi nó. Nếu không, lệnh gọi hàm sẽ dẫn đến lỗi.
+Trong Python, bạn có thể định nghĩa một hàm có số lượng đối số thay đổi Chúng ta đã hiểu về cách xác định một hàm và gọi nó. Nếu không, lệnh gọi hàm sẽ dẫn đến lỗi.
 
 ```py
 def hello(name, msg):
-  print(f'Hello {name}, {msg}')
+    print(f'Hello {name}, {msg}')
 
 hello('MIM Python', 'How are you?')
 ```
@@ -127,7 +161,7 @@ Kết quả:
 TypeError: hello() missing 1 required positional argument: 'msg'
 ```
 
-### 2.2 Các biến của hàm Đối Số trong Python
+### 2.2 Các loại đối số trong Python
 ### Đối số mặc định
 Các đối số của hàm sẽ có giá trị mặc định trong Python.
 
@@ -135,7 +169,7 @@ Ta có thể cung cấp giá trị mặc định cho một đối số bằng c�
 
 ```py
 def hello(name, msg='How are you?'):
-  print(f'Hello {name}, msg')
+    print(f'Hello {name}, {msg}')
 
 hello('MIM Python')
 hello('MIM Python', 'Good morning!')
@@ -162,13 +196,13 @@ Python cho phép các hàm được gọi bằng cách sử dụng các đối s
 
 ```py
 # 2 keyword arguments
-hello(name = "MIM Python",msg = "How are you?")
+hello(name='MIM Python', msg='How are you?')
 
 # 2 keyword arguments (out of order)
-hello(msg = "How are you?",name = "MIM Python")
+hello(msg='How are you?', name='MIM Python')
 
 # 1 positional, 1 keyword argument
-hello("MIM Python", msg = "How are you?")
+hello('MIM Python', msg='How are you?')
 ```
 
 Như chúng ta thấy, chúng ta có thể thay đổi các đối số vị trí với các đối số từ khóa trong khi gọi hàm. Nhưng chúng ta phải lưu ý rằng các đối số từ khóa phải tuân theo các đối số vị trí.
@@ -176,7 +210,7 @@ Như chúng ta thấy, chúng ta có thể thay đổi các đối số vị tr�
 Có một đối số vị trí sau các đối số từ khóa sẽ dẫn đến lỗi.
 
 ```py
-hello(name="MIM Python","How are you?")
+hello(name='MIM Python', 'How are you?')
 ```
 
 Kết quả sẽ lỗi:
@@ -192,10 +226,10 @@ Trong khi định nghĩa hàm, chúng ta sẽ sử dụng dấu hoa thị (*) tr
 
 ``` py
 def sum_cal(*args):
-  result = 0
-  for x in args:
-      result += x
-  return result
+    result = 0
+    for x in args:
+        result += x
+    return result
 
 sum_cal(1, 2, 3, 4, 5, 6)
 sum_cal(1, 2, 3, 4, 5, 6, 7, 8)
@@ -214,9 +248,9 @@ Ngoài ra, chúng ta hoàn toàn có thể kết hợp `*args` với các tham s
 
 ```py
 def foo(a, b, *arg):
-  print('normal arguments', a, b)
-  for x in args:
-    print('another argument through *args', x)
+    print('normal arguments', a, b)
+    for x in args:
+        print('another argument through *args', x)
 
 foo(1, 2, 3, 4)
 ```
@@ -235,8 +269,8 @@ Cách sử dụng `**kwargs` cũng tương tự như như `*args`, tuy nhiên, n
 
 ```py
 def foo(**kwargs):
-  for key, value in kwargs.items():
-    print(key, value)
+    for key, value in kwargs.items():
+        print(key, value)
 
 foo(a=1, b=2)
 ```
@@ -272,7 +306,7 @@ Module `sys` Python cung cấp quyền truy cập vào bất kỳ đối số d�
 import sys
 
 def foo(*args):
-  result = 0
+    result = 0
     for x in args:
         result += x
     return result

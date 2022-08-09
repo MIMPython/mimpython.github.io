@@ -263,7 +263,7 @@ another argument through *args 3
 another argument through *args 4
 ```
 
-#### Sử dụng (**Kwargs)
+#### Sử dụng (**kwargs)
 
 Cách sử dụng `**kwargs` cũng tương tự như như `*args`, tuy nhiên, nó không dùng cho các tham số thông thường truyền vào lần lượt, mà nó được sử dụng cho các tham số đặt tên (thuật ngữ chính xác là **named arguments** hoặc **keyword arguments**).
 
@@ -329,9 +329,7 @@ Python cung cấp một gói khác trong thư viện chuẩn để giúp bạn: 
 
 ```py
 import argparse
-parser = argparse.ArgumentParser(
-description=‘This program do something’
-)
+parser = argparse.ArgumentParser(description=‘This program do something’)
 ```
 
 Biến parser sẽ lưu giữ các thông tin cần thiết để truyền các biến t đối dòng lệnh. Tham số `description` được sử dụng để cung cấp thông tin mô tả chương trình của bạn.

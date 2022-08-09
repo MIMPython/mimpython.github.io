@@ -1,15 +1,20 @@
 ---
 title: "Bài tập tuần 5"
 permalink: /pythonSummerCourse/week-05-assignment/
-last_modified_at: 2022-08-07
+last_modified_at: 2022-08-10
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập tuần 5 gồm 6 bài tập, bao gồm
+Bài tập tuần 5 gồm 9 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 5 bài).
+- 3 bài tập nâng cao: 7, 8, 9.
+
+Cập nhật
+- 10/08/2022. Bổ sung bài tập 7, bài tập 8, bài tập 9.
+- 10/08/2022. Bổ sung một số lưu ý về việc nộp bài, xem chi tiết trong mục 3.2 và mục 4 trong phần [giới thiệu khóa học](/pythonSummerCourse/).
 
 
 ## Danh sách bài tập
@@ -56,7 +61,7 @@ Chú ý
 
 
 **Bài tập 4.** *(về bờ không khó)* \
-Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày liền trước. Biết rằng vào ngày 07/08/2022, giá của cổ phiếu F là 7.24 (đơn vị nghìn đồng). Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào? \
+Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày liền trước. Biết rằng vào ngày 07/08/2022, giá của cổ phiếu _F_ là 7.24 (đơn vị nghìn đồng). Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào? \
 Giải _Quyết_ bài tập này trong hai trường hợp sau đây: \
 a) Giá cổ phiếu nhận giá trị là một số thực. \
 b) Giá cổ phiếu (đơn vị nghìn đồng) là một số có hai chữ số sau dấu chấm thập phân, ví dụ $32.40$.
@@ -70,3 +75,33 @@ c) Viết một chương trình chạy vô hạn sử dụng vòng lặp `for` m
 
 **Bài tập 6.** *(command line arguments)* \
 Thực hiện lại bài tập 3 của tuần 2 với việc thực thi chương trình kèm với đối số truyền qua dòng lệnh. Chú ý tên file nộp phải ghi đúng quy tắc (là bài tập 6 tuần 5).
+
+
+**Bài tập 7.** *(palindrome number)* \
+Số xuôi ngược là một số tự nhiên không thay đổi khi được viết theo chiều ngược lại. Có tồn tại vô hạn số xuôi ngược đồng thời là một số chính phương hay không?
+
+
+**Bài tập 8.** *(vietkey)* \
+Viết một chương trình chuyển đổi giữa chuỗi ký tự tiếng Việt và chuỗi ký tự tiếng Anh tương ứng. Ví dụ
+
+```
+## vnm to eng
+input: toán
+output: toans
+
+## eng to vnm
+input: vawn
+output: văn
+```
+
+**Nhận xét.** Có lẽ chương trình chuyển từ tiếng Việt sang tiếng Anh dễ thực hiện hơn, nhưng đồng thời nó có ít ý nghĩa hơn.
+
+
+**Bài tập 9.** *(three hands of a clock)* \
+Cho một đồng hồ kim với kim giờ, kim phút, kim giây có độ dài bằng nhau và bằng 1, được gắn với nhau tại tâm của đồng hồ và gọi $A$, $B$, $C$ lần lượt là ba đầu mút còn lại của ba kim đồng hồ đó. Đặt $M = AB + BC + CA$, ta đã biết một số giá trị của M tại một số thời điểm, ví dụ như: \
+(i) $M = 0 + 0 + 0 = 0$ lúc 00h00'00". \
+(ii) $M = 2 + 2 + 0 = 4$ lúc 06h00’00”.
+
+Hỏi trong thời gian hoạt động của đồng hồ từ 00h00’10” đến 11h59’50” cùng ngày, giá trị lớn nhất và giá trị bé nhất mà $M$ có thể đạt được là bao nhiêu? Những giá trị đó đạt được vào (những) thời điểm nào?
+
+*Gợi ý:* $0 \leq M \leq 3\sqrt{3}$

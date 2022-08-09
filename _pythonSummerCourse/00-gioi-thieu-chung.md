@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython năm 2022."
-last_modified_at: 2022-08-01
+last_modified_at: 2022-08-10
 redirect_from:
   - /theme-setup/
 toc: true
@@ -50,7 +50,9 @@ Tất cả bài làm của học viên phải được đặt trong một thư m
 
 **Tên file bài tập.** Mỗi bài tập phải được trình bày trong một file riêng biệt với tên được đặt theo mẫu `weekXX_assignmentYY_studentZZ_HoVaTen.py` trong đó, `XX` là số thứ tự tuần, `YY` là số thứ tự của bài tập, `ZZ` là số thứ tự (id) của học viên ở trong danh sách (id từ 1 đến 9 thì viết thêm số 0, chẳng hạn như 01, 02, ...) và Họ và tên của học viên viết liền không dấu, ví dụ `week03_assignment02_student01_PhungThiThuAn.py`. **Lưu ý:** File bài tập chỉ cho phép file py.
 
-**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con `additionalFolder`**.
+**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con `additionalFolder`**. Để thuận tiện cho việc quản lý bài nộp, tên file _nên_ có tiền tố theo mẫu `weekXX_assignmentYY_studentZZ_HoVaTen_` với `XX, YY, ZZ` được quy ước như trên. Ví dụ một số file: `week01_assignment02_student03_NguyenVanA_data.txt`, `week01_assignment02_student03_NguyenVanA_image.png`.
+
+Trong mỗi file bài tập, học viên cần liệt kê tên của tất cả những file bổ sung có liên quan đến bài tập đó.
 
 Để minh họa nội dung của thư mục bài nộp, xét ví dụ với một tuần học có hai bài tập như sau:
 - **Bài tập 1.** In ra dòng chữ `Hello World!` trên terminal.
@@ -84,3 +86,13 @@ Mỗi bài tập lập trình thường bao gồm một danh sách các câu h�
 - Phần 1: câu trả lời, bình luận (đặt trong phần docstring).
 - Phần 2: định nghĩa phương thức (method), lớp (class) cần thiết cho chương trình.
 - Phần 3: phần chương trình chính, kèm theo những comment giải thích phù hợp.
+
+Chỉ nên sử dụng hàm `input()` và cấu trúc `from someModule import *` trong trường hợp bất khả kháng, tức là khi đề bài bắt buộc sử dụng chúng hoặc không còn cách khả thi khác.
+
+Ngoài ra, học viên cần soát lại chương trình để loại bỏ những dòng import không cần thiết xuất hiện trong file `.py`, ví dụ như
+```py
+from asyncio.windows_events import NULL
+from dis import dis
+from operator import indexOf
+from turtle import distance
+```

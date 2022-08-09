@@ -54,8 +54,8 @@ toc: false
 * **Ctrl + Alt + T**: Mở Terminal
 * **Ctrl + Shift + W**: Đóng Terminal hiện tại.
 * **Ctrl + Shift + Q**: Đóng toàn bộ Terminal.
-* **Ctrl + A** or Home: Di chuyển con trỏ chuột về vị trí đầu dòng
-* **Ctrl + E** or End: Di chuyển con trỏ chuột đến vị trí cuối dòng
+* **Ctrl + A** hoặc **Home**: Di chuyển con trỏ chuột về vị trí đầu dòng
+* **Ctrl + E** hoặc **End**: Di chuyển con trỏ chuột đến vị trí cuối dòng
 * **Esc + B**: Di chuyển đến vị trí bắt đầu của từ hiện tại hoặc từ trước đó
 * **Ctrl + K**: Xóa từ vị trí hiện tại của con trỏ đến cuối của dòng
 * **Ctrl + U**: Xóa từ vị trí bắt đầu của dòng đến vị trí hiện tại của con trỏ

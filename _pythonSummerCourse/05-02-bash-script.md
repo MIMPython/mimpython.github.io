@@ -1,97 +1,112 @@
 ---
 title: "Bài 13. Bash script"
 permalink: /pythonSummerCourse/week-05-bash-scripts/
-last_modified_at: 2022-08-06
+last_modified_at: 2022-08-09
 redirect_from:
   - /theme-setup/
 toc: false
 ---
-## 1. Lệnh cơ bản sử dụng trong Terminal/CMD
+## 1. Lệnh cơ bản sử dụng trong Terminal/Command Prompt
 ### 1.1 Linux
 ### Một số lệnh cơ bản
 
-* **sudo** (viết tắt của `superuser do`) - Cho phép bạn chạy các lệnh khác với quyền của admin. Nó hữu dụng khi mà bạn cần sửa các files ở trong các thư mục mà một user bình thường không có quyền truy cập.
+* **sudo** (viết tắt của `superuser do`): cho phép chạy các lệnh khác với quyền của admin. Nó hữu dụng khi cần sửa các files ở trong các thư mục mà một user bình thường không có quyền truy cập.
 
-* **pwd** (viết tắt của `print working directory`) - Lệnh này cho phép bạn biết được đường dẫn đến thư mục hiện tại mà bạn đang truy cập.
+* **pwd** (viết tắt của `print working directory`): cho biết được đường dẫn đến thư mục hiện tại đang truy cập.
 
-* **cd** chuyển hướng tập tin
+* **cd**: chuyển hướng tập tin
   ```bash
   cd path/to/folder
   ```
-  - `cd ..` (với 2 chấm) để chuyển lên 1 cấp thư mục trên
-  - `cd` để tới thẳng thư mục home
-  - `cd-` (với dấu gạch ngang) để chuyển tới thư mục bạn đã ở trước đó
+  - Chuyển lên 1 cấp thư mục trên
+    ```bash
+    cd ..
+    ```
+  - Chuyển tới thẳng thư mục home
+    ```bash
+    cd
+    ```
+  - Chuyển tới thư mục bạn đã ở trước đó
+    ```bash
+    cd -
+    ```
 
-* **ls** - Lệnh này sẽ hiển thị cho bạn thấy danh sách các files hay thư mục con trong thư mục hiện tại bạn đang truy cập.
+* **ls**: hiển thị danh sách các file hay thư mục con trong thư mục hiện tại bạn đang truy cập.
 
-  - `ls -l` sẽ hiển thị danh sách các files, thư mục kèm theo thông tin về dung lượng, thời gian được tạo, và quyền truy cập của các files, thư mục đó.
-   - `ls -a` sẽ hiển thị danh sách bao gồm cả các files, thư mục bị ẩn trong thư mục hiện tại
+  - Hiển thị danh sách các file, thư mục kèm theo thông tin về dung lượng, thời gian được tạo, và quyền truy cập của các files, thư mục đó.
+    ```bash
+    ls -l
+    ```
+   - Hiển thị danh sách bao gồm cả các files, thư mục bị ẩn trong thư mục hiện tại
+    ```bash
+    ls -a
+    ```
 
-* **cp** (`copy`) - Cho phép bạn copy một file.
+* **cp** (`copy`): copy một file.
 
   ```bash
-  cp file foo
+  cp foo.txt bar.txt
   ```
-  - Ví dụ `cp file foo` sẽ tạo ra một bản copy của "file" với tên là "foo", nhưng "file" sẽ vẫn còn ở đó.
-  - Nếu bạn muốn copy cả một thư mục, bạn phải sử dụng lệnh `cp -r directory foo`
+  - Ví dụ `cp foo.txt bar.txt` sẽ tạo ra một bản copy của "foo.txt" với tên là "bar.txt", nhưng "foo.txt" sẽ vẫn còn ở đó.
+  - Nếu bạn muốn copy cả một thư mục, bạn phải sử dụng lệnh `cp -r foo bar`.
 
-* **mv** (`move`) - Lệnh này cho phép bạn di chuyển một file sang một thư mục khác hoặc đổi tên của một file nào đó.
+* **mv** (`move`): di chuyển một file sang một thư mục khác hoặc đổi tên của một file nào đó.
   ```bash
   mv foo bar
   ```
-  - Ví dụ, `mv foo bar` sẽ đổi tên của file "foo" thành "bar"
-  - `mv foo ~/Pictures` sẽ di chuyển file "foo" đến thư mục Pictures, nhưng không đổi tên của nó. `mv foo ~/Pictures/bar` sẽ di chuyển file "foo" đến thư mục Pictures với tên "bar"
+  - Ví dụ, `mv foo bar` sẽ đổi tên của file "foo" thành "bar".
+  - `mv foo ~/Pictures` sẽ di chuyển file "foo" đến thư mục Pictures, nhưng không đổi tên của nó. `mv foo ~/Pictures/bar` sẽ di chuyển file "foo" đến thư mục Pictures với tên "bar".
 
-* **rm** (remove) - Cho phép bạn xóa một file. Sử dụng `rm -r` directory nếu bạn muốn xóa cả một thư mục
+* **rm** (remove): xóa một file. Sử dụng `rm -r` directory nếu bạn muốn xóa cả một thư mục
 
-* **mkdir** (make directory) - Cho phép bạn tạo một thư mục mới.
+* **mkdir** (make directory): tạo một thư mục mới.
 
-* **history** - Hiển thị tất cả những lệnh bạn đã gõ trước đó.
+* **history**: hiển thị tất cả những lệnh đã gõ trước đó.
 
-* **man** - lệnh này hiển thị hướng dẫn sử dụng của những lệnh khác. Ví dụ, bạn muốn biết cách sử dụng lệnh `mkdir` như đã nói ở trên, bạn viết lệnh đó như sau: `man mkdir`.
+* **man**: hiển thị hướng dẫn sử dụng của những lệnh khác. Ví dụ, bạn muốn biết cách sử dụng lệnh `mkdir` như đã nói ở trên, bạn viết lệnh đó như sau: `man mkdir`.
 
 ### Một số phím tắt hữu dụng sử dụng trên terminal
-* **Ctrl + A** or Home - Di chuyển con trỏ chuột về vị trí đầu dòng
-* **Ctrl + E** or End - Di chuyển con trỏ chuột đến vị trí cuối dòng
-* **Esc + B** - Di chuyển đến vị trí bắt đầu của từ hiện tại hoặc từ trước đó
-* **Ctrl + K** - Xóa từ vị trí hiện tại của con trỏ đến cuối của dòng
-* **Ctrl + U** - Xóa từ vị trí bắt đầu của dòng đến vị trí hiện tại của con trỏ
-* **Ctrl + W** - Xóa từ đứng trước con trỏ
-* **Alt + B** - Di chuyển lùi lại một từ
-* **Alt + F** - Di chuyển tiến lên một từ
-* **Alt + C** - Viết hoa kí tự ở vị trí con trỏ và chuyển con trỏ xuống cuối dòng
+* **Ctrl + A** or Home: di chuyển con trỏ chuột về vị trí đầu dòng.
+* **Ctrl + E** or End: di chuyển con trỏ chuột đến vị trí cuối dòng.
+* **Esc + B**: di chuyển đến vị trí bắt đầu của từ hiện tại hoặc từ trước đó.
+* **Ctrl + K**: xóa từ vị trí hiện tại của con trỏ đến cuối của dòng.
+* **Ctrl + U**: xóa từ vị trí bắt đầu của dòng đến vị trí hiện tại của con trỏ.
+* **Ctrl + W**: xóa từ đứng trước con trỏ.
+* **Alt + B**: di chuyển lùi lại một từ.
+* **Alt + F**: di chuyển tiến lên một từ.
+* **Alt + C**: viết hoa kí tự ở vị trí con trỏ và chuyển con trỏ xuống cuối dòng.
 
-### 1.2 Window
+### 1.2 Windows
 ### Một số lệnh cơ bản
-* **cd** chuyển hướng tập tin (Tương tự như đối cới linux)
-* **dir** duyệt ra các file và thư mục (không bao gồm file ẩn) tại vị trí thư mục hiện tại hoặc thư mục tiếp theo theo đường dẫn cho trước.
-  > Để hiện thị tất cả file và thư mục bao gồm cả file, thư mục ẩn bạn có thể thêm /a vào sau dir.
+* **cd**: chuyển hướng tập tin (tương tự như đối cới linux).
+* **dir**: duyệt ra các file và thư mục (không bao gồm file ẩn) tại vị trí thư mục hiện tại hoặc thư mục tiếp theo theo đường dẫn cho trước.
+  > Để hiện thị tất cả file và thư mục bao gồm cả file, thư mục ẩn bạn có thể sử dụng `dir /a`.
 
-* **mkdir** hoặc **md** tạo mới nhiều hoặc một thưc mục
+* **mkdir** hoặc **md**: tạo mới nhiều hoặc một thư mục.
   ```bash
   mkdir foo bar
   md foo bar
   ```
 
-* **rmdir** hoặc **rd** Xóa một hoặc nhiều thư mục
+* **rmdir** hoặc **rd**: xóa một hoặc nhiều thư mục.
 
   ```cmd
   rmdir foo bar
   rd foo bar
   ```
 
-* **copy** sao chép một hoặc nhiều file
+* **copy**: sao chép một hoặc nhiều file.
   ```cmd
   copy <file_1> <file_2> "path/to/save/folder"
   ```
 
-* **move** di chuyển một hoặc nhiều file
+* **move**: di chuyển một hoặc nhiều file.
 
   ```cmd
   move <file_1> <file_2> "path/to/save/folder"
   ```
 
-* **del** xóa một hay nhiều file
+* **del**: xóa một hay nhiều file.
   ```cmd
   del <file_1> <file_2>
   ```
@@ -102,14 +117,14 @@ Trong Python, bạn có thể định nghĩa một hàm có số lượng đối
 
 ```py
 def hello(name, msg):
-  print(f'Hello {name}, {msg}')
+  print(f'Hello {name}. {msg}')
 
 hello('MIM Python', 'How are you?')
 ```
 
 Kết quả:
 ```
-Hello MIM Python, How are you?
+Hello MIM Python. How are you?
 ```
 
 Ở ví dụ trên hàm `hello()` có 2 tham số.
@@ -135,7 +150,7 @@ Ta có thể cung cấp giá trị mặc định cho một đối số bằng c�
 
 ```py
 def hello(name, msg='How are you?'):
-  print(f'Hello {name}, msg')
+  print(f'Hello {name}. {msg}')
 
 hello('MIM Python')
 hello('MIM Python', 'Good morning!')
@@ -144,8 +159,8 @@ hello('MIM Python', 'Good morning!')
 Kết quả
 
 ```
-Hello MIM Python, How are you?
-Hello MIM Python, Good morning!
+Hello MIM Python. How are you?
+Hello MIM Python. Good morning!
 ```
 
 Ở ví dụ trên thì tham số `name` sẽ không có giá trị mặc định và khi call function thì cần bắt buộc phải truyền tham số `name` vào function.
@@ -162,13 +177,13 @@ Python cho phép các hàm được gọi bằng cách sử dụng các đối s
 
 ```py
 # 2 keyword arguments
-hello(name = "MIM Python",msg = "How are you?")
+hello(name="MIM Python",msg="How are you?")
 
 # 2 keyword arguments (out of order)
-hello(msg = "How are you?",name = "MIM Python")
+hello(msg="How are you?",name="MIM Python")
 
 # 1 positional, 1 keyword argument
-hello("MIM Python", msg = "How are you?")
+hello("MIM Python", msg="How are you?")
 ```
 
 Như chúng ta thấy, chúng ta có thể thay đổi các đối số vị trí với các đối số từ khóa trong khi gọi hàm. Nhưng chúng ta phải lưu ý rằng các đối số từ khóa phải tuân theo các đối số vị trí.
@@ -213,7 +228,7 @@ Cú pháp này tiện lợi hơn rất nhiều do chúng ta hoàn toàn không c
 Ngoài ra, chúng ta hoàn toàn có thể kết hợp `*args` với các tham số khác của hàm với ý nghĩa "những tham số còn lại". Trong trường hợp này, `*args` sẽ phải đặt ở cuối cùng nếu không sẽ gặp lỗi.
 
 ```py
-def foo(a, b, *arg):
+def foo(a, b, *args):
   print('normal arguments', a, b)
   for x in args:
     print('another argument through *args', x)

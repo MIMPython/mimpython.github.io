@@ -132,7 +132,7 @@ toc: false
 * **F8**: Di chuyển quay trở lại lịch sử lệnh để ghép với các lệnh hiện tại.
 ## 2.  Đối số trong python
 ### 2.1 Đối số là gì?
-Trong Python, bạn có thể định nghĩa một hàm có số lượng đối số thay đổi Chúng ta đã hiểu về cách xác định một hàm và gọi nó. Nếu không, lệnh gọi hàm sẽ dẫn đến lỗi.
+Trong Python, bạn có thể định nghĩa một hàm có số lượng đối số thay đổi. Chúng ta đã hiểu về cách xác định một hàm và gọi nó.
 
 ```py
 def hello(name, msg):

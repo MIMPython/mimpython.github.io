@@ -222,7 +222,7 @@ SyntaxError: non-keyword arg after keyword arg
 #### Sử dụng `*args`
 Có những trường hợp chúng ta có thể sẽ chưa biết trước được số lướng đối số sẽ truyền vào một hàm là bao nhiều. Với trường hợp này Python sẽ cho chúng ta 1 giải pháp đó là gọi hàm với số lượng đối số tùy chọn.
 
-Trong khi định nghĩa hàm, chúng ta sẽ sử dụng dấu hoa thị (*) trước tên tham số để biểu thị loại đối số này. Ví dụ dể tính tổng các số mà chúng ta không biết số lương chuyền vào
+Trong khi định nghĩa hàm, chúng ta sẽ sử dụng dấu hoa thị (*) trước tên tham số để biểu thị loại đối số này. Ví dụ dể tính tổng các số mà chúng ta không biết số lương truyền vào
 
 ``` py
 def sum_cal(*args):

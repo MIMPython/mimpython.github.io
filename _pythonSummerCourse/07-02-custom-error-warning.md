@@ -1,7 +1,7 @@
 ---
 title: "Bài 17. Ngoại lệ/cảnh báo"
 permalink: /pythonSummerCourse/week-07-custom-error-warning/
-last_modified_at: 2022-08-17
+last_modified_at: 2022-08-18
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,7 +10,7 @@ toc: false
 ## Nội dung kiến thức
 
 ## 1. Ngoại lệ (exception)
-- Python sử dụng một đối tượng đặc biệt gọi là `exceptions` để quản lý lỗi xảy ra trong quá trình thực hiện chương trình.
+- Python sử dụng một đối tượng đặc biệt gọi là `exception` để quản lý lỗi xảy ra trong quá trình thực hiện chương trình.
 - Một lỗi đơn giản là khi bạn chia một số cho 0 và cần phải bắt ngoại lệ đó.
   ```py
   >>> print(2/0)
@@ -19,14 +19,14 @@ toc: false
   ZeroDivisionError: division by zero
   ```
 
-### 1.1. `Raise`
+### 1.1. Từ khóa `raise`
 - Sử dụng `raise` để bắt một ngoại lệ nếu điều kiện xảy ra.
 - Để bắt một ngoại lệ khi điều kiện chắc chắn xảy ra thì sử dụng `raise` có thể như ví dụ dưới đây.
   ```py
   x = -2
 
   if x < 0:
-    raise Exception("Numbers below zero")
+      raise Exception("Numbers below zero")
   ```
 - Khi bạn thực thi code:
   ```py
@@ -38,7 +38,7 @@ toc: false
   ```
 
 
-### 1.2. `Assert`
+### 1.2. Từ khóa `assert`
 - Sử dụng `assert` khi nhất định điều kiện đó phải đáp ứng.
 
   ```py
@@ -56,27 +56,56 @@ Output:
   ```
 
 ### 1.3. `try` and `except`
-- Khối `try` and `except` được sử dụng để catch và handle ngoại lệ.
+- Khối `try` and `except` được sử dụng để bắt (catch) và xử lý (handle) ngoại lệ.
   ```py
   try:
       print(a)
   except NameError:
-    print("Variable a is not defined")
+      print("Variable a is not defined")
   ```
 - Từ khóa `else` định nghĩa cho một khối code để thực thi nếu không có lỗi nào.
   ```py
   else:
-    print("Nothing went wrong!")
+      print("Nothing went wrong!")
   ```
 - Khối `finally` nếu được chỉ định thì sẽ thực thi bất kể khối `try` dù có gây ra lỗi hay không.
   ```py
   finally:
       print("Hello!")
   ```
+- Ví dụ khác
+  ```py
+  def readAndWriteFile(file):
+      try:
+          f = open(file)
+          try:
+              f.write("Hello MIMPython!")
+          except:
+              print("Error when opening the file.")
+          finally:
+              f.close()
+      except:
+          print("Error when opening the file.")
+      else:
+          print("Nothing error!")
+
+
+  readAndWriteFile("test.txt")
+  ```
 
 ## 2. Cảnh báo (warning)
 - `warning` được đưa ra để cảnh báo về các tình huống không nhất thiết phải ngoại lệ.
 - Cảnh báo khác với một lỗi trong chương trình. Chương trình dừng ngay nếu khi gặp lỗi nhưng một cảnh báo mà không quan trọng thì nó hiển thị thông báo và chương trình vẫn chạy.
+  ```py
+  import warnings
+
+  # displaying warning
+  warnings.warn('This is a warning message!')
+  ```
+  ```py
+  test.py:4: UserWarning: This is a warning message!
+  warnings.warn('This is a warning message!')
+  ```
 
 ## 3. Gỡ lỗi (debugging)
 ### 3.1. Sử dụng `breakpoint()`

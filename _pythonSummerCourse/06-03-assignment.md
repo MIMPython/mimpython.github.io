@@ -127,9 +127,9 @@ Gợi ý. Tra cứu trên stackoverflow.
 **Bài tập 6.** *(examination timetabling analysis)* \
 Sử dụng thư viện `pandas` và (những) thư viện vẽ hình phù hợp để phân tích dữ liệu đầu vào của bài toán xếp lịch thi cho Trường Đại học Khoa học Tự nhiên, ĐHQGHN trong học kỳ II năm học 2021-2022.
 
-Bộ dữ liệu đầu vào gồm có
-- File [exams.csv](/assets/dataset/exams.csv) chứa danh sách mã môn học (`subjectCode`) và các mã lớp học (`classCode`) tương ứng. Một mã môn học có thể gồm nhiều mã lớp học khác nhau. Có thể sử dụng `pandas` đọc file này bằng câu lệnh `pd.read_csv(pathToFile)`.
-- File nén [examinationTimetablingDataset.zip](/assets/dataset/examinationTimetablingDataset.zip) chứa các file `csv`, mỗi file có tên (không tính phần mở rộng - extension) là một mã lớp học, nội dung mỗi file là danh sách mã sinh viên đăng ký lớp học tương ứng.
+[Bộ dữ liệu đầu vào](https://drive.google.com/drive/folders/1CFtJZ2Ijeho8oat_aefnIjY7gvmbPQ4-?usp=sharing) gồm có
+- File `exams.csv` chứa danh sách mã môn học (`subjectCode`) và các mã lớp học (`classCode`) tương ứng. Một mã môn học có thể gồm nhiều mã lớp học khác nhau. Có thể sử dụng `pandas` đọc file này bằng câu lệnh `pd.read_csv(pathToFile)`.
+- File nén `examinationTimetablingDataset.zip` chứa các file `csv`, mỗi file có tên (không tính phần mở rộng - extension) là một mã lớp học, nội dung mỗi file là danh sách mã sinh viên đăng ký lớp học tương ứng.
 
 Dưới đây là phần mô tả những `DataFrame` có liên quan tới bộ dữ liệu này.
 

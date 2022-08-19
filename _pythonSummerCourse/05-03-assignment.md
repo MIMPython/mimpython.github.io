@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 5"
 permalink: /pythonSummerCourse/week-05-assignment/
-last_modified_at: 2022-08-19
+last_modified_at: 2022-08-20
 redirect_from:
   - /theme-setup/
 toc: false
@@ -16,6 +16,7 @@ Cập nhật
 - 10/08/2022. Bổ sung bài tập 7, bài tập 8, bài tập 9.
 - 10/08/2022. Bổ sung một số lưu ý về việc nộp bài, xem chi tiết trong mục 3.2 và mục 4 trong phần [giới thiệu khóa học](/pythonSummerCourse/).
 - 19/08/2022. Bổ sung mô tả cho bài tập 2.
+- 20/08/2022. Bổ sung câu hỏi cho bài tập 4.
 
 
 ## Danh sách bài tập
@@ -62,10 +63,13 @@ Chú ý
 
 
 **Bài tập 4.** *(về bờ không khó)* \
-Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày liền trước. Biết rằng vào ngày 07/08/2022, giá của cổ phiếu _F_ là 7.24 (đơn vị nghìn đồng). Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào? \
+Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày giao dịch liền trước. Ngày giao dịch là các ngày từ thứ hai đến thứ sáu trong tuần. Biết rằng vào ngày 08/08/2022, giá của cổ phiếu _F_ là 7.24 (đơn vị nghìn đồng). \
+a) Chỉ ra giá tối đa mà cổ phiếu này có thể đạt được trong mỗi ngày trong khoảng từ 09/08/2022 đến 12/08/2022.
+b) Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào? \
+
 Giải _Quyết_ bài tập này trong hai trường hợp sau đây: \
-a) Giá cổ phiếu nhận giá trị là một số thực. \
-b) Giá cổ phiếu (đơn vị nghìn đồng) là một số có hai chữ số sau dấu chấm thập phân, ví dụ $32.40$.
+Trường hợp 1: Giá cổ phiếu nhận giá trị là một số thực. \
+Trường hợp 2: Giá cổ phiếu (đơn vị nghìn đồng) là một số có hai chữ số sau dấu chấm thập phân, ví dụ $32.40$.
 
 
 **Bài tập 5.** *(infinite loop)* \

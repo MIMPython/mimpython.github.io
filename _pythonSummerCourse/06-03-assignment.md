@@ -97,9 +97,42 @@ fig.show()
 
 <center> Ảnh: Savoury Days fanpage </center>
 
+**Bài tập 6.** *(iterating a directory)* \
+Viết một hàm liệt kê tất cả những tệp tin và thư mục là con trực tiếp của một thư mục cho trước, đồng thời trả lời xem mỗi đối tượng là tệp tin hay là thư mục. Học viên tự quyết định kiểu dữ liệu trả về phù hợp.
+
+Ví dụ với cây thư mục như sau
+```
+foo/
+  bar/
+    fileA.txt
+    fileB.png
+  ham/
+  egg/
+    fileC.pdf
+  fileD.svg
+  fileE.tif
+```
+chương trình sẽ có input/output dưới đây
+```
+Input: /path/to/folder/foo
+Output:
+- object bar, type folder
+- object ham, type folder
+- object egg, type folder
+- object fileD.svg, type file
+- object fileE.tif, type file
+```
+
 
 **Bài tập.** *(examination timetabling)* \
-Sử dụng thư viện pandas và (những) thư viện vẽ hình phù hợp để phân tích dữ liệu đầu vào của bài toán xếp lịch thi của Trường Đại học Khoa học Tự nhiên. Dữ liệu có thể tải xuống tại [đây](/assets/dataset/examinationTimetablingDataset.zip).
+Credit. Nội dung của bài tập này được chuẩn bị bởi Trần Thanh Tùng và Hoàng Anh Quân.
+
+Sử dụng thư viện `pandas` và (những) thư viện vẽ hình phù hợp để phân tích dữ liệu đầu vào của bài toán xếp lịch thi cho Trường Đại học Khoa học Tự nhiên, ĐHQGHN trong học kỳ II năm học 2021-2022.
+
+Bộ dữ liệu đầu vào gồm có
+- File [exams.csv](/assets/dataset/exams.csv) chứa danh sách mã môn học (`subjectCode`) và các mã lớp học (`classCode`) tương ứng. Một mã môn học có thể gồm nhiều mã lớp học khác nhau. Có thể sử dụng `pandas` đọc file này bằng câu lệnh `pd.read_csv(pathToFile)`.
+- File nén [examinationTimetablingDataset.zip](/assets/dataset/examinationTimetablingDataset.zip) chứa các file `csv`, mỗi file có tên (không tính phần mở rộng - extension) là một mã lớp học, nội dung mỗi file là danh sách mã sinh viên đăng ký lớp học tương ứng.
+
 
 
 **Bài tập.** *(Conway's game of life)* \

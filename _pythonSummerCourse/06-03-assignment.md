@@ -158,8 +158,7 @@ Dưới đây là phần mô tả những `DataFrame` có liên quan tới bộ 
   + Cột 3: một `list` tất cả sinh viên cùng đăng ký hai môn học kể trên
   + Cột 4: số sinh viên cùng đăng ký hai môn học kể trên
 
-
-Thực hiện các yêu cầu dưới đây.
+Thực hiện các yêu cầu dưới đây. \
 a) Tạo các DataFrame được liệt kê ở trên, chọn tên biến và tên cột phù hợp. Ngoài ra, các dòng trong mỗi DataFrame cũng nên được sắp xếp theo một thứ tự hợp lý. \
 b) Xuất những DataFrame này (với định dạng file phù hợp) vào thư mục bổ sung trong thư mục nộp bài. \
 c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nhiều càng tốt). Dưới đây là _gợi ý_ cho một số khía cạnh của bộ dữ liệu.
@@ -172,7 +171,7 @@ c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nh
 
 d) Tạo các hình vẽ phù hợp để minh họa cho những thống kê bên trên. Xuất những hình vẽ này vào thư mục bổ sung trong thư mục nộp bài. \
 e) (câu hỏi thêm) Tìm kiếm thêm những dữ liệu liên quan để trả lời những câu hỏi không hiển nhiên liên quan đến bộ dữ liệu này. Ví dụ như
-> Trong 8 khoa của Trường Đại học Khoa học Tự nhiên, khoa nào có nhiều sinh viên nhất?
+> Trong những khoa thuộc Trường Đại học Khoa học Tự nhiên, khoa nào có nhiều sinh viên nhất?
 
 f) (câu hỏi thêm) Đọc thêm khái niệm về [khoảng cách](https://en.wikipedia.org/wiki/Distance_(graph_theory)) và [đường kính](https://mathworld.wolfram.com/GraphDiameter.html) của một đồ thị. Sau đó xây dựng những đồ thị có liên quan tới bộ dữ liệu này và đưa ra những thông tin liên quan đến đồ thị vừa xây dựng.
 

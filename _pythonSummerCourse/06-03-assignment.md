@@ -1,20 +1,19 @@
 ---
 title: "Bài tập tuần 6"
 permalink: /pythonSummerCourse/week-06-assignment/
-last_modified_at: 2022-08-18
+last_modified_at: 2022-08-19
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập tuần 6 gồm .. bài tập, bao gồm
-- .. bài tập cơ bản: 1, 2, 3, 4 (làm tối thiểu .. bài).
-- .. bài tập nâng cao: ... .
+Bài tập tuần 6 gồm 8 bài tập, bao gồm
+- 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
+- 2 bài tập nâng cao: 7, 8.
 
 
 ## Danh sách bài tập
-
 
 **Bài tập 1.** *(numpy)* \
 Mục tiêu của bài tập này là so sánh tốc độ thực hiện các phép toán tính tổng khi sử dụng thư viện `numpy` với khi sử dụng cách cài đặt thủ công. Dưới đây là danh sách _gợi ý_, không bắt buộc, những công việc cần thực hiện để giải quyết mục tiêu đề ra: \
@@ -66,11 +65,7 @@ Hãy tìm hiểu một số hàm trong thư viện `numpy` (không nhất thiế
 - So sánh tốc độ thực thi giữa hai cách làm: phương pháp thủ công và phương pháp sử dụng `numpy`.
 
 
-**Bài tập 3.** *(largest product in a grid)* \
-Giải quyết [bài toán 11](https://projecteuler.net/problem=11) trên trang web Project Euler.
-
-
-**Bài tập 4.** *(plotting method)* \
+**Bài tập 3.** *(plotting method)* \
 Thiết kế class về các đối tượng hình học (điểm, đoạn thẳng, hình tròn, ...) trong đó có những phương thức vẽ hình phù hợp. \
 Gợi ý về cách sử dụng chương trình
 ```py
@@ -82,7 +77,7 @@ fig.show()
 ```
 
 
-**Bài tập 5.** ([Savoury Days](http://www.savourydays.com/)) Cắt, ghép ảnh dưới đây để tạo một ảnh với dòng chữ "Bánh Trung thu ăn kiêng".
+**Bài tập 4.** ([Savoury Days](http://www.savourydays.com/)) Cắt, ghép ảnh dưới đây để tạo một ảnh với dòng chữ "Bánh Trung thu ăn kiêng".
 
 <div>
     <img src="/assets/images/courses/homework/SD_mooncake.png"
@@ -97,7 +92,7 @@ fig.show()
 
 <center> Ảnh: Savoury Days fanpage </center>
 
-**Bài tập 6.** *(iterating a directory)* \
+**Bài tập 5.** *(iterating a directory)* \
 Viết một hàm liệt kê tất cả những tệp tin và thư mục là con trực tiếp của một thư mục cho trước, đồng thời trả lời xem mỗi đối tượng là tệp tin hay là thư mục. Học viên tự quyết định kiểu dữ liệu trả về phù hợp.
 
 Ví dụ với cây thư mục như sau
@@ -123,17 +118,70 @@ Output:
 - object fileE.tif, type file
 ```
 
+Gợi ý. Tra cứu trên stackoverflow.
 
-**Bài tập.** *(examination timetabling)* \
-Credit. Nội dung của bài tập này được chuẩn bị bởi Trần Thanh Tùng và Hoàng Anh Quân.
 
+**Bài tập 6.** *(examination timetabling analysis)* \
 Sử dụng thư viện `pandas` và (những) thư viện vẽ hình phù hợp để phân tích dữ liệu đầu vào của bài toán xếp lịch thi cho Trường Đại học Khoa học Tự nhiên, ĐHQGHN trong học kỳ II năm học 2021-2022.
 
 Bộ dữ liệu đầu vào gồm có
 - File [exams.csv](/assets/dataset/exams.csv) chứa danh sách mã môn học (`subjectCode`) và các mã lớp học (`classCode`) tương ứng. Một mã môn học có thể gồm nhiều mã lớp học khác nhau. Có thể sử dụng `pandas` đọc file này bằng câu lệnh `pd.read_csv(pathToFile)`.
 - File nén [examinationTimetablingDataset.zip](/assets/dataset/examinationTimetablingDataset.zip) chứa các file `csv`, mỗi file có tên (không tính phần mở rộng - extension) là một mã lớp học, nội dung mỗi file là danh sách mã sinh viên đăng ký lớp học tương ứng.
 
+Dưới đây là phần mô tả những `DataFrame` có liên quan tới bộ dữ liệu này.
+
+- DataFrame thứ nhất
+  + Cột 1: một mã sinh viên
+  + Cột 2: một mã lớp học mà sinh viên đó đăng ký
+  + Cột 3: một mã môn học tương ứng với mã lớp học kể trên
+
+  Ví dụ, với một sinh viên đăng ký 5 môn học thì trong DataFrame này sẽ có đúng 5 dòng có cột 1 là mã sinh viên của người này.
+
+- DataFrame thứ hai
+  + Cột 1: một mã lớp học
+  + Cột 2: một `list` tất cả mã sinh viên đăng ký lớp học đó
+  + Cột 3: số sinh viên đăng ký lớp học đó
+
+- DataFrame thứ ba
+  + Cột 1: một mã môn học
+  + Cột 2: một `list` tất cả mã sinh viên đăng ký môn học đó
+  + Cột 3: số sinh viên đăng ký môn học đó
+
+- DataFrame thứ tư
+  + Cột 1: một mã sinh viên
+  + Cột 2: một `list` tất cả lớp học mà sinh viên đó đăng ký
+  + Cột 3: một `list` tất cả môn học mà sinh viên đó đăng ký
+
+- DataFrame thứ năm.
+  + Cột 1: một mã môn học
+  + Cột 2: một mã môn học (nên khác với giá trị ở cột 1)
+  + Cột 3: một `list` tất cả sinh viên cùng đăng ký hai môn học kể trên
+  + Cột 4: số sinh viên cùng đăng ký hai môn học kể trên
 
 
-**Bài tập.** *(Conway's game of life)* \
+Thực hiện các yêu cầu dưới đây.
+a) Tạo các DataFrame được liệt kê ở trên, chọn tên biến và tên cột phù hợp. Ngoài ra, các dòng trong mỗi DataFrame cũng nên được sắp xếp theo một thứ tự hợp lý. \
+b) Xuất những DataFrame này (với định dạng file phù hợp) vào thư mục bổ sung trong thư mục nộp bài. \
+c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nhiều càng tốt). Dưới đây là _gợi ý_ cho một số khía cạnh của bộ dữ liệu.
+- Số sinh viên, lớp học, môn học của học kỳ.
+- Số môn trung bình một sinh viên đăng ký.
+- Sinh viên đăng ký nhiều môn học nhất, ít môn học nhất.
+- Môn học có nhiều (hoặc ít) sinh viên đăng ký nhất.
+- Có sinh viên nào học hai lớp có chung mã môn hay không?
+- Hai môn học có chung nhiều sinh viên nhất.
+
+d) Tạo các hình vẽ phù hợp để minh họa cho những thống kê bên trên. Xuất những hình vẽ này vào thư mục bổ sung trong thư mục nộp bài. \
+e) (câu hỏi thêm) Tìm kiếm thêm những dữ liệu liên quan để trả lời những câu hỏi không hiển nhiên liên quan đến bộ dữ liệu này. Ví dụ như
+> Trong 8 khoa của Trường Đại học Khoa học Tự nhiên, khoa nào có nhiều sinh viên nhất?
+
+f) (câu hỏi thêm) Đọc thêm khái niệm về [khoảng cách](https://en.wikipedia.org/wiki/Distance_(graph_theory)) và [đường kính](https://mathworld.wolfram.com/GraphDiameter.html) của một đồ thị. Sau đó xây dựng những đồ thị có liên quan tới bộ dữ liệu này và đưa ra những thông tin liên quan đến đồ thị vừa xây dựng.
+
+**Credit:** Dữ liệu trong bài tập này được thu thập bởi nhóm sinh viên Trường Đại học Khoa học Tự nhiên, ĐHQGHN nghiên cứu bài toán xếp lịch thi của Trường. Nội dung bài tập được chuẩn bị bởi Trần Thanh Tùng và Hoàng Anh Quân.
+
+
+**Bài tập 7.** *(largest product in a grid)* \
+Giải quyết [bài toán 11](https://projecteuler.net/problem=11) trên trang web Project Euler.
+
+
+**Bài tập 8.** *(Conway's game of life)* \
 Viết một chương trình mô phỏng [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).

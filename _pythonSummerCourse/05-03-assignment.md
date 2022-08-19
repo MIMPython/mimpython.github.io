@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 5"
 permalink: /pythonSummerCourse/week-05-assignment/
-last_modified_at: 2022-08-10
+last_modified_at: 2022-08-19
 redirect_from:
   - /theme-setup/
 toc: false
@@ -15,6 +15,7 @@ Bài tập tuần 5 gồm 9 bài tập, bao gồm
 Cập nhật
 - 10/08/2022. Bổ sung bài tập 7, bài tập 8, bài tập 9.
 - 10/08/2022. Bổ sung một số lưu ý về việc nộp bài, xem chi tiết trong mục 3.2 và mục 4 trong phần [giới thiệu khóa học](/pythonSummerCourse/).
+- 19/08/2022. Bổ sung mô tả cho bài tập 2.
 
 
 ## Danh sách bài tập
@@ -38,7 +39,7 @@ Danh sách công việc đã thực hiện
 ```
 
 **Bài tập 2.** *(markdown)* \
-Viết một file markdown (đuôi `md`) và đặt nó vào trong thư mục bổ sung `additionalFolder/`, sau đó ghi tên file markdown này vào phần bài làm của bài tập này.
+Viết một file markdown (đuôi `md`) và đặt nó vào trong thư mục bổ sung `additionalFolder/`, sau đó ghi tên file markdown này vào phần bài làm của bài tập này. Tên file cần thể hiện rõ thông tin cá nhân của học viên.
 
 **Bài tập 3.** *(scripting)* \
 Mở một terminal và thực hiện những yêu cầu dưới đây. Ghi lại **tất cả** những câu lệnh đã thực thi (kể từ thời điểm mở terminal) vào phần bài làm của bài tập này, đồng thời đặt thư mục `X` vào trong thư mục bổ sung `additionalFolder/` trong phần bài nộp.

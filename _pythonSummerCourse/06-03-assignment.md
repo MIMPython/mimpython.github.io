@@ -8,9 +8,12 @@ toc: false
 ---
 
 
-Bài tập tuần 6 gồm 8 bài tập, bao gồm
+Bài tập tuần 6 gồm 10 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
-- 2 bài tập nâng cao: 7, 8.
+- 4 bài tập nâng cao: 7, 8, 9, 10.
+
+Cập nhật
+- 19/08/2022. Bổ sung bài tập 9, bài tập 10.
 
 
 ## Danh sách bài tập
@@ -184,3 +187,12 @@ Giải quyết [bài toán 11](https://projecteuler.net/problem=11) trên trang 
 
 **Bài tập 8.** *(Conway's game of life)* \
 Viết một chương trình mô phỏng [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+
+
+**Bài tập 9.** *(clock)* \
+a) Viết chương trình vẽ hình ảnh một chiếc đồng hồ số và một chiếc đồng hồ kim thể hiện một thời điểm bất kỳ trong ngày, ví dụ 04h20m19s.
+b) Dựng một đoạn video mô phỏng sự hoạt động của một chiếc đồng hồ số và/hoặc một chiếc đồng hồ kim. Gợi ý: sử dụng thư viện `manim`.
+
+
+**Bài tập 10.** *(Gauss elimination)* \
+Viết một chương trình tính định thức của một ma trận (lưu dưới dạng một `numpy array`) bằng phương pháp khử Gauss. So sánh tốc độ của chương trình so với phương thức tính định thức có sẵn trong thư viện `numpy`.

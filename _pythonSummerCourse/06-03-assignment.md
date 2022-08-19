@@ -152,7 +152,7 @@ Dưới đây là phần mô tả những `DataFrame` có liên quan tới bộ 
   + Cột 2: một `list` tất cả lớp học mà sinh viên đó đăng ký
   + Cột 3: một `list` tất cả môn học mà sinh viên đó đăng ký
 
-- DataFrame thứ năm.
+- DataFrame thứ năm
   + Cột 1: một mã môn học
   + Cột 2: một mã môn học (nên khác với giá trị ở cột 1)
   + Cột 3: một `list` tất cả sinh viên cùng đăng ký hai môn học kể trên

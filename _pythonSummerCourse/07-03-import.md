@@ -1,15 +1,20 @@
 ---
 title: "Bài 18. Module trong Python"
 permalink: /pythonSummerCourse/week-07-module-in-python/
-last_modified_at: 2022-07-25
+last_modified_at: 2022-08-22
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-Nội dung kiến thức
-- Cách viết một module trong Python
-- Cách import một module (absolute import hoặc relative import)
+Nội dung tóm tắt của bài học đang được hoàn thiện.
+
+- Điều chỉnh `PYTHONPATH` trong Linux và trong Windows.
+- Cách viết một module trong Python.
+- Cách import một module: absolute import hoặc relative import (link https://realpython.com/python-import/).
+- Alias import (`import numpy as np`).
+- Hạn chế sử dụng wildcard import (`from x import *`).
+
 
 Có thể sử dụng thư viện [ipynb](https://ipynb.readthedocs.io/en/latest/) để import `class/function/variable` từ một file Jupyter notebook sang một file Jupyter notebook khác. Tuy nhiên, đây là phương pháp bất đắc dĩ. Trong hầu hết các trường hợp, người viết code nên chuyển _những thứ cần được import_ vào một module (file `.py`).
 

@@ -1,11 +1,14 @@
 ---
 title: "Bài 18. Module trong Python"
 permalink: /pythonSummerCourse/week-07-module-in-python/
-last_modified_at: 2022-08-23
+last_modified_at: 2022-08-24
 redirect_from:
   - /theme-setup/
 toc: false
 ---
+
+Cập nhật
+- 24/08/2022. Bổ sung mô tả trong mục 2 (Python tìm module ở đâu?)
 
 
 ## TLDR
@@ -44,28 +47,42 @@ ModuleNotFoundError: No module named 'utils'
 
 
 ## 2. Python tìm module ở đâu?
-Khi thực thi một chương trình Python, chương trình sẽ tìm các module trong một danh sách các thư mục nhất định, danh sách này được lưu tại `sys.path` với kiểu dữ liệu `list`.
+Nếu đổi dòng code `from utils import foo` trong file `main.py` thành
+```py
+from bar.utils import foo
+```
+thì file này sẽ được chạy thành công (giả sử rằng terminal vẫn đang ở thư mục `mainFolder/`). Điều này thể hiện rằng hiện tại Python "tìm thấy" `bar.utils` nhưng không tìm thấy `utils`.
 
+Khi thực thi một chương trình Python, chương trình sẽ tìm các module trong một danh sách các thư mục nhất định. Danh sách này có **chứa vị trí hiện tại của terminal**, điều này giải thích cho việc Python có thể tìm thấy `bar.utils` trong chương trình bên trên.
+
+Để xem danh sách này trong Python, ta sử dụng câu lệnh
 ```py
 import sys
 print(sys.path)
 ```
 
-Bổ sung hai dòng dưới vào file `main.py`
+Danh sách này được tổng hợp từ nhiều _nguồn_ khác nhau. Nên để bổ sung đường dẫn cần thiết vào `sys.path`, ta có thể thực hiện một trong hai cách sau:
+- Bổ sung đường dẫn vào `sys.path`.
+- Bổ sung đường dẫn vào một _nguồn_ mà `sys.path` sử dụng.
+
+### 2.1. Bổ sung đường dẫn vào `sys.path`
+Nếu bổ sung hai dòng dưới vào file `main.py`
 ```py
 import sys
-sys.path.append('/path/to/mainFolder/bar/') # to import "utils" successfully
+sys.path.append('/path/to/mainFolder/bar/') # to tell Python where to look for "utils"
 ```
 thì ta có thể chạy file `main.py` mà không gặp lỗi `ModuleNotFoundError`.
 
-Tuy nhiên, phương pháp kể trên không tốt vì nó thực hiện việc thay đổi đường dẫn trong code. Một cách khác là thay đổi biến môi trường (environment variable) `PYTHONPATH`. Giá trị của biến này được hiển thị trên terminal với câu lệnh
+### 2.2. Bổ sung đường dẫn vào một _nguồn_
+Phương pháp bổ sung đường dẫn trực tiếp kể trên không tốt (theo quan điểm của người viết) vì nó thực hiện việc bổ sung đường dẫn ngay trong code. \
+Một cách khác là thay đổi biến môi trường (environment variable) `PYTHONPATH`, một nguồn danh sách đường dẫn được tổng hợp vào `sys.path`. Giá trị của biến này được hiển thị trên terminal với câu lệnh
 ```sh
 echo $PYTHONPATH # Linux
 ```
 hoặc bằng đoạn code Python sau
 ```py
 import os
-print(os.environ['PYTHONPATH'])
+print(os.environ.get('PYTHONPATH', None))
 ```
 
 Để bổ sung thêm đường dẫn vào `PYTHONPATH`, ta thực hiện câu lệnh dưới đây trên terminal

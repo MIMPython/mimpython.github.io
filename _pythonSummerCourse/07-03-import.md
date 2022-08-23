@@ -10,17 +10,17 @@ toc: false
 
 ## TLDR
 - **Không thể chạy trực tiếp một file sử dụng relative import.** Ví dụ, nếu câu lệnh thực thi là `python3 main.py` thì nội dung file `main.py` không được chứa relative import.
-- Python quản lý việc tìm module thông qua biến môi trường (environment variable) `PYTHONPATH` chứa danh sách những thư mục. Người dùng có thể thay đổi (chính xác hơn là bổ sung) đường dẫn thư mục cần thiết vào `PYTHONPATH`.
+- Python tìm module trong các thư mục được liệt kê trong biến môi trường (environment variable) `PYTHONPATH`. Người dùng có thể thay đổi (chính xác hơn là bổ sung) những đường dẫn thư mục cần thiết vào `PYTHONPATH`.
 - Phương pháp relative import thường được sử dụng trong file `__init__.py` để rút gọn việc import ở file code chính.
 
 
-## Đặt vấn đề
+## 1. Đặt vấn đề
 Xét cấu trúc thư mục như dưới đây
 ```
 mainFolder/
-  main.py
   bar/
     utils.py
+  main.py
 ```
 Nội dung các file gồm có
 ```py
@@ -43,8 +43,9 @@ ModuleNotFoundError: No module named 'utils'
 ```
 
 
-## Python tìm module ở đâu?
-Khi thực thi một chương trình Python, chương trình sẽ tìm các module tại một danh sách các địa chỉ nhất định (có lẽ theo đúng thứ tự được liệt kê), danh sách này được lưu tại `sys.path` với kiểu dữ liệu `list`.
+## 2. Python tìm module ở đâu?
+Khi thực thi một chương trình Python, chương trình sẽ tìm các module trong một danh sách các thư mục nhất định, danh sách này được lưu tại `sys.path` với kiểu dữ liệu `list`.
+
 ```py
 import sys
 print(sys.path)
@@ -57,7 +58,7 @@ sys.path.append('/path/to/mainFolder/bar/') # to import "utils" successfully
 ```
 thì ta có thể chạy file `main.py` mà không gặp lỗi `ModuleNotFoundError`.
 
-Tuy nhiên, phương pháp kể trên không tốt vì nó thực hiện việc thay đổi đường dẫn trong code. Một cách khác là thay đổi biến môi trường (environment variable) `PYTHONPATH`. Giá trị của biến này được hiển thị qua câu lệnh
+Tuy nhiên, phương pháp kể trên không tốt vì nó thực hiện việc thay đổi đường dẫn trong code. Một cách khác là thay đổi biến môi trường (environment variable) `PYTHONPATH`. Giá trị của biến này được hiển thị trên terminal với câu lệnh
 ```sh
 echo $PYTHONPATH # Linux
 ```
@@ -76,7 +77,7 @@ export PYTHONPATH
 Hướng dẫn bổ sung đường dẫn trên Windows có thể tìm thấy trên stackoverflow.
 
 
-## Absolute import in Python
+## 3. Absolute import trong Python
 Ví dụ cho cấu trúc absolute import
 ```py
 import random
@@ -90,14 +91,14 @@ import numpy as np
 import pandas as pd
 ```
 
-Cấu trúc wildcard import có cách viết là `from x import *`. **Không nên sử dụng phương pháp này,** trừ những trường hợp bất khả kháng, ví dụ như khi sử dụng thư viện `manim`.
+**Chú ý.** Cấu trúc wildcard import có cách viết là `from x import *`. **Không nên sử dụng phương pháp này,** trừ những trường hợp bất khả kháng, ví dụ như khi sử dụng thư viện `manim`.
 
 
-## Relative import
+## 4. Relative import trong Python
 Relative import sử dụng cách viết với một hoặc nhiều dấu `.` ở phần đầu. Chi tiết xem trong phần ví dụ phía dưới.
 
 
-## Ví dụ minh họa
+## 5. Ví dụ minh họa
 Dưới đây là một ví dụ minh họa về cách sử dụng import trong Python.
 
 ```
@@ -118,7 +119,6 @@ def methodA():
 
 # fileB.py
 from .fileA import methodA
-
 def methodB():
     print('In methodB of fileB')
     return None

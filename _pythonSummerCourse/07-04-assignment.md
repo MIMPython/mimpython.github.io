@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 7"
 permalink: /pythonSummerCourse/week-07-assignment/
-last_modified_at: 2022-08-22
+last_modified_at: 2022-08-24
 redirect_from:
   - /theme-setup/
 toc: false
@@ -28,3 +28,23 @@ polynomialD = polynomialA - polynomialB
 polynomialE = -polynomialA
 polynomialF = polynomialA * polynomialB
 ```
+
+**Bài tập.** Viết một chương trình sử dụng các thư viện hình học cơ bản (code từ những buổi trước). Cấu trúc thư mục cần đạt được là
+
+```
+foo/
+  additionalFolder/
+    geometricalShapes/
+      thisFileContainsPoint.py
+      thisFileContainsCircle.py
+  bar.py
+```
+
+File `bar.py` cần có phần đầu chứa dòng sau
+```py
+from additionalFolder.geometricalShapes import Point, Line, Circle
+```
+
+Chú ý rằng cấu trúc trên là bắt buộc phải có. Học viên thực hiện hai việc sau:
+- phải đổi tên thư mục nộp (`foo/`) và tên file nộp (`bar.py`) cho phù hợp
+- có thể bổ sung các file khác (của bài tập này hoặc của những bài tập khác) vào trong thư mục `foo/`

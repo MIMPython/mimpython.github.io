@@ -142,7 +142,7 @@ In methodB of fileB
 ```
 
 
-## Một số chú ý khác
+## 6. Một số chú ý khác
 - Quy ước cách viết import được liệt kê chi tiết trong PEP8.
 - Không nên đặt tên file trùng với tên những thư viện phổ biến.
 - Có thể sử dụng thư viện [ipynb](https://ipynb.readthedocs.io/en/latest/) để import `class/function/variable` từ một file Jupyter notebook sang một file Jupyter notebook khác. Tuy nhiên, đây là phương pháp bất đắc dĩ. Trong hầu hết các trường hợp, người viết code nên chuyển _những thứ cần được import_ vào một module (file `.py`).

@@ -1,19 +1,20 @@
 ---
 title: "Bài tập tuần 6"
 permalink: /pythonSummerCourse/week-06-assignment/
-last_modified_at: 2022-08-19
+last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập tuần 6 gồm 10 bài tập, bao gồm
+Bài tập tuần 6 gồm 11 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
-- 4 bài tập nâng cao: 7, 8, 9, 10.
+- 5 bài tập nâng cao: 7, 8, 9, 10, 11.
 
 Cập nhật
 - 19/08/2022. Bổ sung bài tập 9, bài tập 10.
+- 29/08/2022. Bổ sung bài tập 11.
 
 
 ## Danh sách bài tập
@@ -196,3 +197,11 @@ b) Dựng một đoạn video mô phỏng sự hoạt động của một chiế
 
 **Bài tập 10.** *(Gauss elimination)* \
 Viết một chương trình tính định thức của một ma trận (lưu dưới dạng một `numpy array`) bằng phương pháp khử Gauss. So sánh tốc độ của chương trình so với phương thức tính định thức có sẵn trong thư viện `numpy`.
+
+
+**Bài tập 11.** *(green screen effect)* \
+Nền xanh lá cây (green screen) thường được sử dụng trong quá trình ghi hình nhằm phục vụ việc thay đổi nền trong quá trình hậu kỳ. Hãy viết một chương trình thay đổi nền ảnh với
+- Dữ liệu đầu vào: một ảnh chứa đối tượng trên nền xanh và một ảnh nền thật.
+- Dữ liệu đầu ra: một ảnh chứa đối tượng trên nền thật.
+
+Đ. H. N. Minh đã viết một chương trình thực hiện yêu cầu này. Lời giải có thể xem tại [đây](https://github.com/mayha1/changeImageBackground).

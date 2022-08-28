@@ -1,7 +1,7 @@
 ---
 title: "Bài 18. Module trong Python"
 permalink: /pythonSummerCourse/week-07-module-in-python/
-last_modified_at: 2022-08-28
+last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/
 toc: false
@@ -169,6 +169,9 @@ In methodB of fileB
 - Lỗi cyclic import có thể phát sinh trong quá trình thiết kế chương trình. Đọc thêm [bài viết này](https://quanhoang-pm.github.io/programming/circular-imports-in-Python/) để biết cách giải quyết chúng.
 
 
+> Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
+
 ## Tài liệu tham khảo
+Tài liệu chính
 - [Hướng dẫn về Python packages](https://realpython.com/python-modules-packages/) trên trang web Real Python
 - [Hướng dẫn về Python import](https://realpython.com/python-import/) trên trang web Real Python

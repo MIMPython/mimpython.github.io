@@ -1,7 +1,7 @@
 ---
 title: "Bài 17. Ngoại lệ/cảnh báo"
 permalink: /pythonSummerCourse/week-07-custom-error-warning/
-last_modified_at: 2022-08-18
+last_modified_at: 2022-08-28
 redirect_from:
   - /theme-setup/
 toc: false
@@ -75,22 +75,25 @@ Output:
   ```
 - Ví dụ khác
   ```py
-  def readAndWriteFile(file):
+  fruitsPrice = {
+      'Apple': 5,
+      'Orange': 7,
+      'Banana': 9
+  }
+
+  key = None
+  while True:
       try:
-          f = open(file)
-          try:
-              f.write("Hello MIMPython!")
-          except:
-              print("Error when opening the file.")
-          finally:
-              f.close()
-      except:
-          print("Error when opening the file.")
+          key = input('Enter a key:')
+          fruit = fruits[key.lower()]
+      except KeyError:
+          print(f'{key} does not exist.')
+      except KeyboardInterrupt:
+          break
       else:
-          print("Nothing error!")
-
-
-  readAndWriteFile("test.txt")
+          print(fruit)
+      finally:
+          print('Press Ctrl-C to exit.')
   ```
 
 ## 2. Cảnh báo (warning)
@@ -116,27 +119,20 @@ Output:
       result = a / b
       return result
 
-  print(division(12/0))
+  print(division(12, 0))
   ```
 - Trong terminal
-  ```py
-  ....> python -m pdb divisionCaculator.py
-  (Pdb) c
-  Traceback (most recent call last):
-    ...
-    File "...\divisionCaculator.py", line 6, in <module>
-      print(division(12/0))
-  ZeroDivisionError: division by zero
-  Uncaught exception. Entering post mortem debugging
-  Running 'cont' or 'step' will restart the program
-  > ...\divisionCaculator.py(6)<module>()
-  -> print(division(12/0))
-  (Pdb)
-  ```
+```py
+....> python divisionCaculator.py
+> ...\divisioncaculator.py(3)division()
+-> result = a / b
+(Pdb)
+```
 
 ### 3.2. Sử dụng `pdb module`
 - `PDB` là Python Debugger. Để sử dụng `pdb` thì cần phải `import pdb` và sử dụng phương thức `set_trace()`.
   ```py
+  import pdb
   import os
 
 
@@ -147,7 +143,7 @@ Output:
 
 
   filename = __file__
-  import pdb; pdb.set_trace()
+  pdb.set_trace()
   filenamePath = getPath(filename)
   print(f'Path: {filenamePath}')
   ```

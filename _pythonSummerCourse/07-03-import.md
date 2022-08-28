@@ -1,7 +1,7 @@
 ---
 title: "Bài 18. Module trong Python"
 permalink: /pythonSummerCourse/week-07-module-in-python/
-last_modified_at: 2022-08-24
+last_modified_at: 2022-08-28
 redirect_from:
   - /theme-setup/
 toc: false
@@ -9,6 +9,7 @@ toc: false
 
 Cập nhật
 - 24/08/2022. Bổ sung mô tả trong mục 2 (Python tìm module ở đâu?)
+- 28/08/2022. Bổ sung mô tả về `PYTHONPATH`
 
 
 ## TLDR
@@ -91,7 +92,9 @@ print(os.environ.get('PYTHONPATH', None))
 PYTHONPATH=$PYTHONPATH:/path/to/mainFolder/bar/
 export PYTHONPATH
 ```
-Hướng dẫn bổ sung đường dẫn trên Windows có thể tìm thấy trên stackoverflow.
+Cách làm này có một đặc điểm (có lẽ là nhược điểm) là sự bổ sung đường dẫn này chỉ có tác dụng trong terminal thực thi câu lệnh, trong khi các terminal khác không bị ảnh hưởng.
+
+Ngoài ra, hướng dẫn bổ sung đường dẫn trên Windows có thể tìm thấy trên stackoverflow.
 
 
 ## 3. Absolute import trong Python

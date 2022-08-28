@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 7"
 permalink: /pythonSummerCourse/week-07-assignment/
-last_modified_at: 2022-08-28
+last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/
 toc: false
@@ -40,6 +40,12 @@ bar = Fraction.initializeFromFloat(0.42)
 print(bar) # Frac(21,50)
 print(foo >= bar) # True
 ```
+
+Câu hỏi nâng cao. Sau khi đã cài đặt `__add__`, liệu có thể sử dụng cách viết
+```py
+totalValue = sum([fractionA, fractionB, fractionC])
+```
+được hay không?
 
 
 **Bài tập 5.** *(class Polynomial)* \

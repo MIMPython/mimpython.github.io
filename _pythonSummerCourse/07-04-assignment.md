@@ -21,6 +21,7 @@ Viết một hàm nhận vào một `list` và trả về giá trị trung bình
 
 **Bài tập 2.** *(class inheritance)* \
 1) Xây dựng class `Rectangle` và class `Square` (kế thừa từ `Rectangle`). Thiết kế các thuộc tính, phương thức có liên quan. \
+1') Bổ sung thêm class `Rhombus` và thực hiện kế thừa một cách phù hợp. \
 2) Thực hiện yêu cầu tương tự với class `Ellipse` và class `Circle`. Chú ý rằng việc tính chu vi hình ellipse là một bài toán thú vị.
 
 

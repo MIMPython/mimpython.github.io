@@ -1,18 +1,20 @@
 ---
 title: "Bài tập tuần 4"
 permalink: /pythonSummerCourse/week-04-assignment/
-last_modified_at: 2022-08-02
+last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-Bài tập tuần 4 gồm 9 bài tập, bao gồm
+Bài tập tuần 4 gồm 8 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
-- 4 bài tập nâng cao: 6, 7, 8, 9.
+- 3 bài tập nâng cao: 6, 8, 9.
 
 Cập nhật
 - 02/08/2022. Bổ sung nguồn tham khảo trong bài tập 6.
+- 19/08/2022. Chuyển bài tập 7 (thiết kế class đa thức) sang bài tập tuần 7.
+
 
 ## Danh sách bài tập
 
@@ -122,18 +124,6 @@ Nên làm gì khi nhận được đoạn [mã Morse](https://en.wikipedia.org/w
 **Bài tập 6.** (class Circle) \
 Xây dựng class `Circle` để biểu diễn các đường tròn trong mặt phẳng $Oxy$. Khởi tạo với các thuộc tính thích hợp đồng thời cài đặt những thuộc tính, property thích hợp. Tham khảo cách thiết kế trong [the geometry module for SymPy package](https://docs.sympy.org/latest/modules/geometry/index.html).
 
-**Bài tập 7.** (class Polynomial) \
-Xây dựng class `Polynomial` sao cho có thể thực hiện các phép toán cộng (+), trừ (−), nhân (∗) giữa hai instance của class này ví dụ như trong đoạn code dưới đây
-
-```py
-polynomialA = Polynomial(...)
-polynomialB = Polynomial(...)
-
-polynomialC = polynomialA + polynomialB
-polynomialD = polynomialA - polynomialB
-polynomialE = -polynomialA
-polynomialF = polynomialA * polynomialB
-```
 
 **Bài tập 8.** (class Datetime) \
 Xây dựng class `Datetime` cho phép thực hiện các tác vụ liên quan đến thời gian. Tham khảo `pandas.Timestamp` để nắm được những thuộc tính/phương thức cơ bản của class cần cài đặt.

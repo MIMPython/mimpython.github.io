@@ -8,13 +8,13 @@ toc: false
 ---
 
 
-Bài tập tuần 6 gồm 11 bài tập, bao gồm
+Bài tập tuần 6 gồm 12 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
-- 5 bài tập nâng cao: 7, 8, 9, 10, 11.
+- 6 bài tập nâng cao: 7, 8, 9, 10, 11, 12.
 
 Cập nhật
 - 19/08/2022. Bổ sung bài tập 9, bài tập 10.
-- 29/08/2022. Bổ sung bài tập 11.
+- 29/08/2022. Bổ sung bài tập 11, bài tập 12.
 
 
 ## Danh sách bài tập
@@ -205,3 +205,21 @@ Nền xanh lá cây (green screen) thường được sử dụng trong quá tr�
 - Dữ liệu đầu ra: một ảnh chứa đối tượng trên nền thật.
 
 Đ. H. N. Minh đã viết một chương trình thực hiện yêu cầu này. Lời giải có thể xem tại [đây](https://github.com/mayha1/changeImageBackground).
+
+
+**Bài tập 12.** *(Polyomino)* \
+a) Viết một hàm thực hiện phép xoay một `numpy array` một góc 90 độ theo chiều kim đồng hồ.
+
+```
+inputArr = np.array([
+    [0, 1, 0],
+    [0, 1, 1],
+])
+outputArr = array([
+    [0, 0],
+    [1, 1],
+    [1, 0],
+])
+```
+
+b) Xây dựng class `Polyomino` để kiểm chứng những nhận xét có trong [bài viết về Polyomino](https://en.wikipedia.org/wiki/Polyomino) trên Wikipedia.

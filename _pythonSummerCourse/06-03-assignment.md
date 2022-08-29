@@ -191,7 +191,7 @@ Viết một chương trình mô phỏng [Conway's game of life](https://en.wiki
 
 
 **Bài tập 9.** *(clock)* \
-a) Viết chương trình vẽ hình ảnh một chiếc đồng hồ số và một chiếc đồng hồ kim thể hiện một thời điểm bất kỳ trong ngày, ví dụ 04h20m19s.
+a) Viết chương trình vẽ hình ảnh một chiếc đồng hồ số và một chiếc đồng hồ kim thể hiện một thời điểm bất kỳ trong ngày, ví dụ 04h20m19s. \
 b) Dựng một đoạn video mô phỏng sự hoạt động của một chiếc đồng hồ số và/hoặc một chiếc đồng hồ kim. Gợi ý: sử dụng thư viện `manim`.
 
 

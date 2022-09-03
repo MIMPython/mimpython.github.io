@@ -1,7 +1,7 @@
 ---
 title: "Bài 19. Documentation and docstring"
 permalink: /pythonSummerCourse/week-08-documentation-docstring/
-last_modified_at: 2022-06-30
+last_modified_at: 2022-09-03
 redirect_from:
   - /theme-setup/
 toc: false
@@ -36,8 +36,8 @@ Tùy theo loại đối tượng viết docstring thì ta có thể chia làm 3 
 - docstring cho `script`: được đặt ở đầu file `script`, nội dung chỉ nên vừa đủ để hiểu cách hoạt động của `script`
 
 ## 3. Các hình thức viết docstring phổ biến 
-Ta có thể viết docstring theo các quy chuẩn được đề xuất sau đây
-- [Google Docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings): mẫu docstring được đề xuất bởi Google 
+Ta có thể viết docstring theo các quy chuẩn được đề xuất sau đây (*Lưu ý: Các quy chuẩn dưới đây đều được lấy ví dụ để viết qua hàm `add(x, y)` ở mục 1*)
+- [Google Docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings): mẫu docstring được đề xuất bởi Google
 
 ```
 """This method is used to add two numbers.
@@ -50,6 +50,9 @@ Returns:
     result: the result of x + y
 """
 ```
+trong đó, `Argments` chứa các tên, kiểu và mô tả của các đối số truyền vào, còn `Returns` bao gồm tên và mô tả của các kết quả trả về. 
+
+Một repo phổ biến mà có sử dụng kiểu docstring này là [tensorflow](https://github.com/tensorflow/tensorflow).
 
 - [reStructuredText](http://docutils.sourceforge.net/rst.html): mẫu docstring chính thức, quy chuẩn của Python
 
@@ -64,6 +67,7 @@ Returns:
 :rtype: int 
 """
 ```
+trong đó, `:param` (mô tả chung về biến) và `:type` (kiểu của biến) đi theo từng cặp để mô tả cho đối số truyền vào.
 
 - [NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html): mẫu docstring này là sự kết hợp của Google Docstrings và reStructuredText
 
@@ -84,6 +88,9 @@ result: int
     the result of x + y
 """
 ```
+khi các tham số truyền vào, cũng như trả về sẽ được mô tả qua 2 dòng, dòng đầu tiên gồm `tên biến: kiểu biến`, dòng thứ 2 thì thụt lùi vào hơn để mô tả cho biến đó.
+
+Như cái tên, thư viện `numpy` và `scipy` là ví dụ tiểu biểu cho việc dùng docstring này. 
 
 - [Epytext](http://epydoc.sourceforge.net/epytext.html): mẫu docstring chuyển thể từ [Epydoc](http://epydoc.sourceforge.net/), thường phù hợp với các Java Developer hơn 
 
@@ -97,6 +104,16 @@ result: int
 @rtype: int 
 @returns: the result of x + y
 """
+```
+trong đó, với các tham số truyền vào có thể được mô tả 
+```
+@type tên biến: kiểu biến 
+@param tên biến: mô tả về biến 
+```
+và các tham số trả về 
+```
+@rtype: kiểu biến trả về 
+@returns: mô tả về biến trả về 
 ```
 
 ## 4. Viết documentation cho dự án Python

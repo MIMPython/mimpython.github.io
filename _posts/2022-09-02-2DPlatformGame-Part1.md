@@ -27,7 +27,7 @@ Chém gió thế đủ rồi, chúng ta sẽ vào phần nội dung luôn nha.
 Theo mình, thiết kế cơ bản của một game 2D platform bao gồm 3 phần chính:
 - Main character: là nhân vật chính của game do người chơi điều khiển bao gồm các hành động
 chính là di chuyển và nhảy
-- Plartfrom: là mặt đất nơi mà nhân vật thực hiện các hành động
+- Platform: là mặt đất nơi mà nhân vật thực hiện các hành động
 - Enemies: là kẻ thù của nhân vật chính, người chơi sẽ phải điều khiển nhân vật đánh bại các kẻ thù để qua mà chơi
 
 Ngoài những thứ cơ bản trên, tựa game mà mình sẽ làm bao gồm thêm những thứ sau:
@@ -47,7 +47,7 @@ trên
 - [Repo project](https://github.com/thanhtung1005/Pixel-Adventure-Pygame)
 
 Game này mình có ý định phát triển lâu dài (trong lúc rảnh), khi có gì mới mình sẽ cập nhật và viết bài.
-Các bạn có thể theo dõi trên repo cũng như trang web của MIMPython.
+Các bạn có thể theo dõi trên repo của mình cũng như trang web của MIMPython.
 
 ## 3. Cấu trúc thư mục
 
@@ -288,7 +288,7 @@ class Player(pygame.sprite.Sprite):
         if keys[pygame.K_w]:
             self.jump()
 
-	def move(self) -> None:
+    def move(self) -> None:
         self.rect.x += self.direction.x * self.speed
 
     def jump(self) -> None:

@@ -102,7 +102,7 @@ result: int
 ## 4. Viết documentation cho dự án Python
 Mỗi dự án Python thì đều có cách dùng, mục đích, cách tiếp cận khác nhau. 
 Vì thế, documentation là cần thiết để hướng dẫn chi tiết về điều đó. 
-Về  hình thức, có thể chia các dự án thành 3 nhóm chính 
+Về hình thức, có thể chia các dự án thành 3 nhóm chính 
 - Private: dự án riêng tư, hướng tới mục đích sử dụng cá nhân, không chia sẻ với người cũng như tổ chức khác 
 - Shared: dự án được chia sẻ, dự án có hợp tác với người hoặc tổ chức khác 
 - Public and Open Source: không giới hạn đối tượng truy cập

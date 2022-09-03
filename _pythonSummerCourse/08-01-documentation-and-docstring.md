@@ -37,7 +37,7 @@ Tùy theo loại đối tượng viết docstring thì ta có thể chia làm 3 
 
 ## 3. Các hình thức viết docstring phổ biến 
 Ta có thể viết docstring theo các quy chuẩn được đề xuất sau đây
-- Google Docstrings: mẫu docstring được đề xuất bởi Google 
+- [Google Docstrings](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings): mẫu docstring được đề xuất bởi Google 
 
 ```
 """This method is used to add two numbers.
@@ -51,7 +51,7 @@ Returns:
 """
 ```
 
-- reStructuredText: mẫu docstring chính thức, quy chuẩn của Python
+- [reStructuredText](http://docutils.sourceforge.net/rst.html): mẫu docstring chính thức, quy chuẩn của Python
 
 ```
 """This method is used to add two numbers.
@@ -65,7 +65,7 @@ Returns:
 """
 ```
 
-- NumPy/SciPy docstrings: mẫu docstring này là sự kết hợp của Google Docstrings và reStructuredText
+- [NumPy/SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html): mẫu docstring này là sự kết hợp của Google Docstrings và reStructuredText
 
 ```
 """This method is used to add two numbers.
@@ -85,7 +85,7 @@ result: int
 """
 ```
 
-- Epytext: mẫu docstring chuyển thể từ [Epydoc](http://epydoc.sourceforge.net/), thường phù hợp với các Java Developer hơn 
+- [Epytext](http://epydoc.sourceforge.net/epytext.html): mẫu docstring chuyển thể từ [Epydoc](http://epydoc.sourceforge.net/), thường phù hợp với các Java Developer hơn 
 
 ```
 """This method is used to add two numbers.

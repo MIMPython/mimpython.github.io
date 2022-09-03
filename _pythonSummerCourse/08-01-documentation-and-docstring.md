@@ -122,18 +122,18 @@ project_root/
 
 ### 4.1 Private Project 
 Một số phần được đề xuát thêm vào dự án như 
-- `Readme`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án.
+- `README`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án.
 - `examples.py`: một `script` đưa ra những ví dụ đơn giản để chạy dự án.
 
 ### 4.2 Shared Project 
 Một số phần được đề xuát thêm vào dự án như 
-- `Readme`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án.
+- `README`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án.
 - `examples.py`: một `script` đưa ra những ví dụ đơn giản để chạy dự án.
 - `How to Contribute`: bao gồm các hướng dẫn để một người mới có thể bắt đầu tham gia và dự án.
 
 ### 4.3 Public and Open Source
 Một số phần được đề xuát thêm vào dự án như 
-- `Readme`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án. Đồng thời, mô tả sự thay đổi nếu có so với phiên bản trước.
+- `README`: Tổng quan về dự án cũng như mục đích, các thư viện đòi hỏi cần cài đặt cho dự án. Đồng thời, mô tả sự thay đổi nếu có so với phiên bản trước.
 - `How to Contribute`: Bao gồm cách những người đóng góp mới cho dự án có thể trợ giúp, phát triển các tính năng mới, khắc phục các sự cố đã biết, thêm tài liệu, thêm các thử nghiệm mới hoặc báo cáo sự cố.
 - `Code of Conduct`: Xác định cách những người đóng góp khác đối xử với nhau khi phát triển hoặc sử dụng phần mềm của bạn. Điều này cũng cho biết điều gì sẽ xảy ra nếu mã này bị hỏng.
 - `License`: Tệp văn bản mô tả giấy phép mà dự án của bạn đang sử dụng. 

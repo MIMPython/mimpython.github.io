@@ -1,7 +1,7 @@
 ---
 title: "Bài 7. Thao tác với file dữ liệu"
 permalink: /pythonSummerCourse/week-03-managing-files/
-last_modified_at: 2022-07-25
+last_modified_at: 2022-09-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -73,7 +73,7 @@ python D:\path\to\mainFolder\folderA\main.py # Windows
 python /home/trash/mimpython/main.py
 ```
 
-### 1.3. Lòi khuyên về đặt tên
+### 1.3. Lời khuyên về đặt tên
 Để thuận lợi trong quá trình lập trình, tên của các file, thư mục nên tuân thủ quy tắc ba không:
 - Không chứa dấu tiếng Việt (sắc, huyền, hỏi, ngã, nặng)
 - Không chứa dấu cách

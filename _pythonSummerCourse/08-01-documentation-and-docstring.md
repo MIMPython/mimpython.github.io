@@ -50,7 +50,7 @@ Returns:
     result: the result of x + y
 """
 ```
-trong đó, `Argments` chứa các tên, kiểu và mô tả của các đối số truyền vào, còn `Returns` bao gồm tên và mô tả của các kết quả trả về. 
+trong đó, `Arguments` chứa các tên, kiểu và mô tả của các đối số truyền vào, còn `Returns` bao gồm tên và mô tả của các kết quả trả về. 
 
 Một repo phổ biến mà có sử dụng kiểu docstring này là [tensorflow](https://github.com/tensorflow/tensorflow).
 

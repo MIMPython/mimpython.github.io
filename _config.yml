@@ -230,6 +230,9 @@ collections:
   pythonSummerCourse:
     output: true
     permalink: /:collection/:path/
+  pythonProgrammingCourseMAT2318:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -282,3 +285,14 @@ defaults:
       comments: false
       sidebar:
           nav: "pythonSummerCourse-navigation"
+
+  - scope:
+      path: ""
+      type: pythonProgrammingCourseMAT2318
+    values:
+      layout: single
+      read_time: false
+      share: false
+      comments: false
+      sidebar:
+          nav: "pythonProgrammingCourseMAT2318-navigation"

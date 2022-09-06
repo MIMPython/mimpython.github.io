@@ -92,3 +92,8 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/week-08-unit-testing-optimizaion/
       - title: "Bài tập tuần 8"
         url: /pythonSummerCourse/week-08-assignment/
+
+
+pythonProgrammingCourseMAT2318-navigation:
+  - title: "Giới thiệu chung"
+    url: /pythonProgrammingCourseMAT2318/

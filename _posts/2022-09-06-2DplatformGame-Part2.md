@@ -10,8 +10,9 @@ tags:
   - pygame
 ---
 
-Xin chào mọi người! Mình đã trở lại với phần 2 của serie 2D platform game. Trong phần này mình sẽ
-hướng dẫn các bạn thêm hoạt ảnh nhân vật vào bộ khung game ta đã làm trong phần trước nha!.
+Xin chào mọi người! Mình đã trở lại với phần 2 của serie 2D platform game.
+Trong phần này mình sẽ hướng dẫn các bạn thêm hoạt ảnh nhân vật vào bộ khung
+game ta đã làm trong phần trước nha!
 
 ## 1. Chuẩn bị hình ảnh
 
@@ -37,7 +38,7 @@ def getSurfaceList(path: Path) -> None:
 ```
 
 Các hình ảnh mô tả một hành động của nhân vật sẽ được đánh số và được lưu vào
-trong một folder. Ví dụ, nhân vật hiện tại có 7 hình ảnh mô tả hành động chạy,
+trong một thư mục. Ví dụ, nhân vật hiện tại có 7 hình ảnh mô tả hành động chạy,
 cấu trúc thư mục chứa các hình ảnh này có dạng như sau:
 
 ```
@@ -55,7 +56,7 @@ các file ảnh trong đó thành Surface và lưu vào một list.
 ## 2. Thêm hoạt ảnh cho nhân vật
 
 Ý tưởng chính của việc này là ta vẽ liên tục các hình ảnh của nhân vật sao cho ăn khớp với
-hoạt động (trạng thái) hiện tại cảu nhân vật.
+hoạt động (trạng thái) hiện tại của nhân vật.
 
 Cụ thể, tại mỗi vòng lặp game ta thực hiện các công việc sau:
 - Nhận tín hiệu đầu vào từ người chơi
@@ -193,7 +194,7 @@ Các phương thức mới:
 - `getAnimations`: lấy tất cả hoạt ảnh của nhân vật
 - `getStatus`: cập nhật của nhân vật
 - `animate`: cập nhật hình ảnh của nhân vật (được gọi tại mỗi vòng lặp game,
-để cập nhật hình ảnh của nhân vật lien tục, từ đó tạo thành hoạt ảnh)
+để cập nhật hình ảnh của nhân vật liên tục, từ đó tạo thành hoạt ảnh)
 
 ## 3. Một số thay đổi khác
 
@@ -322,11 +323,11 @@ Sau khi thực hiện thì đây là kết quả
 
 ## 4. Lời kết
 
-Như vậy, chúng ta đã xng phần 2, phần này có hơi khó hiểu vì mình không dành nhiều
+Như vậy, chúng ta đã xong phần 2, phần này có hơi khó hiểu vì mình không dành nhiều
 thời gian để trau chuốt câu từ, mong các bạn thông cảm. Mình sẽ cố gắng diễn đạt tốt hơn
 cho những phần sau, khi có nhiều thơi gian để làm hơn.
 
-Code chi tiết các bạn có thể tham khảo tại [repository](https://github.com/thanhtung1005/Pixel-Adventure-Pygame)
+Code chi tiết các bạn có thể tham khảo tại [repository](https://github.com/thanhtung1005/Pixel-Adventure-Pygame).
 
 ## 5. Tài liệu tham khảo
 

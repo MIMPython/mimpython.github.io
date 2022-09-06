@@ -74,10 +74,6 @@ import pygame
 
 from utils import getSurfaceList
 
-class HitBox:
-    def __init__(self):
-        pass
-
 class Player(pygame.sprite.Sprite):
 
     def __init__(self, position: tuple) -> None:

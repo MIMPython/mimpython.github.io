@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 8"
 permalink: /pythonSummerCourse/week-08-assignment/
-last_modified_at: 2022-09-05
+last_modified_at: 2022-09-14
 redirect_from:
   - /theme-setup/
 toc: false
@@ -72,7 +72,8 @@ Dưới đây là một mẫu dữ liệu (được ghi bởi định dạng JSO
 
 **Bài tập 5.** *(Filling missing digits)* \
 Điền các số nguyên từ 1 đến 9 vào các chữ cái `A,B,C,D,E,F,G,H,I` dưới đây để thu được một phép tính đúng. Biết rằng các chữ cái khác nhau nhận giá trị khác nhau.
-$$A \frac{B/C} +* D \frac{E/F} = G \frac{H/I}$$
+
+$$A \frac{B}{C} + D \frac{E}{F} = G \frac{H}{I}$$
 
 
 **Bài tập 6.** *(Longest Collatz sequence)* \

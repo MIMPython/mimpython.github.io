@@ -155,9 +155,9 @@ Cài đặt bundle cho trang web:
 
 Sau khi cài đặt bundle cho trang web, mỗi lần chạy trang web trên local chỉ cần chạy câu lệnh sau:
 
-    bundle exec jekyll serve
+    bundle exec jekyll serve --port 1234
 
-Link web local: http://127.0.0.1:4000
+với đối số `--port 1234` thể hiện local port. Khi đó link tới trang web local là http://127.0.0.1:1234
 
 ## Thêm tác giả cho bài viết
 

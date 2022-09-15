@@ -40,3 +40,14 @@ Tran-Thanh-Tung:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/thanhtung1005"
+
+Dinh-Hoang-Nhat-Minh:
+  name             : "Đinh Hoàng Nhật Minh"
+  avatar           : "/assets/images/avatar/Minh-avatar.png"
+  bio              :
+  location         :
+  email            :
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mayha1"

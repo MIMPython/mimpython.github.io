@@ -34,8 +34,8 @@ import cv2
 from pyzbar import pyzbar
 ```
 
-## 2. Khai báo một số instants để sử dụng
-Các instants này bao gồm: mã màu đỏ (màu khung barcode, màu nội dung hiển thị), độ dày khung, phông chữ hiển thị, tỉ lệ cỡ chữ, độ dày của chữ hiển thị, tên cửa sổ camera.
+## 2. Khai báo một số biến hằng để sử dụng
+Các biến hằng này bao gồm: mã màu đỏ (màu khung barcode, màu nội dung hiển thị), độ dày khung, phông chữ hiển thị, tỉ lệ cỡ chữ, độ dày của chữ hiển thị, tên cửa sổ camera.
 ```py
 RED = (0, 0, 255)
 THICKNESS = 2
@@ -109,7 +109,7 @@ def main():
 ```
 Thứ tự thực hiện các bước trong hàm `main`:
 
-  - `1:` mở camera, đọc dữ liệu từ camera với `ret` là một biến boolean thể hiện việc camera có đang được mở hay không, `frame` là khung hình được lưu.
+  - `1:` mở camera, đọc dữ liệu từ camera với `ret` là một biến boolean thể hiện việc camera có đang được mở hay không, `frame` là khung hình đọc được từ camera.
   
   - `2:` vòng lặp `while` có ý nghĩa là nếu camera vẫn đang được mở, nút `q` hoặc nút tắt cửa sổ camera chưa được ấn thì ta vẫn tiếp tục việc đọc các khung hình và tìm barcode.
 
@@ -136,7 +136,7 @@ Dưới đây là thành quả của chúng ta sau khi chạy file `barcodeScann
 ## 6. Lời kết
 Vậy là mình đã hướng dẫn xong việc tạo một máy quét bằng Python. Mong rằng qua bài viết có thể tạo thêm hứng thú cho các bạn trong việc lập trình bằng Python.
 
-Đây cũng có thể là một hướng để các bạn phát triển và lập trình một số chương trình khác về xử lí ảnh, tạo mã code,t...
+Đây cũng có thể là một hướng để các bạn phát triển và lập trình một số chương trình khác về xử lí ảnh, tạo mã code,...
 
 ## 7. Tài liệu tham khảo 
 

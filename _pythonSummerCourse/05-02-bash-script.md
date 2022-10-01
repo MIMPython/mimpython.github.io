@@ -6,6 +6,9 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
+
+_Tác giả: Nguyễn Văn Quân_
+
 ## 1. Lệnh cơ bản sử dụng trong Terminal/Command Prompt
 ### 1.1 Linux
 ### Một số lệnh cơ bản

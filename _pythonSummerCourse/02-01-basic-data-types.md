@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Thanh Tùng_
+
 ## 1. Các kiểu dữ liệu cơ bản
 String, thao tác cơ bản với string
 

@@ -7,13 +7,14 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Đặng Quý Anh_
 
-## 1. Thư viện matplotlib 
+## 1. Thư viện matplotlib
 `matplotlib` là một thư viện trong Python phục vụ cho việc trực quan hóa dữ liệu phục vụ cho việc suy luận thống kê.
 Và module được phổ biến trong matplotlib là pyplot - chứa các hàm cơ bản để vẽ, thiết lập khung hình.
 
 Dưới đây là một đoạn code minh họa khi sử dụng thư viện matplotlib:
-```python 
+```python
 # import library
 import numpy as np
 from matplotlib import pyplot as plt
@@ -58,9 +59,9 @@ trong đó,
 - `plt.ylabel('y', fontsize=14)`: đặt trên cho trục $y$ với cỡ chữ 14
 - `plt.title('Draw sin(x) and cos(x)', fontsize=18)`: đặt tên cho hình vẽ với cỡ chữ 18
 - `plt.legend(fontsize=14)`: thiết lập nhãn cho các hàm đã vẽ qua label đã gán ỡ mỗi hàm `plt.plot`
-- `plt.grid()`: thiết lập lưới cho miền vẽ 
+- `plt.grid()`: thiết lập lưới cho miền vẽ
 - `plt.savefig('demo-matplotlib.png')`: để lưu lại hình đã vẽ dưới tên truyền vào
-- `plt.show()`: để hiển thị hình vẽ 
+- `plt.show()`: để hiển thị hình vẽ
 
 Tuy nhiên, ta cũng có thể vẽ hai hàm số $sin(x)$ và $cos(x)$ ở 2 khung hình khác nhau bằng cách sử dụng `plt.subplot`
 ```python
@@ -72,7 +73,7 @@ from matplotlib import pyplot as plt
 f = lambda x: np.sin(2 * np.pi * x)
 g = lambda x: np.cos(2 * np.pi * x)
 
-# split lower bound and upper bound into 1000 range by 1001 points  
+# split lower bound and upper bound into 1000 range by 1001 points
 lb, ub = -2, 2
 x = np.linspace(lb, ub, 1001)
 y1 = f(x)
@@ -112,40 +113,40 @@ Các hàm vẽ cơ bản vẫn hoàn toàn như phần trước, nhưng thêm `p
 Bên cạnh `plt.subplot`, chúng ta cũng có thể dùng hàm gần tương tự nhưng đa dụng trong nhiều trường hợp hơn là [`plt.subplots`](https://matplotlib.org/stable/gallery/subplots_axes_and_figures/subplots_demo.html).
 
 Ngoài ra, pyplot còn cung cấp các hàm vẽ sau:
-- `plt.scatter`: vẽ biểu đồ phân tán 
-- `plt.bar`: vẽ biểu đồ cột 
-- `plt.boxplot`: vẽ biểu đồ ria mèo 
-- `plt.pie`:  vẽ biểu đồ tròn 
+- `plt.scatter`: vẽ biểu đồ phân tán
+- `plt.bar`: vẽ biểu đồ cột
+- `plt.boxplot`: vẽ biểu đồ ria mèo
+- `plt.pie`:  vẽ biểu đồ tròn
 - ...
 
 
-## 2. Thư viện seaborn 
+## 2. Thư viện seaborn
 seaborn là mở rộng, kế thừa từ matplotlib, để thực hiện trực quan hóa dữ liệu, nhưng thường được dùng với kiểu dữ liệu từ `DataFrame`.
-seaborn cũng đa dạng các hàm để vẽ hơn và có thể được chia thành một số nhóm chính như sau 
-- Nhóm các hàm vẽ quan hệ 
-  - `scatterplot`: vẽ biểu đồ phân tán 
+seaborn cũng đa dạng các hàm để vẽ hơn và có thể được chia thành một số nhóm chính như sau
+- Nhóm các hàm vẽ quan hệ
+  - `scatterplot`: vẽ biểu đồ phân tán
   - `lineplot`: vẽ biểu đồ đường
-  
+
 - Nhóm các hàm vẽ phân bố
-  - `displot`: vẽ phân bố của biến 
-  - `histplot`: vẽ biểu đồ `historygrams` của biến 
-  - `kdeplot`:  vẽ đường xấp xỉ phân bố của biến 
-  
-- Nhóm các hàm dành cho biến rời rạc 
-  - `boxplot`: vẽ biểu đồ ria mèo 
-  - `barplot`: vẽ biểu đồ cột 
-  - `countplot`: vẽ biều đồ theo số lượng biến 
+  - `displot`: vẽ phân bố của biến
+  - `histplot`: vẽ biểu đồ `historygrams` của biến
+  - `kdeplot`:  vẽ đường xấp xỉ phân bố của biến
+
+- Nhóm các hàm dành cho biến rời rạc
+  - `boxplot`: vẽ biểu đồ ria mèo
+  - `barplot`: vẽ biểu đồ cột
+  - `countplot`: vẽ biều đồ theo số lượng biến
   - `swarmplot`: vẽ biểu đồ phân tán phân loại với các điểm không trùng nhau
-  
+
 - Ngoài ra, còn có các nhóm: nhóm các hàm vẽ biến hồi quy, nhóm vẽ ma trận, nhóm để vẽ cho nhiều hình, ...
 
 Sau đây là một ví dụ khi dùng `seaborn` kết hợp `matplotlib` trên kiểu dữ liệu `DataFrame`.
 Dữ liệu dùng trong bài học được lấy từ thư viện `seaborn` (xem chi tiết [tại đây](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)).
 
-```python 
-import seaborn as sns 
+```python
+import seaborn as sns
 
-# set fontsize 
+# set fontsize
 sns.set(font_scale=1.5)
 
 # load dataframe
@@ -168,7 +169,7 @@ sns.boxplot(x='petal_length', data=iris)
 plt.subplot(2, 2, 4)
 sns.scatterplot(x='petal_length', y='petal_width', data=iris)
 
-# display 
+# display
 plt.show()
 ```
 <div>
@@ -185,10 +186,10 @@ plt.show()
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.
 
 ## Tài liệu tham khảo
-Tài liệu chính 
+Tài liệu chính
 - Trang chủ [matplotlib](https://matplotlib.org/stable/tutorials/index)
 - Trang chủ [seaborn](https://seaborn.pydata.org/api.html)
-  
-Tài liệu bổ sung 
+
+Tài liệu bổ sung
 - [Hướng dẫn sử dụng matplotlib](https://realpython.com/python-matplotlib-guide/) trên trang web Real Python
 - SeriousPython (trang 27-32)

@@ -7,7 +7,7 @@ redirect_from:
 toc: false
 ---
 
-Tác giả: Trần Thanh Tùng
+_Tác giả: Trần Thanh Tùng_
 
 ## 1. Giới thiệu python
 

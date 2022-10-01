@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Hoàng Anh Quân_
+
 Một số lưu ý liên quan tới kiểm thử (testing) và tối ưu hóa code trong Python
 
 - Thư viện pytest thực hiện việc kiểm thử code Python bằng cách thực thi các test case mà người dùng đặt ra.

@@ -96,3 +96,13 @@ from dis import dis
 from operator import indexOf
 from turtle import distance
 ```
+
+
+## 5. Lời cảm ơn
+Lời cảm ơn chân thành nhất chắc chắn phải dành tới thầy D. với ý tưởng khởi nguồn về khóa học này cũng như toàn bộ trang web MIMPython.
+
+Dưới đây là danh sách các thành viên đã dành thời gian và công sức cho khóa học. Cảm ơn các bạn vì sự đóng góp này.
+- Đặng Quý Anh, Đinh Hoàng Nhật Minh, [Hoàng Anh Quân](https://quanhoang-pm.github.io/), Nguyễn Văn Quân, Trần Bá Tuấn, Trần Thanh Tùng thực hiện tổng hợp nội dung các bài học, đồng thời đưa nhận xét cho học viên về bài làm của họ hàng tuần.
+- Hoàng Anh Quân và Lê Quốc Tuấn biên soạn bài tập hàng tuần.
+- Trần Bá Tuấn và Trần Thanh Tùng quản lý danh sách học viên của khóa học.
+- Nguyễn Văn Quân và Trần Thanh Tùng thiết kế website MIMPython.

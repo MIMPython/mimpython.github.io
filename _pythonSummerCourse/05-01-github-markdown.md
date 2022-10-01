@@ -21,6 +21,8 @@ toc: false
   }
 </style>
 
+_Tác giả: Nguyễn Văn Quân_
+
 ## GitHub
 ### 1. GitHub là gì?
 GitHub là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn Git cho các dự án phần mềm. **Github có đầy đủ những tính năng của Git**, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.

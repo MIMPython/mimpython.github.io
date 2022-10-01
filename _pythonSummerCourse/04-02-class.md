@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Bá Tuấn_
+
 ## 1. Class trong Python
 
 Đoạn code dưới đây chứa một class đơn giản minh họa cho các thuộc tính, phương thức trong một class.

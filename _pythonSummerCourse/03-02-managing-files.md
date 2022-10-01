@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Hoàng Anh Quân_
+
 Phần tóm tắt nội dung bài viết sử dụng cây thư mục được minh họa dưới đây
 ```
 mainFolder/

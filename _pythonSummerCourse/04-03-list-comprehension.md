@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Bá Tuấn_
+
 ## 1. List comprehension
 List comprehension cung cấp cú pháp ngắn hơn khi bạn muốn tạo một danh sách mới dựa trên các giá trị của danh sách hiện có.
 ```py

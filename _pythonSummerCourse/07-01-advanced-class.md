@@ -7,6 +7,7 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Hoàng Anh Quân_
 
 ## 1. Kế thừa trong Python
 Kế thừa là cách để đơn giản hóa cấu trúc chương trình, đồng thời tận dụng những phương thức, thuộc tính đã có sẵn.

@@ -6,6 +6,9 @@ redirect_from:
   - /theme-setup/
 toc: false
 ---
+
+_Tác giả: Nguyễn Văn Quân_
+
 ## 1. Visual Studie Code là gì?
 
 **Visual Studio Code** *(VS Code hay VSC)* Là một trình biên tập lập trình code miễn phí dành cho Windows, Linux và macOS, Visual Studio Code được phát triển bởi Microsoft. Nó được xem là một sự kết hợp hoàn hảo giữa IDE và Code Editor.

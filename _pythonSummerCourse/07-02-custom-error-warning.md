@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Thanh Tùng_
+
 ## Nội dung kiến thức
 
 ## 1. Ngoại lệ (exception)

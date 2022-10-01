@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Bá Tuấn_
+
 ## 1. Hàm (function)
 ### 1.1. Hàm
 - Ví dụ đơn giản về một hàm

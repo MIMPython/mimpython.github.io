@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+_Tác giả: Trần Thanh Tùng_
+
 ## 1. Numpy - thư viện tính toán trong Python
 
 ### 1.1. Lợi ích khi sử dụng numpy

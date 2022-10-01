@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython năm 2022."
-last_modified_at: 2022-08-10
+last_modified_at: 2022-10-02
 redirect_from:
   - /theme-setup/
 toc: true

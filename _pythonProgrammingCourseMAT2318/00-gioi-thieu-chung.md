@@ -2,13 +2,15 @@
 title: "Lập trình Python MAT2318"
 permalink: /pythonProgrammingCourseMAT2318/
 excerpt: ""
-last_modified_at: 2022-09-06
+last_modified_at: 2022-10-02
 redirect_from:
   - /theme-setup/
 toc: true
 ---
 
-Trang web này chứa bài giảng và bài tập của học phần Lập trình Python giảng dạy bởi Hoàng Anh Quân tại Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội.
+Trang web này chứa bài giảng và bài tập của học phần Lập trình Python giảng dạy tại Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội.
+
+Học phần được giảng dạy bởi [Hoàng Anh Quân](https://quanhoang-pm.github.io/) với sự hỗ trợ của Trần Bá Tuấn.
 
 _(nội dung khóa học đang được hoàn thiện)_
 

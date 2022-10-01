@@ -7,6 +7,8 @@ redirect_from:
 toc: false
 ---
 
+Tác giả: Trần Thanh Tùng
+
 ## 1. Giới thiệu python
 
 - Tải xuống python tại [đây](https://www.python.org/downloads/) và cài đặt.

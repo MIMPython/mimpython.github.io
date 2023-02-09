@@ -115,6 +115,7 @@ Blockquote có thể chứa các yếu tố định dạng Markdown khác. Tuy n
 
 ### 7. Danh sách
 #### 7.1  Danh sách có thứ tự
+
 | Cú pháp        | Kết quả |
 |:---------------|:--------|
 | 1. Mục một <br /> 2. Mục hai <br /> 3. Mục ba   | 1. Mục một <br /> 2. Mục hai  <br /> 3. Mục ba |

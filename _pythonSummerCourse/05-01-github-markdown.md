@@ -1,7 +1,7 @@
 ---
 title: "Bài 12. Github và markdown"
 permalink: /pythonSummerCourse/week-05-github-markdown/
-last_modified_at: 2022-08-03
+last_modified_at: 2023-02-09
 redirect_from:
   - /theme-setup/
 toc: false

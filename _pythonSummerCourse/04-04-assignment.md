@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 4"
 permalink: /pythonSummerCourse/week-04-assignment/
-last_modified_at: 2022-08-29
+last_modified_at: 2023-02-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -9,11 +9,11 @@ toc: false
 
 Bài tập tuần 4 gồm 8 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
-- 3 bài tập nâng cao: 6, 8, 9.
+- 3 bài tập nâng cao: 6, 7, 8.
 
 Cập nhật
 - 02/08/2022. Bổ sung nguồn tham khảo trong bài tập 6.
-- 19/08/2022. Chuyển bài tập 7 (thiết kế class đa thức) sang bài tập tuần 7.
+- 11/02/2023. Đánh lại số thứ tự các bài tập.
 
 
 ## Danh sách bài tập
@@ -125,10 +125,10 @@ Nên làm gì khi nhận được đoạn [mã Morse](https://en.wikipedia.org/w
 Xây dựng class `Circle` để biểu diễn các đường tròn trong mặt phẳng $Oxy$. Khởi tạo với các thuộc tính thích hợp đồng thời cài đặt những thuộc tính, property thích hợp. Tham khảo cách thiết kế trong [the geometry module for SymPy package](https://docs.sympy.org/latest/modules/geometry/index.html).
 
 
-**Bài tập 8.** (class Datetime) \
+**Bài tập 7.** (class Datetime) \
 Xây dựng class `Datetime` cho phép thực hiện các tác vụ liên quan đến thời gian. Tham khảo `pandas.Timestamp` để nắm được những thuộc tính/phương thức cơ bản của class cần cài đặt.
 
-**Bài tập 9.** (factorial number) \
+**Bài tập 8.** (factorial number) \
 Cho $n$ là một số tự nhiên, ta định nghĩa $n!$ là tích của $n$ số nguyên dương đầu tiên với quy ước $0! = 1$. Ví dụ $5!=120$. \
 a) Hỏi $n!$ có bao nhiêu chữ số 0 ở tận cùng bên phải? \
 b) Tạo một số mới bằng cách bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$. Hỏi chữ số tận cùng bên phải của số mới này bằng bao nhiêu?

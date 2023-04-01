@@ -1,7 +1,7 @@
 ---
-title: "Tuần 3"
+title: "Tuần 3. Tiếp tục với Python"
 permalink: /pythonSummerCourse/week-03/
-last_modified_at: 2022-06-30
+last_modified_at: 2023-04-02
 redirect_from:
   - /theme-setup/
 toc: false

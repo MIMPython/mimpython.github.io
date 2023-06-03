@@ -17,13 +17,13 @@ fruit = 'banana'
 letter = fruit[0]
 print(letter) # 'b'
 
-# Length of string
+# Length of a string
 print(len(fruit)) # 6
 
-# Slice
+# Slicing
 print(fruit[0:3]) # ban
 
-# Search
+# Search in a string
 print(fruit.find('a')) # 1
 print('a' in fruit) # True
 print('c' in fruit) # False
@@ -37,15 +37,15 @@ print(colors[1]) # blue
 colors[2] = 'yellow'
 print(colors) # ['red', 'blue', 'yellow']
 
-# Length of list
+# Length of a list
 print(len(colors)) # 3
 
-# Add element
+# Add an element into a list
 colors = ['red', 'blue', 'green']
 colors.append('blue')
 print(colors) # ['red', 'blue', 'green', 'blue']
 
-# Remove element
+# Remove an element from a list
 colors = ['red', 'yellow', 'green', 'blue']
 colors.pop(0)
 print(colors) # ['yellow', 'green', 'blue']
@@ -54,17 +54,17 @@ colors = ['red', 'blue', 'yellow', 'green', 'blue']
 colors.remove('blue')
 print(colors) # ['red', 'yellow', 'green', 'blue']
 
-# Sort element
+# Sort elements
 colors = ['red', 'yellow', 'green', 'blue']
 colors.sort()
 print(colors) # ['blue', 'green', 'red', 'yellow']
 
-# Reverse list
+# Reverse a list
 colors = ['red', 'yellow', 'green', 'blue']
 colors.reverse()
 print(colors) # ['blue', 'green', 'yellow', 'red']
 
-# Check element in list
+# Check an element in a list
 colors = ['red', 'yellow', 'green', 'blue']
 print('red' in colors) # True
 print('gray' in colors) # False
@@ -75,10 +75,10 @@ Tuple, thao tác cơ bản với tuple
 dimensions = (200, 50)
 print(dimensions[0]) # 200
 
-# You can't use
+# Item assignment is not allowed in tuple
 dimensions[0] = 100 # TypeError: 'tuple' object does not support item assignment
 
-# Writing over a Tuple
+# Writing over a tuple
 dimensions = (200, 50)
 print(dimensions) # (200, 50)
 dimensions = (100, 100)
@@ -90,10 +90,10 @@ Dictionary, thao tác với dictionary
 banana = {'name': 'banana', 'color': 'yellow', 'cost': 5000}
 print(banana['cost']) # 5000
 
-# Get key dictionary
+# Get keys of a dictionary
 print(banana.keys()) # dict_keys(['name', 'color', 'cost'])
 
-# Get value of dictionary
+# Get value of a dictionary
 print(banana.values()) # dict_values(['banana', 'yellow', 5000])
 ```
 

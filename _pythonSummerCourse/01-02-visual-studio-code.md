@@ -1,7 +1,7 @@
 ---
 title: "Bài 2. Visual Studio Code"
 permalink: /pythonSummerCourse/week-01-visual-studio-code/
-last_modified_at: 2022-06-30
+last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -199,18 +199,9 @@ Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một
 </div>
 
 ## 4. Một số Extension hay
-**GitLen**
-
-Giúp việc thao tác với Git trực quan, dễ thực hiện.
-
-**TabNine**
-
-Gợi ý code, sử dụng AI tăng hiệu suất viết code.
-
-**GitHub Compilot**
-
-Tương tự như **TabNine**.
-
+- **GitLen**: giúp việc thao tác với Git trực quan, dễ thực hiện.
+- **TabNine**: gợi ý code, sử dụng AI tăng hiệu suất viết code.
+- **GitHub Compilot**: tương tự như **TabNine**.
 
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.

@@ -1,7 +1,7 @@
 ---
 title: "Bài 4. Các kiểu dữ liệu cơ bản"
 permalink: /pythonSummerCourse/week-02-basic-data-types/
-last_modified_at: 2022-07-18
+last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -76,7 +76,7 @@ dimensions = (200, 50)
 print(dimensions[0]) # 200
 
 # You can't use
-dimentions[0] = 100 # TypeError: 'tuple' object does not support item assignment
+dimensions[0] = 100 # TypeError: 'tuple' object does not support item assignment
 
 # Writing over a Tuple
 dimensions = (200, 50)
@@ -102,48 +102,48 @@ print(banana.values()) # dict_values(['banana', 'yellow', 5000])
 ```python
 # Simple for loop
 for i in range(3):
-  print(i)
-  """
-    Output:
-      0
-      1
-      2
-  """
+    print(i)
+"""
+Output:
+0
+1
+2
+"""
 
-# Loop through list
+# Loop through a list
 colors = ['red', 'yellow', 'green']
 for color in colors:
-  print(color)
-  """
-    Output:
-      red
-      yellow
-      green
-  """
+    print(color)
+"""
+Output:
+red
+yellow
+green
+"""
 
-# Loop throught tuple
+# Loop through a tuple
 path = (2, 5, 4, 1, 3)
 for node in path:
-  print(node)
-  """
-    Output:
-      2
-      5
-      4
-      1
-      3
-  """
+    print(node)
+"""
+Output:
+2
+5
+4
+1
+3
+"""
 
 # Loop thought dictionary
 banana = {'name': 'banana', 'color': 'yellow', 'cost': 5000}
 for key in banana.keys():
-  print(banana[key])
-  """
-    Output:
-      banana
-      yellow
-      5000
-  """
+    print(banana[key])
+"""
+Output:
+banana
+yellow
+5000
+"""
 ```
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.

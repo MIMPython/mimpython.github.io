@@ -1,7 +1,7 @@
 ---
 title: "Bài 5. Phương thức"
 permalink: /pythonSummerCourse/week-02-method/
-last_modified_at: 2022-07-18
+last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -18,8 +18,8 @@ def greetUser():
 greetUser()
 ```
 - Mỗi hàm trong Python có hai khía cạnh
-  - Định nghĩa hàm (**Funtion definition**): chứa các dòng lệnh xác định hành động của hàm đó.
-  - Lời gọi hàm (**Funtion invocation**): một hàm được dùng trong chương trình thông qua lời gọi hàm đó.
+  - Định nghĩa hàm (**function definition**): chứa các dòng lệnh xác định hành động của hàm đó.
+  - Lời gọi hàm (**function invocation**): một hàm được dùng trong chương trình thông qua lời gọi hàm đó.
 - Mỗi hàm được định nghĩa 1 lần nhưng có thể gọi nhiều lần.
 
 ### 1.2. Các thành phần trong hàm
@@ -39,7 +39,7 @@ print(total(2, 4))
 - Ví dụ
 
 ```py
-def total(y, x = 5):
+def total(y, x=5):
     return x + y
 
 s = 12
@@ -58,7 +58,6 @@ def total(*numbers):
     result = 0
     for i in numbers:
         result += i
-
     return result
 
 print(total(17, 7, 5, 22, 20))  # 71
@@ -69,14 +68,13 @@ Ví dụ với tiền tố `**`
 ```py
 def greetUser(**data):
     for name, age in data.items():
-        print(f"Chào {name}! Bạn {age} tuổi, phải không?")
+        print(f'Chào {name}! Bạn {age} tuổi, phải không?')
 
 greetUser(**{"Peter": 5, "John": 3, "Emma": 4})
 ```
 ## 2. Từ khóa `pass`
-- Câu lệnh `pass` được sử dụng có thể nói là "giữ chỗ cho code trong tương lai".
-- Khi câu lệnh `pass` được thực thi thì không có điều gì xảy ra, nhưng bạn tránh gặp lỗi khi code trống không được phép.
-- Code trống không được phép là trong vòng lặp, định nghĩa hàm (function), định nghĩa lớp (class) hoặc trong câu lệnh if.
+- Trong mỗi vòng lặp, định nghĩa hàm (function), định nghĩa lớp (class) hoặc trong câu lệnh `if`, đoạn code tại đó không được phép để trống hoàn toàn.
+- Câu lệnh `pass` được sử dụng có thể nói là "giữ chỗ cho code trong tương lai". Khi câu lệnh `pass` được thực thi thì không có điều gì xảy ra, đồng thời bạn tránh gặp lỗi khi code trống không được phép.
 
 Ví dụ trong vòng lặp
 ```py
@@ -103,13 +101,13 @@ if a > b:
 ## 3. Booleans and conditionals
 
 ### 3.1. Booleans
-- Booleans thể hiện cho một trong hai giá trị Đúng hoặc Sai (`True` hoặc `False`).
+- Booleans thể hiện cho một trong hai giá trị đúng hoặc sai (`True` hoặc `False`).
 ```py
 print(6 > 5)  # True
 print(6 == 5)  # False
 print(6 < 5)  # False
 ```
-- `True` và `False` là các giá trị đặc biệt kiểu `bool`, chúng không phải `strings`.
+- `True` và `False` là các giá trị đặc biệt kiểu `bool`, chúng không phải `string`.
 ```py
 print(type(True))  # <class 'bool'>
 print(type(False))  # <class 'bool'>

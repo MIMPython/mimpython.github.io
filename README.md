@@ -100,7 +100,7 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
 
 ## Thêm video vào page
 
-Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=BFUteVm_2wY&t=2s
+Ví dụ muốn thêm video có đường link https://www.youtube.com/watch?v=BFUteVm_2wY
 để mô tả nội dung trong page, thêm dòng lệnh sau vào file chứ nội dung page, tại vị trí muốn hiển thị video
 
     {% include video id="BFUteVm_2wY" provider="youtube" %}

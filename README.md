@@ -128,6 +128,8 @@ Lưu ý: `author-1` là 1 trường dữ liệu về 1 tác giả đã có trong
 
 ## Cài đặt trang web chạy trên local
 
+**Chú ý.** Nếu server trang web được khởi tạo local _trước khi_ một khóa học được thêm thì khóa học đó sẽ không hiện lên trên trang local. Khi đó chỉ cần khởi động lại server là được.
+
 Để chạy trang web trên local, yêu cầu phải có những thứ sau:
 - Ruby phiên bản 2.5.0 hoặc cao hơn
 - RubyGems

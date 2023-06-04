@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 1"
 permalink: /pythonSummerCourse/week-01-assignment/
-last_modified_at: 2022-07-27
+last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/
 toc: false
@@ -18,7 +18,7 @@ Bài tập tuần 1 gồm 3 bài tập, bao gồm
 **Bài tập 1.** Python \
 a) Ngôn ngữ lập trình Python được tạo ra bởi ai và vào thời gian nào? \
 b) Vì sao ngôn ngữ lập trình Python lại được đặt tên như vậy? \
-c) Tính tới ngày 13/07/2022, phiên bản Python mới nhất được phát hành là phiên bản nào?
+c) Tính tới thời điểm hiện tại, phiên bản Python mới nhất được phát hành là phiên bản nào?
 
 **Bài tập 2.** VS Code \
 a) VS Code là một phần mềm mã nguồn mở, đúng hay sai? Vì sao? \

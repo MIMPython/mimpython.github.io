@@ -12,7 +12,7 @@ main:
 pythonSummerCourse-navigation:
   - title: "Giới thiệu chung"
     url: /pythonSummerCourse/
-  - title: "1. Làm quen với lập trình"
+  - title: "Module 1. Làm quen với lập trình"
     url: /pythonSummerCourse/module-01/
     children:
       - title: "Bài 1. Python"
@@ -23,7 +23,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-03-pip/
       - title: "Bài tập lần 1"
         url: /pythonSummerCourse/module-01-assignment/
-  - title: "2. Mở đầu với Python"
+  - title: "Module 2. Mở đầu với Python"
     url: /pythonSummerCourse/module-02/
     children:
       - title: "Bài 4. Các kiểu dữ liệu cơ bản"
@@ -32,7 +32,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-05-method/
       - title: "Bài tập lần 2"
         url: /pythonSummerCourse/module-02-assignment/
-  - title: "3. Tiếp tục với Python"
+  - title: "Module 3. Tiếp tục với Python"
     url: /pythonSummerCourse/module-03/
     children:
       - title: "Bài 6. Vòng lặp"
@@ -43,7 +43,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-08-git/
       - title: "Bài tập lần 3"
         url: /pythonSummerCourse/module-03-assignment/
-  - title: "4. Python hữu dụng"
+  - title: "Module 4. Python hữu dụng"
     url: /pythonSummerCourse/module-04/
     children:
       - title: "Bài 9. Thiết kế phương thức nâng cao"
@@ -54,7 +54,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-11-list-comprehension/
       - title: "Bài tập lần 4"
         url: /pythonSummerCourse/module-04-assignment/
-  - title: "5. Các công cụ hỗ trợ lập trình"
+  - title: "Module 5. Các công cụ hỗ trợ lập trình"
     url: /pythonSummerCourse/module-05/
     children:
       - title: "Bài 12. Github và markdown"
@@ -63,7 +63,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-13-bash-scripts/
       - title: "Bài tập lần 5"
         url: /pythonSummerCourse/module-05-assignment/
-  - title: "6. Một số thư viện quan trọng"
+  - title: "Module 6. Một số thư viện quan trọng"
     url: /pythonSummerCourse/module-06/
     children:
       - title: "Bài 14. numpy and pandas"
@@ -72,7 +72,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-15-matplotlib-seaborn/
       - title: "Bài tập lần 6"
         url: /pythonSummerCourse/module-06-assignment/
-  - title: "7. Python nâng cao (phần 1)"
+  - title: "Module 7. Python nâng cao (phần 1)"
     url: /pythonSummerCourse/module-07/
     children:
       - title: "Bài 16. Class nâng cao"
@@ -83,7 +83,7 @@ pythonSummerCourse-navigation:
         url: /pythonSummerCourse/lesson-18-module-in-python/
       - title: "Bài tập lần 7"
         url: /pythonSummerCourse/module-07-assignment/
-  - title: "8. Python nâng cao (phần 2)"
+  - title: "Module 8. Python nâng cao (phần 2)"
     url: /pythonSummerCourse/module-08/
     children:
       - title: "Bài 19. Documentation and docstring"

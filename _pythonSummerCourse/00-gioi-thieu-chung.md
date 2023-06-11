@@ -111,4 +111,4 @@ Dưới đây là danh sách các thành viên đã dành thời gian và công 
 - Đặng Quý Anh, Đinh Hoàng Nhật Minh, [Hoàng Anh Quân](https://quanhoang-pm.github.io/), Nguyễn Văn Quân, Trần Bá Tuấn, Trần Thanh Tùng thực hiện tổng hợp nội dung các bài học, đồng thời đưa nhận xét cho học viên về bài làm của họ hàng tuần.
 - Hoàng Anh Quân và Lê Quốc Tuấn biên soạn bài tập hàng tuần.
 - Trần Bá Tuấn và Trần Thanh Tùng quản lý danh sách học viên của khóa học.
-- Nguyễn Văn Quân và Trần Thanh Tùng thiết kế website MIMPython.
+- Nguyễn Văn Quân và Trần Thanh Tùng thiết kế [website MIMPython](https://mimpython.github.io/).

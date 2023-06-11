@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 7"
 permalink: /pythonSummerCourse/week-07-assignment/
-last_modified_at: 2022-08-29
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -20,9 +20,9 @@ Viết một hàm nhận vào một `list` và trả về giá trị trung bình
 
 
 **Bài tập 2.** *(class inheritance)* \
-1) Xây dựng class `Rectangle` và class `Square` (kế thừa từ `Rectangle`). Thiết kế các thuộc tính, phương thức có liên quan. \
-1') Bổ sung thêm class `Rhombus` và thực hiện kế thừa một cách phù hợp. \
-2) Thực hiện yêu cầu tương tự với class `Ellipse` và class `Circle`. Chú ý rằng việc tính chu vi hình ellipse là một bài toán thú vị.
+(a) Xây dựng class `Rectangle` và class `Square` (kế thừa từ `Rectangle`). Thiết kế các thuộc tính, phương thức có liên quan. \
+(b) Bổ sung thêm class `Rhombus` và thực hiện kế thừa một cách phù hợp. \
+(c) Thực hiện yêu cầu tương tự với class `Ellipse` và class `Circle`. Chú ý rằng việc tính chu vi hình ellipse là một bài toán thú vị.
 
 
 **Bài tập 3.** *(geometrical classes)* \

@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 4"
 permalink: /pythonSummerCourse/week-04-assignment/
-last_modified_at: 2023-02-11
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -130,5 +130,5 @@ Xây dựng class `Datetime` cho phép thực hiện các tác vụ liên quan �
 
 **Bài tập 8.** (factorial number) \
 Cho $n$ là một số tự nhiên, ta định nghĩa $n!$ là tích của $n$ số nguyên dương đầu tiên với quy ước $0! = 1$. Ví dụ $5!=120$. \
-a) Hỏi $n!$ có bao nhiêu chữ số 0 ở tận cùng bên phải? \
-b) Tạo một số mới bằng cách bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$. Hỏi chữ số tận cùng bên phải của số mới này bằng bao nhiêu?
+(a) Hỏi $n!$ có bao nhiêu chữ số 0 ở tận cùng bên phải? \
+(b) Tạo một số mới bằng cách bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$. Hỏi chữ số tận cùng bên phải của số mới này bằng bao nhiêu?

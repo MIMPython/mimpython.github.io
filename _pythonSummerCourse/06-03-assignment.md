@@ -21,8 +21,8 @@ Cập nhật
 
 **Bài tập 1.** *(numpy)* \
 Mục tiêu của bài tập này là so sánh tốc độ thực hiện các phép toán tính tổng khi sử dụng thư viện `numpy` với khi sử dụng cách cài đặt thủ công. Dưới đây là danh sách _gợi ý_, không bắt buộc, những công việc cần thực hiện để giải quyết mục tiêu đề ra: \
-a) Viết một hàm nhận vào hai số nguyên dương $m,n$ và trả về một bảng hai chiều (kiểu `list` hoặc `tuple`) gồm $m$ hàng và $n$ cột chứa các số tự nhiên ngẫu nhiên. \
-b) Không sử dụng thư viện bổ sung, viết một hàm tính tổng các số thuộc cùng một cột của một bảng số cho trước.
+(a) Viết một hàm nhận vào hai số nguyên dương $m,n$ và trả về một bảng hai chiều (kiểu `list` hoặc `tuple`) gồm $m$ hàng và $n$ cột chứa các số tự nhiên ngẫu nhiên. \
+(b) Không sử dụng thư viện bổ sung, viết một hàm tính tổng các số thuộc cùng một cột của một bảng số cho trước.
 ```py
 array = foo(3, 5)
 array = [
@@ -34,15 +34,15 @@ result = bar(array)
 result = [8, 11, 16, 4, 3]
 ```
 
-c) Sử dụng kiểu dữ liệu `numpy.ndarray`, thực hiện yêu cầu tương tự như hai ý (a) và (b). \
-d) So sánh **tốc độ thực hiện của hai hàm tính tổng các số theo cột** đã cài đặt ở trên. Một số lưu ý:
+(c) Sử dụng kiểu dữ liệu `numpy.ndarray`, thực hiện yêu cầu tương tự như hai ý (a) và (b). \
+(d) So sánh **tốc độ thực hiện của hai hàm tính tổng các số theo cột** đã cài đặt ở trên. Một số lưu ý:
 - Nên kiểm nghiệm kết quả trên những bảng số với kích thước lớn, đồng thời chạy chương trình nhiều lần để cho ra kết quả mang ý nghĩa thống kê.
 - Có thể sử dụng thư viện `time` để đo thời gian, cụ thể là dùng hàm `time.time()` hoặc `time.perf_counter()`.
 - Cần so sánh tốc độ thực hiện chương trình trên những bộ dữ liệu đầu vào _tương tự_ nhau.
 - Cần tách riêng thời gian tạo dữ liệu bảng số và thời gian tính tổng các số.
 - Nên thể hiện kết quả so sánh thông qua hình vẽ.
 
-e) Trả lời câu hỏi tương tự cho việc tính tổng các số thuộc cùng một hàng của bảng số.
+(e) Trả lời câu hỏi tương tự cho việc tính tổng các số thuộc cùng một hàng của bảng số.
 
 
 **Bài tập 2.** *(numpy methods)* \
@@ -163,9 +163,9 @@ Dưới đây là phần mô tả những `DataFrame` có liên quan tới bộ 
   + Cột 4: số sinh viên cùng đăng ký hai môn học kể trên
 
 Thực hiện các yêu cầu dưới đây. \
-a) Tạo các DataFrame được liệt kê ở trên, chọn tên biến và tên cột phù hợp. Ngoài ra, các dòng trong mỗi DataFrame cũng nên được sắp xếp theo một thứ tự hợp lý. \
-b) Xuất những DataFrame này (với định dạng file phù hợp) vào thư mục bổ sung trong thư mục nộp bài. \
-c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nhiều càng tốt). Dưới đây là _gợi ý_ cho một số khía cạnh của bộ dữ liệu.
+(a) Tạo các DataFrame được liệt kê ở trên, chọn tên biến và tên cột phù hợp. Ngoài ra, các dòng trong mỗi DataFrame cũng nên được sắp xếp theo một thứ tự hợp lý. \
+(b) Xuất những DataFrame này (với định dạng file phù hợp) vào thư mục bổ sung trong thư mục nộp bài. \
+(c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nhiều càng tốt). Dưới đây là _gợi ý_ cho một số khía cạnh của bộ dữ liệu.
 - Số sinh viên, lớp học, môn học của học kỳ.
 - Số môn trung bình một sinh viên đăng ký.
 - Sinh viên đăng ký nhiều môn học nhất, ít môn học nhất.
@@ -173,11 +173,11 @@ c) Thống kê các thông tin liên quan tới bộ dữ liệu trên (càng nh
 - Có sinh viên nào học hai lớp có chung mã môn hay không?
 - Hai môn học có chung nhiều sinh viên nhất.
 
-d) Tạo các hình vẽ phù hợp để minh họa cho những thống kê bên trên. Xuất những hình vẽ này vào thư mục bổ sung trong thư mục nộp bài. \
-e) (câu hỏi thêm) Tìm kiếm thêm những dữ liệu liên quan để trả lời những câu hỏi không hiển nhiên liên quan đến bộ dữ liệu này. Ví dụ như
+(d) Tạo các hình vẽ phù hợp để minh họa cho những thống kê bên trên. Xuất những hình vẽ này vào thư mục bổ sung trong thư mục nộp bài. \
+(e) (câu hỏi thêm) Tìm kiếm thêm những dữ liệu liên quan để trả lời những câu hỏi không hiển nhiên liên quan đến bộ dữ liệu này. Ví dụ như
 > Trong những khoa thuộc Trường Đại học Khoa học Tự nhiên, khoa nào có nhiều sinh viên nhất?
 
-f) (câu hỏi thêm) Đọc thêm khái niệm về [khoảng cách](https://en.wikipedia.org/wiki/Distance_(graph_theory)) và [đường kính](https://mathworld.wolfram.com/GraphDiameter.html) của một đồ thị. Sau đó xây dựng những đồ thị có liên quan tới bộ dữ liệu này và đưa ra những thông tin liên quan đến đồ thị vừa xây dựng.
+(f) (câu hỏi thêm) Đọc thêm khái niệm về [khoảng cách](https://en.wikipedia.org/wiki/Distance_(graph_theory)) và [đường kính](https://mathworld.wolfram.com/GraphDiameter.html) của một đồ thị. Sau đó xây dựng những đồ thị có liên quan tới bộ dữ liệu này và đưa ra những thông tin liên quan đến đồ thị vừa xây dựng.
 
 **Credit:** Dữ liệu trong bài tập này được thu thập bởi nhóm sinh viên Trường Đại học Khoa học Tự nhiên, ĐHQGHN nghiên cứu bài toán xếp lịch thi của Trường. Nội dung bài tập được chuẩn bị bởi Trần Thanh Tùng và Hoàng Anh Quân.
 
@@ -191,8 +191,8 @@ Viết một chương trình mô phỏng [Conway's game of life](https://en.wiki
 
 
 **Bài tập 9.** *(clock)* \
-a) Viết chương trình vẽ hình ảnh một chiếc đồng hồ số và một chiếc đồng hồ kim thể hiện một thời điểm bất kỳ trong ngày, ví dụ 04h20m19s. \
-b) Dựng một đoạn video mô phỏng sự hoạt động của một chiếc đồng hồ số và/hoặc một chiếc đồng hồ kim. Gợi ý: sử dụng thư viện `manim`.
+(a) Viết chương trình vẽ hình ảnh một chiếc đồng hồ số và một chiếc đồng hồ kim thể hiện một thời điểm bất kỳ trong ngày, ví dụ 04h20m19s. \
+(b) Dựng một đoạn video mô phỏng sự hoạt động của một chiếc đồng hồ số và/hoặc một chiếc đồng hồ kim. Gợi ý: sử dụng thư viện `manim`.
 
 
 **Bài tập 10.** *(Gauss elimination)* \
@@ -206,7 +206,7 @@ Nền xanh lá cây (green screen) thường được sử dụng trong quá tr�
 
 
 **Bài tập 12.** *(Polyomino)* \
-a) Viết một hàm thực hiện phép xoay một `numpy array` một góc 90 độ theo chiều kim đồng hồ.
+(a) Viết một hàm thực hiện phép xoay một `numpy array` một góc 90 độ theo chiều kim đồng hồ.
 
 ```py
 inputArr = np.array([
@@ -220,4 +220,4 @@ outputArr = array([
 ])
 ```
 
-b) Xây dựng class `Polyomino` để kiểm chứng những nhận xét có trong [bài viết về Polyomino](https://en.wikipedia.org/wiki/Polyomino) trên Wikipedia.
+(b) Xây dựng class `Polyomino` để kiểm chứng những nhận xét có trong [bài viết về Polyomino](https://en.wikipedia.org/wiki/Polyomino) trên Wikipedia.

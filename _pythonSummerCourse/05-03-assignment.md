@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 5"
 permalink: /pythonSummerCourse/week-05-assignment/
-last_modified_at: 2022-08-20
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -64,8 +64,8 @@ Chú ý
 
 **Bài tập 4.** *(về bờ không khó)* \
 Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày giao dịch liền trước. Ngày giao dịch là các ngày từ thứ hai đến thứ sáu trong tuần. Biết rằng vào ngày 08/08/2022, giá của cổ phiếu _F_ là 7.24 (đơn vị nghìn đồng). \
-a) Chỉ ra giá tối đa mà cổ phiếu này có thể đạt được trong mỗi ngày trong khoảng từ 09/08/2022 đến 12/08/2022. \
-b) Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào?
+(a) Chỉ ra giá tối đa mà cổ phiếu này có thể đạt được trong mỗi ngày trong khoảng từ 09/08/2022 đến 12/08/2022. \
+(b) Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào?
 
 Giải _Quyết_ bài tập này trong hai trường hợp sau đây: \
 Trường hợp 1: Giá cổ phiếu nhận giá trị là một số thực. \
@@ -73,9 +73,9 @@ Trường hợp 2: Giá cổ phiếu (đơn vị nghìn đồng) là một số 
 
 
 **Bài tập 5.** *(infinite loop)* \
-a) Viết một chương trình chạy vô hạn sử dụng vòng lặp `while`. \
-b) Viết một chương trình chạy vô hạn sử dụng vòng lặp `for` và không dùng vòng lặp `while`. \
-c) Viết một chương trình chạy vô hạn sử dụng vòng lặp `for` mà đối tượng được duyệt (sau từ khóa `in`) không phải là một `list`, `tuple`, `set`, hay `dictionary`.
+(a) Viết một chương trình chạy vô hạn sử dụng vòng lặp `while`. \
+(b) Viết một chương trình chạy vô hạn sử dụng vòng lặp `for` và không dùng vòng lặp `while`. \
+(c) Viết một chương trình chạy vô hạn sử dụng vòng lặp `for` mà đối tượng được duyệt (sau từ khóa `in`) không phải là một `list`, `tuple`, `set`, hay `dictionary`.
 
 
 **Bài tập 6.** *(command line arguments)* \

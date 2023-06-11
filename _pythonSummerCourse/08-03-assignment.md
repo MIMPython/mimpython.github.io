@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 8"
 permalink: /pythonSummerCourse/week-08-assignment/
-last_modified_at: 2022-09-14
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -24,8 +24,8 @@ Viết một hàm thực hiện giải phương trình tuyến tính $Ax=b$ vớ
 
 
 **Bài tập 3.** *(DataFrame datetime tricks)* \
-a) Tạo một `DataFrame` gồm một nghìn dòng và một cột `timestamp` với giá trị mỗi ô là một thời điểm ngẫu nhiên trong năm 2022. \
-b) Bổ sung cột `date` vào `DataFrame` kể trên, trong đó chỉ lưu giá trị ngày tương ứng với giá trị của cột `timestamp`. Tìm cách tối ưu hóa thời gian thực thi công việc này. \
+(a) Tạo một `DataFrame` gồm một nghìn dòng và một cột `timestamp` với giá trị mỗi ô là một thời điểm ngẫu nhiên trong năm 2022. \
+(b) Bổ sung cột `date` vào `DataFrame` kể trên, trong đó chỉ lưu giá trị ngày tương ứng với giá trị của cột `timestamp`. Tìm cách tối ưu hóa thời gian thực thi công việc này. \
 Dưới đây là ví dụ một `DataFrame` thỏa mãn yêu cầu đề bài.
 
 ```
@@ -49,8 +49,8 @@ dtype: object
 
 
 **Bài tập 4.** *(DataFrame groupby tricks)* \
-a) Tạo ngẫu nhiên một `DataFrame` chứa dữ liệu về điểm trung bình của sinh viên. Dữ liệu cần có tối thiểu ba trường thông tin `name`, `class`, `score`. \
-b) Thống kê điểm sinh viên theo từng lớp, trình bày thống kê trong một `DataFrame` với ít nhất ba cột `class`, `nStudents`, `meanScore`.
+(a) Tạo ngẫu nhiên một `DataFrame` chứa dữ liệu về điểm trung bình của sinh viên. Dữ liệu cần có tối thiểu ba trường thông tin `name`, `class`, `score`. \
+(b) Thống kê điểm sinh viên theo từng lớp, trình bày thống kê trong một `DataFrame` với ít nhất ba cột `class`, `nStudents`, `meanScore`.
 
 Dưới đây là một mẫu dữ liệu (được ghi bởi định dạng JSON).
 
@@ -88,6 +88,6 @@ Trong một bộ bài tú lơ khơ tiêu chuẩn (gồm 52 lá bài), một tậ
 Hai lá bài được gọi là một cạ nếu chúng thuộc một phỏm nào đó. Ví dụ (3 cơ, 3 bích) là một cạ, (9 rô, J rô) là một cạ. Một tập hợp các lá bài được gọi là **ù khan** nếu hai lá bài bất kỳ đều không là một cạ.
 
 Tính xác suất để: \
-a) Một tập 9 lá bài rút ngẫu nhiên từ bộ bài là **ù khan**. \
-b) Một tập 10 lá bài rút ngẫu nhiên từ bộ bài là **ù khan**. \
-c) Bốn tập bài được đồng thời rút ngẫu nhiên từ bộ bài tiêu chuẩn, mỗi tập bài có lần lượt 10, 9, 9, 9 lá và chúng đều **ù khan** (không quan tâm đến trạng thái của 15 lá còn lại trong bộ bài).
+(a) Một tập 9 lá bài rút ngẫu nhiên từ bộ bài là **ù khan**. \
+(b) Một tập 10 lá bài rút ngẫu nhiên từ bộ bài là **ù khan**. \
+(c) Bốn tập bài được đồng thời rút ngẫu nhiên từ bộ bài tiêu chuẩn, mỗi tập bài có lần lượt 10, 9, 9, 9 lá và chúng đều **ù khan** (không quan tâm đến trạng thái của 15 lá còn lại trong bộ bài).

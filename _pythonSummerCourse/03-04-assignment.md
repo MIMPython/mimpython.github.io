@@ -116,6 +116,8 @@ while (condition);
     padding-bottom:20px;">
 </div>
 
+<center> Ảnh: programiz </center>
+
 Chương trình thực thi khối lệnh trong phần `do`, sau đó kiểm tra điều kiện ở phần `while`. Nếu điều kiện xảy ra thì chương trình quay trở lại điểm xuất phát vòng lặp, nếu điều kiện không xảy ra thì chương trình thoát khỏi vòng lặp.
 
 (a) So sánh vòng lặp `do-while` trong C++ với vòng lặp `while` trong Python. \

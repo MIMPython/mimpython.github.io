@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 2"
 permalink: /pythonSummerCourse/week-02-assignment/
-last_modified_at: 2022-08-01
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -64,7 +64,8 @@ studentIndex = 7
 weekIndex = 2
 assignmentIndex = 1
 
-someMethod(studentName, studentIndex, weekIndex, assignmentIndex) # week02_assignment01_student07_NguyenVanA.py
+someMethod(studentName, studentIndex, weekIndex, assignmentIndex)
+# week02_assignment01_student07_NguyenVanA.py
 ```
 
 **Bài tập 4.** Cho đoạn văn sau \
@@ -215,7 +216,7 @@ if isinstance(x, int):
     print('x is int')
 ```
 
-2. Sử dụng index -1 để lấy phần tử cuối cùng của một list/tuple.
+2. Sử dụng index -1 để lấy phần tử cuối cùng của một `list/tuple`.
 
 3. Một cấu trúc điều kiện rẽ nhánh nên kết thúc bằng `else`, mặc dù cú pháp Python cho phép điều ngược lại
 
@@ -230,14 +231,16 @@ print(f'{value:03d}') # 005
 6. Không nên sử dụng hàm `input()` trừ trường hợp thực sự cần thiết. Khi kiểm thử chương trình, sẽ tiện hơn nếu đặt sẵn giá trị của các biến cần thiết
 
 ```py
-# cách sử dụng hàm input(), mỗi lần chạy chương trình phải nhập lại tất cả các biến
+# cách sử dụng hàm input(), mỗi lần chạy chương trình
+# phải nhập lại tất cả các biến
 foo = input()
 bar = input()
 ham = int(input())
 egg = int(input())
 testMethod(foo, bar, ham, egg)
 
-# đặt sẵn giá trị cần thiết, cách này tiện hơn mỗi khi chỉ thay một vài giá trị của biến
+# đặt sẵn giá trị cần thiết, cách này tiện hơn mỗi khi
+# chỉ thay một vài giá trị của biến
 foo = 'MIM'
 bar = 'Python'
 ham = 300
@@ -252,7 +255,7 @@ testMethod(foo, bar, ham, egg)
 'zzz'.count('zz') == 1 # không đúng "theo trực giác"
 ```
 
-8. Khi thiết kế chương trình, nên tìm hiểu các edge case (tạm dịch, trường hợp đặc biệt) có thể xảy ra. Ví dụ với hàm `upper()` hay `lower()`, liệu có thể sử dụng nó cho ký tự đặc biệt (`@, !, &, ...`), số (1, 2, 3, ...) hay chữ cái tiếng Việt (`đ, ê, â, ...`) hay không?
+8. Khi thiết kế chương trình, nên tìm hiểu các edge case (tạm dịch, trường hợp đặc biệt) có thể xảy ra. Ví dụ với hàm `upper()` hay `lower()`, liệu có thể sử dụng nó cho ký tự đặc biệt (`@, !, &, ...`), số (`1, 2, 3, ...`) hay chữ cái tiếng Việt (`đ, ê, â, ...`) hay không?
 
 9. Cần import thư viện theo chuẩn mực được công nhận
 

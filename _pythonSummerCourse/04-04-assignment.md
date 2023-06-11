@@ -35,8 +35,8 @@ Xây dựng class `Point` để biểu diễn các điểm trong mặt phẳng t
 
 3. Bổ sung tham số `metric` (nhận giá trị là một `str`) trong hàm `distance()` vừa viết để tính khoảng cách giữa hai điểm theo một trong hai metric: khoảng cách Euclid (chuẩn L2) hoặc khoảng cách Manhattan (chuẩn L1). Dưới đây là ví dụ cách sử dụng hàm
   ```py
-  distL1 = pointA.distance(pointB, metric = 'L1')
-  distL2 = pointA.distance(pointB, metric = 'L2')
+  distL1 = pointA.distance(pointB, metric='L1')
+  distL2 = pointA.distance(pointB, metric='L2')
   ```
 
 4. Viết một method để tạo một điểm đối xứng với một điểm cho trước qua gốc tọa độ. Thực hiện yêu cầu này bằng một trong ba cách dưới đây:

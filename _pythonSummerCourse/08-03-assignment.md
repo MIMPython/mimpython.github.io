@@ -81,11 +81,11 @@ Giải quyết [bài toán 14](https://projecteuler.net/problem=14) trên trang 
 
 
 **Bài tập 7.** *(bad luck probability)* \
-Trong một bộ bài tú lơ khơ tiêu chuẩn (gồm 52 lá bài), một tập hợp có từ ba lá bài trở lên được gọi là một phỏm nếu chúng thỏa mãn một trong hai điều kiện sau:
-- ĐK1: chúng có cùng giá trị. Ví dụ bộ ba lá 2 cơ, 2 rô, 2 bích.
-- ĐK2: chúng có cùng chất và có giá trị là các số nguyên liên tiếp, với quy ước J, Q, K lần lượt là 11, 12, 13. Ví dụ bộ bốn lá 9 cơ, 10 cơ, J cơ, Q cơ.
+Trong một bộ bài tú lơ khơ tiêu chuẩn (gồm 52 lá bài), một tập hợp gồm ba lá bài trở lên được gọi là một phỏm nếu chúng thỏa mãn một trong hai điều kiện sau:
+- Điều kiện 1: chúng có cùng giá trị. Ví dụ bộ ba lá 2 cơ, 2 rô, 2 bích.
+- Điều kiện 2: chúng có cùng chất và có giá trị là các số nguyên liên tiếp, với quy ước J, Q, K lần lượt là 11, 12, 13. Ví dụ bộ bốn lá 9 cơ, 10 cơ, J cơ, Q cơ.
 
-Hai lá bài (không kể thứ tự) được gọi là một cạ nếu chúng thuộc một phỏm nào đó. Ví dụ (3 cơ, 3 bích) là một cạ, (9 rô, J rô) là một cạ. Một tập hợp các lá bài được gọi là **ù khan** nếu hai lá bài bất kỳ đều không là một cạ.
+Hai lá bài được gọi là một cạ nếu chúng thuộc một phỏm nào đó. Ví dụ (3 cơ, 3 bích) là một cạ, (9 rô, J rô) là một cạ. Một tập hợp các lá bài được gọi là **ù khan** nếu hai lá bài bất kỳ đều không là một cạ.
 
 Tính xác suất để: \
 a) Một tập 9 lá bài rút ngẫu nhiên từ bộ bài là **ù khan**. \

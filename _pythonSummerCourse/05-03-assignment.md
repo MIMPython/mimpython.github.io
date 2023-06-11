@@ -40,7 +40,7 @@ Danh sách công việc đã thực hiện
 ```
 
 **Bài tập 2.** *(markdown)* \
-Viết một file markdown (đuôi `md`) và đặt nó vào trong thư mục bổ sung `additionalFolder/`, sau đó ghi tên file markdown này vào phần bài làm của bài tập này. Tên file cần thể hiện rõ thông tin cá nhân của học viên.
+Viết một file markdown (đuôi `.md`) và đặt nó vào trong thư mục bổ sung `additionalFolder/`, sau đó ghi tên file markdown này vào phần bài làm của bài tập này. Tên file cần thể hiện rõ thông tin cá nhân của học viên.
 
 **Bài tập 3.** *(scripting)* \
 Mở một terminal và thực hiện những yêu cầu dưới đây. Ghi lại **tất cả** những câu lệnh đã thực thi (kể từ thời điểm mở terminal) vào phần bài làm của bài tập này, đồng thời đặt thư mục `X` vào trong thư mục bổ sung `additionalFolder/` trong phần bài nộp.
@@ -64,8 +64,8 @@ Chú ý
 
 **Bài tập 4.** *(về bờ không khó)* \
 Giả sử giá của một cổ phiếu trong một ngày là cố định và phải nằm trong khung từ $93\%$ đến $107\%$ so với giá của ngày giao dịch liền trước. Ngày giao dịch là các ngày từ thứ hai đến thứ sáu trong tuần. Biết rằng vào ngày 08/08/2022, giá của cổ phiếu _F_ là 7.24 (đơn vị nghìn đồng). \
-a) Chỉ ra giá tối đa mà cổ phiếu này có thể đạt được trong mỗi ngày trong khoảng từ 09/08/2022 đến 12/08/2022.
-b) Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào? \
+a) Chỉ ra giá tối đa mà cổ phiếu này có thể đạt được trong mỗi ngày trong khoảng từ 09/08/2022 đến 12/08/2022. \
+b) Hỏi thời điểm sớm nhất mà giá của cổ phiếu này chạm mốc 58.69 nghìn đồng là khi nào?
 
 Giải _Quyết_ bài tập này trong hai trường hợp sau đây: \
 Trường hợp 1: Giá cổ phiếu nhận giá trị là một số thực. \
@@ -99,13 +99,13 @@ input: vawn
 output: văn
 ```
 
-**Nhận xét.** Có lẽ chương trình chuyển từ tiếng Việt sang tiếng Anh dễ thực hiện hơn, nhưng đồng thời nó có ít ý nghĩa hơn.
+**Nhận xét.** Có lẽ chương trình chuyển từ tiếng Việt sang tiếng Anh dễ thực hiện hơn, nhưng đồng thời nó có ít ý nghĩa thực tế hơn.
 
 
 **Bài tập 9.** *(three hands of a clock)* \
 Cho một đồng hồ kim với kim giờ, kim phút, kim giây có độ dài bằng nhau và bằng 1, được gắn với nhau tại tâm của đồng hồ và gọi $A$, $B$, $C$ lần lượt là ba đầu mút còn lại của ba kim đồng hồ đó. Đặt $M = AB + BC + CA$, ta đã biết một số giá trị của M tại một số thời điểm, ví dụ như: \
-(i) $M = 0 + 0 + 0 = 0$ lúc 00h00'00". \
-(ii) $M = 2 + 2 + 0 = 4$ lúc 06h00’00”.
+(i) $M = 0 + 0 + 0 = 0$ lúc 00h00'00" \
+(ii) $M = 2 + 2 + 0 = 4$ lúc 06h00’00”
 
 Hỏi trong thời gian hoạt động của đồng hồ từ 00h00’10” đến 11h59’50” cùng ngày, giá trị lớn nhất và giá trị bé nhất mà $M$ có thể đạt được là bao nhiêu? Những giá trị đó đạt được vào (những) thời điểm nào?
 

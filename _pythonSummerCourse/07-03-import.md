@@ -1,17 +1,13 @@
 ---
 title: "Bài 18. Module trong Python"
 permalink: /pythonSummerCourse/lesson-18-module-in-python/
-last_modified_at: 2022-08-29
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 _Tác giả: Hoàng Anh Quân_
-
-Cập nhật
-- 24/08/2022. Bổ sung mô tả trong mục 2 (Python tìm module ở đâu?)
-- 28/08/2022. Bổ sung mô tả về `PYTHONPATH`
 
 
 ## TLDR

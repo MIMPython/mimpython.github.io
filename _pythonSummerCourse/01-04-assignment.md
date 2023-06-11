@@ -7,8 +7,6 @@ redirect_from:
 toc: false
 ---
 
-Học viên trình bày câu trả lời của **mỗi bài tập** dưới đây trong **một file `.py`** có tên được theo đúng hướng dẫn.
-
 Bài tập lần 1 gồm 3 bài tập, bao gồm
 - 3 bài tập cơ bản: 1, 2, 3 (làm tối thiểu 3 bài).
 

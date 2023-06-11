@@ -74,8 +74,8 @@ Thiết kế class về các đối tượng hình học (điểm, đoạn thẳ
 Gợi ý về cách sử dụng chương trình
 ```py
 fig, ax = plt.subplots()
-point.plot(ax, color = 'red')
-circle.plot(ax, color = 'blue')
+point.plot(ax, color='red')
+circle.plot(ax, color='blue')
 fig.savefig('image.svg')
 fig.show()
 ```
@@ -94,7 +94,7 @@ fig.show()
     padding-bottom:20px;">
 </div>
 
-<center> Ảnh: Savoury Days fanpage </center>
+<center> Ảnh: Savoury Days </center>
 
 **Bài tập 5.** *(iterating a directory)* \
 Viết một hàm liệt kê tất cả những tệp tin và thư mục là con trực tiếp của một thư mục cho trước, đồng thời trả lời xem mỗi đối tượng là tệp tin hay là thư mục. Học viên tự quyết định kiểu dữ liệu trả về phù hợp.
@@ -208,7 +208,7 @@ Nền xanh lá cây (green screen) thường được sử dụng trong quá tr�
 **Bài tập 12.** *(Polyomino)* \
 a) Viết một hàm thực hiện phép xoay một `numpy array` một góc 90 độ theo chiều kim đồng hồ.
 
-```
+```py
 inputArr = np.array([
     [0, 1, 0],
     [0, 1, 1],

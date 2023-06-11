@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 6"
 permalink: /pythonSummerCourse/week-06-assignment/
-last_modified_at: 2022-08-29
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -203,8 +203,6 @@ Viết một chương trình tính định thức của một ma trận (lưu d�
 Nền xanh lá cây (green screen) thường được sử dụng trong quá trình ghi hình nhằm phục vụ việc thay đổi nền trong quá trình hậu kỳ. Hãy viết một chương trình thay đổi nền ảnh với
 - Dữ liệu đầu vào: một ảnh chứa đối tượng trên nền xanh và một ảnh nền thật.
 - Dữ liệu đầu ra: một ảnh chứa đối tượng trên nền thật.
-
-Đ. H. N. Minh đã viết một chương trình thực hiện yêu cầu này. Lời giải có thể xem tại [đây](https://github.com/mayha1/changeImageBackground).
 
 
 **Bài tập 12.** *(Polyomino)* \

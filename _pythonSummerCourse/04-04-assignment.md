@@ -1,13 +1,13 @@
 ---
-title: "Bài tập tuần 4"
-permalink: /pythonSummerCourse/week-04-assignment/
+title: "Bài tập lần 4"
+permalink: /pythonSummerCourse/module-04-assignment/
 last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
-Bài tập tuần 4 gồm 8 bài tập, bao gồm
+Bài tập lần 4 gồm 8 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
 - 3 bài tập nâng cao: 6, 7, 8.
 

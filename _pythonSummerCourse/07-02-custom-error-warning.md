@@ -1,6 +1,6 @@
 ---
 title: "Bài 17. Ngoại lệ/cảnh báo"
-permalink: /pythonSummerCourse/week-07-custom-error-warning/
+permalink: /pythonSummerCourse/lesson-17-custom-error-warning/
 last_modified_at: 2022-08-28
 redirect_from:
   - /theme-setup/

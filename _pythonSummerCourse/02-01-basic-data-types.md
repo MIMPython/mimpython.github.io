@@ -1,6 +1,6 @@
 ---
 title: "Bài 4. Các kiểu dữ liệu cơ bản"
-permalink: /pythonSummerCourse/week-02-basic-data-types/
+permalink: /pythonSummerCourse/lesson-04-basic-data-types/
 last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/

@@ -1,6 +1,6 @@
 ---
 title: "Bài 2. Visual Studio Code"
-permalink: /pythonSummerCourse/week-01-visual-studio-code/
+permalink: /pythonSummerCourse/lesson-02-visual-studio-code/
 last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/

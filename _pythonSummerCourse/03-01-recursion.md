@@ -1,6 +1,6 @@
 ---
 title: "Bài 6. Vòng lặp"
-permalink: /pythonSummerCourse/week-03-loops/
+permalink: /pythonSummerCourse/lesson-06-loops/
 last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/

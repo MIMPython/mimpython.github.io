@@ -1,6 +1,6 @@
 ---
 title: "Bài 1. Python"
-permalink: /pythonSummerCourse/week-01-python/
+permalink: /pythonSummerCourse/lesson-01-python/
 last_modified_at: 2022-06-30
 redirect_from:
   - /theme-setup/

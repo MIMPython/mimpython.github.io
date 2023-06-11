@@ -1,6 +1,6 @@
 ---
 title: "Bài 5. Phương thức"
-permalink: /pythonSummerCourse/week-02-method/
+permalink: /pythonSummerCourse/lesson-05-method/
 last_modified_at: 2023-06-04
 redirect_from:
   - /theme-setup/

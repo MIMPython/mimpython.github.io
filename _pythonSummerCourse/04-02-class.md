@@ -1,6 +1,6 @@
 ---
 title: "Bài 10. Lớp (class)"
-permalink: /pythonSummerCourse/week-04-class/
+permalink: /pythonSummerCourse/lesson-10-class/
 last_modified_at: 2022-07-31
 redirect_from:
   - /theme-setup/

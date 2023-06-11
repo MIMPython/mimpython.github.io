@@ -1,6 +1,6 @@
 ---
-title: "Bài tập tuần 1"
-permalink: /pythonSummerCourse/week-01-assignment/
+title: "Bài tập lần 1"
+permalink: /pythonSummerCourse/module-01-assignment/
 last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
@@ -9,7 +9,7 @@ toc: false
 
 Học viên trình bày câu trả lời của **mỗi bài tập** dưới đây trong **một file `.py`** có tên được theo đúng hướng dẫn.
 
-Bài tập tuần 1 gồm 3 bài tập, bao gồm
+Bài tập lần 1 gồm 3 bài tập, bao gồm
 - 3 bài tập cơ bản: 1, 2, 3 (làm tối thiểu 3 bài).
 
 

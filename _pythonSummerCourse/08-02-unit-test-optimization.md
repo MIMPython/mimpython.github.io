@@ -1,6 +1,6 @@
 ---
 title: "Bài 20. Kiểm thử và tối ưu hóa code"
-permalink: /pythonSummerCourse/week-08-unit-testing-optimizaion/
+permalink: /pythonSummerCourse/lesson-20-unit-testing-optimizaion/
 last_modified_at: 2022-10-01
 redirect_from:
   - /theme-setup/

@@ -1,6 +1,6 @@
 ---
 title: "Bài 9. Thiết kế phương thức nâng cao"
-permalink: /pythonSummerCourse/week-04-advanced-methods/
+permalink: /pythonSummerCourse/lesson-09-advanced-methods/
 last_modified_at: 2022-07-29
 redirect_from:
   - /theme-setup/

@@ -1,6 +1,6 @@
 ---
 title: "Bài 13. Bash script"
-permalink: /pythonSummerCourse/week-05-bash-scripts/
+permalink: /pythonSummerCourse/lesson-13-bash-scripts/
 last_modified_at: 2022-08-10
 redirect_from:
   - /theme-setup/

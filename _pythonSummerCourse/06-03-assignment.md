@@ -1,6 +1,6 @@
 ---
-title: "Bài tập tuần 6"
-permalink: /pythonSummerCourse/week-06-assignment/
+title: "Bài tập lần 6"
+permalink: /pythonSummerCourse/module-06-assignment/
 last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-Bài tập tuần 6 gồm 12 bài tập, bao gồm
+Bài tập lần 6 gồm 12 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
 - 6 bài tập nâng cao: 7, 8, 9, 10, 11, 12.
 

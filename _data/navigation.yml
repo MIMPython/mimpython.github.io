@@ -12,86 +12,86 @@ main:
 pythonSummerCourse-navigation:
   - title: "Giới thiệu chung"
     url: /pythonSummerCourse/
-  - title: Tuần 1. Làm quen với lập trình
-    url: /pythonSummerCourse/week-01/
+  - title: "1. Làm quen với lập trình"
+    url: /pythonSummerCourse/module-01/
     children:
       - title: "Bài 1. Python"
-        url: /pythonSummerCourse/week-01-python/
+        url: /pythonSummerCourse/lesson-01-python/
       - title: "Bài 2. Visual Studio Code"
-        url: /pythonSummerCourse/week-01-visual-studio-code/
+        url: /pythonSummerCourse/lesson-02-visual-studio-code/
       - title: "Bài 3. pip"
-        url: /pythonSummerCourse/week-01-pip/
-      - title: "Bài tập tuần 1"
-        url: /pythonSummerCourse/week-01-assignment/
-  - title: Tuần 2. Mở đầu với Python
-    url: /pythonSummerCourse/week-02/
+        url: /pythonSummerCourse/lesson-03-pip/
+      - title: "Bài tập lần 1"
+        url: /pythonSummerCourse/module-01-assignment/
+  - title: "2. Mở đầu với Python"
+    url: /pythonSummerCourse/module-02/
     children:
       - title: "Bài 4. Các kiểu dữ liệu cơ bản"
-        url: /pythonSummerCourse/week-02-basic-data-types/
+        url: /pythonSummerCourse/lesson-04-basic-data-types/
       - title: "Bài 5. Phương thức"
-        url: /pythonSummerCourse/week-02-method/
-      - title: "Bài tập tuần 2"
-        url: /pythonSummerCourse/week-02-assignment/
-  - title: Tuần 3. Tiếp tục với Python
-    url: /pythonSummerCourse/week-03/
+        url: /pythonSummerCourse/lesson-05-method/
+      - title: "Bài tập lần 2"
+        url: /pythonSummerCourse/module-02-assignment/
+  - title: "3. Tiếp tục với Python"
+    url: /pythonSummerCourse/module-03/
     children:
       - title: "Bài 6. Vòng lặp"
-        url: /pythonSummerCourse/week-03-loops/
+        url: /pythonSummerCourse/lesson-06-loops/
       - title: "Bài 7. Các thao tác với file dữ liệu"
-        url: /pythonSummerCourse/week-03-managing-files/
+        url: /pythonSummerCourse/lesson-07-managing-files/
       - title: "Bài 8. git"
-        url: /pythonSummerCourse/week-03-git/
-      - title: "Bài tập tuần 3"
-        url: /pythonSummerCourse/week-03-assignment/
-  - title: Tuần 4. Python hữu dụng
-    url: /pythonSummerCourse/week-04/
+        url: /pythonSummerCourse/lesson-08-git/
+      - title: "Bài tập lần 3"
+        url: /pythonSummerCourse/module-03-assignment/
+  - title: "4. Python hữu dụng"
+    url: /pythonSummerCourse/module-04/
     children:
       - title: "Bài 9. Thiết kế phương thức nâng cao"
-        url: /pythonSummerCourse/week-04-advanced-methods/
+        url: /pythonSummerCourse/lesson-09-advanced-methods/
       - title: "Bài 10. Lớp (class)"
-        url: /pythonSummerCourse/week-04-class/
+        url: /pythonSummerCourse/lesson-10-class/
       - title: "Bài 11. List comprehension"
-        url: /pythonSummerCourse/week-04-list-comprehension/
-      - title: "Bài tập tuần 4"
-        url: /pythonSummerCourse/week-04-assignment/
-  - title: Tuần 5. Các công cụ hỗ trợ lập trình
-    url: /pythonSummerCourse/week-05/
+        url: /pythonSummerCourse/lesson-11-list-comprehension/
+      - title: "Bài tập lần 4"
+        url: /pythonSummerCourse/module-04-assignment/
+  - title: "5. Các công cụ hỗ trợ lập trình"
+    url: /pythonSummerCourse/module-05/
     children:
       - title: "Bài 12. Github và markdown"
-        url: /pythonSummerCourse/week-05-github-markdown/
+        url: /pythonSummerCourse/lesson-12-github-markdown/
       - title: "Bài 13. Bash script"
-        url: /pythonSummerCourse/week-05-bash-scripts/
-      - title: "Bài tập tuần 5"
-        url: /pythonSummerCourse/week-05-assignment/
-  - title: Tuần 6. Một số thư viện quan trọng
-    url: /pythonSummerCourse/week-06/
+        url: /pythonSummerCourse/lesson-13-bash-scripts/
+      - title: "Bài tập lần 5"
+        url: /pythonSummerCourse/module-05-assignment/
+  - title: "6. Một số thư viện quan trọng"
+    url: /pythonSummerCourse/module-06/
     children:
       - title: "Bài 14. numpy and pandas"
-        url: /pythonSummerCourse/week-06-numpy-and-pandas/
+        url: /pythonSummerCourse/lesson-14-numpy-and-pandas/
       - title: "Bài 15. matplotlib and seaborn"
-        url: /pythonSummerCourse/week-06-matplotlib-seaborn/
-      - title: "Bài tập tuần 6"
-        url: /pythonSummerCourse/week-06-assignment/
-  - title: Tuần 7. Python nâng cao (phần 1)
-    url: /pythonSummerCourse/week-07/
+        url: /pythonSummerCourse/lesson-15-matplotlib-seaborn/
+      - title: "Bài tập lần 6"
+        url: /pythonSummerCourse/module-06-assignment/
+  - title: "7. Python nâng cao (phần 1)"
+    url: /pythonSummerCourse/module-07/
     children:
       - title: "Bài 16. Class nâng cao"
-        url: /pythonSummerCourse/week-07-advanced-class/
+        url: /pythonSummerCourse/lesson-16-advanced-class/
       - title: "Bài 17. Ngoại lệ/cảnh báo"
-        url: /pythonSummerCourse/week-07-custom-error-warning/
+        url: /pythonSummerCourse/lesson-17-custom-error-warning/
       - title: "Bài 18. Module trong Python"
-        url: /pythonSummerCourse/week-07-module-in-python/
-      - title: "Bài tập tuần 7"
-        url: /pythonSummerCourse/week-07-assignment/
-  - title: "Tuần 8. Python nâng cao (phần 2)"
-    url: /pythonSummerCourse/week-08/
+        url: /pythonSummerCourse/lesson-18-module-in-python/
+      - title: "Bài tập lần 7"
+        url: /pythonSummerCourse/module-07-assignment/
+  - title: "8. Python nâng cao (phần 2)"
+    url: /pythonSummerCourse/module-08/
     children:
       - title: "Bài 19. Documentation and docstring"
-        url: /pythonSummerCourse/week-08-documentation-docstring/
+        url: /pythonSummerCourse/lesson-19-documentation-docstring/
       - title: "Bài 20. Kiểm thử và tối ưu hóa code"
-        url: /pythonSummerCourse/week-08-unit-testing-optimizaion/
-      - title: "Bài tập tuần 8"
-        url: /pythonSummerCourse/week-08-assignment/
+        url: /pythonSummerCourse/lesson-20-unit-testing-optimizaion/
+      - title: "Bài tập lần 8"
+        url: /pythonSummerCourse/module-08-assignment/
 
 
 pythonProgrammingCourseMAT2318-navigation:

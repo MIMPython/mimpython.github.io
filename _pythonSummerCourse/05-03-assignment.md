@@ -1,6 +1,6 @@
 ---
-title: "Bài tập tuần 5"
-permalink: /pythonSummerCourse/week-05-assignment/
+title: "Bài tập lần 5"
+permalink: /pythonSummerCourse/module-05-assignment/
 last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-Bài tập tuần 5 gồm 9 bài tập, bao gồm
+Bài tập lần 5 gồm 9 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 5 bài).
 - 3 bài tập nâng cao: 7, 8, 9.
 

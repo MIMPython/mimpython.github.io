@@ -1,6 +1,6 @@
 ---
 title: "Bài 16. Class nâng cao"
-permalink: /pythonSummerCourse/week-07-advanced-class/
+permalink: /pythonSummerCourse/lesson-16-advanced-class/
 last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/

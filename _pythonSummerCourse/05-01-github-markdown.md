@@ -1,6 +1,6 @@
 ---
 title: "Bài 12. Github và markdown"
-permalink: /pythonSummerCourse/week-05-github-markdown/
+permalink: /pythonSummerCourse/lesson-12-github-markdown/
 last_modified_at: 2023-02-09
 redirect_from:
   - /theme-setup/

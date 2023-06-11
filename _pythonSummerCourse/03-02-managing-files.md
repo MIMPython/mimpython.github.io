@@ -1,6 +1,6 @@
 ---
 title: "Bài 7. Thao tác với file dữ liệu"
-permalink: /pythonSummerCourse/week-03-managing-files/
+permalink: /pythonSummerCourse/lesson-07-managing-files/
 last_modified_at: 2022-09-04
 redirect_from:
   - /theme-setup/

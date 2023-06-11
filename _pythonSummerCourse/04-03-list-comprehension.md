@@ -1,6 +1,6 @@
 ---
 title: "Bài 11. List comprehension"
-permalink: /pythonSummerCourse/week-04-list-comprehension/
+permalink: /pythonSummerCourse/lesson-11-list-comprehension/
 last_modified_at: 2022-07-25
 redirect_from:
   - /theme-setup/

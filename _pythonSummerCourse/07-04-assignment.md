@@ -1,6 +1,6 @@
 ---
-title: "Bài tập tuần 7"
-permalink: /pythonSummerCourse/week-07-assignment/
+title: "Bài tập lần 7"
+permalink: /pythonSummerCourse/module-07-assignment/
 last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-Bài tập tuần 7 gồm 6 bài tập, bao gồm
+Bài tập lần 7 gồm 6 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
 - 1 bài tập nâng cao: 6.
 

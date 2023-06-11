@@ -1,6 +1,6 @@
 ---
 title: "Bài 15. matplotlib and seaborn"
-permalink: /pythonSummerCourse/week-06-matplotlib-seaborn/
+permalink: /pythonSummerCourse/lesson-15-matplotlib-seaborn/
 last_modified_at: 2022-08-03
 redirect_from:
   - /theme-setup/

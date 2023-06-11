@@ -1,6 +1,6 @@
 ---
 title: "Bài 19. Documentation and docstring"
-permalink: /pythonSummerCourse/week-08-documentation-docstring/
+permalink: /pythonSummerCourse/lesson-19-documentation-docstring/
 last_modified_at: 2022-09-03
 redirect_from:
   - /theme-setup/

@@ -1,6 +1,6 @@
 ---
 title: "Bài 18. Module trong Python"
-permalink: /pythonSummerCourse/week-07-module-in-python/
+permalink: /pythonSummerCourse/lesson-18-module-in-python/
 last_modified_at: 2022-08-29
 redirect_from:
   - /theme-setup/

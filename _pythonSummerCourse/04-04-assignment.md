@@ -11,10 +11,6 @@ Bài tập tuần 4 gồm 8 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
 - 3 bài tập nâng cao: 6, 7, 8.
 
-Cập nhật
-- 02/08/2022. Bổ sung nguồn tham khảo trong bài tập 6.
-- 11/02/2023. Đánh lại số thứ tự các bài tập.
-
 
 ## Danh sách bài tập
 

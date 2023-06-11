@@ -12,10 +12,6 @@ Bài tập tuần 6 gồm 12 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
 - 6 bài tập nâng cao: 7, 8, 9, 10, 11, 12.
 
-Cập nhật
-- 19/08/2022. Bổ sung bài tập 9, bài tập 10.
-- 29/08/2022. Bổ sung bài tập 11, bài tập 12.
-
 
 ## Danh sách bài tập
 

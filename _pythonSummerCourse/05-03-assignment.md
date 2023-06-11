@@ -12,12 +12,6 @@ Bài tập tuần 5 gồm 9 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 5 bài).
 - 3 bài tập nâng cao: 7, 8, 9.
 
-Cập nhật
-- 10/08/2022. Bổ sung bài tập 7, bài tập 8, bài tập 9.
-- 10/08/2022. Bổ sung một số lưu ý về việc nộp bài, xem chi tiết trong mục 3.2 và mục 4 trong phần [giới thiệu khóa học](/pythonSummerCourse/).
-- 19/08/2022. Bổ sung mô tả cho bài tập 2.
-- 20/08/2022. Bổ sung câu hỏi cho bài tập 4.
-
 
 ## Danh sách bài tập
 

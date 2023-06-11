@@ -1,7 +1,7 @@
 ---
 title: "Bài tập tuần 3"
 permalink: /pythonSummerCourse/week-03-assignment/
-last_modified_at: 2022-08-04
+last_modified_at: 2023-06-11
 redirect_from:
   - /theme-setup/
 toc: false
@@ -11,13 +11,6 @@ toc: false
 Bài tập tuần 3 gồm 13 bài tập, bao gồm
 - 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 11 (làm tối thiểu 5 bài).
 - 6 bài tập nâng cao: 7, 8, 9, 10, 12, 13.
-
-Cập nhật
-- 25/07/2022. Bổ sung bài tập 11, bài tập 12.
-- 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
-- 31/07/2022. Bổ sung bài tập 13.
-- 01/08/2022. Bổ sung yêu cầu loại bỏ thư mục `.git` khi thực hiện bài tập 11.
-- 04/08/2022. Bổ sung Gợi ý, hướng dẫn giải. Thêm ý hỏi cho bài tập 5.
 
 
 ## Danh sách bài tập

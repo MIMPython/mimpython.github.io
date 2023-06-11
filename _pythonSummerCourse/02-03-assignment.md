@@ -12,12 +12,6 @@ Bài tập tuần 2 gồm 14 bài tập, bao gồm
 - 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
 - 7 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14.
 
-Cập nhật
-- 25/07/2022. Bổ sung bài tập 11, bài tập 12.
-- 27/07/2022. Bổ sung yêu cầu về số bài tập cần thực hiện tối thiểu.
-- 31/07/2022. Đổi thứ tự bài tập 11 và bài tập 12, bổ sung bài tập 13 và bài tập 14.
-- 31/07/2022. Làm rõ nội dung của bài tập 3 và bài tập 6.
-
 
 ## Danh sách bài tập
 

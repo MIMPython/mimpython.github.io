@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython"
-last_modified_at: 2023-06-11
+last_modified_at: 2023-08-14
 redirect_from:
   - /theme-setup/
 toc: true
@@ -45,18 +45,19 @@ Ngoài ra khóa học còn tham khảo các tài liệu hướng dẫn sử dụ
   + Bài tập nâng cao: 4, 6
 - Bài nộp của học viên trong từng module không được phép chứa (những) file có nội dung rỗng/vô nghĩa. Học viên vi phạm quy định này sẽ bị hủy toàn bộ bài nộp của module tương ứng.
 
-### 3.2. Cách chuẩn bị bài nộp
-Tất cả bài làm của học viên phải được đặt trong một thư mục rồi nén thành một file zip theo hướng dẫn cụ thể dưới đây.
+### 3.2. Quy định nộp bài
+Tất cả bài làm của học viên phải được đặt trong một thư mục chính, thư mục này sau đó được nén lại thành một file zip. Mỗi học viên **chỉ nộp duy nhất một file zip** cho mỗi module bài học. Dưới đây là hướng dẫn cụ thể của bài nộp.
+
+**Thư mục chính** chứa tất cả bài làm (gồm các file `.py` và thư mục bổ sung). Thư mục chính có tên được đặt theo mẫu `moduleXX_studentZZ_HoVaTen`. File zip có tên theo mẫu `moduleXX_studentZZ_HoVaTen.zip`, ví dụ `module03_student01_PhungThuAn.zip`.
 
 **Tên file bài tập.** Mỗi bài tập phải được trình bày trong một file riêng biệt với tên được đặt theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen.py` trong đó
 - `XX` là số thứ tự module,
 - `YY` là số thứ tự của bài tập,
 - `ZZ` là số thứ tự (id) của học viên ở trong danh sách (id từ 1 đến 9 thì viết thêm số 0, chẳng hạn như 01, 02, ...),
 - `HoVaTen` là họ và tên của học viên viết liền không dấu.
-
 Ví dụ `module03_assignment01_student02_PhungThuAn.py`.
 
-**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con `additionalFolder`**. Để thuận tiện cho việc quản lý bài nộp, tên file _nên_ có tiền tố theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen_` với `XX, YY, ZZ` được quy ước như trên. Ví dụ một số file: `module01_assignment02_student03_NguyenVanA_data.txt`, `module01_assignment02_student03_NguyenVanA_image.png`.
+**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con có tên là `additionalFolder`**. Để thuận tiện cho việc quản lý bài nộp, tên các file đính kèm _nên_ có tiền tố theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen_` với `XX, YY, ZZ` được quy ước như trên. Ví dụ một số file: `module01_assignment02_student03_NguyenVanA_data.txt`, `module01_assignment02_student03_NguyenVanA_image.png`.
 
 Trong mỗi file bài tập, học viên cần liệt kê tên của tất cả những file bổ sung có liên quan đến bài tập đó.
 
@@ -77,13 +78,23 @@ additionalFolder/
   output.txt
 ```
 
-**Thư mục chính.** Tất cả bài làm đặt trong thư mục bài nộp, với tên được đặt theo mẫu `moduleXX_studentZZ_HoVaTen`. Sau đó, thư mục này được nén lại thành một file zip với tên được đặt theo mẫu `moduleXX_studentZZ_HoVaTen.zip`, ví dụ `module03_student01_PhungThuAn.zip`.
+### 3.3. Thời hạn nộp bài / bình luận code
 
+Về cơ bản, học viên cần tham gia bình luận code của học viên khác **trước khi** buổi trao đổi/chữa bài bắt đầu.
 
-### 3.3. Quy định nộp bài tập, bình luận
-- Mỗi học viên **chỉ nộp duy nhất một file zip** cho mỗi module bài học. Deadline nộp bài tập là 23h59 Chủ Nhật.
-- Mỗi học viên thực hiện bình luận bài tập theo phân công. Deadline bình luận bài tập 14h00 Thứ 4.
-Ví dụ: một module bài học diễn ra từ 13/06 (T2) đến 26/06 (CN) thì deadline nộp bài tập là 23h59 26/06 (CN) và deadline bình luận bài tập là 14h00 29/06 (T4).
+Dưới đây là lịch trình nộp bài/bình luân code cho khóa học MIMPython năm 2023.
+
+| Module | Thời hạn nộp bài | Thời hạn bình luận code |
+|:---:|:---:|:---:|
+| 1 | 22h 12/08/2023 | 16h 15/08/2023 |
+| 2 | 22h 26/08/2023 | 16h 29/08/2023 |
+| 3 | 22h 09/09/2023 | 16h 12/09/2023 |
+| 4 | 22h 23/09/2023 | 16h 26/09/2023 |
+| 5 | 22h 30/09/2023 | 16h 03/10/2023 |
+| 6 | 22h 14/10/2023 | 16h 17/10/2023 |
+| 7 | 22h 28/10/2023 | 16h 31/11/2023 |
+| 8 | 22h 11/11/2023 | 16h 14/11/2023 |
+
 
 ## 4. Một số chú ý khác
 Trừ khi có những yêu cầu bắt buộc về việc đặt tên, _tất cả_ tên biến được sử dụng trong mô tả của đề bài đều chỉ mang tính chất minh họa.

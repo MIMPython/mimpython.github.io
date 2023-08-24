@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 1"
 permalink: /pythonSummerCourse/module-01-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2023-08-25
 redirect_from:
   - /theme-setup/
 toc: false
@@ -43,3 +43,26 @@ Bài tập lần 1 gồm 3 bài tập, bao gồm
 (a) Công cụ `pip` được sử dụng vào mục đích gì? \
 (b) Giải thích ý nghĩa của câu lệnh `pip freeze`. \
 (c) Chỉ ra một công cụ khác có chức năng tương tự `pip`.
+
+
+## Thảo luận
+- Phím tắt bật/tắt thanh công cụ bên trái ở Visual Studio Code: `ctrl` + `B`.
+- Phím tắt mở cây thư mục trong thanh công cụ: `ctrl` + `shift` + `E`.
+- Phím tắt phóng to (thu nhỏ) cỡ chữ: `ctrl` + `+` (`ctrl` + `-`).
+- Mỗi dòng code chỉ nên chứa tối đa 80 ký tự.
+- Cách tạo vertical line trong Visual Studio Code
+    + Vào cài đặt:
+        * Cách 1. Mở hộp câu lệnh bằng phím tắt `ctrl` + `shift` + `P` và chọn `Open User Settings (JSON)`
+        * Cách 2. hoặc vào `File` → `Preferences` → `Settings`
+    + Thêm dòng dưới đây để tạo các vertical lines cho mức, ví dụ, 80 ký tự và 100 ký tự:
+    ```json
+    "editor.rulers": [80, 100]
+    ```
+    + Có thể đổi màu cách đường kẻ bằng cách thêm dòng sau:
+    ```json
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    }
+    ```
+- Khuyến khích sử dụng command prompt / terminal để chạy code.
+- Tên file không nên chứa các ký tự đặc biệt.

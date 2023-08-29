@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2023-08-30
 redirect_from:
   - /theme-setup/
 toc: false
@@ -196,7 +196,7 @@ ham(10) # 11 # it takes 11 digits (1, 2, 3, ..., 8, 9, 1, 0) to number the first
 Viết một hàm thực hiện công việc ngược lại: tính số trang của một cuốn sách khi biết số chữ số đã được sử dụng để đánh số.
 
 
-## Gợi ý, hướng dẫn gỉai
+## Gợi ý, hướng dẫn giải
 
 1. Nên học cách viết code theo quy ước trong PEP8.
 

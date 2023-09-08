@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython"
-last_modified_at: 2023-08-14
+last_modified_at: 2023-09-08
 redirect_from:
   - /theme-setup/
 toc: true
@@ -20,9 +20,9 @@ Khóa học được chia làm hai giai đoạn:
   4. Python nâng cao (25 tiếng)
   5. Các thư viện quan trọng trong Python (10 tiếng)
 
-  Hàng tuần, học viên tự sắp xếp thời gian đọc tài liệu và xem video về những nội dung của tuần học, sau đó làm bài tập vận dụng những kiến thức này. Mỗi tuần, giảng viên và trợ giảng sẽ tổ chức một buổi trao đổi và chữa bài tập qua nền tảng Google Meet.
+  Hàng tuần, học viên tự sắp xếp thời gian đọc tài liệu và xem video về những nội dung của tuần học, sau đó làm bài tập vận dụng những kiến thức này. Sau mỗi module, giảng viên và trợ giảng sẽ tổ chức một buổi trao đổi trực tiếp hoặc qua nền tảng Google Meet.
 
-- Giai đoạn 2 của khóa học kéo dài trong 4 tuần, trong đó học viên thực hiện một dự án theo chủ đề tự chọn. Đó là một thử thách đòi hỏi học viên phải áp dụng những kiến thức đã được học đồng thời tìm tòi, áp dụng thêm những kiến thức nâng cao khác.
+- Giai đoạn 2 của khóa học kéo dài trong 4 tuần, trong đó học viên thực hiện một dự án theo chủ đề tự chọn. Đây là một thử thách đòi hỏi học viên phải áp dụng những kiến thức đã học đồng thời tìm hiểu và áp dụng thêm những kiến thức nâng cao khác.
 
 ## 2. Tài liệu tham khảo
 Ba cuốn sách được liệt kê dưới đây là nguồn tham khảo chính xuyên suốt nội dung khóa học MIMPython.

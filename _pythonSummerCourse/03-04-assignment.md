@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 3"
 permalink: /pythonSummerCourse/module-03-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2023-09-13
 redirect_from:
   - /theme-setup/
 toc: false
@@ -74,6 +74,7 @@ Ngoài việc tạo tài khoản với tên đăng nhập và mật khẩu, mô 
 - Cho phép gửi/rút tiền, chuyển tiền giữa các tài khoản.
 - Ghi nhận số tiền người dùng có trong tài khoản.
 - Bảo đảm bí mật những thông tin của người dùng.
+- Đặt timeout nếu người dùng không hoạt động trong thời gian đủ lâu (sử dụng thư viện `multiprocessing`).
 
 **Bài tập 9.** Giải thích meme dưới đây
 <div>
@@ -143,12 +144,16 @@ Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 
 Khi viết hai số nguyên $2^n$ và $5^n$ liền nhau ta được một số có bao nhiêu chữ số? Ví dụ với $n=3$, ta được một số có 4 chữ số (số đó là 8125).
 
 
-## Gợi ý, hướng dẫn giải
+## Thảo luận
 
 1. Cách viết `sum = sum(values)` không tốt vì đã ghi đè hàm dựng sẵn (built-in) `sum()` bởi một giá trị số.
 2. Trong Python, một mảng bất kỳ đều được đánh số mặc định từ 0. Nó có thể giống hoặc khác với (những) quy ước đánh chỉ số ở bên ngoài Python.
 3. Sử dụng hàm `ord()` và `chr()` để chuyển đổi trong bảng mã `ASCII`.
 4. Người dùng có thể nhấn tổ hợp phím `Ctrl+K` rồi `Z` để bật/tắt chế độ Zen mode trong Visual Studio Code.
 5. Sử dụng thư viện `getpass` trong Python để ẩn đi input người dùng nhập vào.
-6. Bài tập về dãy Fibonacci có thể thực hiện bởi ít nhất 3 cách khác nhau. Cần tránh lặp lại việc tính những giá trị giống nhau trong dãy Fibonacci.
-7. Sử dụng `np.random.randint` để sinh ngẫu nhiên các số nguyên trong một khoảng nhất định.
+6. Bài tập về dãy Fibonacci có thể thực hiện bởi ít nhất 5 cách khác nhau. Nên so sánh độ chính xác/tốc độ của những phương pháp này.
+7. Sử dụng `np.random.randint` để sinh ngẫu nhiên các số nguyên trong một khoảng nhất định và đặt giá trị seed để đảm bảo tính tái lập của chương trình.
+8. Nếu biến `i` trong `for i in range(n)` không được sử dụng trong vòng lặp, theo quy ước, ta có thể thay nó bởi biến `_`.
+9. Bài tập điền số xoay vòng có hai hướng tiếp cận
+  - Hướng thứ nhất: tạo một bảng rỗng với kích thước phù hợp và điền số vào đó.
+  - Hướng thứ hai: xác định tọa độ cho từng số, với số 1 ở ô (0,0).

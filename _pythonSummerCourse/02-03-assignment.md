@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2023-08-30
+last_modified_at: 2023-09-13
 redirect_from:
   - /theme-setup/
 toc: false
@@ -196,19 +196,19 @@ ham(10) # 11 # it takes 11 digits (1, 2, 3, ..., 8, 9, 1, 0) to number the first
 Viết một hàm thực hiện công việc ngược lại: tính số trang của một cuốn sách khi biết số chữ số đã được sử dụng để đánh số.
 
 
-## Gợi ý, hướng dẫn giải
+## Thảo luận
 
-1. Nên học cách viết code theo quy ước trong PEP8.
+1. Nên học cách viết code theo quy ước trong [PEP8](https://peps.python.org/pep-0008/).
 
-```py
-# not recommended
-if(isinstance(x,int)==True):
-    print('x is int')
+    ```py
+    # not recommended
+    if(isinstance(x,int)==True):
+        print('x is int')
 
-# recommended
-if isinstance(x, int):
-    print('x is int')
-```
+    # recommended
+    if isinstance(x, int):
+        print('x is int')
+    ```
 
 2. Sử dụng index -1 để lấy phần tử cuối cùng của một `list/tuple`.
 
@@ -217,46 +217,47 @@ if isinstance(x, int):
 4. Sử dụng hàm dựng sẵn (built-in) `ord` và `char` để làm việc với chữ cái.
 
 5. Nên sử dụng `f-string` để in trong Python.
-```py
-value = 5
-print(f'{value:03d}') # 005
-```
+
+    ```py
+    value = 5
+    print(f'{value:03d}') # 005
+    ```
 
 6. Không nên sử dụng hàm `input()` trừ trường hợp thực sự cần thiết. Khi kiểm thử chương trình, sẽ tiện hơn nếu đặt sẵn giá trị của các biến cần thiết
 
-```py
-# cách sử dụng hàm input(), mỗi lần chạy chương trình
-# phải nhập lại tất cả các biến
-foo = input()
-bar = input()
-ham = int(input())
-egg = int(input())
-testMethod(foo, bar, ham, egg)
+    ```py
+    # cách sử dụng hàm input(), mỗi lần chạy chương trình
+    # phải nhập lại tất cả các biến
+    foo = input()
+    bar = input()
+    ham = int(input())
+    egg = int(input())
+    testMethod(foo, bar, ham, egg)
 
-# đặt sẵn giá trị cần thiết, cách này tiện hơn mỗi khi
-# chỉ thay một vài giá trị của biến
-foo = 'MIM'
-bar = 'Python'
-ham = 300
-egg = 42
-testMethod(foo, bar, ham, egg)
-```
+    # đặt sẵn giá trị cần thiết, cách này tiện hơn mỗi khi
+    # chỉ thay một vài giá trị của biến
+    foo = 'MIM'
+    bar = 'Python'
+    ham = 300
+    egg = 42
+    testMethod(foo, bar, ham, egg)
+    ```
 
 7. Cần hiểu rõ cách các hàm built-in hoạt động, ví dụ
 
-```py
-'zzz'.count('z') == 3 # True
-'zzz'.count('zz') == 1 # không đúng "theo trực giác"
-```
+    ```py
+    'zzz'.count('z') == 3 # True
+    'zzz'.count('zz') == 1 # không đúng "theo trực giác"
+    ```
 
 8. Khi thiết kế chương trình, nên tìm hiểu các edge case (tạm dịch, trường hợp đặc biệt) có thể xảy ra. Ví dụ với hàm `upper()` hay `lower()`, liệu có thể sử dụng nó cho ký tự đặc biệt (`@, !, &, ...`), số (`1, 2, 3, ...`) hay chữ cái tiếng Việt (`đ, ê, â, ...`) hay không?
 
 9. Cần import thư viện theo chuẩn mực được công nhận
 
-```py
-# not recommended
-import math as whatever
-import math as m
-# recommended
-import math
-```
+    ```py
+    # not recommended
+    import math as whatever
+    import math as m
+    # recommended
+    import math
+    ```

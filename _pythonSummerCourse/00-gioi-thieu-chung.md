@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython"
-last_modified_at: 2023-09-13
+last_modified_at: 2023-09-14
 redirect_from:
   - /theme-setup/
 toc: true
@@ -45,19 +45,30 @@ Ngoài ra khóa học còn tham khảo các tài liệu hướng dẫn sử dụ
   + Bài tập nâng cao: 4, 6
 - Bài nộp của học viên trong từng module không được phép chứa (những) file có nội dung rỗng/vô nghĩa. Học viên vi phạm quy định này sẽ bị hủy toàn bộ bài nộp của module tương ứng.
 
-### 3.2. Quy định nộp bài
-Tất cả bài làm của học viên phải được đặt trong một thư mục chính, thư mục này sau đó được nén lại thành một file zip. Mỗi học viên **chỉ nộp duy nhất một file zip** cho mỗi module bài học. Dưới đây là hướng dẫn cụ thể của bài nộp.
+### 3.2. Thư mục bài nộp
+Tất cả bài làm của học viên phải được đặt trong một thư mục chính, với hướng dẫn cụ thể dưới đây.
 
-**Thư mục chính** chứa tất cả bài làm (gồm các file `.py` và thư mục bổ sung). Thư mục chính có tên được đặt theo mẫu `moduleXX_studentZZ_HoVaTen`. File zip có tên theo mẫu `moduleXX_studentZZ_HoVaTen.zip`, ví dụ `module03_student01_PhungThuAn.zip`.
+**Thư mục chính** chứa tất cả bài làm (gồm các file `.py` và thư mục bổ sung) với tên được đặt theo mẫu `moduleXX_studentZZ_HoVaTen`.
 
-**Tên file bài tập.** Mỗi bài tập phải được trình bày trong một file riêng biệt với tên được đặt theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen.py` trong đó
+**File bài tập** chứa code Python và có thêm:
+- Tóm tắt đề bài
+- Câu lệnh chạy chương trình
+- (Tóm tắt) kết quả đầu ra
+- Giải thích những bước thực hiện của chương trình
+
+Mỗi bài tập phải được trình bày trong một file riêng biệt với tên được đặt theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen.py` trong đó
 - `XX` là số thứ tự module,
 - `YY` là số thứ tự của bài tập,
-- `ZZ` là số thứ tự (id) của học viên ở trong danh sách (id từ 1 đến 9 thì viết thêm số 0, chẳng hạn như 01, 02, ...),
+- `ZZ` là số thứ tự (id) của học viên ở trong danh sách,
 - `HoVaTen` là họ và tên của học viên viết liền không dấu.
-Ví dụ `module03_assignment01_student02_PhungThuAn.py`.
 
-**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (file input hoặc file output). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con có tên là `additionalFolder`**. Để thuận tiện cho việc quản lý bài nộp, tên các file đính kèm _nên_ có tiền tố theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen_` với `XX, YY, ZZ` được quy ước như trên. Ví dụ một số file: `module01_assignment02_student03_NguyenVanA_data.txt`, `module01_assignment02_student03_NguyenVanA_image.png`.
+Nếu giá trị số bé hơn 10 thì viết thêm số 0 ở trước, chẳng hạn như 01, 02, ... Ví dụ một tên file hợp lệ: `module03_assignment01_student02_PhungThuAn.py`.
+
+**Thư mục bổ sung.** Trong trường hợp cần thiết, mỗi bài tập có thể có thêm danh sách những file đính kèm (dữ liệu đầu vào / kết quả đầu ra). Tất cả những file đính kèm này (nếu có) **phải đặt trong thư mục con có tên là `additionalFolder`**. Để thuận tiện cho việc quản lý bài nộp, tên các file đính kèm _nên_ có tiền tố theo mẫu `moduleXX_assignmentYY_studentZZ_HoVaTen_` với `XX, YY, ZZ` được quy ước như trên. Ví dụ một số file:
+```txt
+module01_assignment02_student03_NguyenVanA_data.txt
+module01_assignment02_student03_NguyenVanA_image.png
+```
 
 Trong mỗi file bài tập, học viên cần liệt kê tên của tất cả những file bổ sung có liên quan đến bài tập đó.
 
@@ -78,8 +89,20 @@ additionalFolder/
   output.txt
 ```
 
-### 3.3. Thời hạn nộp bài / bình luận code
+### 3.3. Quy trình làm bài / nộp bài / bình luận code
+- Khi bắt đầu một module, tạo pull request tới repository [MIMPython2023-Assignment](https://github.com/MIMPython/MIMPython2023-Assignment) với tiêu đề có format
+  ```txt
+  [submission] module01_student02_HoVaTen
+  ```
+- Trong quá trình học, commit bài làm vào pull request đã tạo. Đồng thời, nhận bình luận từ các học viên khác để cải thiện bài làm.
+- Trước khi kết thúc hạn nộp bài, học viên nộp link pull request này (dưới dạng một file `.txt`) vào lớp học trên Google Classroom.
 
+Ghi chú:
+- Các pull request nộp bài sẽ được merge vào nhánh main bởi quản lý lớp học.
+- Học viên cần theo dõi các pull request của học viên khác và đưa bình luận/góp ý/trao đổi _trong pull request_ tương ứng. Hạn chế bình luận trong từng commit riêng lẻ.
+- Mỗi học viên chỉ tạo đúng một pull request cho mỗi module, không tự ý đóng pull request trừ trường hợp đặc biệt.
+
+### 3.4. Thời hạn nộp bài / bình luận code
 Về cơ bản, học viên cần tham gia bình luận code của học viên khác **trước khi** buổi trao đổi/chữa bài bắt đầu.
 
 Dưới đây là lịch trình nộp bài/bình luân code cho khóa học MIMPython năm 2023.

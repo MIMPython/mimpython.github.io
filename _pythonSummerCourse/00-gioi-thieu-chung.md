@@ -104,7 +104,7 @@ Mỗi bài tập lập trình thường bao gồm một danh sách các câu h�
 - Phần 2: định nghĩa phương thức (method), lớp (class) cần thiết cho chương trình.
 - Phần 3: phần chương trình chính, kèm theo những comment giải thích phù hợp.
 
-Chỉ nên sử dụng hàm `input()` và cấu trúc `from someModule import *` trong trường hợp bất khả kháng, tức là khi đề bài bắt buộc sử dụng chúng hoặc không còn cách khả thi khác.
+Chỉ nên sử dụng hàm `input()` và wildcard import `from someModule import *` trong trường hợp bất khả kháng, tức là khi đề bài bắt buộc sử dụng chúng hoặc không còn cách khả thi khác.
 
 Ngoài ra, học viên cần soát lại chương trình để loại bỏ những dòng import không cần thiết xuất hiện trong file `.py` (có thể do IDE tự động bổ sung), ví dụ như
 ```py

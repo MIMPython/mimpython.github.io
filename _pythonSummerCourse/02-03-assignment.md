@@ -282,3 +282,7 @@ Viết một hàm thực hiện công việc ngược lại: tính số trang c�
     - Tính giao của hai đường tròn, hoặc
     - Tính giao của đường tròn và đường thẳng, hoặc
     - Xoay vector cạnh một góc 60 độ theo công thức liên quan tới số phức.
+
+13. Thư viện `unidecode` hỗ trợ việc bỏ dấu tiếng Việt trong string (thanks to M. for the suggestion).
+
+14. Thư viện `copy` với hàm `.copy()` và `.deepcopy()`.

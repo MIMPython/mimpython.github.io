@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2023-09-13
+last_modified_at: 2023-09-14
 redirect_from:
   - /theme-setup/
 toc: false
@@ -160,8 +160,8 @@ print('******')
 **Bài tập 9.** (Tic-tac-toe) \
 Hai người chơi trò chơi Tic-tac-toe trên bàn cờ kích thước $3\times 3$. Hãy trình bày đầy đủ luật chơi và viết một chương trình đưa ra kết quả của một ván chơi dựa trên các nước đi được thực hiện. Học viên tự thiết kế input/output của chương trình.
 
-**Bài tập 10.** (Equilateral polygon) \
-Trên mặt phẳng $Oxy$, cho trước hai điểm phân biệt $A, B$. Viết một chương trình xác định vị trí (những) điểm $C$ (nếu có) sao cho tam giác $ABC$ là một tam giác đều. Tạo một bức ảnh với tam giác $ABC$ vừa tìm được.
+**Bài tập 10.** (Equilateral triangle) \
+Trên mặt phẳng $Oxy$, cho trước hai điểm phân biệt $A, B$. Viết một chương trình xác định vị trí (những) điểm $C$ (nếu có) sao cho tam giác $ABC$ là một tam giác đều. Vẽ một bức ảnh minh họa tam giác $ABC$ vừa tìm được.
 
 **Bài tập 11.** (university scoring) \
 Viết một hàm nhận vào ba điểm thành phần (điểm thường xuyên, điểm giữa kỳ, điểm cuối kỳ) của sinh viên và trả về điểm chữ tương ứng.
@@ -261,3 +261,24 @@ Viết một hàm thực hiện công việc ngược lại: tính số trang c�
     # recommended
     import math
     ```
+
+10. Phím tắt `ctrl+D` và `ctrl+shift+L` trong VSCode.
+
+11. Cách viết gọn cấu trúc rẽ nhánh khi trả về kết quả dạng boolean
+
+    ```py
+    def foo():
+        # straight-forward method
+        if condition:
+            return True
+        else:
+            return False
+
+        # recommended approach
+        return condition
+    ```
+
+12. Hai cách vẽ tam giác đều cho trước hai đỉnh
+    - Tính giao của hai đường tròn, hoặc
+    - Tính giao của đường tròn và đường thẳng, hoặc
+    - Xoay vector cạnh một góc 60 độ theo công thức liên quan tới số phức.

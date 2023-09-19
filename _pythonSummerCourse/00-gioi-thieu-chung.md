@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython"
-last_modified_at: 2023-09-14
+last_modified_at: 2023-09-19
 redirect_from:
   - /theme-setup/
 toc: true
@@ -112,11 +112,11 @@ Dưới đây là lịch trình nộp bài/bình luân code cho khóa học MIMP
 | 1 | 22h 12/08/2023 | 16h 15/08/2023 | 20h30-22h 15/08/2023 (online) |
 | 2 | 22h 26/08/2023 | 16h 29/08/2023 | 20h30-22h 29/08/2023 (online) |
 | 3 | 22h 09/09/2023 | 16h 12/09/2023 | 15h-17h 13/09/2023 (offline) |
-| 4 | 22h 23/09/2023 | 16h 26/09/2023 | |
-| 5 | 22h 30/09/2023 | 16h 03/10/2023 | |
-| 6 | 22h 14/10/2023 | 16h 17/10/2023 | |
-| 7 | 22h 28/10/2023 | 16h 31/11/2023 | |
-| 8 | 22h 11/11/2023 | 16h 14/11/2023 | |
+| 4 | 22h 23/09/2023 | 16h 26/09/2023 | 20h30-22h 26/09/2023 (online) |
+| 5 | 22h 30/09/2023 | 16h 03/10/2023 | 15h-17h 04/10/2023 (offline) |
+| 6 | 22h 14/10/2023 | 16h 17/10/2023 | TBA |
+| 7 | 22h 28/10/2023 | 16h 31/11/2023 | TBA |
+| 8 | 22h 11/11/2023 | 16h 14/11/2023 | TBA |
 
 
 ## 4. Một số chú ý khác

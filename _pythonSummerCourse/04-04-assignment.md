@@ -7,9 +7,9 @@ redirect_from:
 toc: false
 ---
 
-Bài tập lần 4 gồm 8 bài tập, bao gồm
+Bài tập lần 4 gồm 9 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
-- 3 bài tập nâng cao: 6, 7, 8.
+- 4 bài tập nâng cao: 6, 7, 8, 9.
 
 
 ## Danh sách bài tập
@@ -130,6 +130,14 @@ Cho $n$ là một số tự nhiên, ta định nghĩa $n!$ là tích của $n$ s
 (b) Ta bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$, khi đó chữ số tận cùng bên phải là chữ số nào? \
 Trả lời những câu hỏi trên với $n$ đủ lớn, đồng thời ghi lại thời gian thực thi của chương trình.
 
+**Bài tập 9.** (left-most digit) \
+Tìm chữ số tận cùng bên trái của $a^b$ với $a,b$ là hai số nguyên dương cho trước. Lấy $a,b$ ngẫu nhiên thì những chữ số tận cùng bên trái có phân bố ra sao?
+
+Một câu hỏi liên quan đến bài tập trên:
+- Một số $n$ được gọi là $m$-slightly-above nếu $n$ bắt đầu bởi một chữ số nào đó và theo sau bởi $m$ chữ số 0. Ví dụ 800297 là 2-slightly-above.
+- Một số $n$ được gọi là $m$-slightly-below nếu $n$ bắt đầu bởi một chữ số nào đó và theo sau bởi $m$ chữ số 9. Ví dụ 999183 là 2-slightly-below.
+
+Cho trước số nguyên dương $k$, tìm $n$ nhỏ nhất sao cho lũy thừa $n^k$ là $m$-slightly-above hoặc $m$-slightly-below với $m=0,1,2,\ldots$
 
 ## Thảo luận
 1. Có thể biểu diễn một `Line` qua một `Point` và một `Vector`.

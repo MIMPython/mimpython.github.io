@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 4"
 permalink: /pythonSummerCourse/module-04-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2023-09-27
 redirect_from:
   - /theme-setup/
 toc: false
@@ -127,4 +127,11 @@ Xây dựng class `Datetime` cho phép thực hiện các tác vụ liên quan �
 **Bài tập 8.** (factorial number) \
 Cho $n$ là một số tự nhiên, ta định nghĩa $n!$ là tích của $n$ số nguyên dương đầu tiên với quy ước $0! = 1$. Ví dụ $5!=120$. \
 (a) Hỏi $n!$ có bao nhiêu chữ số 0 ở tận cùng bên phải? \
-(b) Tạo một số mới bằng cách bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$. Hỏi chữ số tận cùng bên phải của số mới này bằng bao nhiêu?
+(b) Ta bỏ tất cả chữ số 0 ở tận cùng bên phải của $n!$, khi đó chữ số tận cùng bên phải là chữ số nào? \
+Trả lời những câu hỏi trên với $n$ đủ lớn, đồng thời ghi lại thời gian thực thi của chương trình.
+
+
+## Thảo luận
+1. Có thể biểu diễn một `Line` qua một `Point` và một `Vector`.
+2. Có nhiều cách để xác định (duy nhất) một `Circle`: từ 3 điểm không thẳng hàng, từ tâm và bán kính, từ đường tròn ngoại tiếp một tam giác, ... Nên sử dụng `@classmethod` để tách riêng những trường hợp này.
+3. Đọc thêm về hàm [zip()](https://docs.python.org/3/library/functions.html#zip) và hàm [`zip_longest()`](https://docs.python.org/3/library/itertools.html#itertools.zip_longest).

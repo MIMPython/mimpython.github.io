@@ -1,15 +1,15 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2023-09-14
+last_modified_at: 2023-09-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 2 gồm 14 bài tập, bao gồm
-- 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7 (làm tối thiểu 4 bài).
+Bài tập lần 2 gồm 15 bài tập, bao gồm
+- 8 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7, 15 (làm tối thiểu 4 bài).
 - 7 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14.
 
 
@@ -194,6 +194,23 @@ Viết một hàm tính số chữ số đã sử dụng để đánh số trang
 ham(10) # 11 # it takes 11 digits (1, 2, 3, ..., 8, 9, 1, 0) to number the first 10 pages
 ```
 Viết một hàm thực hiện công việc ngược lại: tính số trang của một cuốn sách khi biết số chữ số đã được sử dụng để đánh số.
+
+
+**Bài tập 15.** (meme) \
+Giải thích ý nghĩa của meme sau
+
+<div>
+    <img src="/assets/images/courses/homework/5factorial_meme.jpg"
+    style="width:70%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+
+<center> Nguồn: internet </center>
 
 
 ## Thảo luận

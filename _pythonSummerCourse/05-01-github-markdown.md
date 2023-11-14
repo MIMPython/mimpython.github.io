@@ -67,7 +67,7 @@ Khi tạo xong, repo sẽ như sau:
 
 Khi đã có repository, bạn có thể clone, pull, push… source code của mình lên đó.
 
-> Các lệnh thực hiện để làm việc với GitHub tương tự như với Git xem tại [đây](https://mimpython.github.io/pythonSummerCourse/week-03-git/)
+> Các lệnh thực hiện để làm việc với GitHub tương tự như với Git xem tại [đây](https://mimpython.github.io/pythonSummerCourse/lesson-08-git/)
 
 
 ## Markdown

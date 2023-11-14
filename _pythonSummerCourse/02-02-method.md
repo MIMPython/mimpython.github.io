@@ -1,7 +1,7 @@
 ---
 title: "Bài 5. Phương thức"
 permalink: /pythonSummerCourse/lesson-05-method/
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-14
 redirect_from:
   - /theme-setup/
 toc: false
@@ -158,3 +158,4 @@ Tài liệu bổ sung
 - ThinkPython (trang 47-74)
 - Danh sách [các hàm có sẵn](https://docs.python.org/3/library/functions.html) (built-in) trong Python
 - [Hướng dẫn viết bình luận](https://realpython.com/python-comments-guide/) (comment) trong Python
+- [Operators and Expressions in Python](https://realpython.com/python-operators-expressions/)

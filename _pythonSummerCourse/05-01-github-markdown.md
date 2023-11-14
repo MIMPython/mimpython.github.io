@@ -125,11 +125,18 @@ Blockquote có thể chứa các yếu tố định dạng Markdown khác. Tuy n
 #### 7.2 Danh sách không có thứ tự
 Để định đạng danh sách có các gạch đầu dòng trong Markdown, bạn dùng kí tự dấu gạch ngang `-`, dấu hoa thị `*` hoặc dấu cộng `+` và một dấu cách trước nội dung muốn tạo, dùng thêm 2 dấu cách ở đằng trước nếu muốn lùi vào một level.
 
-| Cú pháp        | Kết quả |
+<div class="image-site">
+  <img src="/assets/images/courses/05-01-github-markdown/markdown-list.png">
+</div>
+
+<!-- comment out the table since the HTML list is not rendered properly in markdown table -->
+
+<!-- | Cú pháp        | Kết quả |
 |:---------------|:--------|
 | * Mục một <br /> * Mục hai <br /> * Mục ba   | <li> Mục một </li> <li> Mục hai </li><li> Mục ba </li> |
 | - Mục một <br /> - Mục hai  <br /> - Mục ba   |  <li> Mục một </li> <li> Mục hai </li><li> Mục ba </li> |
-| - Mục một <br /> - Mục hai <br /> &nbsp;&nbsp;- Mục phụ <br /> &nbsp;&nbsp;- Mục phụ <br /> - Mục ba| <ul><li>Mục một</li><li>Mục hai<ul><li>Mục phụ</li><li>Mục phụ</li></ul></li><li>Mục ba</li></ul> |
+| - Mục một <br /> - Mục hai <br /> &nbsp;&nbsp;- Mục phụ <br /> &nbsp;&nbsp;- Mục phụ <br /> - Mục ba| <ul><li>Mục một</li><li>Mục hai<ul><li>Mục phụ</li><li>Mục phụ</li></ul></li><li>Mục ba</li></ul> | -->
+
 
 ### 8. Code
 Để biểu thị một từ hoặc cụm từ dưới dạng code, hãy đặt nó trong dấu **`**.

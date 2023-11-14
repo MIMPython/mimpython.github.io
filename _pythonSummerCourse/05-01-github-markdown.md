@@ -161,7 +161,9 @@ Ngoài ra các bạn có thể định dạng chữ như **In đậm**, *In nghi
 
 **Chèn liên kết vào hình ảnh**
 
-Để thêm một liên kết vào hình ảnh trong Markdown, bạn đặt toàn bộ khai báo hình ảnh như bước trên trong ngoặc vuông [] và thêm liên kết mình cần vào ngoặc đơn () đặt ngay tiếp sau.
+Để thêm một liên kết vào hình ảnh trong Markdown, bạn đặt toàn bộ khai báo hình ảnh như bước trên trong ngoặc vuông `[]` và thêm liên kết mình cần vào ngoặc đơn `()` đặt ngay tiếp sau.
+
+
 ## Tài liệu tham khảo
 Tài liệu chính
 - [Bài viết về git/github](https://realpython.com/python-git-github-intro/) trên trang web Real Python

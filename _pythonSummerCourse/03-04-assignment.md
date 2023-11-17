@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 3"
 permalink: /pythonSummerCourse/module-03-assignment/
-last_modified_at: 2023-09-13
+last_modified_at: 2023-11-17
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,7 +10,7 @@ toc: false
 
 Bài tập lần 3 gồm 13 bài tập, bao gồm
 - 7 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 11 (làm tối thiểu 5 bài).
-- 6 bài tập nâng cao: 7, 8, 9, 10, 12, 13.
+- 7 bài tập nâng cao: 7, 8, 9, 10, 12, 13, 14.
 
 
 ## Danh sách bài tập
@@ -142,6 +142,10 @@ Cho trước một số nguyên dương $n$, viết chuỗi số nguyên từ 1 
 
 **Bài tập 13.** \
 Khi viết hai số nguyên $2^n$ và $5^n$ liền nhau ta được một số có bao nhiêu chữ số? Ví dụ với $n=3$, ta được một số có 4 chữ số (số đó là 8125).
+
+**Bài tập 14.** \
+(a) Viết file `main.py` sao cho khi thực hiện lệnh `python3 main.py`, chương trình tạo ra file `main_2.py` có nội dung giống hệt file `main.py`. \
+(b) Thực hiện yêu cầu trên mà không đọc nội dung file `main.py` (ví dụ như thông qua câu lệnh `open('main.py','r')`). Gợi ý: [Quine](https://en.wikipedia.org/wiki/Quine_(computing)).
 
 
 ## Thảo luận

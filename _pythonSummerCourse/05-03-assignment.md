@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 5"
 permalink: /pythonSummerCourse/module-05-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2023-12-01
 redirect_from:
   - /theme-setup/
 toc: false
@@ -24,12 +24,12 @@ Repository: https://github.com/MIMPython/MIMPython2022-Assignment
 
 Danh sách công việc đã thực hiện
 - viết commit
-- tạo nhánh, tạo tag trên repo
+- tạo nhánh, tạo tag trên repository
 - tạo issue, đóng issue
-- tạo pull request
-- chọn license cho repo
-- viết README, đính kèm ảnh động (gif)
-- có một người khác đóng góp commit vào repo
+- tạo pull request, tag một người khác vào phần thảo luận
+- chọn license cho repository
+- tạo file README.md, đính kèm ảnh động (gif)
+- nhờ một người khác đóng góp commit vào repository
 """
 ```
 

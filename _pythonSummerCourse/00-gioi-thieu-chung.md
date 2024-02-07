@@ -2,7 +2,7 @@
 title: "Khóa học lập trình MIMPython"
 permalink: /pythonSummerCourse/
 excerpt: "Giới thiệu về khóa học MIMPython"
-last_modified_at: 2023-10-05
+last_modified_at: 2024-02-07
 redirect_from:
   - /theme-setup/
 toc: true
@@ -20,9 +20,25 @@ Khóa học được chia làm hai giai đoạn:
   4. Python nâng cao (25 tiếng)
   5. Các thư viện quan trọng trong Python (10 tiếng)
 
-  Hàng tuần, học viên tự sắp xếp thời gian đọc tài liệu và xem video về những nội dung của tuần học, sau đó làm bài tập vận dụng những kiến thức này. Sau mỗi module, giảng viên và trợ giảng sẽ tổ chức một buổi trao đổi trực tiếp hoặc qua nền tảng Google Meet.
+  Hàng tuần, học viên tự sắp xếp thời gian đọc tài liệu và xem video về những nội dung của tuần học, sau đó làm bài tập vận dụng những kiến thức này và bình luận code của học viên khác. Sau mỗi module, giảng viên và trợ giảng sẽ tổ chức một buổi trao đổi trực tiếp hoặc qua nền tảng Google Meet.
+
+  Dưới đây là lịch trình nộp bài/bình luân code cho khóa học MIMPython năm 2023.
+
+| Module | Thời hạn nộp bài | Thời hạn bình luận code | Buổi trao đổi |
+|:---:|:---:|:---:|:---:|
+| 1 | 22h 12/08/2023 | 16h 15/08/2023 | 20h30-22h 15/08/2023 (online) |
+| 2 | 22h 26/08/2023 | 16h 29/08/2023 | 20h30-22h 29/08/2023 (online) |
+| 3 | 22h 09/09/2023 | 16h 12/09/2023 | 15h-17h 13/09/2023 (offline) |
+| 4 | 22h 23/09/2023 | 16h 26/09/2023 | 20h30-22h 26/09/2023 (online) |
+| 5 | 22h 30/09/2023 | 16h 03/10/2023 | 20h30-22h 03/10/2023 (online) |
+| 6 | 22h 14/10/2023 | 16h 17/10/2023 | 20h30-22h 17/10/2023 (online) |
+| 7 | 22h 28/10/2023 | 16h 31/10/2023 | 20h30-22h 31/10/2023 (online) |
+| 8 | 22h 11/11/2023 | 16h 14/11/2023 | 20h30-22h 14/11/2023 (online) |
 
 - Giai đoạn 2 của khóa học kéo dài trong 4 tuần, trong đó học viên thực hiện một dự án theo chủ đề tự chọn. Đây là một thử thách đòi hỏi học viên phải áp dụng những kiến thức đã học đồng thời tìm hiểu và áp dụng thêm những kiến thức nâng cao khác.
+
+Buổi báo cáo kết quả dự án của học viên khóa học MIMPython năm 2023 diễn ra vào 13h-15h ngày 31/1/2024.
+
 
 ## 2. Tài liệu tham khảo
 Ba cuốn sách được liệt kê dưới đây là nguồn tham khảo chính xuyên suốt nội dung khóa học MIMPython.
@@ -101,22 +117,6 @@ Ghi chú:
 - Các pull request nộp bài sẽ được merge vào nhánh main bởi quản lý lớp học.
 - Học viên cần theo dõi các pull request của học viên khác và đưa bình luận/góp ý/trao đổi _trong pull request_ tương ứng. Hạn chế bình luận trong từng commit riêng lẻ.
 - Mỗi học viên chỉ tạo đúng một pull request cho mỗi module, không tự ý đóng pull request trừ trường hợp đặc biệt.
-
-### 3.4. Thời hạn nộp bài / bình luận code
-Về cơ bản, học viên cần tham gia bình luận code của học viên khác **trước khi** buổi trao đổi/chữa bài bắt đầu.
-
-Dưới đây là lịch trình nộp bài/bình luân code cho khóa học MIMPython năm 2023.
-
-| Module | Thời hạn nộp bài | Thời hạn bình luận code | Buổi trao đổi |
-|:---:|:---:|:---:|:---:|
-| 1 | 22h 12/08/2023 | 16h 15/08/2023 | 20h30-22h 15/08/2023 (online) |
-| 2 | 22h 26/08/2023 | 16h 29/08/2023 | 20h30-22h 29/08/2023 (online) |
-| 3 | 22h 09/09/2023 | 16h 12/09/2023 | 15h-17h 13/09/2023 (offline) |
-| 4 | 22h 23/09/2023 | 16h 26/09/2023 | 20h30-22h 26/09/2023 (online) |
-| 5 | 22h 30/09/2023 | 16h 03/10/2023 | 20h30-22h 03/10/2023 (online) |
-| 6 | 22h 14/10/2023 | 16h 17/10/2023 | 20h30-22h 17/10/2023 (online) |
-| 7 | 22h 28/10/2023 | 16h 31/10/2023 | 20h30-22h 31/10/2023 (online) |
-| 8 | 22h 11/11/2023 | 16h 14/11/2023 | 20h30-22h 14/11/2023 (online) |
 
 
 ## 4. Một số chú ý khác

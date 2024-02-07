@@ -1,16 +1,16 @@
 ---
 title: "Bài tập lần 6"
 permalink: /pythonSummerCourse/module-06-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2024-02-07
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 6 gồm 12 bài tập, bao gồm
+Bài tập lần 6 gồm 13 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
-- 6 bài tập nâng cao: 7, 8, 9, 10, 11, 12.
+- 7 bài tập nâng cao: 7, 8, 9, 10, 11, 12, 13.
 
 
 ## Danh sách bài tập
@@ -217,3 +217,20 @@ outputArr = array([
 ```
 
 (b) Xây dựng class `Polyomino` để kiểm chứng những nhận xét có trong [bài viết về Polyomino](https://en.wikipedia.org/wiki/Polyomino) trên Wikipedia.
+
+
+**Bài tập 13.** *(spiral squares)* \
+Viết chương trình vẽ hình sau đây
+
+<div>
+    <img src="/assets/images/courses/homework/spiralSquaresPattern.jpeg"
+    style="width:50%;
+    max-width:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;">
+</div>
+
+<center> Paper Pieced Quilt Patterns by Leesa Martins (on Pinterest) </center>

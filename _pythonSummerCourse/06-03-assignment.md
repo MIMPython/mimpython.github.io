@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 6"
 permalink: /pythonSummerCourse/module-06-assignment/
-last_modified_at: 2024-02-07
+last_modified_at: 2024-02-19
 redirect_from:
   - /theme-setup/
 toc: false
@@ -51,6 +51,7 @@ Một số hàm trong thư viện `numpy` được liệt kê dưới đây.
 - repeat, random
 - all, any
 - ones, zeros
+- eye, diag
 - savetxt, loadtxt
 - apply_along_axis
 - where

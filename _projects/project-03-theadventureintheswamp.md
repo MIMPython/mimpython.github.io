@@ -1,7 +1,7 @@
 ---
 title: "The Adventure In The Swamp"
 permalink: /projects/the-adventure-in-the-swamp/
-excerpt: "Game phiêu lưu thuộc thể loại 2D platformer "
+excerpt: "Game phiêu lưu thuộc thể loại 2D platformer"
 last_modified_at: 2024-02-14
 ---
 

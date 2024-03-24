@@ -14,7 +14,7 @@ feature_row:
     url: "/projects/checker/"
   -- image_path: /assets/images/projects/the-adventure-in-the-swamp.png
     title: "The Adventure In The Swamp"
-    excerpt: "Game phiêu lưu thuộc thể loại 2D platformer "
+    excerpt: "Game phiêu lưu thuộc thể loại 2D platformer"
     url: "projects/the-adventure-in-the-swamp/"
 ---
 

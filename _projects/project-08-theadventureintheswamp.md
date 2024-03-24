@@ -23,4 +23,7 @@ Nhược điểm:
 - Quái chưa có nhiều chức năng.
 - Các thông số sẽ bị reset lại từ đầu mỗi khi qua màn, làm giảm độ khó của game. Đây cũng là lí do khiến em muốn đưa thêm một số câu hỏi của MIMPython vào game.
 
+Video demo game.
+{% include video id="yWCUSrjYbuc" provider="youtube" %}
+
 [Source code](https://github.com/mquangdo/PygameProject-TheAdventureInTheSwamp)

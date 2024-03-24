@@ -12,6 +12,10 @@ feature_row:
     title: "Checker"
     excerpt: "Game lập trình bằng python"
     url: "/projects/checker/"
+  -- image_path: /assets/images/projects/the-adventure-in-the-swamp.png
+    title: "The Adventure In The Swamp"
+    excerpt: "Game phiêu lưu thuộc thể loại 2D platformer "
+    url: "projects/the-adventure-in-the-swamp/"
 ---
 
 {% include feature_row %}

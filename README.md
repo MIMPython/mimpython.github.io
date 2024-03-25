@@ -90,9 +90,11 @@ Ví dụ muốn tạo thêm dự án `sample-project` thực hiện các bước
     Nội dung dự án
     ```
 
+- Thêm thumbnail cho dự án (ví dụ là `project-desc.png`) vào thư mục `/assets/images/projects/`. Tỉ lệ ảnh khuyến nghị là 5:3 (ví dụ 500px * 300px).
+
 - Trong trường `feature_row trong _page/projects.md` thêm đoạn code sau:
     ```
-    - image_path: /assets/images/sample-project.png
+    - image_path: /assets/images/projects/project-desc.png
         title: "Dự án mẫu"
         excerpt: "Mô tả cho dự án mẫu"
         url: "/projects/sample-project/"

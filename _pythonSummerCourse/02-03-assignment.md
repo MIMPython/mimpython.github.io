@@ -1,16 +1,16 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2023-09-27
+last_modified_at: 2024-03-31
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 2 gồm 15 bài tập, bao gồm
+Bài tập lần 2 gồm 16 bài tập, bao gồm
 - 8 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7, 15 (làm tối thiểu 4 bài).
-- 7 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14.
+- 8 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14, 16.
 
 
 ## Danh sách bài tập
@@ -211,6 +211,10 @@ Giải thích ý nghĩa của meme sau
 </div>
 
 <center> Nguồn: internet </center>
+
+
+**Bài tập 16.** (Minecraft mystery) \
+Tìm số nguyên dương $n$ sao cho $(1+2+\ldots+n)\cdot 0.04$ là một số nguyên. Xem thêm tại [đây](https://www.youtube.com/watch?v=ei58gGM9Z8k).
 
 
 ## Thảo luận

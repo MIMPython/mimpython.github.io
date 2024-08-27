@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2024-03-31
+last_modified_at: 2024-08-28
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,7 +10,7 @@ toc: false
 
 Bài tập lần 2 gồm 16 bài tập, bao gồm
 - 8 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7, 15 (làm tối thiểu 4 bài).
-- 8 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14, 16.
+- 9 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14, 16, 17.
 
 
 ## Danh sách bài tập
@@ -215,6 +215,10 @@ Giải thích ý nghĩa của meme sau
 
 **Bài tập 16.** (Minecraft mystery) \
 Tìm số nguyên dương $n$ sao cho $(1+2+\ldots+n)\cdot 0.04$ là một số nguyên. Xem thêm tại [đây](https://www.youtube.com/watch?v=ei58gGM9Z8k).
+
+
+**Bài tập 17.** (loop through a set) \
+Khi sử dụng vòng lặp `for`, thứ tự duyệt phần tử trong một `set`  là tất định hay bất định?
 
 
 ## Thảo luận

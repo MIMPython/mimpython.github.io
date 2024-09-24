@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 6"
 permalink: /pythonSummerCourse/module-06-assignment/
-last_modified_at: 2024-02-19
+last_modified_at: 2024-09-24
 redirect_from:
   - /theme-setup/
 toc: false
@@ -52,6 +52,8 @@ Một số hàm trong thư viện `numpy` được liệt kê dưới đây.
 - all, any
 - ones, zeros
 - eye, diag
+- rot90, roll
+- flip, flipup, fliplr
 - savetxt, loadtxt
 - apply_along_axis
 - where
@@ -61,7 +63,7 @@ Một số hàm trong thư viện `numpy` được liệt kê dưới đây.
 ```
 
 Hãy tìm hiểu một số hàm trong thư viện `numpy` (không nhất thiết thuộc danh sách trên) và thực hiện những yêu cầu sau:
-- Nêu ý nghĩa của hàm, cho ví dụ.
+- Nêu ý nghĩa của hàm, cho ví dụ sử dụng hàm _một cách hiệu quả_.
 - Viết chương trình thực hiện đúng ý nghĩa đó mà hạn chế sử dụng thư viện `numpy`. Có thể sử dụng thư viện để khởi tạo mảng số nếu cần thiết.
 - So sánh tốc độ thực thi giữa hai cách làm: phương pháp thủ công và phương pháp sử dụng `numpy`.
 

@@ -1,16 +1,16 @@
 ---
 title: "Bài tập lần 7"
 permalink: /pythonSummerCourse/module-07-assignment/
-last_modified_at: 2023-06-11
+last_modified_at: 2024-11-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 7 gồm 6 bài tập, bao gồm
+Bài tập lần 7 gồm 7 bài tập, bao gồm
 - 5 bài tập cơ bản: 1, 2, 3, 4, 5 (làm tối thiểu 3 bài).
-- 1 bài tập nâng cao: 6.
+- 2 bài tập nâng cao: 6, 7.
 
 
 ## Danh sách bài tập
@@ -64,3 +64,7 @@ polynomialF = polynomialA * polynomialB
 
 **Bài tập 6.** *(Langton's ant)* \
 Viết một chương trình mô phỏng [Langton's ant](https://en.wikipedia.org/wiki/Langton%27s_ant). Cần lựa chọn kiểu dữ liệu phù hợp để lưu trữ thông tin về quá trình di chuyển.
+
+
+**Bài tập 7.** *(Lumosity's Pinball Recall)* \
+Viết một chương trình giải quyết game [Pinball Recall](https://www.lumosity.com/en/brain-games/pinball-recall/) của Lumosity với dữ liệu đầu vào, đầu ra phù hợp.

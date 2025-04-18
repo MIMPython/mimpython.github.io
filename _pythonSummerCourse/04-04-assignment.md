@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 4"
 permalink: /pythonSummerCourse/module-04-assignment/
-last_modified_at: 2023-09-27
+last_modified_at: 2025-04-18
 redirect_from:
   - /theme-setup/
 toc: false
@@ -98,17 +98,19 @@ Nhận xét đoạn code trên.
 (f) Biết rằng có duy nhất một đường thẳng đi qua hai điểm phân biệt cho trước. Viết một method trong class `Line` để khởi tạo một đường thẳng (là một instance của class `Line`) với tham số đầu vào là hai instance của class `Point`. *Gợi ý:* Sử dụng `@classmethod`
 
 
-**Bài tập 4.** (triangle area) \
-Một điểm nguyên trên mặt phẳng $Oxy$ là một điểm có tung độ và hoành độ đều là các số nguyên. Cho ba điểm nguyên $A, B, C$ trên mặt phẳng. Tính diện tích của tam giác (có thể suy biến) $ABC$.
+**Bài tập 4.** (class Triangle) \
+Xây dựng class `Triangle` để biểu diễn các tam giác trong mặt phẳng $Oxy$ và thực hiện những yêu cầu sau.
 
-**Bình luận**
-- Có ít nhất ba cách để thực hiện bài tập này.
-- Có thể cần import class `Point`, class `Line` để thực hiện bài tập này. Câu lệnh cần dùng thường có dạng
-  ```py
-  from yourFileWithClassPoint import Point
-  from yourFileWithClassLine import Line
-  ```
-  Việc import này chính là lý do cần đặt phần code kiểm thử hai class trên (ở những bài tập trên) vào trong cấu trúc `if __name__ == '__main__'`.
+(a) Tính diện tích của $\triangle ABC$ (tam giác có thể suy biến).
+
+(b) Kiểm tra $\triangle ABC$ có nằm trong $\triangle MNP$ hay không. Gợi ý: sử dụng tính lồi của tam giác.
+
+**Bình luận.** Có thể cần import class `Point`, class `Line` để thực hiện bài tập này. Câu lệnh cần dùng thường có dạng
+```py
+from yourFileWithClassPoint import Point
+from yourFileWithClassLine import Line
+```
+Việc import này chính là lý do cần đặt phần code kiểm thử class `Point` và class `Line` (ở những bài tập trên) vào trong cấu trúc `if __name__ == '__main__'`.
 
 
 **Bài tập 5.** (Morse code) \

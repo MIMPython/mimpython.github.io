@@ -2,18 +2,15 @@
 title: "Lập trình Python MAT2318"
 permalink: /pythonProgrammingCourseMAT2318/
 excerpt: ""
-last_modified_at: 2023-10-05
+last_modified_at: 2025-05-16
 redirect_from:
   - /theme-setup/
 toc: true
 ---
 
-Trang web này chứa bài giảng và bài tập của học phần Lập trình Python giảng dạy tại Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội.
+Trang web này chứa bài giảng và bài tập của học phần _Lập trình Python_ tại Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội.
 
-Học phần được giảng dạy bởi [Hoàng Anh Quân](https://quanhoang-pm.github.io/)
-
-_(nội dung khóa học đang được hoàn thiện)_
-
+Học phần được giảng dạy bởi [Hoàng Anh Quân](https://quanhoang-pm.github.io/).
 
 ## 1. Tiến trình khóa học
 Tham khảo trong khóa học lập trình [MIMPython](/pythonSummerCourse/).

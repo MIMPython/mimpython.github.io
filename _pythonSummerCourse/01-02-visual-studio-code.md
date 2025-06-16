@@ -1,7 +1,7 @@
 ---
 title: "Bài 2. Visual Studio Code"
 permalink: /pythonSummerCourse/lesson-02-visual-studio-code/
-last_modified_at: 2023-06-04
+last_modified_at: 2025-06-17
 redirect_from:
   - /theme-setup/
 toc: false
@@ -9,7 +9,7 @@ toc: false
 
 _Tác giả: Nguyễn Văn Quân_
 
-## 1. Visual Studie Code là gì?
+## 1. Visual Studio Code là gì?
 
 **Visual Studio Code** *(VS Code hay VSC)* Là một trình biên tập lập trình code miễn phí dành cho Windows, Linux và macOS, Visual Studio Code được phát triển bởi Microsoft. Nó được xem là một sự kết hợp hoàn hảo giữa IDE và Code Editor.
 
@@ -199,9 +199,9 @@ Chọn `Export` trên thanh công cụ chính. Sau đó, bạn sẽ thấy một
 </div>
 
 ## 4. Một số Extension hay
-- **GitLen**: giúp việc thao tác với Git trực quan, dễ thực hiện.
-- **TabNine**: gợi ý code, sử dụng AI tăng hiệu suất viết code.
-- **GitHub Compilot**: tương tự như **TabNine**.
+- [**GitLens**](https://www.gitkraken.com/gitlens): giúp việc thao tác với Git trực quan, dễ thực hiện.
+- [**TabNine**](https://www.tabnine.com/): gợi ý code, sử dụng AI tăng hiệu suất viết code.
+- [**GitHub Copilot**](https://github.com/features/copilot): tương tự như **TabNine**.
 
 
 > Nội dung trên chỉ là tóm tắt, học viên cần đọc các tài liệu liệt kê trong phần tài liệu tham khảo dưới đây.

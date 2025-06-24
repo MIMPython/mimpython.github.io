@@ -33,7 +33,7 @@ Tran-Thanh-Tung:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "thanhtung10052001@gmail.com"
+      url: "mailto:thanhtung10052001@gmail.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/profile.php?id=100068453139524"

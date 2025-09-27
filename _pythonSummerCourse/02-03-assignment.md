@@ -1,16 +1,16 @@
 ---
 title: "Bài tập lần 2"
 permalink: /pythonSummerCourse/module-02-assignment/
-last_modified_at: 2024-08-28
+last_modified_at: 2025-09-27
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 2 gồm 16 bài tập, bao gồm
+Bài tập lần 2 gồm 18 bài tập, bao gồm
 - 8 bài tập cơ bản: 1, 2, 3, 4, 5, 6, 7, 15 (làm tối thiểu 4 bài).
-- 9 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14, 16, 17.
+- 10 bài tập nâng cao: 8, 9, 10, 11, 12, 13, 14, 16, 17, 18.
 
 
 ## Danh sách bài tập
@@ -219,6 +219,10 @@ Tìm số nguyên dương $n$ sao cho $(1+2+\ldots+n)\cdot 0.04$ là một số 
 
 **Bài tập 17.** (loop through a set) \
 Khi sử dụng vòng lặp `for`, thứ tự duyệt phần tử trong một `set`  là tất định hay bất định?
+
+
+**Bài tập 18.** *(LEGO)* \
+Có bao nhiêu cách xây dựng một mô hình LEGO hợp lệ từ một miếng gạch 4x6 Plate (3032) và một miếng gạch 8x16 Tile (90498). Tham khảo cấu trúc gạch trong [Brick Architect](https://brickarchitect.com/parts/category-1).
 
 
 ## Thảo luận

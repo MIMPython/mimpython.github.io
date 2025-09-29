@@ -69,8 +69,7 @@ Hãy tìm hiểu một số hàm trong thư viện `numpy` (không nhất thiế
 
 
 **Bài tập 3.** *(plotting method)* \
-Thiết kế class về các đối tượng hình học (điểm, đoạn thẳng, hình tròn, ...) trong đó có những phương thức vẽ hình phù hợp. \
-Gợi ý về cách sử dụng chương trình
+Thiết kế class về các đối tượng hình học (điểm, đoạn thẳng, hình tròn, ...) trong đó có những phương thức vẽ hình phù hợp dựa theo đoạn code gợi ý dưới đây.
 ```py
 fig, ax = plt.subplots()
 point.plot(ax, color='red')
@@ -80,7 +79,7 @@ fig.show()
 ```
 
 
-**Bài tập 4.** ([Savoury Days](http://www.savourydays.com/)) Cắt, ghép ảnh dưới đây để tạo một ảnh với dòng chữ "Bánh Trung thu ăn kiêng".
+**Bài tập 4.** ([Savoury Days](http://www.savourydays.com/)/[Happie](https://happie.vn/)) Cắt ghép ảnh dưới đây để tạo một thông điệp ý nghĩa.
 
 <div>
     <img src="/assets/images/courses/homework/SD_mooncake.png"
@@ -93,7 +92,8 @@ fig.show()
     padding-bottom:20px;">
 </div>
 
-<center> Ảnh: Savoury Days </center>
+<center> Ảnh: Savoury Days / Happie </center>
+
 
 **Bài tập 5.** *(iterating a directory)* \
 Viết một hàm liệt kê tất cả những tệp tin và thư mục là con trực tiếp của một thư mục cho trước, đồng thời trả lời xem mỗi đối tượng là tệp tin hay là thư mục. Học viên tự quyết định kiểu dữ liệu trả về phù hợp.
@@ -120,8 +120,6 @@ Output:
 - object fileD.svg, type file
 - object fileE.tif, type file
 ```
-
-Gợi ý. Tra cứu trên stackoverflow.
 
 
 **Bài tập 6.** *(examination timetabling analysis)* \

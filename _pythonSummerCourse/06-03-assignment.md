@@ -1,16 +1,16 @@
 ---
 title: "Bài tập lần 6"
 permalink: /pythonSummerCourse/module-06-assignment/
-last_modified_at: 2024-09-24
+last_modified_at: 2025-09-29
 redirect_from:
   - /theme-setup/
 toc: false
 ---
 
 
-Bài tập lần 6 gồm 13 bài tập, bao gồm
+Bài tập lần 6 gồm 14 bài tập, bao gồm
 - 6 bài tập cơ bản: 1, 2, 3, 4, 5, 6 (làm tối thiểu 4 bài).
-- 7 bài tập nâng cao: 7, 8, 9, 10, 11, 12, 13.
+- 8 bài tập nâng cao: 7, 8, 9, 10, 11, 12, 13, 14.
 
 
 ## Danh sách bài tập
@@ -237,3 +237,9 @@ Viết chương trình vẽ hình sau đây
 </div>
 
 <center> Paper Pieced Quilt Patterns by Leesa Martins (on Pinterest) </center>
+
+
+**Bài tập 14.** *(prize fund partitioning)* \
+Một nhóm $n$ người tham gia một cuộc thi với giải thưởng được chia theo xếp hạng của mỗi người, hạng $i$ nhận $a_i$ (đơn vị tiền) với $1 \le i \le n$. Thứ hạng được xác định dựa trên điểm số $\( p_1, p_2, \ldots, p_n \)$ của mọi người: người có điểm cao hơn sẽ có thứ hạng cao hơn, những người bằng điểm sẽ có cùng thứ hạng. \
+Thay vì phải thi đấu tiếp, ban tổ chức sẽ chia đều tổng số tiền dành cho các hạng tương ứng cho những người đồng hạng. Ví dụ, với cơ cấu giải thưởng $(6đ$, $3đ$, $1đ$, $0đ)$ cho các hạng nhất-nhì-ba-tư, nhóm bốn người A, B, C, D với số điểm lần lượt là $(8, 10, 7, 8)$ sẽ nhận được lần lượt $(2đ$, $6đ$, $0đ$, $2đ)$. \
+Viết hàm nhận vào hai danh sách `prizes` và `points` tương ứng với cơ cấu giải thưởng và điểm số của mọi người, trả về danh sách số tiền mà mỗi người nhận được.

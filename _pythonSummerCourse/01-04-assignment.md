@@ -1,7 +1,7 @@
 ---
 title: "Bài tập lần 1"
 permalink: /pythonSummerCourse/module-01-assignment/
-last_modified_at: 2023-08-25
+last_modified_at: 2026-03-19
 redirect_from:
   - /theme-setup/
 toc: false
@@ -46,23 +46,21 @@ Bài tập lần 1 gồm 3 bài tập, bao gồm
 
 
 ## Thảo luận
-- Phím tắt bật/tắt thanh công cụ bên trái ở Visual Studio Code: `ctrl` + `B`.
-- Phím tắt mở cây thư mục trong thanh công cụ: `ctrl` + `shift` + `E`.
-- Phím tắt phóng to (thu nhỏ) cỡ chữ: `ctrl` + `+` (`ctrl` + `-`).
-- Mỗi dòng code chỉ nên chứa tối đa 80 ký tự.
-- Cách tạo vertical line trong Visual Studio Code
+- Phím tắt bật/tắt thanh công cụ bên trái ở Visual Studio Code: `Ctrl+B`
+- Phím tắt mở cây thư mục trong thanh công cụ: `Ctrl+Shift+E`
+- Phím tắt phóng to/thu nhỏ cỡ chữ: `Ctrl + +` / `Ctrl + -`
+- Khuyến khích sử dụng command prompt/terminal để chạy code
+- Tên file không nên chứa các ký tự _đặc biệt_
+- Mỗi dòng code chỉ nên chứa tối đa 79 ký tự (theo PEP8)
+- Cách tạo đường kẻ dọc trong trang soạn thảo của Visual Studio Code
     + Vào cài đặt:
-        * Cách 1. Mở hộp câu lệnh bằng phím tắt `ctrl` + `shift` + `P` và chọn `Open User Settings (JSON)`
-        * Cách 2. hoặc vào `File` → `Preferences` → `Settings`
-    + Thêm dòng dưới đây để tạo các vertical lines cho mức, ví dụ, 80 ký tự và 100 ký tự:
+        * Cách 1. Mở hộp câu lệnh bằng phím tắt `Ctrl+Shift+P` và chọn `Preferences: Open User Settings (JSON)`
+        * Cách 2. Chọn `File` → `Preferences` → `Settings`
+    + Thêm đoạn mã dưới đây để tạo các đường kẻ dọc với màu sắc mặc định/tùy chọn:
     ```json
-    "editor.rulers": [80, 100]
+    "editor.rulers": [
+        79,
+        {"column": 99, "color": "#AB8A83"},
+        119,
+    ],
     ```
-    + Có thể đổi màu cách đường kẻ bằng cách thêm dòng sau:
-    ```json
-    "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#ff4081"
-    }
-    ```
-- Khuyến khích sử dụng command prompt / terminal để chạy code.
-- Tên file không nên chứa các ký tự đặc biệt.

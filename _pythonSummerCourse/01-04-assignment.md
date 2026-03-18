@@ -47,7 +47,7 @@ Bài tập lần 1 gồm 4 bài tập, bao gồm
 
 
 **Bài tập 4.** Numerical errors \
-Tìm ba số thực `a`, `b`, `c` sao cho hai câu lệnh `a-b!=c` và `a-c==b` đều trả về `True`. Giải thích sự kỳ lạ này.
+Tìm ba số thực `a`, `b`, `c` sao cho hai câu lệnh `a-b!=c` và `a-c==b` đều trả về `True`. Bộ ba số này có thể đôi một khác nhau?
 
 
 ## Thảo luận
@@ -69,3 +69,8 @@ Tìm ba số thực `a`, `b`, `c` sao cho hai câu lệnh `a-b!=c` và `a-c==b` 
         119,
     ],
     ```
+
+<details>
+    <summary>Đáp án bài tập 4</summary>
+    chatGPT tìm ra hai bộ số thỏa mãn: (a,b,c) = (1.0, 0.1, 2.0**-54) và (a,b,c) = (4398046511104.001, 4398046511104.0, 0.00048828125)
+</details>

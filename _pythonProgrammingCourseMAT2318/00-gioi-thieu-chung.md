@@ -2,7 +2,7 @@
 title: "Lập trình Python MAT2318"
 permalink: /pythonProgrammingCourseMAT2318/
 excerpt: ""
-last_modified_at: 2025-05-16
+last_modified_at: 2026-03-19
 redirect_from:
   - /theme-setup/
 toc: true
@@ -25,4 +25,4 @@ Từ sau trở đi, ta gọi tắt những cuốn sách này lần lượt là _
 ## 3. Lời cảm ơn
 Xin gửi lời cảm ơn tới những bạn dã tham gia hỗ trợ giảng dạy học phần này:
 - Trần Bá Tuấn: HKI năm học 2022-2023
-- [Trần Thanh Tùng](https://github.com/thanhtung1005): HKI năm học 2023-2024
+- [Trần Thanh Tùng](https://github.com/Tung-hehe): HKI năm học 2023-2024

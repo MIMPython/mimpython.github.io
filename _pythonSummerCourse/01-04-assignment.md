@@ -7,8 +7,9 @@ redirect_from:
 toc: false
 ---
 
-Bài tập lần 1 gồm 3 bài tập, bao gồm
+Bài tập lần 1 gồm 4 bài tập, bao gồm
 - 3 bài tập cơ bản: 1, 2, 3 (làm tối thiểu 3 bài).
+- 1 bài tập nâng cao: 4 (làm tối thiểu 0 bài).
 
 
 ## Danh sách bài tập
@@ -43,6 +44,10 @@ Bài tập lần 1 gồm 3 bài tập, bao gồm
 (a) Công cụ `pip` được sử dụng vào mục đích gì? \
 (b) Giải thích ý nghĩa của câu lệnh `pip freeze`. \
 (c) Chỉ ra một công cụ khác có chức năng tương tự `pip`.
+
+
+**Bài tập 4.** Numerical errors \
+Tìm ba số thực `a`, `b`, `c` sao cho hai câu lệnh `a-b!=c` và `a-c==b` đều trả về `True`. Giải thích sự kỳ lạ này.
 
 
 ## Thảo luận

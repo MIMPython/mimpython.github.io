@@ -14,13 +14,13 @@ Bài tập lần 1 gồm 4 bài tập, bao gồm
 
 ## Danh sách bài tập
 
-**Bài tập 1.** Python \
+**Bài tập 1.** (Python) \
 (a) Ngôn ngữ lập trình Python được tạo ra bởi ai và vào thời gian nào? \
 (b) Vì sao ngôn ngữ lập trình Python lại được đặt tên như vậy? \
 (c) Tính tới thời điểm hiện tại, phiên bản Python mới nhất được phát hành là phiên bản nào?
 
 
-**Bài tập 2.** VS Code \
+**Bài tập 2.** (VS Code) \
 (a) VS Code là một phần mềm mã nguồn mở, đúng hay sai? Vì sao? \
 (b) Chỉ ra ít nhất hai text editor khác có chức năng tương tự VS Code. \
 (c) Giải thích ý nghĩa của meme sau
@@ -40,13 +40,13 @@ Bài tập lần 1 gồm 4 bài tập, bao gồm
 <center> Nguồn: internet </center>
 
 
-**Bài tập 3.** pip \
+**Bài tập 3.** (pip) \
 (a) Công cụ `pip` được sử dụng vào mục đích gì? \
 (b) Giải thích ý nghĩa của câu lệnh `pip freeze`. \
 (c) Chỉ ra một công cụ khác có chức năng tương tự `pip`.
 
 
-**Bài tập 4.** Numerical errors \
+**Bài tập 4.** (Numerical errors) \
 Tìm ba số thực `a`, `b`, `c` sao cho hai câu lệnh `a-b!=c` và `a-c==b` đều trả về `True`. Bộ ba số này có thể đôi một khác nhau?
 
 

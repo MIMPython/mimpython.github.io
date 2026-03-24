@@ -1,7 +1,7 @@
 ---
 title: "Bài 17. Ngoại lệ/cảnh báo"
 permalink: /pythonSummerCourse/lesson-17-custom-error-warning/
-last_modified_at: 2022-08-28
+last_modified_at: 2026-03-24
 redirect_from:
   - /theme-setup/
 toc: false
@@ -97,6 +97,23 @@ Output:
       finally:
           print('Press Ctrl-C to exit.')
   ```
+
+### 1.4. Cấu trúc `raise ... from ...`
+- Cấu trúc `raise ... from ...` dùng để chỉ ra rằng một ngoại lệ được gây ra bởi một ngoại lệ khác, từ đó cung cấp thông tin về nguyên nhân gốc rễ của lỗi. Thay vì
+  ```py
+  try:
+      1 / 0
+  except ZeroDivisionError:
+      raise ValueError("Oops")
+  ```
+  thì ta viết như sau
+  ```py
+  try:
+      1 / 0
+  except ZeroDivisionError as e:
+      raise ValueError("Oops") from e
+  ```
+- Từ khóa: implicit and explicit exception chaining
 
 ## 2. Cảnh báo (warning)
 - `warning` được đưa ra để cảnh báo về các tình huống không nhất thiết phải ngoại lệ.
